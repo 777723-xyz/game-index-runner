@@ -39,6 +39,8 @@ const updated = list.map((entry) => {
       engine: result.engine || entry.engine,
       cover: result.cover || entry.cover,
       validationScore: result.validationScore,
+      totalSize: result.totalSize,
+      dataSize: result.dataSize,
     });
   }
 

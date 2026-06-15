@@ -115,6 +115,13 @@ async function run() {
   result.projectRoot = detection.projectRoot;
   result.pagesUrl = getPagesUrl();
 
+  // Compute game size metrics (zero additional API cost)
+  result.totalSize = repo.size || 0;
+  const dataSize = files
+    .filter((f) => f.path.startsWith("data/") && f.path.endsWith(".json"))
+    .reduce((sum, f) => sum + (f.size || 0), 0);
+  result.dataSize = dataSize;
+
   const updates = new Map();
 
   // Check if a cover image already exists in the repo root
