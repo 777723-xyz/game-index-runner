@@ -23,6 +23,21 @@ on:
         required: true
         type: boolean
         default: false
+      create_delay_seconds:
+        description: Seconds to wait between fork creation requests.
+        required: true
+        type: string
+        default: "20"
+      retry_limit:
+        description: Number of retries for secondary rate-limit errors.
+        required: true
+        type: string
+        default: "5"
+      retry_base_delay_seconds:
+        description: Initial retry delay for secondary rate-limit errors.
+        required: true
+        type: string
+        default: "60"
 
 permissions:
   contents: read
@@ -50,4 +65,7 @@ jobs:
           DRY_RUN: ${{ inputs.dry_run }}
           LIMIT: ${{ inputs.limit }}
           DEFAULT_BRANCH_ONLY: ${{ inputs.default_branch_only }}
+          CREATE_DELAY_SECONDS: ${{ inputs.create_delay_seconds }}
+          RETRY_LIMIT: ${{ inputs.retry_limit }}
+          RETRY_BASE_DELAY_SECONDS: ${{ inputs.retry_base_delay_seconds }}
         run: node scripts/fork-listed-repos.mjs

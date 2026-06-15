@@ -7,6 +7,19 @@ const targetOrg = process.env.TARGET_ORG || "WebRPG-org";
 const dryRun = parseBoolean(process.env.DRY_RUN, true);
 const defaultBranchOnly = parseBoolean(process.env.DEFAULT_BRANCH_ONLY, false);
 const limit = parseNonNegativeInt(process.env.LIMIT || "0");
+const createDelayMs = parseNonNegativeInt(process.env.CREATE_DELAY_SECONDS || "20") * 1000;
+const retryLimit = parseNonNegativeInt(process.env.RETRY_LIMIT || "5");
+const retryBaseDelayMs = parseNonNegativeInt(process.env.RETRY_BASE_DELAY_SECONDS || "60") * 1000;
+const retryMaxDelayMs = 15 * 60 * 1000;
+
+class GitHubApiError extends Error {
+  constructor(status, message, details) {
+    super(`GitHub API ${status}: ${message}`);
+    this.name = "GitHubApiError";
+    this.status = status;
+    this.details = details;
+  }
+}
 
 const list = JSON.parse(await fs.readFile("list.json", "utf8"));
 const uniqueSources = getUniqueSources(list);
@@ -28,6 +41,8 @@ summary.push(`Dry run: \`${dryRun}\``);
 summary.push(`Default branch only: \`${defaultBranchOnly}\``);
 summary.push(`Unique source repositories: \`${uniqueSources.length}\``);
 summary.push(`Repositories in this run: \`${planned.length}\``);
+summary.push(`Delay between fork requests: \`${createDelayMs / 1000}s\``);
+summary.push(`Retry limit: \`${retryLimit}\``);
 summary.push("");
 
 console.log(`Loaded ${list.length} index entries.`);
@@ -48,6 +63,7 @@ if (dryRun) {
 }
 
 const existing = await loadExistingOrgRepos(targetOrg);
+let lastCreateAttemptAt = 0;
 let skippedExisting = 0;
 let skippedConflict = 0;
 let created = 0;
@@ -73,7 +89,7 @@ for (const item of planned) {
   }
 
   try {
-    const fork = await createFork(item);
+    const fork = await createForkWithRetry(item);
     created += 1;
     existing.reposByName.set(nameLower, fork);
     existing.forksBySource.set(sourceLower, fork);
@@ -195,6 +211,43 @@ async function createFork(item) {
   });
 }
 
+async function createForkWithRetry(item) {
+  for (let attempt = 0; attempt <= retryLimit; attempt += 1) {
+    await waitForCreateSlot();
+    lastCreateAttemptAt = Date.now();
+
+    try {
+      return await createFork(item);
+    } catch (error) {
+      if (attempt >= retryLimit || !isRetryableGitHubError(error)) {
+        throw error;
+      }
+
+      const delayMs = getRetryDelayMs(error, attempt);
+      console.log(
+        `[retry] ${item.source}: ${error.message}; waiting ${formatDuration(delayMs)} before retry ${attempt + 1}/${retryLimit}`,
+      );
+      await sleep(delayMs);
+    }
+  }
+
+  throw new Error(`Unexpected retry exhaustion for ${item.source}.`);
+}
+
+async function waitForCreateSlot() {
+  if (createDelayMs <= 0 || lastCreateAttemptAt === 0) {
+    return;
+  }
+
+  const elapsedMs = Date.now() - lastCreateAttemptAt;
+  const remainingMs = createDelayMs - elapsedMs;
+
+  if (remainingMs > 0) {
+    console.log(`[throttle] waiting ${formatDuration(remainingMs)} before next fork request`);
+    await sleep(remainingMs);
+  }
+}
+
 async function githubRequest(path, options = {}) {
   const response = await fetch(`${apiBase}${path}`, {
     method: options.method || "GET",
@@ -208,15 +261,68 @@ async function githubRequest(path, options = {}) {
   });
 
   const text = await response.text();
-  const data = text ? JSON.parse(text) : null;
+  const data = parseResponseBody(text);
   const ok = options.ok || [200];
 
   if (!ok.includes(response.status)) {
     const message = data?.message || response.statusText;
-    throw new Error(`GitHub API ${response.status}: ${message}`);
+    throw new GitHubApiError(response.status, message, {
+      path,
+      retryAfter: response.headers.get("retry-after"),
+      rateLimitReset: response.headers.get("x-ratelimit-reset"),
+    });
   }
 
   return data;
+}
+
+function parseResponseBody(text) {
+  if (!text) {
+    return null;
+  }
+
+  try {
+    return JSON.parse(text);
+  } catch {
+    return { message: text };
+  }
+}
+
+function isRetryableGitHubError(error) {
+  if (!(error instanceof GitHubApiError)) {
+    return false;
+  }
+
+  if (error.status >= 500) {
+    return true;
+  }
+
+  if (![403, 429].includes(error.status)) {
+    return false;
+  }
+
+  if (error.details?.retryAfter) {
+    return true;
+  }
+
+  return /abuse|rate limit|secondary|submitted too quickly|try again later/i.test(error.message);
+}
+
+function getRetryDelayMs(error, attempt) {
+  const retryAfterSeconds = Number.parseInt(error.details?.retryAfter || "", 10);
+  if (Number.isFinite(retryAfterSeconds) && retryAfterSeconds > 0) {
+    return Math.min(retryAfterSeconds * 1000, retryMaxDelayMs);
+  }
+
+  const resetSeconds = Number.parseInt(error.details?.rateLimitReset || "", 10);
+  if (Number.isFinite(resetSeconds) && resetSeconds > 0) {
+    const resetDelayMs = resetSeconds * 1000 - Date.now() + 5000;
+    if (resetDelayMs > 0 && resetDelayMs < retryMaxDelayMs) {
+      return resetDelayMs;
+    }
+  }
+
+  return Math.min(retryBaseDelayMs * (2 ** attempt), retryMaxDelayMs);
 }
 
 function parseBoolean(value, defaultValue) {
@@ -238,6 +344,23 @@ function parseNonNegativeInt(value) {
 
 function shortHash(value) {
   return crypto.createHash("sha1").update(value).digest("hex").slice(0, 8);
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
+function formatDuration(ms) {
+  const seconds = Math.ceil(ms / 1000);
+  if (seconds < 60) {
+    return `${seconds}s`;
+  }
+
+  const minutes = Math.floor(seconds / 60);
+  const remainder = seconds % 60;
+  return remainder === 0 ? `${minutes}m` : `${minutes}m ${remainder}s`;
 }
 
 async function writeStepSummary(lines) {
