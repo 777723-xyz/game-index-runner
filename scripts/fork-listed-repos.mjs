@@ -11,6 +11,7 @@ const createDelayMs = parseNonNegativeInt(process.env.CREATE_DELAY_SECONDS || "2
 const retryLimit = parseNonNegativeInt(process.env.RETRY_LIMIT || "5");
 const retryBaseDelayMs = parseNonNegativeInt(process.env.RETRY_BASE_DELAY_SECONDS || "60") * 1000;
 const retryMaxDelayMs = 15 * 60 * 1000;
+const includeInvalid = parseBoolean(process.env.INCLUDE_INVALID, false);
 
 class GitHubApiError extends Error {
   constructor(status, message, details) {
@@ -43,6 +44,7 @@ summary.push(`Unique source repositories: \`${uniqueSources.length}\``);
 summary.push(`Repositories in this run: \`${planned.length}\``);
 summary.push(`Delay between fork requests: \`${createDelayMs / 1000}s\``);
 summary.push(`Retry limit: \`${retryLimit}\``);
+summary.push(`Include invalid entries: \`${includeInvalid}\``);
 summary.push("");
 
 console.log(`Loaded ${list.length} index entries.`);
@@ -125,6 +127,10 @@ function getUniqueSources(entries) {
   const bySource = new Map();
 
   for (const entry of entries) {
+    if (!includeInvalid && isInvalidEntry(entry)) {
+      continue;
+    }
+
     if (!entry.owner || !entry.name || !entry.repo) {
       throw new Error(`Invalid list entry: ${JSON.stringify(entry)}`);
     }
@@ -172,6 +178,10 @@ function makeForkName(owner, name) {
   }
 
   return `${safe.slice(0, 91).replace(/[.-]+$/g, "")}-${shortHash(raw)}`;
+}
+
+function isInvalidEntry(entry) {
+  return ["invalid_structure", "deleted_invalid_structure"].includes(entry.status);
 }
 
 async function loadExistingOrgRepos(org) {

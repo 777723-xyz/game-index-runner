@@ -67,3 +67,20 @@ Recommended GitHub App repository permissions:
 Install the App on all repositories in `WebRPG-org`. This matters because new fork repositories will be added over time; a selected-repositories installation will not automatically include new forks.
 
 The workflow is manually triggered and defaults to `dry_run=true`.
+
+During each run, the workflow validates every matching fork before preparing Pages. A fork is treated as valid only when it has an RPG Maker MV/MZ web structure, such as a HTML entry file plus the expected `js/rpg_core.js` or `js/rmmz_core.js` runtime files.
+
+When `dry_run=false` and `delete_invalid_repos=true`, invalid forks are deleted from `WebRPG-org`. The final aggregation job updates `list.json` with validation metadata:
+
+- `status`: `verified` or `invalid_structure`
+- `checkedAt`
+- `forkName`
+- `pagesUrl`
+- `entryPath`
+- `cover`
+- `invalidReason`
+- `deletedAt`
+
+Cover URLs are inferred from files in the fork, prioritizing RPG Maker paths such as `icon/icon.png`, `img/titles1/*`, `img/titles2/*`, and `img/pictures/*`.
+
+Entries marked `invalid_structure` are skipped by the fork workflow so they are not recreated on the next fork run.

@@ -31,6 +31,16 @@ on:
         required: true
         type: string
         default: https://webrpg.org
+      delete_invalid_repos:
+        description: Delete fork repositories that do not look like RPG Maker web projects.
+        required: true
+        type: boolean
+        default: true
+      update_index:
+        description: Commit validation and cover metadata back to list.json.
+        required: true
+        type: boolean
+        default: true
 
 permissions:
   contents: read
@@ -103,6 +113,68 @@ jobs:
           TARGET_ORG: ${{ inputs.target_org }}
           REPO_NAME: ${{ matrix.repo }}
           DRY_RUN: ${{ inputs.dry_run }}
+          DELETE_INVALID_REPOS: ${{ inputs.delete_invalid_repos }}
           PAGES_SOURCE_PATH: ${{ inputs.pages_source_path }}
           SITE_ORIGIN: ${{ inputs.site_origin }}
+          RESULT_DIR: workflow-results
         run: node scripts/process-fork-repo.mjs
+
+      - name: Upload repository result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: result-${{ matrix.repo }}
+          path: workflow-results/*.json
+          if-no-files-found: warn
+
+  aggregate:
+    needs:
+      - plan
+      - process
+    if: always() && needs.plan.outputs.has_targets == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create index repository token
+        id: index-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
+          private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
+          owner: ${{ inputs.target_org }}
+          repositories: index
+
+      - name: Check out index
+        uses: actions/checkout@v4
+        with:
+          token: ${{ steps.index-token.outputs.token }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Download repository results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: result-*
+          merge-multiple: true
+          path: workflow-results
+
+      - name: Update list metadata
+        env:
+          DRY_RUN: ${{ inputs.dry_run }}
+          RESULTS_DIR: workflow-results
+        run: node scripts/update-list-from-results.mjs
+
+      - name: Commit list metadata
+        if: inputs.dry_run == false && inputs.update_index == true
+        run: |
+          git config user.name "webrpg-bot[bot]"
+          git config user.email "webrpg-bot[bot]@users.noreply.github.com"
+          git add list.json
+          if git diff --cached --quiet; then
+            echo "No list.json changes to commit."
+          else
+            git commit -m "Update fork validation metadata"
+            git push
+          fi

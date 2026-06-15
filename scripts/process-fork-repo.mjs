@@ -1,10 +1,15 @@
+import fs from "node:fs/promises";
+import path from "node:path";
+
 const apiBase = "https://api.github.com";
 const token = process.env.WEBRPG_APP_TOKEN || process.env.GITHUB_TOKEN || "";
 const targetOrg = process.env.TARGET_ORG || "WebRPG-org";
 const repoName = process.env.REPO_NAME || "";
 const dryRun = parseBoolean(process.env.DRY_RUN, true);
+const deleteInvalidRepos = parseBoolean(process.env.DELETE_INVALID_REPOS, true);
 const pagesPath = process.env.PAGES_SOURCE_PATH || "/";
 const siteOrigin = (process.env.SITE_ORIGIN || "https://webrpg.org").replace(/\/+$/, "");
+const resultDir = process.env.RESULT_DIR || "workflow-results";
 const scriptTag = process.env.ANALYTICS_SCRIPT_TAG
   || '<script defer src="https://insight.ravelloh.com/script.js?siteId=5ace6623-f51b-4571-8f60-e0473ea3317b"></script>';
 const scriptNeedle = getScriptNeedle(scriptTag);
@@ -18,69 +23,409 @@ if (!repoName) {
   throw new Error("REPO_NAME is required.");
 }
 
+const checkedAt = new Date().toISOString();
+const result = {
+  checkedAt,
+  dryRun,
+  targetOrg,
+  repoName,
+  forkName: repoName,
+  status: "check_error",
+};
+
 const summary = [];
 summary.push(`# Prepare ${targetOrg}/${repoName}`);
 summary.push("");
 summary.push(`Dry run: \`${dryRun}\``);
 
-const repo = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}`);
-if (!repo.fork) {
-  throw new Error(`${targetOrg}/${repoName} is not a fork repository.`);
+try {
+  await run();
+} catch (error) {
+  result.status = "check_error";
+  result.error = error.message;
+  console.log(`[error] ${targetOrg}/${repoName}: ${error.message}`);
+  summary.push(`Status: \`check_error\``);
+  summary.push(`Error: ${error.message}`);
 }
 
-const branch = repo.default_branch;
-const ref = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/ref/heads/${encodeGitRefPath(branch)}`);
-const headSha = ref.object.sha;
-const headCommit = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/commits/${headSha}`);
-const tree = await githubRequest(
-  `/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/trees/${headCommit.tree.sha}?recursive=1`,
-);
-const htmlFiles = tree.tree
-  .filter((item) => item.type === "blob" && item.path.toLowerCase().endsWith(".html"))
-  .filter((item) => !shouldSkipPath(item.path))
-  .filter((item) => item.size <= htmlMaxBytes)
-  .sort((left, right) => left.path.localeCompare(right.path, "en"));
+await writeResult(result);
+await writeStepSummary(summary);
 
-console.log(`Found ${htmlFiles.length} HTML files in ${targetOrg}/${repoName}.`);
+async function run() {
+  const repo = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}`);
+  result.repoUrl = repo.html_url;
+  result.defaultBranch = repo.default_branch;
+  result.sourceRepo = repo.source?.full_name || repo.parent?.full_name || null;
 
-const modifiedFiles = [];
-for (const file of htmlFiles) {
-  const blob = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/blobs/${file.sha}`);
-  const original = Buffer.from(blob.content, blob.encoding).toString("utf8");
-  const updated = injectScript(original, scriptTag, scriptNeedle);
-
-  if (updated !== original) {
-    modifiedFiles.push({ path: file.path, content: updated });
+  if (!repo.fork) {
+    result.status = "not_fork";
+    result.invalidReason = "Repository is not a fork.";
+    console.log(`[skip] ${targetOrg}/${repoName} is not a fork repository`);
+    return;
   }
-}
 
-if (dryRun) {
-  console.log(`[dry-run] Would update ${modifiedFiles.length} HTML files.`);
-  for (const file of modifiedFiles) {
-    console.log(`[dry-run] update ${file.path}`);
+  const branch = repo.default_branch;
+  const ref = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/ref/heads/${encodeGitRefPath(branch)}`);
+  const headSha = ref.object.sha;
+  const headCommit = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/commits/${headSha}`);
+  const tree = await githubRequest(
+    `/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/trees/${headCommit.tree.sha}?recursive=1`,
+  );
+
+  const files = tree.tree.filter((item) => item.type === "blob");
+  const htmlFiles = files
+    .filter((item) => item.path.toLowerCase().endsWith(".html"))
+    .filter((item) => !shouldSkipPath(item.path))
+    .filter((item) => item.size <= htmlMaxBytes)
+    .sort((left, right) => left.path.localeCompare(right.path, "en"));
+  const htmlByPath = await loadHtmlContents(htmlFiles);
+  const detection = detectRpgMakerProject(files, htmlByPath);
+
+  result.htmlFileCount = htmlFiles.length;
+  result.validationScore = detection.score;
+  result.validationSignals = detection.signals;
+
+  if (!detection.valid) {
+    result.status = "invalid_structure";
+    result.invalidReason = detection.reason;
+    summary.push(`Status: \`invalid_structure\``);
+    summary.push(`Reason: ${detection.reason}`);
+    console.log(`[invalid] ${targetOrg}/${repoName}: ${detection.reason}`);
+
+    if (!dryRun && deleteInvalidRepos) {
+      await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}`, {
+        method: "DELETE",
+        ok: [204],
+      });
+      result.deleted = true;
+      result.deletedAt = new Date().toISOString();
+      console.log(`[deleted] ${targetOrg}/${repoName}`);
+    } else {
+      result.deleted = false;
+      console.log(`[dry-run] Would delete ${targetOrg}/${repoName}`);
+    }
+
+    return;
   }
-  console.log(`[dry-run] Would enable GitHub Pages from ${branch}${pagesPath}.`);
-  summary.push(`HTML files found: \`${htmlFiles.length}\``);
-  summary.push(`HTML files to update: \`${modifiedFiles.length}\``);
-  summary.push(`Pages source: \`${branch}${pagesPath}\``);
+
+  result.status = "verified";
+  result.engine = detection.engine;
+  result.entryPath = detection.entryPath;
+  result.projectRoot = detection.projectRoot;
+  result.pagesUrl = getPagesUrl();
+  result.cover = findCover(files, detection.projectRoot);
+
+  const updates = new Map();
+  for (const filePath of detection.htmlPathsToPatch) {
+    const original = htmlByPath.get(filePath);
+    if (original === undefined) {
+      continue;
+    }
+
+    const updated = injectScript(original, scriptTag, scriptNeedle);
+    if (updated !== original) {
+      updates.set(filePath, updated);
+    }
+  }
+
+  if (detection.entryPath.toLowerCase() !== "index.html") {
+    const redirect = buildRootRedirect(detection.entryPath);
+    const existingRoot = htmlByPath.get("index.html");
+    if (existingRoot !== redirect) {
+      updates.set("index.html", redirect);
+      result.redirectCreated = true;
+    }
+  }
+
+  if (dryRun) {
+    console.log(`[dry-run] Valid ${detection.engine} project at ${detection.entryPath}`);
+    console.log(`[dry-run] Would update ${updates.size} HTML files.`);
+    console.log(`[dry-run] Would enable GitHub Pages from ${branch}${pagesPath}.`);
+    result.htmlFilesUpdated = updates.size;
+    result.pagesEnabled = false;
+    summary.push(`Status: \`verified\``);
+    summary.push(`Engine: \`${detection.engine}\``);
+    summary.push(`Entry: \`${detection.entryPath}\``);
+    summary.push(`Cover: \`${result.cover || "none"}\``);
+    summary.push(`HTML files to update: \`${updates.size}\``);
+    summary.push(`Pages URL: \`${getPagesUrl()}\``);
+    return;
+  }
+
+  if (updates.size > 0) {
+    await commitHtmlUpdates({
+      branch,
+      baseCommitSha: headSha,
+      baseTreeSha: headCommit.tree.sha,
+      updates,
+    });
+    console.log(`[updated] ${updates.size} HTML files in ${targetOrg}/${repoName}`);
+  } else {
+    console.log(`[skip] HTML already prepared in ${targetOrg}/${repoName}`);
+  }
+
+  await ensurePages(branch, pagesPath);
+  result.htmlFilesUpdated = updates.size;
+  result.pagesEnabled = true;
+  summary.push(`Status: \`verified\``);
+  summary.push(`Engine: \`${detection.engine}\``);
+  summary.push(`Entry: \`${detection.entryPath}\``);
+  summary.push(`Cover: \`${result.cover || "none"}\``);
+  summary.push(`HTML files updated: \`${updates.size}\``);
   summary.push(`Pages URL: \`${getPagesUrl()}\``);
-  await writeStepSummary(summary);
-  process.exit(0);
 }
 
-if (modifiedFiles.length > 0) {
+async function loadHtmlContents(htmlFiles) {
+  const htmlByPath = new Map();
+
+  for (const file of htmlFiles) {
+    const blob = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/blobs/${file.sha}`);
+    htmlByPath.set(file.path, Buffer.from(blob.content, blob.encoding).toString("utf8"));
+  }
+
+  return htmlByPath;
+}
+
+function detectRpgMakerProject(files, htmlByPath) {
+  const fileByLowerPath = new Map(files.map((file) => [file.path.toLowerCase(), file]));
+  const candidates = [];
+
+  for (const [htmlPath, content] of htmlByPath) {
+    for (const scriptSrc of getScriptSources(content)) {
+      const normalizedScript = normalizeRepoPath(path.posix.join(path.posix.dirname(htmlPath), scriptSrc));
+      const lowerScript = normalizedScript.toLowerCase();
+
+      if (lowerScript.endsWith("js/rpg_core.js") || lowerScript.endsWith("js/rmmz_core.js")) {
+        const engine = lowerScript.endsWith("js/rmmz_core.js") ? "RPG Maker MZ" : "RPG Maker MV";
+        const projectRoot = lowerScript.slice(0, lowerScript.length - (engine === "RPG Maker MZ" ? "js/rmmz_core.js".length : "js/rpg_core.js".length));
+        candidates.push(scoreCandidate({
+          engine,
+          projectRoot,
+          entryPath: htmlPath,
+          fileByLowerPath,
+          htmlByPath,
+          source: "html-script",
+        }));
+      }
+    }
+  }
+
+  for (const file of files) {
+    const lower = file.path.toLowerCase();
+    if (lower.endsWith("js/rpg_core.js") || lower.endsWith("js/rmmz_core.js")) {
+      const engine = lower.endsWith("js/rmmz_core.js") ? "RPG Maker MZ" : "RPG Maker MV";
+      const corePath = engine === "RPG Maker MZ" ? "js/rmmz_core.js" : "js/rpg_core.js";
+      const projectRoot = lower.slice(0, lower.length - corePath.length);
+      const entryPath = findEntryPath(projectRoot, htmlByPath);
+
+      if (entryPath) {
+        candidates.push(scoreCandidate({
+          engine,
+          projectRoot,
+          entryPath,
+          fileByLowerPath,
+          htmlByPath,
+          source: "tree-core",
+        }));
+      }
+    }
+  }
+
+  candidates.sort((left, right) => right.score - left.score || left.entryPath.localeCompare(right.entryPath, "en"));
+  const best = candidates[0];
+
+  if (!best) {
+    return {
+      valid: false,
+      score: 0,
+      signals: [],
+      reason: "No RPG Maker MV/MZ HTML entry point or core scripts were found.",
+    };
+  }
+
+  if (best.score < 65) {
+    return {
+      ...best,
+      valid: false,
+      reason: `RPG Maker structure is incomplete near ${best.entryPath}.`,
+    };
+  }
+
+  return {
+    ...best,
+    valid: true,
+    reason: "",
+  };
+}
+
+function scoreCandidate({ engine, projectRoot, entryPath, fileByLowerPath, htmlByPath, source }) {
+  const lowerRoot = projectRoot.toLowerCase();
+  const coreFile = engine === "RPG Maker MZ" ? "js/rmmz_core.js" : "js/rpg_core.js";
+  const required = engine === "RPG Maker MZ"
+    ? ["js/rmmz_core.js", "js/rmmz_managers.js", "js/rmmz_objects.js", "js/rmmz_scenes.js", "js/rmmz_sprites.js", "js/rmmz_windows.js", "js/plugins.js", "js/main.js"]
+    : ["js/rpg_core.js", "js/rpg_managers.js", "js/rpg_objects.js", "js/rpg_scenes.js", "js/rpg_sprites.js", "js/rpg_windows.js", "js/plugins.js", "js/main.js"];
+  const signals = [source];
+  let score = 0;
+
+  if (htmlByPath.has(entryPath)) {
+    score += 20;
+    signals.push("html-entry");
+  }
+
+  const entryContent = htmlByPath.get(entryPath) || "";
+  if (entryContent.toLowerCase().includes(coreFile)) {
+    score += 25;
+    signals.push("html-core-reference");
+  }
+
+  for (const file of required) {
+    if (fileByLowerPath.has(`${lowerRoot}${file}`)) {
+      score += file === coreFile ? 20 : 5;
+      signals.push(file);
+    }
+  }
+
+  if (fileByLowerPath.has(`${lowerRoot}data/system.json`)) {
+    score += 10;
+    signals.push("data/System.json");
+  }
+
+  if (entryPath.toLowerCase() === "index.html") {
+    score += 8;
+    signals.push("root-index");
+  } else if (entryPath.toLowerCase().endsWith("/index.html")) {
+    score += 5;
+    signals.push("subdir-index");
+  }
+
+  const htmlPathsToPatch = [...htmlByPath.keys()]
+    .filter((htmlPath) => {
+      if (htmlPath === entryPath) {
+        return true;
+      }
+
+      const content = htmlByPath.get(htmlPath).toLowerCase();
+      return content.includes(coreFile) || content.includes("js/plugins.js");
+    })
+    .sort((left, right) => left.localeCompare(right, "en"));
+
+  return {
+    engine,
+    projectRoot,
+    entryPath,
+    htmlPathsToPatch,
+    score,
+    signals,
+  };
+}
+
+function findEntryPath(projectRoot, htmlByPath) {
+  const candidates = [
+    `${projectRoot}index.html`,
+    `${projectRoot}www/index.html`,
+  ].map(normalizeRepoPath);
+  const lowerHtmlPaths = new Map([...htmlByPath.keys()].map((htmlPath) => [htmlPath.toLowerCase(), htmlPath]));
+
+  for (const candidate of candidates) {
+    const match = lowerHtmlPaths.get(candidate.toLowerCase());
+    if (match) {
+      return match;
+    }
+  }
+
+  for (const [htmlPath, content] of htmlByPath) {
+    const lowerContent = content.toLowerCase();
+    if (lowerContent.includes("rpg_core.js") || lowerContent.includes("rmmz_core.js")) {
+      return htmlPath;
+    }
+  }
+
+  return null;
+}
+
+function getScriptSources(content) {
+  const sources = [];
+  const scriptPattern = /<script\b[^>]*\bsrc=["']([^"']+)["'][^>]*>/gi;
+  let match;
+
+  while ((match = scriptPattern.exec(content)) !== null) {
+    const src = match[1].trim();
+    if (!src || /^[a-z][a-z0-9+.-]*:\/\//i.test(src) || src.startsWith("//")) {
+      continue;
+    }
+
+    sources.push(src.split(/[?#]/, 1)[0]);
+  }
+
+  return sources;
+}
+
+function findCover(files, projectRoot) {
+  const images = files
+    .filter((file) => /\.(png|jpe?g|webp)$/i.test(file.path))
+    .filter((file) => !shouldSkipPath(file.path));
+  const lowerToPath = new Map(images.map((file) => [file.path.toLowerCase(), file.path]));
+  const exactCandidates = [
+    "icon/icon.png",
+    "icon/icon.jpg",
+    "icon/icon.jpeg",
+    "icon/icon.webp",
+    "www/icon/icon.png",
+    "www/icon/icon.jpg",
+    "img/titles1/title.png",
+    "img/titles1/title.jpg",
+    "img/titles1/title.webp",
+    "img/titles2/title.png",
+    "img/pictures/title.png",
+  ].map((relativePath) => normalizeRepoPath(`${projectRoot}${relativePath}`));
+
+  for (const candidate of exactCandidates) {
+    const match = lowerToPath.get(candidate.toLowerCase());
+    if (match) {
+      return pathToPagesUrl(match);
+    }
+  }
+
+  const rootLower = projectRoot.toLowerCase();
+  const ranked = images
+    .filter((file) => file.path.toLowerCase().startsWith(rootLower))
+    .filter((file) => /(^|\/)(icon|img\/titles1|img\/titles2|img\/pictures)\//i.test(file.path.slice(projectRoot.length)))
+    .map((file) => ({
+      file,
+      score: scoreCoverPath(file.path, file.size || 0),
+    }))
+    .sort((left, right) => right.score - left.score || right.file.size - left.file.size || left.file.path.localeCompare(right.file.path, "en"));
+
+  return ranked[0] ? pathToPagesUrl(ranked[0].file.path) : null;
+}
+
+function scoreCoverPath(filePath, size) {
+  const lower = filePath.toLowerCase();
+  let score = Math.min(size / 10000, 25);
+
+  if (lower.includes("/icon/")) score += 40;
+  if (lower.includes("/titles1/")) score += 35;
+  if (lower.includes("/titles2/")) score += 25;
+  if (lower.includes("/pictures/")) score += 15;
+  if (/(^|\/)(title|title1|logo|icon)\.(png|jpe?g|webp)$/i.test(filePath)) score += 20;
+
+  return score;
+}
+
+async function commitHtmlUpdates({ branch, baseCommitSha, baseTreeSha, updates }) {
   const treeEntries = [];
-  for (const file of modifiedFiles) {
+
+  for (const [filePath, content] of updates) {
     const blob = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/blobs`, {
       method: "POST",
       body: {
-        content: Buffer.from(file.content, "utf8").toString("base64"),
+        content: Buffer.from(content, "utf8").toString("base64"),
         encoding: "base64",
       },
       ok: [201],
     });
     treeEntries.push({
-      path: file.path,
+      path: filePath,
       mode: "100644",
       type: "blob",
       sha: blob.sha,
@@ -90,7 +435,7 @@ if (modifiedFiles.length > 0) {
   const newTree = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/trees`, {
     method: "POST",
     body: {
-      base_tree: headCommit.tree.sha,
+      base_tree: baseTreeSha,
       tree: treeEntries,
     },
     ok: [201],
@@ -98,9 +443,9 @@ if (modifiedFiles.length > 0) {
   const newCommit = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/git/commits`, {
     method: "POST",
     body: {
-      message: "Add WebRPG analytics script",
+      message: "Prepare WebRPG Pages entry",
       tree: newTree.sha,
-      parents: [headSha],
+      parents: [baseCommitSha],
     },
     ok: [201],
   });
@@ -111,17 +456,7 @@ if (modifiedFiles.length > 0) {
       force: false,
     },
   });
-  console.log(`[updated] ${modifiedFiles.length} HTML files in ${targetOrg}/${repoName}`);
-} else {
-  console.log(`[skip] analytics script already present or no HTML files found in ${targetOrg}/${repoName}`);
 }
-
-const pages = await ensurePages(branch, pagesPath);
-summary.push(`HTML files found: \`${htmlFiles.length}\``);
-summary.push(`HTML files updated: \`${modifiedFiles.length}\``);
-summary.push(`Pages source: \`${branch}${pagesPath}\``);
-summary.push(`Pages URL: \`${getPagesUrl()}\``);
-await writeStepSummary(summary);
 
 function injectScript(content, tag, needle) {
   if (content.includes(needle)) {
@@ -146,7 +481,28 @@ function injectScript(content, tag, needle) {
   return `${content}${suffix}${tag}${newline}`;
 }
 
-async function ensurePages(branch, path) {
+function buildRootRedirect(entryPath) {
+  const escapedPath = escapeHtml(encodeURI(entryPath));
+  const escapedTitle = escapeHtml(`${targetOrg}/${repoName}`);
+
+  return `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="0; url=${escapedPath}">
+    <title>${escapedTitle}</title>
+    ${scriptTag}
+    <script>location.replace(${JSON.stringify(entryPath)});</script>
+  </head>
+  <body style="background:#000;color:#fff;font-family:sans-serif">
+    <a href="${escapedPath}">Start game</a>
+  </body>
+</html>
+`;
+}
+
+async function ensurePages(branch, sourcePath) {
   const current = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/pages`, {
     ok: [200, 404],
   });
@@ -157,7 +513,7 @@ async function ensurePages(branch, path) {
       body: {
         source: {
           branch,
-          path,
+          path: sourcePath,
         },
       },
       ok: [201],
@@ -167,27 +523,27 @@ async function ensurePages(branch, path) {
   }
 
   const source = current.source || {};
-  if (source.branch === branch && source.path === path) {
-    console.log(`[pages] already enabled ${current.html_url}`);
+  if (source.branch === branch && source.path === sourcePath) {
+    console.log(`[pages] already enabled ${getPagesUrl()}`);
     return current;
   }
 
-  const updated = await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/pages`, {
+  await githubRequest(`/repos/${encodeURIComponent(targetOrg)}/${encodeURIComponent(repoName)}/pages`, {
     method: "PUT",
     body: {
       source: {
         branch,
-        path,
+        path: sourcePath,
       },
     },
     ok: [204],
   });
   console.log(`[pages] updated ${getPagesUrl()}`);
-  return updated || current;
+  return current;
 }
 
-async function githubRequest(path, options = {}) {
-  const response = await fetch(`${apiBase}${path}`, {
+async function githubRequest(apiPath, options = {}) {
+  const response = await fetch(`${apiBase}${apiPath}`, {
     method: options.method || "GET",
     headers: {
       Accept: "application/vnd.github+json",
@@ -214,12 +570,20 @@ async function githubRequest(path, options = {}) {
   return data;
 }
 
-function shouldSkipPath(path) {
-  return /(^|\/)(node_modules|vendor|coverage|\.git|\.github)\//i.test(path);
+function shouldSkipPath(repoPath) {
+  return /(^|\/)(node_modules|vendor|coverage|\.git|\.github)\//i.test(repoPath);
+}
+
+function normalizeRepoPath(repoPath) {
+  return repoPath.replace(/\\/g, "/").replace(/^\/+/, "").replace(/\/+/g, "/");
 }
 
 function encodeGitRefPath(ref) {
   return ref.split("/").map(encodeURIComponent).join("/");
+}
+
+function pathToPagesUrl(repoPath) {
+  return `${getPagesUrl()}${repoPath.split("/").map(encodeURIComponent).join("/")}`;
 }
 
 function getScriptNeedle(tag) {
@@ -260,11 +624,24 @@ function parseResponseBody(text) {
   }
 }
 
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+async function writeResult(data) {
+  await fs.mkdir(resultDir, { recursive: true });
+  const resultPath = path.join(resultDir, `${repoName}.json`);
+  await fs.writeFile(resultPath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
+}
+
 async function writeStepSummary(lines) {
   if (!process.env.GITHUB_STEP_SUMMARY) {
     return;
   }
 
-  const fs = await import("node:fs/promises");
   await fs.appendFile(process.env.GITHUB_STEP_SUMMARY, `${lines.join("\n")}\n`);
 }

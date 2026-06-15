@@ -23,6 +23,11 @@ on:
         required: true
         type: boolean
         default: false
+      include_invalid:
+        description: Include entries previously marked invalid_structure.
+        required: true
+        type: boolean
+        default: false
       create_delay_seconds:
         description: Seconds to wait between fork creation requests.
         required: true
@@ -65,6 +70,7 @@ jobs:
           DRY_RUN: ${{ inputs.dry_run }}
           LIMIT: ${{ inputs.limit }}
           DEFAULT_BRANCH_ONLY: ${{ inputs.default_branch_only }}
+          INCLUDE_INVALID: ${{ inputs.include_invalid }}
           CREATE_DELAY_SECONDS: ${{ inputs.create_delay_seconds }}
           RETRY_LIMIT: ${{ inputs.retry_limit }}
           RETRY_BASE_DELAY_SECONDS: ${{ inputs.retry_base_delay_seconds }}
