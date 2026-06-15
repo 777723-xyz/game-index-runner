@@ -26,6 +26,11 @@ on:
           - /
           - /docs
         default: /
+      site_origin:
+        description: Public catalog origin used for Pages URLs in summaries.
+        required: true
+        type: string
+        default: https://webrpg.org
 
 permissions:
   contents: read
@@ -99,4 +104,5 @@ jobs:
           REPO_NAME: ${{ matrix.repo }}
           DRY_RUN: ${{ inputs.dry_run }}
           PAGES_SOURCE_PATH: ${{ inputs.pages_source_path }}
+          SITE_ORIGIN: ${{ inputs.site_origin }}
         run: node scripts/process-fork-repo.mjs

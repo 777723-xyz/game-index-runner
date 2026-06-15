@@ -4,6 +4,7 @@ const targetOrg = process.env.TARGET_ORG || "WebRPG-org";
 const repoName = process.env.REPO_NAME || "";
 const dryRun = parseBoolean(process.env.DRY_RUN, true);
 const pagesPath = process.env.PAGES_SOURCE_PATH || "/";
+const siteOrigin = (process.env.SITE_ORIGIN || "https://webrpg.org").replace(/\/+$/, "");
 const scriptTag = process.env.ANALYTICS_SCRIPT_TAG
   || '<script defer src="https://insight.ravelloh.com/script.js?siteId=5ace6623-f51b-4571-8f60-e0473ea3317b"></script>';
 const scriptNeedle = getScriptNeedle(scriptTag);
@@ -119,7 +120,7 @@ const pages = await ensurePages(branch, pagesPath);
 summary.push(`HTML files found: \`${htmlFiles.length}\``);
 summary.push(`HTML files updated: \`${modifiedFiles.length}\``);
 summary.push(`Pages source: \`${branch}${pagesPath}\``);
-summary.push(`Pages URL: \`${pages.html_url || `https://${targetOrg.toLowerCase()}.github.io/${repoName}/`}\``);
+summary.push(`Pages URL: \`${getPagesUrl()}\``);
 await writeStepSummary(summary);
 
 function injectScript(content, tag, needle) {
@@ -161,7 +162,7 @@ async function ensurePages(branch, path) {
       },
       ok: [201],
     });
-    console.log(`[pages] enabled ${created.html_url || `https://${targetOrg.toLowerCase()}.github.io/${repoName}/`}`);
+    console.log(`[pages] enabled ${getPagesUrl()}`);
     return created;
   }
 
@@ -181,7 +182,7 @@ async function ensurePages(branch, path) {
     },
     ok: [204],
   });
-  console.log(`[pages] updated ${current.html_url || getPagesUrl()}`);
+  console.log(`[pages] updated ${getPagesUrl()}`);
   return updated || current;
 }
 
@@ -227,7 +228,7 @@ function getScriptNeedle(tag) {
 }
 
 function getPagesUrl() {
-  return `https://${targetOrg.toLowerCase()}.github.io/${repoName}/`;
+  return `${siteOrigin}/${repoName}/`;
 }
 
 function parseBoolean(value, defaultValue) {

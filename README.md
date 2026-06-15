@@ -49,7 +49,7 @@ It does two things for each matching fork:
 The public Pages URL path is determined by the repository name. For example, `WebRPG-org/example-game` is published at:
 
 ```text
-https://webrpg-org.github.io/example-game/
+https://webrpg.org/example-game/
 ```
 
 This workflow uses a GitHub App token. Create and install a GitHub App on `WebRPG-org`, then add these Actions settings to this repository or to the organization with access granted to this repository:
