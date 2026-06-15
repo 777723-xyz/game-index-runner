@@ -1,6 +1,7 @@
 name: Index GitHub RPG Maker repositories
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "17 2 * * *"
 
