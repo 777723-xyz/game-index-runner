@@ -11189,5 +11189,17 @@
     "totalSize": 87270,
     "dataSize": 864710,
     "sourceRepo": "chorako666/obake"
+  },
+  {
+    "id": "webrpg-translations-spectoria-eng-cn",
+    "title": "SPECTORIA ~スペクタリア~ 简体中文汉化版",
+    "repo": "https://github.com/WebRPG-Translations/Spectoria-Eng-CN",
+    "owner": "WebRPG-Translations",
+    "name": "Spectoria-Eng-CN",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-06-18T03:10:15.000Z",
+    "source": "manual-add",
+    "sourcePath": "index.html"
   }
 ]
