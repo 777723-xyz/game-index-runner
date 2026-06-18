@@ -213,6 +213,9 @@ async function run() {
     summary.push(`Status: \`verified\``);
     summary.push(`Engine: \`${detection.engine}\``);
     summary.push(`Entry: \`${detection.entryPath}\``);
+    if (result.flattened) {
+      summary.push(`Flattened: \`true\``);
+    }
     summary.push(`Cover: \`${result.cover || "none"}\``);
     summary.push(`HTML files to update: \`${updates.size}\``);
     summary.push(`Pages URL: \`${getPagesUrl()}\``);
@@ -254,6 +257,9 @@ async function run() {
   summary.push(`Status: \`verified\``);
   summary.push(`Engine: \`${detection.engine}\``);
   summary.push(`Entry: \`${detection.entryPath}\``);
+  if (result.flattened) {
+    summary.push(`Flattened: \`true\``);
+  }
   summary.push(`Cover: \`${result.cover || "none"}\``);
   summary.push(`HTML files updated: \`${updates.size}\``);
   summary.push(`Pages URL: \`${getPagesUrl()}\``);
