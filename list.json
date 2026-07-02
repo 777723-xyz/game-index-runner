@@ -12092,6 +12092,18 @@
     "sourceRepo": "LoLoSenPai/AOB"
   },
   {
+    "id": "suppayami-yami-engine-delta",
+    "title": "SampleYED",
+    "repo": "https://github.com/suppayami/yami-engine-delta",
+    "owner": "suppayami",
+    "name": "yami-engine-delta",
+    "engine": "RPG Maker MV",
+    "status": "indexed",
+    "discoveredAt": "2026-07-02T15:15:54.129Z",
+    "source": "github-code-search",
+    "sourcePath": "demo/index.html"
+  },
+  {
     "id": "byvalvin-sanctuary",
     "title": "Sanctuary",
     "repo": "https://github.com/Byvalvin/Sanctuary",
