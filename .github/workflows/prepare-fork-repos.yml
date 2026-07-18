@@ -38,13 +38,13 @@ jobs:
         with:
           client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
           private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
-          owner: WebRPG-org
+          owner: 777723-xyz
 
       - name: Plan fork repositories
         id: plan
         env:
           WEBRPG_APP_TOKEN: ${{ steps.app-token.outputs.token }}
-          TARGET_ORG: WebRPG-org
+          TARGET_ORG: 777723-xyz
           LIMIT: "0"
           MAX_MATRIX_SIZE: "64"
         run: node scripts/plan-fork-repos.mjs
@@ -72,18 +72,18 @@ jobs:
         with:
           client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
           private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
-          owner: WebRPG-org
+          owner: 777723-xyz
           repositories: ${{ matrix.repo }}
 
       - name: Inject analytics script and enable Pages
         env:
           WEBRPG_APP_TOKEN: ${{ steps.app-token.outputs.token }}
-          TARGET_ORG: WebRPG-org
+          TARGET_ORG: 777723-xyz
           REPO_NAME: ${{ matrix.repo }}
           DRY_RUN: "false"
           DELETE_INVALID_REPOS: "true"
           PAGES_SOURCE_PATH: /
-          SITE_ORIGIN: https://webrpg.org
+          SITE_ORIGIN: https://777723-xyz.github.io
           RESULT_DIR: workflow-results
         run: node scripts/process-fork-repo.mjs
 
@@ -108,8 +108,8 @@ jobs:
         with:
           client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
           private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
-          owner: WebRPG-org
-          repositories: index
+          owner: 777723-xyz
+          repositories: game-index
 
       - name: Check out index
         uses: actions/checkout@v4
