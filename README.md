@@ -10,13 +10,11 @@ The list is sorted by `title`. Language metadata is intentionally omitted until 
 
 ## Fork Workflow
 
-The `Index GitHub RPG Maker repositories` workflow runs daily and searches GitHub code for RPG Maker MV/MZ web entry files. It adds repositories that are not already in `list.json`.
+The `Index GitHub RPG Maker repositories` workflow runs every two hours (at minute 17, UTC) and searches GitHub code for RPG Maker MV/MZ web entry files. It adds repositories that are not already in `list.json`.
 
-The `Fork listed repositories` workflow runs automatically after the index workflow succeeds. It reads `list.json`, deduplicates source repositories, and forks missing repositories into `WebRPG-org`.
+The `Fork listed repositories` workflow runs automatically after the index workflow succeeds. It reads `list.json`, deduplicates source repositories, and forks missing repositories into `777723-xyz`. Each run is capped at five new forks to avoid secondary-rate-limit failures.
 
-Add a repository or organization secret named `WEBRPG_FORK_TOKEN` to create forks. The same token can be used for code search, or you can add a separate `WEBRPG_SEARCH_TOKEN`.
-
-The token must belong to a user or app that can create repositories in `WebRPG-org`. For fine-grained tokens, GitHub documents the fork endpoint as requiring repository `Administration` write permission and `Contents` read permission.
+The installed GitHub App token is used for indexing, commits, and fork creation; no personal access token is required.
 
 The workflow waits between fork creation requests to avoid GitHub secondary rate limits. Defaults:
 
@@ -28,8 +26,8 @@ If GitHub still reports that requests were submitted too quickly, increase `CREA
 
 Repositories are skipped when:
 
-- The source repository is already forked into `WebRPG-org`.
-- `WebRPG-org` already has a repository with the target fork name.
+- The source repository is already forked into `777723-xyz`.
+- `777723-xyz` already has a repository with the target fork name.
 - The `list.json` entry is marked `invalid_structure`, `deleted_invalid_structure`, or `duplicate_name`.
 - Another entry already uses the same repository name, even when the owner is different.
 
@@ -43,25 +41,17 @@ This avoids name collisions for common repository names such as `game`, `rpg`, a
 
 ## Prepare Fork Workflow
 
-The `Prepare fork repositories` workflow runs automatically after the fork workflow succeeds. It processes fork repositories that already exist in `WebRPG-org`.
+The `Prepare fork repositories` workflow runs automatically after the fork workflow succeeds. It processes up to five fork repositories that already exist in `777723-xyz`.
 
-It does two things for each matching fork:
+It validates the RPG Maker structure, optionally extracts a local cover image, and enables GitHub Pages from the repository default branch and `/`. It does not inject analytics or other third-party scripts.
 
-- Adds this analytics script tag to HTML files that do not already contain it:
-
-```html
-<script defer src="https://insight.ravelloh.com/script.js?siteId=5ace6623-f51b-4571-8f60-e0473ea3317b"></script>
-```
-
-- Enables GitHub Pages from the repository default branch and `/`.
-
-The public Pages URL path is determined by the repository name. For example, `WebRPG-org/example-game` is published at:
+The public Pages URL path is determined by the repository name. For example, `777723-xyz/example-game` is published at:
 
 ```text
-https://webrpg.org/example-game/
+https://777723-xyz.github.io/example-game/
 ```
 
-This workflow uses a GitHub App token. Create and install a GitHub App on `WebRPG-org`, then add these Actions settings to this repository or to the organization with access granted to this repository:
+This workflow uses a GitHub App token. Create and install a GitHub App on `777723-xyz`, then add these Actions settings to this repository or to the organization with access granted to this repository:
 
 - Variable: `WEBRPG_APP_CLIENT_ID`
 - Secret: `WEBRPG_APP_PRIVATE_KEY`
@@ -73,13 +63,13 @@ Recommended GitHub App repository permissions:
 - `Pages`: read and write
 - `Metadata`: read-only
 
-Install the App on all repositories in `WebRPG-org`. This matters because new fork repositories will be added over time; a selected-repositories installation will not automatically include new forks.
+Install the App on all repositories in `777723-xyz`. This matters because new fork repositories will be added over time; a selected-repositories installation will not automatically include new forks.
 
 The workflow is fully automatic. It does not run in dry-run mode.
 
 During each run, the workflow validates every matching fork before preparing Pages. A fork is treated as valid only when it has an RPG Maker MV/MZ web structure, such as a HTML entry file plus the expected `js/rpg_core.js` or `js/rmmz_core.js` runtime files.
 
-When `dry_run=false` and `delete_invalid_repos=true`, invalid forks are deleted from `WebRPG-org`. The final aggregation job updates `list.json` with validation metadata:
+The supplied workflow keeps invalid forks (`DELETE_INVALID_REPOS=false`) for inspection instead of deleting them. The final aggregation job updates `list.json` with validation metadata:
 
 - `status`: `verified` or `invalid_structure`
 - `checkedAt`
