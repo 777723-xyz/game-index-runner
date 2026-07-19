@@ -3,7 +3,7 @@ import fs from "node:fs/promises";
 
 const apiBase = "https://api.github.com";
 const token = process.env.WEBRPG_FORK_TOKEN || process.env.GITHUB_TOKEN || "";
-const targetOrg = process.env.TARGET_ORG || "WebRPG-org";
+const targetOrg = process.env.TARGET_ORG || "777723-xyz";
 const dryRun = parseBoolean(process.env.DRY_RUN, true);
 const defaultBranchOnly = parseBoolean(process.env.DEFAULT_BRANCH_ONLY, false);
 const limit = parseNonNegativeInt(process.env.LIMIT || "0");
