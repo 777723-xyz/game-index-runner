@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T00:16:38.043Z",
+  "generatedAt": "2026-07-19T06:43:52.969Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 853,
   "upstreamTotal": 853,
@@ -804,6 +804,27 @@
       }
     },
     {
+      "sourceRepo": "24c49x/24c49x.github.io",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "24c49x-24c49x.github.io",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/24c49x-24c49x.github.io/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "tw123777tw/pdlsdyzzh",
       "differences": {
         "pagesUrl": {
@@ -1270,6 +1291,23 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/aaixy-zzgl/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "1lgr/treinamento-rpg-maker",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/1LgR-Treinamento-RPG-MAKER/TesteLuiz/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "TesteLuiz/index.html",
+          "upstream": null
         }
       }
     },
@@ -3755,12 +3793,8 @@
     {
       "sourceRepo": "0x416c616e/2drpggamengine",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/0x416c616e-2drpggamengine/MapOnly/index.html",
           "upstream": "https://webrpg.org/0x416c616e-2drpggamengine/"
         }
       }
@@ -4223,12 +4257,8 @@
     {
       "sourceRepo": "0x736f6d657468696e67/new_layers",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/0x736f6d657468696e67-new_layers/index.html",
           "upstream": "https://webrpg.org/0x736f6d657468696e67-new_layers/"
         }
       }
@@ -5744,12 +5774,8 @@
     {
       "sourceRepo": "0mnipr3z/hitcraft-php-js",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/0mniPr3Z-HitCraft-php-js/Test%20site/game_src/index.html",
           "upstream": "https://webrpg.org/0mniPr3Z-HitCraft-php-js/"
         }
       }
