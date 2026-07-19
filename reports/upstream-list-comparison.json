@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T06:43:52.969Z",
+  "generatedAt": "2026-07-19T08:09:41.288Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 853,
   "upstreamTotal": 853,
@@ -553,12 +553,8 @@
     {
       "sourceRepo": "430230562/kerman-s-dream",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/430230562-kerman-s-dream/index.html",
           "upstream": "https://webrpg.org/430230562-kerman-s-dream/"
         }
       }
@@ -1171,12 +1167,8 @@
     {
       "sourceRepo": "adarkmaker/hxk-rpg",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/aDarkMaker-HXK-RPG/index.html",
           "upstream": "https://webrpg.org/aDarkMaker-HXK-RPG/"
         }
       }
@@ -1284,12 +1276,8 @@
     {
       "sourceRepo": "aaixy/zzgl",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/aaixy-zzgl/index.html",
           "upstream": "https://webrpg.org/aaixy-zzgl/"
         }
       }
@@ -1298,16 +1286,8 @@
       "sourceRepo": "1lgr/treinamento-rpg-maker",
       "differences": {
         "status": {
-          "ours": "verified",
+          "ours": "invalid_structure",
           "upstream": "indexed"
-        },
-        "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/1LgR-Treinamento-RPG-MAKER/TesteLuiz/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "TesteLuiz/index.html",
-          "upstream": null
         }
       }
     },
@@ -2172,12 +2152,8 @@
     {
       "sourceRepo": "4nddrs/cyber-tech",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/4nddrs-Cyber-Tech/index.html",
           "upstream": "https://webrpg.org/4nddrs-Cyber-Tech/"
         }
       }
@@ -2465,6 +2441,27 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/brunolcarli-RPGMakerMVWeb3Integration_testgame/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "adanrafli/dreamcore-x1",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "AdanRafli-Dreamcore-X1",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/AdanRafli-Dreamcore-X1/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
@@ -3793,8 +3790,12 @@
     {
       "sourceRepo": "0x416c616e/2drpggamengine",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/0x416c616e-2drpggamengine/MapOnly/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/0x416c616e-2drpggamengine/"
         }
       }
@@ -4500,12 +4501,8 @@
     {
       "sourceRepo": "aak581/polkadot-cats-game",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/AAK581-Polkadot-Cats-Game/index.html",
           "upstream": "https://webrpg.org/AAK581-Polkadot-Cats-Game/"
         }
       }
@@ -4559,6 +4556,27 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/TheRainbowPhoenix-LDS/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "affonsoamendola/oldprojects",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "affonsoamendola-oldprojects",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/affonsoamendola-oldprojects/Project1/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "Project1/index.html",
+          "upstream": null
         }
       }
     },
@@ -5148,6 +5166,27 @@
       }
     },
     {
+      "sourceRepo": "a2937/rpg-maker-mv-test-template",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "a2937-RPG-Maker-MV-Test-Template",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/a2937-RPG-Maker-MV-Test-Template/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "lino-saur/rpgmakermv",
       "differences": {
         "status": {
@@ -5345,12 +5384,8 @@
     {
       "sourceRepo": "aak581/blokkat-arabicblockchain-developer-bootcamp-graduation-project",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/AAK581-blokkat-arabicblockchain-developer-bootcamp-graduation-project/index.html",
           "upstream": "https://webrpg.org/AAK581-blokkat-arabicblockchain-developer-bootcamp-graduation-project/"
         }
       }
@@ -5358,12 +5393,8 @@
     {
       "sourceRepo": "aak581/rpg-game-sepolia-cats",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/AAK581-rpg-game-sepolia-cats/index.html",
           "upstream": "https://webrpg.org/AAK581-rpg-game-sepolia-cats/"
         }
       }
@@ -5371,12 +5402,8 @@
     {
       "sourceRepo": "aak581/testnet-cats-dapp",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/AAK581-testnet-cats-dapp/index.html",
           "upstream": "https://webrpg.org/AAK581-testnet-cats-dapp/"
         }
       }
@@ -5774,8 +5801,12 @@
     {
       "sourceRepo": "0mnipr3z/hitcraft-php-js",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/0mniPr3Z-HitCraft-php-js/Test%20site/game_src/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/0mniPr3Z-HitCraft-php-js/"
         }
       }
@@ -6472,12 +6503,8 @@
     {
       "sourceRepo": "abner1710/goty-rpg",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/Abner1710-Goty-rpg/index.html",
           "upstream": "https://webrpg.org/Abner1710-Goty-rpg/"
         }
       }
@@ -7077,12 +7104,8 @@
     {
       "sourceRepo": "a12204002-ryujiatsuta/eboshi_web",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/a12204002-RyujiAtsuta-Eboshi_web/index.html",
           "upstream": "https://webrpg.org/a12204002-RyujiAtsuta-Eboshi_web/"
         }
       }
