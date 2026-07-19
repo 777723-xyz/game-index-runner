@@ -24,7 +24,6 @@ class GitHubApiError extends Error {
 
 const list = JSON.parse(await fs.readFile("list.json", "utf8"));
 const uniqueSources = getUniqueSources(list);
-const planned = limit > 0 ? uniqueSources.slice(0, limit) : uniqueSources;
 
 if (!targetOrg) {
   throw new Error("TARGET_ORG is required.");
@@ -41,7 +40,6 @@ summary.push(`Target organization: \`${targetOrg}\``);
 summary.push(`Dry run: \`${dryRun}\``);
 summary.push(`Default branch only: \`${defaultBranchOnly}\``);
 summary.push(`Unique source repositories: \`${uniqueSources.length}\``);
-summary.push(`Repositories in this run: \`${planned.length}\``);
 summary.push(`Delay between fork requests: \`${createDelayMs / 1000}s\``);
 summary.push(`Retry limit: \`${retryLimit}\``);
 summary.push(`Include invalid entries: \`${includeInvalid}\``);
@@ -49,9 +47,13 @@ summary.push("");
 
 console.log(`Loaded ${list.length} index entries.`);
 console.log(`Found ${uniqueSources.length} unique source repositories.`);
-console.log(`Processing ${planned.length} repositories for ${targetOrg}.`);
 
 if (dryRun) {
+  const planned = limit > 0 ? uniqueSources.slice(0, limit) : uniqueSources;
+  console.log(`Processing ${planned.length} repositories for ${targetOrg}.`);
+  summary.push(`Repositories in this run: \`${planned.length}\``);
+  summary.push("");
+
   for (const item of planned) {
     console.log(`[dry-run] ${item.source} -> ${targetOrg}/${item.forkName}`);
   }
@@ -65,9 +67,31 @@ if (dryRun) {
 }
 
 const existing = await loadExistingOrgRepos(targetOrg);
+const existingSources = [];
+const conflicts = [];
+const pending = [];
+
+for (const item of uniqueSources) {
+  if (existing.forksBySource.has(item.source.toLowerCase())) {
+    existingSources.push(item);
+  } else if (existing.reposByName.has(item.forkName.toLowerCase())) {
+    conflicts.push(item);
+  } else {
+    pending.push(item);
+  }
+}
+
+const planned = limit > 0 ? pending.slice(0, limit) : pending;
+summary.push(`Existing forks excluded before batching: \`${existingSources.length}\``);
+summary.push(`Name conflicts excluded before batching: \`${conflicts.length}\``);
+summary.push(`Pending repositories: \`${pending.length}\``);
+summary.push(`Repositories in this run: \`${planned.length}\``);
+summary.push("");
+
+console.log(`Excluded ${existingSources.length} existing forks and ${conflicts.length} name conflicts.`);
+console.log(`Processing ${planned.length} of ${pending.length} pending repositories for ${targetOrg}.`);
+
 let lastCreateAttemptAt = 0;
-let skippedExisting = 0;
-let skippedConflict = 0;
 let created = 0;
 let failed = 0;
 const failures = [];
@@ -75,20 +99,6 @@ const failures = [];
 for (const item of planned) {
   const sourceLower = item.source.toLowerCase();
   const nameLower = item.forkName.toLowerCase();
-  const existingFork = existing.forksBySource.get(sourceLower);
-
-  if (existingFork) {
-    skippedExisting += 1;
-    console.log(`[exists] ${item.source} already forked as ${targetOrg}/${existingFork.name}`);
-    continue;
-  }
-
-  const existingByName = existing.reposByName.get(nameLower);
-  if (existingByName) {
-    skippedConflict += 1;
-    console.log(`[conflict] ${targetOrg}/${item.forkName} already exists and is not a fork of ${item.source}`);
-    continue;
-  }
 
   try {
     const fork = await createForkWithRetry(item);
@@ -105,8 +115,8 @@ for (const item of planned) {
 
 summary.push("## Result");
 summary.push(`- Created: \`${created}\``);
-summary.push(`- Already forked: \`${skippedExisting}\``);
-summary.push(`- Name conflicts: \`${skippedConflict}\``);
+summary.push(`- Existing forks excluded: \`${existingSources.length}\``);
+summary.push(`- Name conflicts excluded: \`${conflicts.length}\``);
 summary.push(`- Failed: \`${failed}\``);
 
 if (failures.length > 0) {
