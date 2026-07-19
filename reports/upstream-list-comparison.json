@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T09:18:59.830Z",
+  "generatedAt": "2026-07-19T10:19:03.449Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 854,
   "upstreamTotal": 853,
@@ -2541,8 +2541,12 @@
     {
       "sourceRepo": "agjimenez/ra-s-quest",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/AGJimenez-Ra-s-Quest/assets/Sample%20Maps%20(RPG%20Maker%20MV-MZ)/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/AGJimenez-Ra-s-Quest/"
         }
       }
@@ -5138,12 +5142,8 @@
     {
       "sourceRepo": "aguiano18/rpg.maker",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/Aguiano18-Rpg.maker/index.html",
           "upstream": "https://webrpg.org/Aguiano18-Rpg.maker/"
         }
       }
