@@ -4,15 +4,15 @@ import path from "node:path";
 
 const apiBase = "https://api.github.com";
 const token = process.env.WEBRPG_APP_TOKEN || process.env.GITHUB_TOKEN || "";
-const targetOrg = process.env.TARGET_ORG || "WebRPG-org";
+const targetOrg = process.env.TARGET_ORG || "777723-xyz";
 const repoName = process.env.REPO_NAME || "";
 const dryRun = parseBoolean(process.env.DRY_RUN, true);
 const deleteInvalidRepos = parseBoolean(process.env.DELETE_INVALID_REPOS, true);
 const pagesPath = process.env.PAGES_SOURCE_PATH || "/";
-const siteOrigin = (process.env.SITE_ORIGIN || "https://webrpg.org").replace(/\/+$/, "");
+const siteOrigin = (process.env.SITE_ORIGIN || "https://777723-xyz.github.io").replace(/\/+$/, "");
 const resultDir = process.env.RESULT_DIR || "workflow-results";
-const scriptTag = process.env.ANALYTICS_SCRIPT_TAG
-  || '<script defer src="https://insight.ravelloh.com/script.js?siteId=5ace6623-f51b-4571-8f60-e0473ea3317b"></script>';
+// Never inject analytics or other third-party scripts into game forks.
+const scriptTag = process.env.ANALYTICS_SCRIPT_TAG || "";
 const scriptNeedle = getScriptNeedle(scriptTag);
 const htmlMaxBytes = parsePositiveInt(process.env.HTML_MAX_BYTES || "1048576");
 
@@ -226,15 +226,17 @@ async function run() {
     }
   }
 
-  for (const filePath of detection.htmlPathsToPatch) {
-    const original = htmlByPath.get(filePath);
-    if (original === undefined) {
-      continue;
-    }
+  if (scriptTag) {
+    for (const filePath of detection.htmlPathsToPatch) {
+      const original = htmlByPath.get(filePath);
+      if (original === undefined) {
+        continue;
+      }
 
-    const updated = injectScript(original, scriptTag, scriptNeedle);
-    if (updated !== original) {
-      updates.set(filePath, updated);
+      const updated = injectScript(original, scriptTag, scriptNeedle);
+      if (updated !== original) {
+        updates.set(filePath, updated);
+      }
     }
   }
 
