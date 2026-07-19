@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "*/30 * * * *"
+      # Standalone repository schedule registration.
   workflow_run:
     workflows:
       - Index GitHub RPG Maker repositories
@@ -50,6 +51,6 @@ jobs:
           DEFAULT_BRANCH_ONLY: "false"
           INCLUDE_INVALID: "false"
           CREATE_DELAY_SECONDS: "12"
-          RETRY_LIMIT: "15"
+          RETRY_LIMIT: "5"
           RETRY_BASE_DELAY_SECONDS: "60"
         run: node scripts/fork-listed-repos.mjs
