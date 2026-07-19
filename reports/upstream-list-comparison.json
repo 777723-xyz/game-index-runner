@@ -1,11 +1,19 @@
 {
-  "generatedAt": "2026-07-19T08:18:57.904Z",
+  "generatedAt": "2026-07-19T09:18:59.830Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 853,
+  "localTotal": 854,
   "upstreamTotal": 853,
   "shared": 853,
   "upstreamOnly": [],
-  "localOnly": [],
+  "localOnly": [
+    {
+      "id": "craf1ed-lite-assets",
+      "sourceRepo": "craf1ed/lite-assets",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    }
+  ],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -2533,12 +2541,8 @@
     {
       "sourceRepo": "agjimenez/ra-s-quest",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/AGJimenez-Ra-s-Quest/assets/Sample%20Maps%20(RPG%20Maker%20MV-MZ)/index.html",
           "upstream": "https://webrpg.org/AGJimenez-Ra-s-Quest/"
         }
       }
@@ -4563,19 +4567,11 @@
       "sourceRepo": "affonsoamendola/oldprojects",
       "differences": {
         "status": {
-          "ours": "verified",
+          "ours": "invalid_structure",
           "upstream": "indexed"
         },
         "forkName": {
           "ours": "affonsoamendola-oldprojects",
-          "upstream": null
-        },
-        "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/affonsoamendola-oldprojects/Project1/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "Project1/index.html",
           "upstream": null
         }
       }
