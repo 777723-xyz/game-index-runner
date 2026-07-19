@@ -12,15 +12,26 @@ if (!token) {
 }
 
 const list = JSON.parse(await fs.readFile("list.json", "utf8"));
-const indexedNames = new Set(getUniqueSources(list).map((item) => item.forkName.toLowerCase()));
+const indexedSources = getUniqueSources(list);
+const indexedByName = new Map(indexedSources.map((item) => [item.forkName.toLowerCase(), item]));
 const orgRepos = await loadOrgRepos(targetOrg);
 const targets = orgRepos
-  .filter((repo) => repo.fork && indexedNames.has(repo.name.toLowerCase()))
+  .filter((repo) => repo.fork && indexedByName.has(repo.name.toLowerCase()))
   .sort((left, right) => {
-    // Oldest updated first, so never-processed repos are prioritized
-    const leftUpdated = new Date(left.updated_at || 0).valueOf();
-    const rightUpdated = new Date(right.updated_at || 0).valueOf();
-    return leftUpdated - rightUpdated;
+    const leftIndex = indexedByName.get(left.name.toLowerCase());
+    const rightIndex = indexedByName.get(right.name.toLowerCase());
+    const priorityDifference = validationPriority(leftIndex) - validationPriority(rightIndex);
+    if (priorityDifference !== 0) {
+      return priorityDifference;
+    }
+
+    const leftChecked = new Date(leftIndex.checkedAt || 0).valueOf();
+    const rightChecked = new Date(rightIndex.checkedAt || 0).valueOf();
+    if (leftChecked !== rightChecked) {
+      return leftChecked - rightChecked;
+    }
+
+    return left.name.localeCompare(right.name, "en");
   });
 const planned = limit > 0 ? targets.slice(0, limit) : targets.slice(0, maxMatrixSize);
 const matrix = {
@@ -29,7 +40,7 @@ const matrix = {
   })),
 };
 
-console.log(`Indexed source repositories: ${indexedNames.size}`);
+console.log(`Indexed source repositories: ${indexedByName.size}`);
 console.log(`Fork repositories in ${targetOrg}: ${targets.length}`);
 console.log(`Repositories in this run: ${planned.length}`);
 
@@ -76,6 +87,8 @@ function getUniqueSources(entries) {
         owner: entry.owner,
         name: entry.name,
         forkName: makeForkName(entry.owner, entry.name),
+        status: entry.status || "indexed",
+        checkedAt: entry.checkedAt,
       });
     }
   }
@@ -113,6 +126,10 @@ function makeForkName(owner, name) {
 
 function isSkippedEntry(entry) {
   return ["invalid_structure", "deleted_invalid_structure", "duplicate_name", "hidden"].includes(entry.status);
+}
+
+function validationPriority(entry) {
+  return entry.status === "verified" ? 1 : 0;
 }
 
 async function githubRequest(path, options = {}) {
