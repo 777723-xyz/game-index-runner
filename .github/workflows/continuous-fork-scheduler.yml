@@ -44,7 +44,6 @@ jobs:
           repositories: game-index-runner
 
       - name: Dispatch Fork workflow
-        continue-on-error: true
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
