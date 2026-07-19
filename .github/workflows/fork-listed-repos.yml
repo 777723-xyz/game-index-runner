@@ -3,7 +3,7 @@ name: Fork listed repositories
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "7,37 * * * *"
       # Standalone repository schedule registration.
   workflow_run:
     workflows:
