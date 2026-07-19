@@ -45,8 +45,8 @@ jobs:
         env:
           WEBRPG_APP_TOKEN: ${{ steps.app-token.outputs.token }}
           TARGET_ORG: 777723-xyz
-          LIMIT: "0"
-          MAX_MATRIX_SIZE: "64"
+          LIMIT: "5"
+          MAX_MATRIX_SIZE: "5"
         run: node scripts/plan-fork-repos.mjs
 
   process:
@@ -75,13 +75,13 @@ jobs:
           owner: 777723-xyz
           repositories: ${{ matrix.repo }}
 
-      - name: Inject analytics script and enable Pages
+      - name: Validate, prepare and enable Pages
         env:
           WEBRPG_APP_TOKEN: ${{ steps.app-token.outputs.token }}
           TARGET_ORG: 777723-xyz
           REPO_NAME: ${{ matrix.repo }}
           DRY_RUN: "false"
-          DELETE_INVALID_REPOS: "true"
+          DELETE_INVALID_REPOS: "false"
           PAGES_SOURCE_PATH: /
           SITE_ORIGIN: https://777723-xyz.github.io
           RESULT_DIR: workflow-results
