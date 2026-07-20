@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T08:20:59.079Z",
+  "generatedAt": "2026-07-20T12:01:29.838Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 854,
   "upstreamTotal": 854,
@@ -148,12 +148,8 @@
     {
       "sourceRepo": "hanbitgaram/1ststudio-game",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/HanbitGaram-1ststudio-game/index.html",
           "upstream": "https://webrpg.org/HanbitGaram-1ststudio-game/"
         }
       }
@@ -466,12 +462,8 @@
     {
       "sourceRepo": "miracleyoo/hcrs-online",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/miracleyoo-HCRS-Online/index.html",
           "upstream": "https://webrpg.org/miracleyoo-HCRS-Online/"
         }
       }
@@ -479,12 +471,8 @@
     {
       "sourceRepo": "miracleyoo/hua-cai-ren-sheng",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/miracleyoo-Hua-Cai-Ren-Sheng/index.html",
           "upstream": "https://webrpg.org/miracleyoo-Hua-Cai-Ren-Sheng/"
         }
       }
@@ -983,12 +971,8 @@
     {
       "sourceRepo": "numanicloud/immortalfairy",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/numanicloud-ImmortalFairy/index.html",
           "upstream": "https://webrpg.org/numanicloud-ImmortalFairy/"
         }
       }
@@ -1005,13 +989,13 @@
     {
       "sourceRepo": "guilhermelemos14/fabulousbeasts",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/GuilhermeLemos14-FabulousBeasts/index.html",
           "upstream": "https://webrpg.org/GuilhermeLemos14-FabulousBeasts/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "FLC Game/FLC Chapter 1+2/www/index.html"
         }
       }
     },
@@ -1188,12 +1172,8 @@
     {
       "sourceRepo": "mitochondriacn/yanbernunk-2077",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/MitochondriaCN-Yanbernunk-2077/index.html",
           "upstream": "https://webrpg.org/MitochondriaCN-Yanbernunk-2077/"
         }
       }
@@ -1823,13 +1803,13 @@
     {
       "sourceRepo": "geodmeeeeee/forksnspoons",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/geodmeeeeee-forksnspoons/index.html",
           "upstream": "https://webrpg.org/geodmeeeeee-forksnspoons/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "games/Blood Money/index.html"
         }
       }
     },
@@ -1846,6 +1826,23 @@
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/marty-games-mga-html5x/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
+      "sourceRepo": "moon-network-service/blueberry-manor-project",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/Moon-Network-Service-Blueberry-Manor-Project/index.html",
           "upstream": null
         },
         "entryPath": {
@@ -2147,12 +2144,8 @@
     {
       "sourceRepo": "msc-cqu/cba",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/MSC-CQU-cba/index.html",
           "upstream": "https://webrpg.org/MSC-CQU-cba/"
         }
       }
@@ -2470,6 +2463,19 @@
       }
     },
     {
+      "sourceRepo": "mynamescrax/aetheris",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "mynamescrax-aetheris",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "stinkalistic/swaggames",
       "differences": {
         "status": {
@@ -2548,6 +2554,23 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/Kendid29-AfterRain/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "nautssky/nautssky",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/NautsSky-nautssky/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
@@ -2690,6 +2713,23 @@
       }
     },
     {
+      "sourceRepo": "noorinasjad/global-gamejam-2018",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/NoorinAsjad-Global-Gamejam-2018/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "johnnypackard/unnamed-rpg",
       "differences": {
         "status": {
@@ -2757,12 +2797,8 @@
     {
       "sourceRepo": "happyfp/dreamsdestiny",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/HappyFP-DreamsDestiny/index.html",
           "upstream": "https://webrpg.org/HappyFP-DreamsDestiny/"
         }
       }
@@ -3173,12 +3209,8 @@
     {
       "sourceRepo": "hellowin/freerun",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/hellowin-freerun/index.html",
           "upstream": "https://webrpg.org/hellowin-freerun/"
         }
       }
@@ -3215,6 +3247,23 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/UNBL0CKEDZ0NE-ubassets/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "nikitosiknekitoser-sus/futato_project",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/nikitosiknekitoser-sus-futato_project/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
@@ -3400,12 +3449,8 @@
     {
       "sourceRepo": "hayde26904/hayde26904.github.io",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/hayde26904-hayde26904.github.io/index.html",
           "upstream": "https://webrpg.org/hayde26904-hayde26904.github.io/"
         }
       }
@@ -3434,12 +3479,8 @@
     {
       "sourceRepo": "hamoda434/girlpower",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/Hamoda434-GirlPower/index.html",
           "upstream": "https://webrpg.org/Hamoda434-GirlPower/"
         }
       }
@@ -3543,12 +3584,8 @@
     {
       "sourceRepo": "mrxdaunknown/encodehackathon",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/Mrxdaunknown-EncodeHackathon/index.html",
           "upstream": "https://webrpg.org/Mrxdaunknown-EncodeHackathon/"
         }
       }
@@ -3556,12 +3593,8 @@
     {
       "sourceRepo": "nerdsonly/half-heroes",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/nerdsonly-half-heroes/index.html",
           "upstream": "https://webrpg.org/nerdsonly-half-heroes/"
         }
       }
@@ -4298,12 +4331,8 @@
     {
       "sourceRepo": "gitsets/madogigua",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/gitsets-madogigua/index.html",
           "upstream": "https://webrpg.org/gitsets-madogigua/"
         }
       }
@@ -4435,6 +4464,23 @@
       }
     },
     {
+      "sourceRepo": "nikitabelk/nikita-channel-animation",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/NikitaBelk-Nikita-Channel-Animation/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "fannarhrafn/veffortvoloka",
       "differences": {
         "pagesUrl": {
@@ -4468,12 +4514,8 @@
     {
       "sourceRepo": "nad795/memories-of-you-demo-version",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/Nad795-Memories-of-You-Demo-Version/index.html",
           "upstream": "https://webrpg.org/Nad795-Memories-of-You-Demo-Version/"
         }
       }
@@ -4481,13 +4523,13 @@
     {
       "sourceRepo": "grimelion/gamedev",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/grimelion-GameDev/index.html",
           "upstream": "https://webrpg.org/grimelion-GameDev/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Windows/GameDev/www/index.html"
         }
       }
     },
@@ -4579,6 +4621,23 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/kyubuns-MMOM/Client/index.html",
           "upstream": "https://webrpg.org/kyubuns-MMOM/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "nguyendacliem/monad",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/NguyenDacLiem-monad/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
@@ -4942,12 +5001,8 @@
     {
       "sourceRepo": "genizy/web-port",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/genizy-web-port/index.html",
           "upstream": "https://webrpg.org/genizy-web-port/"
         }
       }
@@ -4994,12 +5049,8 @@
     {
       "sourceRepo": "neoexm/kuakin",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/Neoexm-Kuakin/index.html",
           "upstream": "https://webrpg.org/Neoexm-Kuakin/"
         }
       }
@@ -5105,6 +5156,40 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/beatrizminoura-cmyk-ossos-do-oficio/index.html",
           "upstream": "https://webrpg.org/beatrizminoura-cmyk-ossos-do-oficio/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "navdeep5/navdeep5.github.io",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/navdeep5-navdeep5.github.io/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
+      "sourceRepo": "navdeep5/quokka_quest_team",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/navdeep5-Quokka_Quest_Team/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
@@ -5308,6 +5393,27 @@
       }
     },
     {
+      "sourceRepo": "moonyoulove/project-tiny",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "moonyoulove-Project-Tiny",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/moonyoulove-Project-Tiny/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "affonsoamendola/oldprojects",
       "differences": {
         "status": {
@@ -5419,12 +5525,8 @@
     {
       "sourceRepo": "georgechen-666/sgmud",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/GeorgeChen-666-sgmud/index.html",
           "upstream": "https://webrpg.org/GeorgeChen-666-sgmud/"
         }
       }
@@ -5432,12 +5534,8 @@
     {
       "sourceRepo": "gzqyl/rpgemu",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/gzqyl-rpgemu/index.html",
           "upstream": "https://webrpg.org/gzqyl-rpgemu/"
         }
       }
@@ -6070,12 +6168,8 @@
     {
       "sourceRepo": "oden/rmmv",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/oden-RMMV/index.html",
           "upstream": "https://webrpg.org/oden-RMMV/"
         }
       }
@@ -6380,12 +6474,8 @@
     {
       "sourceRepo": "givanilddo/skullseeker",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/givanilddo-SkullSeeker/index.html",
           "upstream": "https://webrpg.org/givanilddo-SkullSeeker/"
         }
       }
@@ -6861,12 +6951,8 @@
     {
       "sourceRepo": "nuyykatazou/theamazonia",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/NuyyKatazou-TheAmazonia/index.html",
           "upstream": "https://webrpg.org/NuyyKatazou-TheAmazonia/"
         }
       }
@@ -7320,6 +7406,23 @@
       }
     },
     {
+      "sourceRepo": "mysterymagination/twilightning",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/mysterymagination-twilightning/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "beyondoff/umi_the_game",
       "differences": {
         "pagesUrl": {
@@ -7565,13 +7668,13 @@
     {
       "sourceRepo": "mysterymagination/weirdwyrdworld",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/mysterymagination-WeirdWyrdWorld/index.html",
           "upstream": "https://webrpg.org/mysterymagination-WeirdWyrdWorld/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Weird Wyrd World/index.html"
         }
       }
     },
@@ -8042,12 +8145,8 @@
     {
       "sourceRepo": "oden/neetles",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/oden-neetles/index.html",
           "upstream": "https://webrpg.org/oden-neetles/"
         }
       }
@@ -8120,12 +8219,8 @@
     {
       "sourceRepo": "oden/bremen",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/oden-Bremen/index.html",
           "upstream": "https://webrpg.org/oden-Bremen/"
         }
       }
