@@ -1,5 +1,14 @@
 # WebRPG Index
 
+## Scheduling
+
+The only automatic entry points are the native GitHub schedules in these two workflows:
+
+- `index-github-rpgmaker-repos.yml`: hourly at minute 17.
+- `fork-listed-repos.yml`: every 30 minutes.
+
+`continuous-*.yml` are retained only for one-off manual recovery and no longer self-dispatch. `bulk-drain-pending.yml` processes one manually requested batch and no longer creates recursive batches. This prevents the index, fork, and validation workers from recursively consuming the same GitHub App API budget.
+
 This repository hosts a JSON index of web-playable RPG Maker games found on GitHub.
 
 Data file:
@@ -10,15 +19,15 @@ The list is sorted by `title`. Language metadata is intentionally omitted until 
 
 ## Fork Workflow
 
-The `Index GitHub RPG Maker repositories` workflow runs every two hours (at minute 17, UTC) and searches GitHub code for RPG Maker MV/MZ web entry files. It adds repositories that are not already in `list.json`.
+The `Index GitHub RPG Maker repositories` workflow runs hourly (at minute 17, UTC) and searches GitHub code for RPG Maker MV/MZ web entry files. It adds repositories that are not already in `list.json`.
 
-The `Fork listed repositories` workflow runs automatically after the index workflow succeeds. It reads `list.json`, deduplicates source repositories, and forks missing repositories into `777723-xyz`. Each run is capped at five new forks to avoid secondary-rate-limit failures.
+The `Fork listed repositories` workflow runs every 30 minutes. It reads `list.json`, deduplicates source repositories, and forks up to 40 missing repositories into `777723-xyz` with an eight-second creation interval.
 
 The installed GitHub App token is used for indexing, commits, and fork creation; no personal access token is required.
 
 The workflow waits between fork creation requests to avoid GitHub secondary rate limits. Defaults:
 
-- `create_delay_seconds`: `20`
+- `create_delay_seconds`: `8`
 - `retry_limit`: `5`
 - `retry_base_delay_seconds`: `60`
 
@@ -41,7 +50,7 @@ This avoids name collisions for common repository names such as `game`, `rpg`, a
 
 ## Prepare Fork Workflow
 
-The `Prepare fork repositories` workflow runs automatically after the fork workflow succeeds. It processes up to five fork repositories that already exist in `777723-xyz`.
+The `Prepare fork repositories` workflow runs automatically after the fork workflow succeeds. It processes up to 40 fork repositories with a maximum parallelism of five.
 
 It validates the RPG Maker structure, optionally extracts a local cover image, and enables GitHub Pages from the repository default branch and `/`. It does not inject analytics or other third-party scripts.
 
