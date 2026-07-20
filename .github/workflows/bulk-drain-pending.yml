@@ -84,6 +84,7 @@ jobs:
     needs: plan
     if: needs.plan.outputs.has_targets == 'true'
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     strategy:
       fail-fast: false
       max-parallel: 10
@@ -111,6 +112,9 @@ jobs:
           PAGES_SOURCE_PATH: /
           SITE_ORIGIN: https://777723-xyz.github.io
           RESULT_DIR: workflow-results
+          HTML_MAX_FILES: "120"
+          HTML_FETCH_CONCURRENCY: "5"
+          GITHUB_API_TIMEOUT_MS: "30000"
         run: node scripts/process-fork-repo.mjs
       - uses: actions/upload-artifact@v4
         if: always()
