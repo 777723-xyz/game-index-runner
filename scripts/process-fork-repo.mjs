@@ -326,7 +326,8 @@ function detectRpgMakerProject(files, htmlByPath) {
 
       if (lowerScript.endsWith("js/rpg_core.js") || lowerScript.endsWith("js/rmmz_core.js")) {
         const engine = lowerScript.endsWith("js/rmmz_core.js") ? "RPG Maker MZ" : "RPG Maker MV";
-        const projectRoot = lowerScript.slice(0, lowerScript.length - (engine === "RPG Maker MZ" ? "js/rmmz_core.js".length : "js/rpg_core.js".length));
+        const corePath = engine === "RPG Maker MZ" ? "js/rmmz_core.js" : "js/rpg_core.js";
+        const projectRoot = normalizedScript.slice(0, normalizedScript.length - corePath.length);
         candidates.push(scoreCandidate({
           engine,
           projectRoot,
@@ -344,7 +345,7 @@ function detectRpgMakerProject(files, htmlByPath) {
     if (lower.endsWith("js/rpg_core.js") || lower.endsWith("js/rmmz_core.js")) {
       const engine = lower.endsWith("js/rmmz_core.js") ? "RPG Maker MZ" : "RPG Maker MV";
       const corePath = engine === "RPG Maker MZ" ? "js/rmmz_core.js" : "js/rpg_core.js";
-      const projectRoot = lower.slice(0, lower.length - corePath.length);
+      const projectRoot = file.path.slice(0, file.path.length - corePath.length);
       const entryPath = findEntryPath(projectRoot, htmlByPath);
 
       if (entryPath) {
@@ -562,22 +563,37 @@ async function decryptRpgmvp(org, repo, fileSha) {
 }
 
 async function flattenProjectToRoot(branch, headSha, tree, projectRoot) {
+  const projectBlobs = tree.tree.filter(
+    (item) => item.type === "blob" && item.path.startsWith(projectRoot),
+  );
+
+  if (projectBlobs.length === 0) {
+    throw new Error(`Refusing to flatten ${projectRoot}: no project blobs matched the exact path.`);
+  }
+
+  const flattenedPaths = new Set(
+    projectBlobs.map((item) => item.path.slice(projectRoot.length).toLowerCase()),
+  );
+  const hasHtmlEntry = [...flattenedPaths].some((item) => item.endsWith(".html"));
+  const hasRuntime = flattenedPaths.has("js/rpg_core.js") || flattenedPaths.has("js/rmmz_core.js");
+
+  if (!hasHtmlEntry || !hasRuntime) {
+    throw new Error(`Refusing to flatten ${projectRoot}: flattened tree is missing the HTML entry or RPG Maker runtime.`);
+  }
+
   const blobEntries = [];
   const coverEntry = tree.tree.find(
     (item) => item.type === "blob" && /^cover\.(png|jpg|jpeg|webp)$/i.test(item.path),
   );
 
-  for (const item of tree.tree) {
-    if (item.type !== "blob") continue;
-    const path = item.path;
+  for (const item of projectBlobs) {
+    const newPath = item.path.slice(projectRoot.length);
+    if (!newPath) continue;
+    blobEntries.push({ path: newPath, sha: item.sha, mode: "100644", type: "blob" });
+  }
 
-    if (path.startsWith(projectRoot)) {
-      const newPath = path.slice(projectRoot.length);
-      if (!newPath) continue;
-      blobEntries.push({ path: newPath, sha: item.sha, mode: "100644", type: "blob" });
-    } else if (path === "cover.png" || (coverEntry && path === coverEntry.path)) {
-      blobEntries.push({ path, sha: item.sha, mode: "100644", type: "blob" });
-    }
+  if (coverEntry) {
+    blobEntries.push({ path: coverEntry.path, sha: coverEntry.sha, mode: "100644", type: "blob" });
   }
 
   if (blobEntries.length === 0) {
