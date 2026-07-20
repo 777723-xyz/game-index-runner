@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T20:44:43.134Z",
+  "generatedAt": "2026-07-20T22:16:32.638Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 854,
   "upstreamTotal": 854,
@@ -180,8 +180,12 @@
           "upstream": "verified"
         },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/tw123777tw-pdlsdyzzh/index.html",
           "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "www/Bonus/Cake/index.html"
         }
       }
     },
@@ -198,7 +202,7 @@
       "sourceRepo": "michaelpig0912/michaelpig0912.github.io",
       "differences": {
         "status": {
-          "ours": "indexed",
+          "ours": "invalid_structure",
           "upstream": "verified"
         },
         "pagesUrl": {
@@ -706,12 +710,8 @@
     {
       "sourceRepo": "tklninja/magicsword",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/TKLNinja-MagicSword/index.html",
           "upstream": "https://webrpg.org/TKLNinja-MagicSword/"
         }
       }
@@ -738,8 +738,12 @@
       "sourceRepo": "tw123777tw/pdlsdyzzh",
       "differences": {
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/tw123777tw-pdlsdyzzh/index.html",
           "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "www/Bonus/Cake/index.html"
         }
       }
     },
@@ -786,8 +790,12 @@
       "sourceRepo": "tw123777tw/pdlsdyzzh",
       "differences": {
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/tw123777tw-pdlsdyzzh/index.html",
           "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "www/Bonus/Cake/index.html"
         }
       }
     },
@@ -852,12 +860,8 @@
     {
       "sourceRepo": "thomazli/shanghai",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/thomazli-shanghai/index.html",
           "upstream": "https://webrpg.org/thomazli-shanghai/"
         }
       }
@@ -910,12 +914,8 @@
     {
       "sourceRepo": "tychouhaha/zk_restaurant",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/tychouhaha-ZK_restaurant/index.html",
           "upstream": "https://webrpg.org/tychouhaha-ZK_restaurant/"
         }
       }
@@ -1066,12 +1066,8 @@
     {
       "sourceRepo": "mingpnyy/rpgmaker-mv",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/mingpnyy-rpgmaker-mv/index.html",
           "upstream": "https://webrpg.org/mingpnyy-rpgmaker-mv/"
         }
       }
@@ -1536,12 +1532,8 @@
     {
       "sourceRepo": "mikanhako1024/rpgmaker-is-you",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/MikanHako1024-RpgMaker-is-you/index.html",
           "upstream": "https://webrpg.org/MikanHako1024-RpgMaker-is-you/"
         }
       }
@@ -1929,13 +1921,13 @@
     {
       "sourceRepo": "mik-kaewwichian/rpg_game_mv_maker",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/Mik-kaewwichian-RPG_Game_mv_maker/index.html",
           "upstream": "https://webrpg.org/Mik-kaewwichian-RPG_Game_mv_maker/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Game_finish_canplay/Calulaty/www/index.html"
         }
       }
     },
@@ -2203,25 +2195,21 @@
     {
       "sourceRepo": "monaca/monaca-quest",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/monaca-monaca-quest/index.html",
           "upstream": "https://webrpg.org/monaca-monaca-quest/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Project/index.html"
         }
       }
     },
     {
       "sourceRepo": "monaca/monaca.github.io",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/monaca-monaca.github.io/index.html",
           "upstream": "https://webrpg.org/monaca-monaca.github.io/"
         }
       }
@@ -2229,12 +2217,8 @@
     {
       "sourceRepo": "mn3zx/corridaacademica",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/mn3zx-CorridaAcademica/index.html",
           "upstream": "https://webrpg.org/mn3zx-CorridaAcademica/"
         }
       }
@@ -2616,12 +2600,8 @@
     {
       "sourceRepo": "tomoshibi06/divirtualdemo",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/tomoshibi06-divirtualdemo/index.html",
           "upstream": "https://webrpg.org/tomoshibi06-divirtualdemo/"
         }
       }
@@ -2629,13 +2609,13 @@
     {
       "sourceRepo": "mgsraiden2/dk-crew",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/MGSRaiden2-DK-Crew/index.html",
           "upstream": "https://webrpg.org/MGSRaiden2-DK-Crew/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "DK Crew Adventures/DK Crew Adventures Game/www/index.html"
         }
       }
     },
@@ -2972,12 +2952,8 @@
     {
       "sourceRepo": "tomoshibi06/fairymaze",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/tomoshibi06-FairyMaze/index.html",
           "upstream": "https://webrpg.org/tomoshibi06-FairyMaze/"
         }
       }
@@ -2985,12 +2961,8 @@
     {
       "sourceRepo": "tomoshibi06/fairymaze3",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/tomoshibi06-FairyMaze3/index.html",
           "upstream": "https://webrpg.org/tomoshibi06-FairyMaze3/"
         }
       }
@@ -3863,6 +3835,27 @@
       }
     },
     {
+      "sourceRepo": "tranlamphuduc/game-zombie",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "tranlamphuduc-Game-Zombie",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/tranlamphuduc-Game-Zombie/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "okshaone/kiki-s-adventure-v1",
       "differences": {
         "status": {
@@ -4031,12 +4024,8 @@
     {
       "sourceRepo": "giltry/lamento-de-las-flores",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/Giltry-Lamento-de-las-Flores/index.html",
           "upstream": "https://webrpg.org/Giltry-Lamento-de-las-Flores/"
         }
       }
@@ -4079,12 +4068,8 @@
     {
       "sourceRepo": "mi-occ-byteme/lil-necro-game-web",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/mi-occ-byteme-lil-necro-game-web/index.html",
           "upstream": "https://webrpg.org/mi-occ-byteme-lil-necro-game-web/"
         }
       }
@@ -4193,12 +4178,8 @@
     {
       "sourceRepo": "miguelarcjr/lucys-hotel",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/miguelarcjr-lucys-hotel/index.html",
           "upstream": "https://webrpg.org/miguelarcjr-lucys-hotel/"
         }
       }
@@ -6273,6 +6254,27 @@
       }
     },
     {
+      "sourceRepo": "thewhitecanvas/saintseiya_rmmv",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "TheWhiteCanvas-SaintSeiya_RMMV",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/TheWhiteCanvas-SaintSeiya_RMMV/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "webservicesjarm/juego1",
       "differences": {
         "status": {
@@ -6348,12 +6350,8 @@
     {
       "sourceRepo": "miegithub/scholars_journey",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/miegithub-Scholars_Journey/index.html",
           "upstream": "https://webrpg.org/miegithub-Scholars_Journey/"
         }
       }
@@ -6717,12 +6715,8 @@
     {
       "sourceRepo": "tomoshibi06/spectoria",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/tomoshibi06-SPECTORIA/index.html",
           "upstream": "https://webrpg.org/tomoshibi06-SPECTORIA/"
         }
       }
@@ -6834,12 +6828,8 @@
     {
       "sourceRepo": "momoriarty/survivalgame",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/Momoriarty-SurvivalGame/index.html",
           "upstream": "https://webrpg.org/Momoriarty-SurvivalGame/"
         }
       }
@@ -7265,13 +7255,13 @@
     {
       "sourceRepo": "miguelc5172/the-tower",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/miguelc5172-The-Tower/index.html",
           "upstream": "https://webrpg.org/miguelc5172-The-Tower/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "The Tower/index.html"
         }
       }
     },
@@ -7354,6 +7344,27 @@
         "entryPath": {
           "ours": "index.html",
           "upstream": "MV Project Folder/index.html"
+        }
+      }
+    },
+    {
+      "sourceRepo": "tklninja/timbrowser",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "TKLNinja-TIMbrowser",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/TKLNinja-TIMbrowser/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
@@ -8068,12 +8079,8 @@
     {
       "sourceRepo": "tomoshibi06/abcv",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/tomoshibi06-abcv/index.html",
           "upstream": "https://webrpg.org/tomoshibi06-abcv/"
         }
       }
@@ -8160,12 +8167,8 @@
     {
       "sourceRepo": "triacontane/novelgamesample",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/triacontane-NovelGameSample/index.html",
           "upstream": "https://webrpg.org/triacontane-NovelGameSample/"
         }
       }
@@ -8199,12 +8202,8 @@
     {
       "sourceRepo": "tw123777tw/siyutohusiginogakuen",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/tw123777tw-SiyuToHusigiNoGakuen/index.html",
           "upstream": "https://webrpg.org/tw123777tw-SiyuToHusigiNoGakuen/"
         }
       }
