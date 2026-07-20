@@ -54,6 +54,8 @@ The `Prepare fork repositories` workflow runs automatically after the fork workf
 
 It validates the RPG Maker structure, optionally extracts a local cover image, and enables GitHub Pages from the repository default branch and `/`. It does not inject analytics or other third-party scripts.
 
+Each matrix job has a 20-minute hard timeout. Repository HTML inspection prioritizes shallow `index*.html` entries, reads at most 120 candidates with a concurrency of five, and gives every GitHub API request a 30-second timeout. These limits prevent a single web-archive repository containing thousands of HTML files from blocking the entire 40-repository batch and its final `list.json` aggregation.
+
 The public Pages URL path is determined by the repository name. For example, `777723-xyz/example-game` is published at:
 
 ```text
