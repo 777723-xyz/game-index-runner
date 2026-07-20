@@ -25,12 +25,12 @@ jobs:
       target_count: ${{ steps.plan.outputs.target_count }}
     steps:
       - name: Check out index
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Create GitHub App token
         id: app-token
@@ -47,6 +47,8 @@ jobs:
           TARGET_ORG: 777723-xyz
           LIMIT: "40"
           MAX_MATRIX_SIZE: "40"
+          REVALIDATE_AFTER_HOURS: "168"
+          RETRY_COOLDOWN_HOURS: "6"
         run: node scripts/plan-fork-repos.mjs
 
   process:
@@ -60,12 +62,12 @@ jobs:
       matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
     steps:
       - name: Check out index
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Create repository-scoped GitHub App token
         id: app-token
@@ -93,7 +95,7 @@ jobs:
 
       - name: Upload repository result
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: result-${{ matrix.repo }}
           path: workflow-results/*.json
@@ -116,17 +118,17 @@ jobs:
           repositories: game-index-runner
 
       - name: Check out index
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ steps.index-token.outputs.token }}
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Download repository results
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           pattern: result-*
           merge-multiple: true
@@ -149,3 +151,24 @@ jobs:
             git commit -m "Update fork validation metadata"
             git push
           fi
+
+      - name: Create portal dispatch token
+        id: portal-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
+          private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
+          owner: 777723-xyz
+          repositories: 777723-xyz.github.io
+
+      - name: Trigger portal catalog deployment
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ steps.portal-token.outputs.token }}
+        run: |
+          curl --fail-with-body --request POST \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer ${GH_TOKEN}" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/777723-xyz/777723-xyz.github.io/dispatches \
+            --data '{"event_type":"catalog-updated","client_payload":{"source":"game-index-runner"}}'

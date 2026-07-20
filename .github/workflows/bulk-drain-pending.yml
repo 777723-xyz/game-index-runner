@@ -1,17 +1,12 @@
-name: Bulk drain pending repositories
+name: Manual catch-up batch (safe limit)
 
 on:
   workflow_dispatch:
     inputs:
       batch_limit:
-        description: Fork and process count per bulk batch
+        description: Fork and process count for this manual batch (maximum 40)
         required: false
-        default: "100"
-        type: string
-      remaining_batches:
-        description: Including this run; automatically decremented after each batch
-        required: false
-        default: "7"
+        default: "40"
         type: string
 
 permissions:
@@ -32,12 +27,12 @@ jobs:
           client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
           private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
           owner: 777723-xyz
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           token: ${{ steps.app-token.outputs.token }}
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "24"
       - name: Fork pending repositories
         env:
           WEBRPG_FORK_TOKEN: ${{ steps.app-token.outputs.token }}
@@ -65,12 +60,12 @@ jobs:
           client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
           private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
           owner: 777723-xyz
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           token: ${{ steps.app-token.outputs.token }}
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "24"
       - name: Plan bulk validation
         id: plan
         env:
@@ -78,6 +73,8 @@ jobs:
           TARGET_ORG: 777723-xyz
           LIMIT: ${{ inputs.batch_limit }}
           MAX_MATRIX_SIZE: ${{ inputs.batch_limit }}
+          REVALIDATE_AFTER_HOURS: "168"
+          RETRY_COOLDOWN_HOURS: "6"
         run: node scripts/plan-fork-repos.mjs
 
   process:
@@ -87,7 +84,7 @@ jobs:
     timeout-minutes: 20
     strategy:
       fail-fast: false
-      max-parallel: 10
+      max-parallel: 5
       matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
     steps:
       - name: Create repository token
@@ -98,10 +95,10 @@ jobs:
           private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
           owner: 777723-xyz
           repositories: ${{ matrix.repo }}
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "24"
       - name: Validate, prepare and enable Pages
         env:
           WEBRPG_APP_TOKEN: ${{ steps.app-token.outputs.token }}
@@ -116,7 +113,7 @@ jobs:
           HTML_FETCH_CONCURRENCY: "5"
           GITHUB_API_TIMEOUT_MS: "30000"
         run: node scripts/process-fork-repo.mjs
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         if: always()
         with:
           name: result-${{ matrix.repo }}
@@ -136,13 +133,13 @@ jobs:
           private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
           owner: 777723-xyz
           repositories: game-index-runner
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           token: ${{ steps.index-token.outputs.token }}
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: "20"
-      - uses: actions/download-artifact@v4
+          node-version: "24"
+      - uses: actions/download-artifact@v5
         with:
           pattern: result-*
           merge-multiple: true
@@ -158,3 +155,24 @@ jobs:
           git config user.email "webrpg-bot[bot]@users.noreply.github.com"
           git add list.json
           git diff --cached --quiet || (git commit -m "Bulk update fork validation metadata" && git push)
+
+      - name: Create portal dispatch token
+        id: portal-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.WEBRPG_APP_CLIENT_ID }}
+          private-key: ${{ secrets.WEBRPG_APP_PRIVATE_KEY }}
+          owner: 777723-xyz
+          repositories: 777723-xyz.github.io
+
+      - name: Trigger portal catalog deployment
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ steps.portal-token.outputs.token }}
+        run: |
+          curl --fail-with-body --request POST \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer ${GH_TOKEN}" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/777723-xyz/777723-xyz.github.io/dispatches \
+            --data '{"event_type":"catalog-updated","client_payload":{"source":"game-index-runner"}}'

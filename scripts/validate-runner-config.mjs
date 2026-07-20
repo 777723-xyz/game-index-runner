@@ -8,6 +8,7 @@ const paths = {
   legacyFork: ".github/workflows/continuous-fork-scheduler.yml",
   legacyIndex: ".github/workflows/continuous-index-scheduler.yml",
   process: "scripts/process-fork-repo.mjs",
+  forkScript: "scripts/fork-listed-repos.mjs",
 };
 
 const entries = await Promise.all(Object.entries(paths).map(async ([key, path]) => [key, await fs.readFile(path, "utf8")]));
@@ -31,10 +32,15 @@ requireValue(source.fork.includes('CREATE_DELAY_SECONDS: "8"'), "fork delay must
 requireValue(source.prepare.includes('LIMIT: "40"'), "prepare batch limit must be 40");
 requireValue(source.prepare.includes('MAX_MATRIX_SIZE: "40"'), "prepare matrix limit must be 40");
 requireValue(source.prepare.includes("max-parallel: 5"), "prepare parallelism must be 5");
+requireValue(source.prepare.includes('REVALIDATE_AFTER_HOURS: "168"'), "verified recheck interval must be seven days");
+requireValue(source.prepare.includes('RETRY_COOLDOWN_HOURS: "6"'), "check-error cooldown must be six hours");
 requireValue(source.prepare.includes("timeout-minutes: 20"), "prepare jobs need a hard timeout");
 requireValue(source.prepare.includes('DELETE_INVALID_REPOS: "false"'), "prepare must not delete invalid repositories");
 requireValue(source.prepare.includes("SITE_ORIGIN: https://777723-xyz.github.io"), "prepare Pages origin is incorrect");
 requireValue(source.bulk.includes("timeout-minutes: 20"), "bulk jobs need a hard timeout");
+requireValue(source.bulk.includes('default: "40"'), "manual catch-up batch must default to 40");
+requireValue(source.bulk.includes("max-parallel: 5"), "manual catch-up parallelism must be 5");
+requireValue(!source.bulk.includes("remaining_batches"), "bulk workflow must not claim unsupported self-renewal");
 requireValue(!/\bschedule\s*:/.test(source.legacyFork), "legacy fork scheduler must remain manual-only");
 requireValue(!/\bschedule\s*:/.test(source.legacyIndex), "legacy index scheduler must remain manual-only");
 requireValue(!source.legacyFork.includes("repository_dispatch"), "legacy fork self-dispatch must stay disabled");
@@ -42,6 +48,9 @@ requireValue(!source.legacyIndex.includes("repository_dispatch"), "legacy index 
 requireValue(source.process.includes('HTML_MAX_FILES || "120"'), "HTML candidate limit is missing");
 requireValue(source.process.includes('HTML_FETCH_CONCURRENCY || "5"'), "HTML fetch concurrency limit is missing");
 requireValue(source.process.includes('GITHUB_API_TIMEOUT_MS || "30000"'), "GitHub API timeout is missing");
+requireValue(source.forkScript.includes('"hidden"].includes(entry.status)'), "hidden entries must be skipped before forking");
+requireValue(source.prepare.includes("catalog-updated"), "prepare workflow must notify the portal after aggregation");
+requireValue(source.bulk.includes("catalog-updated"), "manual catch-up workflow must notify the portal after aggregation");
 requireValue(!Object.values(source).some((text) => /google-analytics|googletagmanager|gtag\(|matomo|umami|plausible/i.test(text)), "unapproved analytics integration found");
 requireValue(![source.prepare, source.bulk].some((text) => text.includes("ANALYTICS_SCRIPT_TAG")), "game source injection must stay disabled");
 

@@ -25,14 +25,14 @@ jobs:
           owner: 777723-xyz
 
       - name: Check out index
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ steps.app-token.outputs.token }}
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Fork repositories
         continue-on-error: true

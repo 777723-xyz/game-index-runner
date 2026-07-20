@@ -54,6 +54,9 @@ const updated = list.map((entry) => {
       owner: fixedOwner,
       name: fixedName,
       sourceRepo,
+      lastCheckError: undefined,
+      invalidReason: undefined,
+      deletedAt: undefined,
     });
   }
 
@@ -70,6 +73,7 @@ const updated = list.map((entry) => {
       pagesUrl: undefined,
       entryPath: undefined,
       validationScore: result.validationScore,
+      lastCheckError: undefined,
     });
   }
 

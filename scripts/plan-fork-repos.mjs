@@ -6,6 +6,8 @@ const token = process.env.WEBRPG_APP_TOKEN || process.env.GITHUB_TOKEN || "";
 const targetOrg = process.env.TARGET_ORG || "777723-xyz";
 const limit = parseNonNegativeInt(process.env.LIMIT || "0");
 const maxMatrixSize = parseNonNegativeInt(process.env.MAX_MATRIX_SIZE || "256");
+const revalidateAfterHours = parsePositiveInt(process.env.REVALIDATE_AFTER_HOURS || "168");
+const retryCooldownHours = parsePositiveInt(process.env.RETRY_COOLDOWN_HOURS || "6");
 
 if (!token) {
   throw new Error("WEBRPG_APP_TOKEN or GITHUB_TOKEN is required.");
@@ -15,8 +17,10 @@ const list = JSON.parse(await fs.readFile("list.json", "utf8"));
 const indexedSources = getUniqueSources(list);
 const indexedByName = new Map(indexedSources.map((item) => [item.forkName.toLowerCase(), item]));
 const orgRepos = await loadOrgRepos(targetOrg);
+const now = Date.now();
 const targets = orgRepos
   .filter((repo) => repo.fork && indexedByName.has(repo.name.toLowerCase()))
+  .filter((repo) => shouldValidate(indexedByName.get(repo.name.toLowerCase()), now))
   .sort((left, right) => {
     const leftIndex = indexedByName.get(left.name.toLowerCase());
     const rightIndex = indexedByName.get(right.name.toLowerCase());
@@ -43,6 +47,7 @@ const matrix = {
 console.log(`Indexed source repositories: ${indexedByName.size}`);
 console.log(`Fork repositories in ${targetOrg}: ${targets.length}`);
 console.log(`Repositories in this run: ${planned.length}`);
+console.log(`Verified recheck interval: ${revalidateAfterHours}h; retry cooldown: ${retryCooldownHours}h.`);
 
 await writeOutput("matrix", JSON.stringify(matrix));
 await writeOutput("has_targets", planned.length > 0 ? "true" : "false");
@@ -129,7 +134,28 @@ function isSkippedEntry(entry) {
 }
 
 function validationPriority(entry) {
-  return entry.status === "verified" ? 1 : 0;
+  return entry.status === "verified" ? 1 : entry.lastCheckError ? 2 : 0;
+}
+
+function shouldValidate(entry, timestamp) {
+  if (!entry) return false;
+
+  const ageHours = checkedAgeHours(entry.checkedAt, timestamp);
+  if (entry.status === "verified") {
+    return ageHours === null || ageHours >= revalidateAfterHours;
+  }
+
+  if (entry.lastCheckError) {
+    return ageHours === null || ageHours >= retryCooldownHours;
+  }
+
+  return true;
+}
+
+function checkedAgeHours(value, timestamp) {
+  const checkedAt = new Date(value || 0).valueOf();
+  if (!Number.isFinite(checkedAt) || checkedAt <= 0) return null;
+  return Math.max(0, (timestamp - checkedAt) / 3_600_000);
 }
 
 async function githubRequest(path, options = {}) {
@@ -183,6 +209,12 @@ function parseNonNegativeInt(value) {
     throw new Error(`LIMIT must be a non-negative integer, got ${value}.`);
   }
 
+  return parsed;
+}
+
+function parsePositiveInt(value) {
+  const parsed = parseNonNegativeInt(value);
+  if (parsed <= 0) throw new Error(`Expected a positive integer, got ${value}.`);
   return parsed;
 }
 

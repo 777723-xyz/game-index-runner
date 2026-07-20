@@ -204,7 +204,7 @@ function makeForkName(owner, name) {
 }
 
 function isInvalidEntry(entry) {
-  return ["invalid_structure", "deleted_invalid_structure", "duplicate_name"].includes(entry.status);
+  return ["invalid_structure", "deleted_invalid_structure", "duplicate_name", "hidden"].includes(entry.status);
 }
 
 async function loadExistingOrgRepos(org) {
