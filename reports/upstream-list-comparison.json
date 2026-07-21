@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T23:28:34.967Z",
+  "generatedAt": "2026-07-21T03:50:24.771Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 854,
   "upstreamTotal": 854,
@@ -298,12 +298,8 @@
     {
       "sourceRepo": "yuukiogino/projecttogebutraial",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/YuukiOgino-ProjectTogebuTraial/index.html",
           "upstream": "https://webrpg.org/YuukiOgino-ProjectTogebuTraial/"
         }
       }
@@ -359,12 +355,8 @@
     {
       "sourceRepo": "yinshi91/game",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/yinshi91-game/index.html",
           "upstream": "https://webrpg.org/yinshi91-game/"
         }
       }
@@ -372,12 +364,8 @@
     {
       "sourceRepo": "yinshi91/game_3",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/yinshi91-game_3/index.html",
           "upstream": "https://webrpg.org/yinshi91-game_3/"
         }
       }
@@ -394,12 +382,8 @@
     {
       "sourceRepo": "xlanwux/travelindoomwithyou",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/xlanwux-TravelInDoomWithYou/index.html",
           "upstream": "https://webrpg.org/xlanwux-TravelInDoomWithYou/"
         }
       }
@@ -526,12 +510,8 @@
     {
       "sourceRepo": "zhuobinggang/decision_maker-rpg-game-",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/zhuobinggang-decision_maker-RPG-game/index.html",
           "upstream": "https://webrpg.org/zhuobinggang-decision_maker-RPG-game/"
         }
       }
@@ -615,7 +595,15 @@
       "sourceRepo": "whiterrabbit3672/touhou-ghostfairy-do-people",
       "differences": {
         "status": {
-          "ours": "indexed",
+          "ours": "verified",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/whiterrabbit3672-touhou-GhostFairy-do-people/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
           "upstream": null
         }
       }
@@ -998,12 +986,8 @@
     {
       "sourceRepo": "zenhanyin/rpgmakerdemo",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/zenhanyin-RPGmakerdemo/index.html",
           "upstream": "https://webrpg.org/zenhanyin-RPGmakerdemo/"
         }
       }
@@ -1494,13 +1478,13 @@
     {
       "sourceRepo": "william-52021008/rpg-whw",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/William-52021008-RPG-WHW/index.html",
           "upstream": "https://webrpg.org/William-52021008-RPG-WHW/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "WHW TA/index.html"
         }
       }
     },
@@ -1806,6 +1790,19 @@
         },
         "entryPath": {
           "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
+      "sourceRepo": "ymillan-2011/rickrolled-games-v3",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "ymillan-2011-Rickrolled-Games-V3",
           "upstream": null
         }
       }
@@ -3238,12 +3235,8 @@
     {
       "sourceRepo": "yancharkin/game_jams",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/yancharkin-game_jams/index.html",
           "upstream": "https://webrpg.org/yancharkin-game_jams/"
         }
       }
@@ -3721,6 +3714,27 @@
       }
     },
     {
+      "sourceRepo": "yumetsukiiii/irotoridorino_sekai_game",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "yumeTsukiiii-irotoridorino_sekai_game",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/yumeTsukiiii-irotoridorino_sekai_game/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "thomazdevmaster/iso25k-square-rpg",
       "differences": {
         "status": {
@@ -3757,13 +3771,13 @@
     {
       "sourceRepo": "thomazdevmaster/matematica",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/thomazdevmaster-matematica/index.html",
           "upstream": "https://webrpg.org/thomazdevmaster-matematica/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Output/matematica/www/index.html"
         }
       }
     },
@@ -3972,6 +3986,27 @@
       }
     },
     {
+      "sourceRepo": "wongcyrus/k8s-isekai",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "wongcyrus-k8s-isekai",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/wongcyrus-k8s-isekai/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "heronat/si28_test",
       "differences": {
         "status": {
@@ -4107,13 +4142,13 @@
     {
       "sourceRepo": "yuhan2680/level-c-1366_demo",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/yuhan2680-Level-C-1366_Demo/index.html",
           "upstream": "https://webrpg.org/yuhan2680-Level-C-1366_Demo/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Level C-1366/index.html"
         }
       }
     },
@@ -4772,12 +4807,8 @@
     {
       "sourceRepo": "zhiwei-zhiwei/game_rpgmaker_magicnomagic",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/zhiwei-zhiwei-Game_RPGMaker_MagicnoMagic/index.html",
           "upstream": "https://webrpg.org/zhiwei-zhiwei-Game_RPGMaker_MagicnoMagic/"
         }
       }
@@ -5691,13 +5722,13 @@
     {
       "sourceRepo": "x451f/campus-rpg",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/x451F-Campus-RPG/index.html",
           "upstream": "https://webrpg.org/x451F-Campus-RPG/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "frontend/public/phaser/map/RPGMV/Project1/index.html"
         }
       }
     },
@@ -6469,6 +6500,27 @@
       }
     },
     {
+      "sourceRepo": "zkrejcov/rmmv-plugins",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "zkrejcov-rmmv-plugins",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/zkrejcov-rmmv-plugins/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "ec-developer-hub/virusssss",
       "differences": {
         "status": {
@@ -6771,12 +6823,12 @@
     {
       "sourceRepo": "tklninja/spectoria-eng",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
+        "forkName": {
+          "ours": "WebRPG-Translations-Spectoria-Eng-CN",
+          "upstream": "TKLNinja-Spectoria-Eng"
         },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/WebRPG-Translations-Spectoria-Eng-CN/index.html",
           "upstream": "https://webrpg.org/TKLNinja-Spectoria-Eng/"
         }
       }
@@ -6840,13 +6892,13 @@
     {
       "sourceRepo": "teyplays/starfall-sanctuary",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/teyplays-starfall-sanctuary/index.html",
           "upstream": "https://webrpg.org/teyplays-starfall-sanctuary/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Starfall Sanctuary/index.html"
         }
       }
     },
@@ -7389,13 +7441,13 @@
     {
       "sourceRepo": "thomassuu/the-others",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/thomassuu-The-Others/index.html",
           "upstream": "https://webrpg.org/thomassuu-The-Others/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "The_Others/index.html"
         }
       }
     },
@@ -7540,12 +7592,8 @@
     {
       "sourceRepo": "xymol/tsmgi",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/xymol-tsmgi/index.html",
           "upstream": "https://webrpg.org/xymol-tsmgi/"
         }
       }
@@ -7689,12 +7737,8 @@
     {
       "sourceRepo": "urrezkokaiola/terminal7",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/UrrezkoKaiola-terminal7/index.html",
           "upstream": "https://webrpg.org/UrrezkoKaiola-terminal7/"
         }
       }
@@ -7711,13 +7755,13 @@
     {
       "sourceRepo": "zoujiahuan/thegame4muse",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/zoujiahuan-TheGame4Muse/index.html",
           "upstream": "https://webrpg.org/zoujiahuan-TheGame4Muse/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Project/10th_end/index.html"
         }
       }
     },
@@ -7916,6 +7960,27 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/andredarcie-zero-to-one/index.html",
           "upstream": "https://webrpg.org/andredarcie-zero-to-one/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "wolverinexxxxxz/sat-muhammed-ali-ture",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "Wolverinexxxxxz-Sat-Muhammed-Ali-Ture",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/Wolverinexxxxxz-Sat-Muhammed-Ali-Ture/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
