@@ -1,19 +1,11 @@
 {
-  "generatedAt": "2026-07-21T18:43:49.908Z",
+  "generatedAt": "2026-07-21T20:39:18.918Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 855,
-  "upstreamTotal": 854,
-  "shared": 854,
+  "upstreamTotal": 855,
+  "shared": 855,
   "upstreamOnly": [],
-  "localOnly": [
-    {
-      "id": "paraztekhitr-debug-adventure-call",
-      "sourceRepo": "paraztekhitr-debug/adventure-call",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    }
-  ],
+  "localOnly": [],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -1246,6 +1238,27 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/blocklet-rpgmaker-demo/index.html",
           "upstream": "https://webrpg.org/blocklet-rpgmaker-demo/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "paraztekhitr-debug/adventure-call",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "paraztekhitr-debug-Adventure-Call",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/paraztekhitr-debug-Adventure-Call/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
