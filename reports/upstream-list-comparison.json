@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T12:03:37.129Z",
+  "generatedAt": "2026-07-21T14:27:43.345Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 854,
   "upstreamTotal": 854,
@@ -7360,12 +7360,8 @@
     {
       "sourceRepo": "ikutronhd/touhou-era",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/IkuTronHD-Touhou-Era/index.html",
           "upstream": "https://webrpg.org/IkuTronHD-Touhou-Era/"
         }
       }
