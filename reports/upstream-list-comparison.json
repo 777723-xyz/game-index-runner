@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-23T12:05:46.411Z",
+  "generatedAt": "2026-07-23T14:37:09.379Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 858,
+  "localTotal": 859,
   "upstreamTotal": 856,
   "shared": 856,
   "upstreamOnly": [],
@@ -10,6 +10,13 @@
       "id": "jsnb21-sci-high-website",
       "sourceRepo": "webrpg-org/jsnb21-sci-high_website",
       "status": "verified",
+      "forkName": "jsnb21-SCI-HIGH_WEBSITE",
+      "pagesUrl": "https://777723-xyz.github.io/jsnb21-SCI-HIGH_WEBSITE/index.html"
+    },
+    {
+      "id": "jsnb21-sci-high-website",
+      "sourceRepo": "webrpg-org/jsnb21-sci-high_website",
+      "status": "duplicate_name",
       "forkName": "jsnb21-SCI-HIGH_WEBSITE",
       "pagesUrl": "https://777723-xyz.github.io/jsnb21-SCI-HIGH_WEBSITE/index.html"
     },
@@ -1752,6 +1759,19 @@
         },
         "entryPath": {
           "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
+      "sourceRepo": "funny-shooter-22/funny-shooter-22.github.io",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "funny-shooter-22-funny-shooter-22.github.io",
           "upstream": null
         }
       }
