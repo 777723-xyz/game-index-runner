@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T00:16:07.887Z",
+  "generatedAt": "2026-07-23T03:50:36.787Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 855,
   "upstreamTotal": 855,
@@ -472,13 +472,13 @@
     {
       "sourceRepo": "tw123777tw/juyanshe",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/tw123777tw-juyanshe/index.html",
           "upstream": "https://webrpg.org/tw123777tw-juyanshe/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Android/assets/www/index.html"
         }
       }
     },
