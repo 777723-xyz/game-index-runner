@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T22:18:56.372Z",
+  "generatedAt": "2026-07-23T00:16:07.887Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 855,
   "upstreamTotal": 855,
@@ -7504,13 +7504,13 @@
     {
       "sourceRepo": "urrezkokaiola/gaiden-two",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/UrrezkoKaiola-gaiden-two/index.html",
           "upstream": "https://webrpg.org/UrrezkoKaiola-gaiden-two/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "totally-cool-not-rigged-board-game/index.html"
         }
       }
     },
