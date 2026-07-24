@@ -68,6 +68,7 @@ requireValue(source.runtimeScript.includes("page.waitForFunction"), "runtime che
 requireValue(source.runtimeScript.includes("resolveGameUrl(game)"), "runtime checker must combine Pages URL and entryPath");
 requireValue(source.runtimeScript.includes("serviceWorkers: \"allow\""), "runtime checker must not disable game service workers");
 requireValue(source.runtimeLib.includes("runtimeFailureCount"), "runtime checker must retain transient failure state");
+requireValue(source.runtimeLib.includes("hasChineseTitle(right.entry.title)"), "runtime batches must prioritize Chinese titles");
 requireValue(!Object.values(source).some((text) => /google-analytics|googletagmanager|gtag\(|matomo|umami|plausible/i.test(text)), "unapproved analytics integration found");
 requireValue(![source.prepare, source.bulk].some((text) => text.includes("ANALYTICS_SCRIPT_TAG")), "game source injection must stay disabled");
 

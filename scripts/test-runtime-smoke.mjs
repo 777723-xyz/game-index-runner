@@ -4,13 +4,14 @@ import { applyRuntimeResults, resolveGameUrl, selectRuntimeTargets } from "./run
 const now = new Date("2026-07-24T12:00:00Z");
 const list = [
   { id: "new-game", status: "verified", pagesUrl: "https://777723-xyz.github.io/new/" },
+  { id: "new-chinese", title: "中文冒险", status: "verified", pagesUrl: "https://777723-xyz.github.io/chinese/" },
   { id: "recent-playable", status: "verified", pagesUrl: "https://777723-xyz.github.io/recent/", runtimeStatus: "playable", runtimeCheckedAt: "2026-07-24T11:00:00Z" },
   { id: "old-playable", status: "verified", pagesUrl: "https://777723-xyz.github.io/old/", runtimeStatus: "playable", runtimeCheckedAt: "2026-07-01T00:00:00Z" },
   { id: "retry-me", status: "verified", pagesUrl: "https://777723-xyz.github.io/retry/", runtimeFailureCount: 1, runtimeCheckedAt: "2026-07-24T00:00:00Z" },
   { id: "foreign", status: "verified", pagesUrl: "https://example.com/foreign/" },
 ];
 
-assert.deepEqual(selectRuntimeTargets(list, { now, limit: 4 }).map((entry) => entry.id), ["new-game", "retry-me", "old-playable"]);
+assert.deepEqual(selectRuntimeTargets(list, { now, limit: 4 }).map((entry) => entry.id), ["new-chinese", "new-game", "retry-me", "old-playable"]);
 assert.equal(resolveGameUrl({ pagesUrl: "https://777723-xyz.github.io/nested/", entryPath: "MapOnly/index.html" }), "https://777723-xyz.github.io/nested/MapOnly/index.html");
 const firstFailure = applyRuntimeResults(list, [{ id: "new-game", ok: false, error: "timeout" }], now);
 assert.equal(firstFailure[0].runtimeStatus, undefined);

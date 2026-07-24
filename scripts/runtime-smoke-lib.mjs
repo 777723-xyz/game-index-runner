@@ -15,6 +15,7 @@ export function selectRuntimeTargets(list, options = {}) {
     .map((entry) => ({ entry, priority: targetPriority(entry, now, retryCooldownMs, revalidateAfterMs) }))
     .filter((item) => item.priority !== null)
     .sort((left, right) => left.priority - right.priority
+      || Number(hasChineseTitle(right.entry.title)) - Number(hasChineseTitle(left.entry.title))
       || Date.parse(left.entry.runtimeCheckedAt || "") - Date.parse(right.entry.runtimeCheckedAt || "")
       || String(left.entry.id).localeCompare(String(right.entry.id), "en"))
     .slice(0, limit)
@@ -67,6 +68,11 @@ export function resolveGameUrl(game) {
   if (/\.html?$/i.test(base.pathname) || decodedPath.replace(/^\/+/, "").endsWith(entry)) return base.href;
   const normalized = base.href.endsWith("/") ? base.href : `${base.href}/`;
   return new URL(entry, normalized).href;
+}
+
+function hasChineseTitle(value) {
+  const title = String(value || "");
+  return /\p{Script=Han}/u.test(title) && !/[\p{Script=Hiragana}\p{Script=Katakana}]/u.test(title);
 }
 
 function targetPriority(entry, now, retryCooldownMs, revalidateAfterMs) {
