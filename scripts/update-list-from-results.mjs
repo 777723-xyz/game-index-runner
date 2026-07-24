@@ -78,6 +78,12 @@ const updated = list.map((entry) => {
       entryPath: undefined,
       validationScore: result.validationScore,
       lastCheckError: undefined,
+      runtimeStatus: undefined,
+      runtimeCheckedAt: undefined,
+      runtimeLoadMs: undefined,
+      runtimeHttpStatus: undefined,
+      runtimeFailureCount: undefined,
+      runtimeLastError: undefined,
     });
   }
 

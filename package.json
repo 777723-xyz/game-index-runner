@@ -1,0 +1,11 @@
+{
+  "name": "777723-game-index-runner",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:runtime": "node scripts/test-runtime-smoke.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.61.1"
+  }
+}

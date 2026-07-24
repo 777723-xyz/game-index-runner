@@ -94,3 +94,7 @@ The supplied workflow keeps invalid forks (`DELETE_INVALID_REPOS=false`) for ins
 Cover URLs are inferred from files in the fork, prioritizing RPG Maker paths such as `icon/icon.png`, `img/titles1/*`, `img/titles2/*`, and `img/pictures/*`.
 
 Entries marked `invalid_structure` are skipped by the fork workflow so they are not recreated on the next fork run.
+
+## Browser Runtime Smoke Workflow
+
+`runtime-smoke-test.yml` runs twice per hour as a separate chain. Each batch checks up to 15 own-Pages games with five Chromium workers and a 30-second per-game deadline. A visible nonzero Canvas records `runtimeStatus: playable`; the first timeout only increments `runtimeFailureCount`, and two consecutive failures are required before recording `runtimeStatus: failed`. Games are never deleted or hidden by this check. Results are written to `list.json` and trigger the portal deployment when they change. Playwright/Chromium adds Actions time and bandwidth usage; use the manual input to run a smaller batch when needed.

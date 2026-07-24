@@ -9,6 +9,9 @@ const paths = {
   legacyIndex: ".github/workflows/continuous-index-scheduler.yml",
   process: "scripts/process-fork-repo.mjs",
   forkScript: "scripts/fork-listed-repos.mjs",
+  runtimeWorkflow: ".github/workflows/runtime-smoke-test.yml",
+  runtimeScript: "scripts/runtime-smoke-test.mjs",
+  runtimeLib: "scripts/runtime-smoke-lib.mjs",
 };
 
 const entries = await Promise.all(Object.entries(paths).map(async ([key, path]) => [key, await fs.readFile(path, "utf8")]));
@@ -51,6 +54,18 @@ requireValue(source.process.includes('GITHUB_API_TIMEOUT_MS || "30000"'), "GitHu
 requireValue(source.forkScript.includes('"hidden"].includes(entry.status)'), "hidden entries must be skipped before forking");
 requireValue(source.prepare.includes("catalog-updated"), "prepare workflow must notify the portal after aggregation");
 requireValue(source.bulk.includes("catalog-updated"), "manual catch-up workflow must notify the portal after aggregation");
+requireValue(source.runtimeWorkflow.includes('cron: "7,37 * * * *"'), "runtime smoke test must run twice per hour");
+requireValue(source.runtimeWorkflow.includes('default: "15"'), "runtime smoke test batch must default to 15");
+requireValue(source.runtimeWorkflow.includes('LIMIT: ${{ inputs.batch_limit || \'15\' }}'), "runtime smoke test input is not wired");
+requireValue(source.runtimeWorkflow.includes('CONCURRENCY: "5"'), "runtime smoke test concurrency must be 5");
+requireValue(source.runtimeWorkflow.includes('RUNTIME_TIMEOUT_MS: "30000"'), "runtime smoke test timeout must be 30 seconds");
+requireValue(source.runtimeWorkflow.includes("npx playwright install --with-deps chromium"), "runtime smoke test must install a pinned browser");
+requireValue(source.runtimeWorkflow.includes("Record browser runtime checks"), "runtime results must be committed");
+requireValue(source.runtimeWorkflow.includes("runtime-smoke-test"), "runtime results must notify the portal");
+requireValue(source.runtimeScript.includes("page.waitForFunction"), "runtime checker must wait for a real canvas");
+requireValue(source.runtimeScript.includes("resolveGameUrl(game)"), "runtime checker must combine Pages URL and entryPath");
+requireValue(source.runtimeScript.includes("serviceWorkers: \"allow\""), "runtime checker must not disable game service workers");
+requireValue(source.runtimeLib.includes("runtimeFailureCount"), "runtime checker must retain transient failure state");
 requireValue(!Object.values(source).some((text) => /google-analytics|googletagmanager|gtag\(|matomo|umami|plausible/i.test(text)), "unapproved analytics integration found");
 requireValue(![source.prepare, source.bulk].some((text) => text.includes("ANALYTICS_SCRIPT_TAG")), "game source injection must stay disabled");
 

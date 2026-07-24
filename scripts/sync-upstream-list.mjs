@@ -76,6 +76,12 @@ function mergeUpstream(remote, localEntry) {
     entry.validationScore = localEntry.validationScore;
     entry.totalSize = localEntry.totalSize;
     entry.dataSize = localEntry.dataSize;
+    entry.runtimeStatus = localEntry.runtimeStatus;
+    entry.runtimeCheckedAt = localEntry.runtimeCheckedAt;
+    entry.runtimeLoadMs = localEntry.runtimeLoadMs;
+    entry.runtimeHttpStatus = localEntry.runtimeHttpStatus;
+    entry.runtimeFailureCount = localEntry.runtimeFailureCount;
+    entry.runtimeLastError = localEntry.runtimeLastError;
   } else if (["invalid_structure", "check_error", "duplicate_name", "hidden"].includes(localEntry.status)) {
     entry.status = localEntry.status;
     entry.checkedAt = localEntry.checkedAt;
