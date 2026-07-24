@@ -30,10 +30,9 @@ const updated = list.map((entry) => {
   if (result.status === "verified") {
     verified += 1;
 
-    // If the result has a sourceRepo (original upstream repository),
-    // update the repo/owner/name fields so "Source" link points to
-    // the original author, not the fork under WebRPG-org.
-    const sourceRepo = result.sourceRepo || "";
+    // Preserve an already-known original source. A fork can have another
+    // publisher's mirror as its GitHub parent, which is not the game author.
+    const sourceRepo = preferredSourceRepo(entry.sourceRepo, result.sourceRepo);
     const fixedRepo = sourceRepo ? `https://github.com/${sourceRepo}` : entry.repo;
     const fixedOwner = sourceRepo ? sourceRepo.split("/")[0] : entry.owner;
     const fixedName = sourceRepo ? sourceRepo.split("/")[1] : entry.name;
@@ -53,7 +52,7 @@ const updated = list.map((entry) => {
       repo: fixedRepo,
       owner: fixedOwner,
       name: fixedName,
-      sourceRepo,
+      sourceRepo: sourceRepo || undefined,
       lastCheckError: undefined,
       invalidReason: undefined,
       deletedAt: undefined,
@@ -189,6 +188,26 @@ function makeForkName(owner, name) {
   }
 
   return `${safe.slice(0, 91).replace(/[.-]+$/g, "")}-${shortHash(raw)}`;
+}
+
+function preferredSourceRepo(knownSource, resultSource) {
+  const known = normalizeSourceRepo(knownSource);
+  if (known && !isPublisherMirror(known)) return known;
+
+  const result = normalizeSourceRepo(resultSource);
+  if (result && !isPublisherMirror(result)) return result;
+
+  return "";
+}
+
+function normalizeSourceRepo(value) {
+  const match = String(value || "").trim().match(/^([^/\s]+)\/([^/\s]+)$/);
+  return match ? `${match[1]}/${match[2]}` : "";
+}
+
+function isPublisherMirror(sourceRepo) {
+  const owner = sourceRepo.split("/", 1)[0].toLowerCase();
+  return owner === "webrpg-org" || owner === "777723-xyz";
 }
 
 function cleanObject(value) {

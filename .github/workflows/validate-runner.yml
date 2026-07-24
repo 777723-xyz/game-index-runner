@@ -26,3 +26,4 @@ jobs:
         run: |
           for file in scripts/*.mjs; do node --check "$file"; done
           node scripts/validate-runner-config.mjs
+          node scripts/test-catalog-identity.mjs
