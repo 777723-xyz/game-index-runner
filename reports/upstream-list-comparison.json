@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-24T06:42:47.994Z",
+  "generatedAt": "2026-07-24T09:37:47.465Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 867,
+  "localTotal": 868,
   "upstreamTotal": 856,
   "shared": 856,
   "upstreamOnly": [],
@@ -10,6 +10,13 @@
       "id": "jsnb21-sci-high-website",
       "sourceRepo": "webrpg-org/jsnb21-sci-high_website",
       "status": "verified",
+      "forkName": "jsnb21-SCI-HIGH_WEBSITE",
+      "pagesUrl": "https://777723-xyz.github.io/jsnb21-SCI-HIGH_WEBSITE/index.html"
+    },
+    {
+      "id": "jsnb21-sci-high-website",
+      "sourceRepo": "webrpg-org/jsnb21-sci-high_website",
+      "status": "duplicate_name",
       "forkName": "jsnb21-SCI-HIGH_WEBSITE",
       "pagesUrl": "https://777723-xyz.github.io/jsnb21-SCI-HIGH_WEBSITE/index.html"
     },
