@@ -3095,7 +3095,11 @@
     "upstreamCover": "https://webrpg.org/AILab-FOI-AIWorld/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/AILab-FOI-AIWorld/index.html",
-    "cover": "https://777723-xyz.github.io/AILab-FOI-AIWorld/cover.png"
+    "cover": "https://777723-xyz.github.io/AILab-FOI-AIWorld/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-24T21:15:15.864Z",
+    "runtimeLoadMs": 1081,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "hacksider-alpha-chronicles",
@@ -6761,7 +6765,11 @@
     "validationScore": 118,
     "totalSize": 281762,
     "dataSize": 14456184,
-    "forkName": "akanetr-Divirtual"
+    "forkName": "akanetr-Divirtual",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-24T21:15:16.952Z",
+    "runtimeLoadMs": 1247,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "tomoshibi06-divirtualdemo",
@@ -6947,7 +6955,11 @@
     "validationScore": 118,
     "totalSize": 843935,
     "dataSize": 1187439,
-    "forkName": "AdanRafli-Dreamcore-X1"
+    "forkName": "AdanRafli-Dreamcore-X1",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-24T21:15:15.232Z",
+    "runtimeLoadMs": 1130,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "happyfp-dreamsdestiny",
@@ -10283,7 +10295,11 @@
     "upstreamCover": "https://webrpg.org/akanetr-devil_sword/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/akanetr-devil_sword/index.html",
-    "cover": "https://777723-xyz.github.io/akanetr-devil_sword/cover.png"
+    "cover": "https://777723-xyz.github.io/akanetr-devil_sword/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-24T21:15:17.185Z",
+    "runtimeLoadMs": 1598,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "blairwilcox-magic-battle",
@@ -12786,7 +12802,11 @@
     "upstreamCover": "https://webrpg.org/AAK581-Polkadot-Cats-Game/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/AAK581-Polkadot-Cats-Game/index.html",
-    "cover": "https://777723-xyz.github.io/AAK581-Polkadot-Cats-Game/cover.png"
+    "cover": "https://777723-xyz.github.io/AAK581-Polkadot-Cats-Game/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-24T21:15:14.062Z",
+    "runtimeLoadMs": 1999,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "ec-developer-hub-powerrrr",
@@ -14062,7 +14082,11 @@
     "upstreamCover": "https://webrpg.org/Agus-Sosa-ReactMonster/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Agus-Sosa-ReactMonster/Client/client/public/rpg/Rm/www/index.html",
-    "cover": "https://777723-xyz.github.io/Agus-Sosa-ReactMonster/cover.png"
+    "cover": "https://777723-xyz.github.io/Agus-Sosa-ReactMonster/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-24T21:15:15.678Z",
+    "runtimeLoadMs": 1071,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "teamcstudios-realmtiers",
@@ -14420,7 +14444,11 @@
     "upstreamCover": "https://webrpg.org/Aguiano18-Rpg.maker/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Aguiano18-Rpg.maker/index.html",
-    "cover": "https://777723-xyz.github.io/Aguiano18-Rpg.maker/cover.png"
+    "cover": "https://777723-xyz.github.io/Aguiano18-Rpg.maker/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-24T21:15:15.579Z",
+    "runtimeLoadMs": 1249,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "rorythegame-roryrpg",
@@ -14486,7 +14514,11 @@
     "validationScore": 118,
     "totalSize": 416741,
     "dataSize": 671869,
-    "forkName": "a2937-RPG-Maker-MV-Test-Template"
+    "forkName": "a2937-RPG-Maker-MV-Test-Template",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-24T21:15:13.368Z",
+    "runtimeLoadMs": 1305,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "lokilyn-rpgmakermv",
@@ -15025,7 +15057,11 @@
     "sourceRepo": "AAK581/blokkat-arabicblockchain-developer-bootcamp-graduation-project",
     "upstreamPagesUrl": "https://webrpg.org/AAK581-blokkat-arabicblockchain-developer-bootcamp-graduation-project/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/AAK581-blokkat-arabicblockchain-developer-bootcamp-graduation-project/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/AAK581-blokkat-arabicblockchain-developer-bootcamp-graduation-project/index.html",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-24T21:15:14.581Z",
+    "runtimeLoadMs": 2518,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "aak581-rpg-game-sepolia-cats",
@@ -15047,7 +15083,11 @@
     "sourceRepo": "AAK581/rpg-game-sepolia-cats",
     "upstreamPagesUrl": "https://webrpg.org/AAK581-rpg-game-sepolia-cats/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/AAK581-rpg-game-sepolia-cats/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/AAK581-rpg-game-sepolia-cats/index.html",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-24T21:15:14.141Z",
+    "runtimeLoadMs": 2078,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "aak581-testnet-cats-dapp",
@@ -15069,7 +15109,11 @@
     "sourceRepo": "AAK581/testnet-cats-dapp",
     "upstreamPagesUrl": "https://webrpg.org/AAK581-testnet-cats-dapp/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/AAK581-testnet-cats-dapp/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/AAK581-testnet-cats-dapp/index.html",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-24T21:15:15.287Z",
+    "runtimeLoadMs": 1899,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "blixuk-settelment",
@@ -15801,7 +15845,11 @@
     "upstreamCover": "https://webrpg.org/AILab-FOI-svjetovi-znanja/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/AILab-FOI-svjetovi-znanja/index.html",
-    "cover": "https://777723-xyz.github.io/AILab-FOI-svjetovi-znanja/cover.png"
+    "cover": "https://777723-xyz.github.io/AILab-FOI-svjetovi-znanja/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-24T21:15:16.684Z",
+    "runtimeLoadMs": 1424,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "hyperpixel-212-tales-of-atheria",
@@ -17485,7 +17533,11 @@
     "upstreamCover": "https://webrpg.org/Abner1710-Goty-rpg/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Abner1710-Goty-rpg/index.html",
-    "cover": "https://777723-xyz.github.io/Abner1710-Goty-rpg/cover.png"
+    "cover": "https://777723-xyz.github.io/Abner1710-Goty-rpg/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-24T21:15:14.774Z",
+    "runtimeLoadMs": 1224,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "zoujiahuan-thegame4muse",
@@ -18657,7 +18709,11 @@
     "upstreamCover": "https://webrpg.org/akanetr-Bounty_Hunter_3/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/akanetr-Bounty_Hunter_3/index.html",
-    "cover": "https://777723-xyz.github.io/akanetr-Bounty_Hunter_3/cover.png"
+    "cover": "https://777723-xyz.github.io/akanetr-Bounty_Hunter_3/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-24T21:15:16.635Z",
+    "runtimeLoadMs": 1310,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "catbread00-www",
@@ -18795,7 +18851,11 @@
     "upstreamCover": "https://webrpg.org/a12204002-RyujiAtsuta-Eboshi_web/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/a12204002-RyujiAtsuta-Eboshi_web/index.html",
-    "cover": "https://777723-xyz.github.io/a12204002-RyujiAtsuta-Eboshi_web/cover.png"
+    "cover": "https://777723-xyz.github.io/a12204002-RyujiAtsuta-Eboshi_web/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-24T21:15:13.540Z",
+    "runtimeLoadMs": 1477,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "triacontane-loadingtest",
