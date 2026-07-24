@@ -59,7 +59,9 @@ requireValue(source.runtimeWorkflow.includes('default: "15"'), "runtime smoke te
 requireValue(source.runtimeWorkflow.includes('LIMIT: ${{ inputs.batch_limit || \'15\' }}'), "runtime smoke test input is not wired");
 requireValue(source.runtimeWorkflow.includes('CONCURRENCY: "5"'), "runtime smoke test concurrency must be 5");
 requireValue(source.runtimeWorkflow.includes('RUNTIME_TIMEOUT_MS: "30000"'), "runtime smoke test timeout must be 30 seconds");
-requireValue(source.runtimeWorkflow.includes("npx playwright install --with-deps chromium"), "runtime smoke test must install a pinned browser");
+requireValue(source.runtimeWorkflow.includes("Use preinstalled Chrome"), "runtime smoke test must use the hosted runner browser");
+requireValue(source.runtimeWorkflow.includes('echo "CHROME_PATH=$browser" >> "$GITHUB_ENV"'), "runtime smoke test does not expose the hosted browser path");
+requireValue(!source.runtimeWorkflow.includes("playwright install"), "runtime smoke test must not download a duplicate browser");
 requireValue(source.runtimeWorkflow.includes("Record browser runtime checks"), "runtime results must be committed");
 requireValue(source.runtimeWorkflow.includes("runtime-smoke-test"), "runtime results must notify the portal");
 requireValue(source.runtimeScript.includes("page.waitForFunction"), "runtime checker must wait for a real canvas");

@@ -46,8 +46,16 @@ jobs:
       - name: Install runtime checker
         run: npm ci
 
-      - name: Install Chromium
-        run: npx playwright install --with-deps chromium
+      - name: Use preinstalled Chrome
+        shell: bash
+        run: |
+          browser="$(command -v google-chrome-stable || command -v google-chrome || command -v chromium || true)"
+          if [[ -z "$browser" ]]; then
+            echo "The GitHub runner does not provide Chrome or Chromium." >&2
+            exit 1
+          fi
+          echo "CHROME_PATH=$browser" >> "$GITHUB_ENV"
+          "$browser" --version
 
       - name: Check browser runtime
         env:
