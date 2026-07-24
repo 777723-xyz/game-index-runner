@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T10:21:43.761Z",
+  "generatedAt": "2026-07-24T11:58:36.461Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 856,
   "upstreamTotal": 856,
@@ -6335,6 +6335,27 @@
       }
     },
     {
+      "sourceRepo": "jsnb21/sci-high_rmmv",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "jsnb21-SCI-HIGH_RMMV",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/jsnb21-SCI-HIGH_RMMV/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "jsnb21/sci-high_website",
       "differences": {
         "pagesUrl": {
@@ -6672,12 +6693,8 @@
     {
       "sourceRepo": "tklninja/spectoria-eng",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/TKLNinja-Spectoria-Eng/index.html",
           "upstream": "https://webrpg.org/TKLNinja-Spectoria-Eng/"
         }
       }
@@ -6688,6 +6705,27 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/tomoshibi06-SPECTORIA/index.html",
           "upstream": "https://webrpg.org/tomoshibi06-SPECTORIA/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "webrpg-translations/spectoria-eng-cn",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "WebRPG-Translations-Spectoria-Eng-CN",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/WebRPG-Translations-Spectoria-Eng-CN/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
