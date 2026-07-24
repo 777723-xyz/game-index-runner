@@ -13,6 +13,7 @@ const syncScript = path.resolve("scripts/sync-upstream-list.mjs");
 const updateScript = path.resolve("scripts/update-list-from-results.mjs");
 const id = "jsnb21-sci-high-website";
 const staleId = "jsnb21-sci-high-rmmv";
+const duplicateSourceId = "jsnb21-sci-high-website-duplicate";
 const originalSource = "jsnb21/SCI-HIGH_WEBSITE";
 const mirrorSource = "WebRPG-org/jsnb21-SCI-HIGH_WEBSITE";
 const pagesUrl = "https://777723-xyz.github.io/jsnb21-SCI-HIGH_WEBSITE/index.html";
@@ -41,6 +42,18 @@ const upstream = [
     sourcePath: "index.html",
     pagesUrl: "https://webrpg.org/jsnb21-SCI-HIGH_WEBSITE/",
     sourceRepo: originalSource,
+  },
+  {
+    id: duplicateSourceId,
+    title: "SCI-HIGH duplicate",
+    repo: `https://github.com/${originalSource}`,
+    owner: "jsnb21",
+    name: "SCI-HIGH_WEBSITE",
+    engine: "RPG Maker MV",
+    status: "duplicate_name",
+    source: "github-code-search",
+    sourcePath: "index.html",
+    duplicateReason: "Repository name already exists in list.json.",
   },
 ];
 
@@ -72,6 +85,7 @@ const local = [
     checkedAt: "2026-07-24T03:24:06.191Z",
     sourceRepo: mirrorSource,
   },
+  { ...upstream[2] },
 ];
 
 try {
@@ -100,9 +114,10 @@ try {
     });
 
     const catalog = JSON.parse(await fs.readFile(listPath, "utf8"));
-    assert.equal(catalog.length, 2, `cycle ${cycle + 1} created a duplicate entry`);
+    assert.equal(catalog.length, 3, `cycle ${cycle + 1} created a duplicate entry`);
     const published = catalog.find((entry) => entry.id === id);
     const stale = catalog.find((entry) => entry.id === staleId);
+    const duplicateSource = catalog.find((entry) => entry.id === duplicateSourceId);
     assert.equal(published.owner, "jsnb21");
     assert.equal(published.name, "SCI-HIGH_WEBSITE");
     assert.equal(published.repo, `https://github.com/${originalSource}`);
@@ -112,9 +127,11 @@ try {
     assert.equal(stale.status, "indexed");
     assert.equal(stale.pagesUrl, undefined, "stale source inherited another game's Pages URL");
     assert.equal(stale.forkName, undefined, "stale source inherited another game's fork name");
+    assert.equal(duplicateSource.status, "duplicate_name", "duplicate source was promoted into the publication queue");
+    assert.equal(duplicateSource.pagesUrl, undefined, "duplicate source inherited the verified source's Pages URL");
   }
 
-  console.log("Catalog identity regression passed: 5 sync/update cycles, 2 stable sources and 1 publication.");
+  console.log("Catalog identity regression passed: 5 sync/update cycles, duplicate source quarantined, 1 publication.");
 } finally {
   await fs.rm(temporary, { recursive: true, force: true });
 }

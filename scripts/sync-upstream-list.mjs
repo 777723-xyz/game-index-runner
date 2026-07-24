@@ -17,13 +17,11 @@ if (!Array.isArray(local) || !Array.isArray(upstream)) {
 
 const localByKey = groupBy(local, key);
 const localById = groupBy(local, idKey);
-const merged = upstream.map((remote) => mergeUpstream(
-  remote,
-  selectPreferredEntry([
-    ...(localByKey.get(key(remote)) || []),
-    ...(localById.get(idKey(remote)) || []),
-  ]),
-));
+const merged = upstream.map((remote) => {
+  const idMatches = localById.get(idKey(remote)) || [];
+  const candidates = idMatches.length ? idMatches : (localByKey.get(key(remote)) || []);
+  return mergeUpstream(remote, selectPreferredEntry(candidates));
+});
 const upstreamKeys = new Set(upstream.map(key));
 const upstreamIds = new Set(upstream.map(idKey).filter(Boolean));
 
@@ -59,7 +57,7 @@ function mergeUpstream(remote, localEntry) {
   delete entry.pagesUrl;
   delete entry.cover;
   delete entry.lastCheckError;
-  entry.status = "indexed";
+  entry.status = remote.status === "duplicate_name" ? "duplicate_name" : "indexed";
 
   if (upstreamPagesUrl) entry.upstreamPagesUrl = upstreamPagesUrl;
   if (upstreamCover) entry.upstreamCover = upstreamCover;
@@ -78,7 +76,7 @@ function mergeUpstream(remote, localEntry) {
     entry.validationScore = localEntry.validationScore;
     entry.totalSize = localEntry.totalSize;
     entry.dataSize = localEntry.dataSize;
-  } else if (["invalid_structure", "check_error", "hidden"].includes(localEntry.status)) {
+  } else if (["invalid_structure", "check_error", "duplicate_name", "hidden"].includes(localEntry.status)) {
     entry.status = localEntry.status;
     entry.checkedAt = localEntry.checkedAt;
     entry.invalidReason = localEntry.invalidReason;

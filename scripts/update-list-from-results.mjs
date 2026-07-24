@@ -18,6 +18,11 @@ let errors = 0;
 let unchanged = 0;
 
 const updated = list.map((entry) => {
+  if (entry.status === "duplicate_name") {
+    unchanged += 1;
+    return entry;
+  }
+
   const sourceKey = `${entry.owner}/${entry.name}`.toLowerCase();
   const forkName = forkNameBySource.get(sourceKey);
   const result = resultsByForkName.get(String(forkName).toLowerCase());
