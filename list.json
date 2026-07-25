@@ -3866,7 +3866,11 @@
     "upstreamCover": "https://webrpg.org/didgogns-MineHero/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/didgogns-MineHero/index.html",
-    "cover": "https://777723-xyz.github.io/didgogns-MineHero/cover.png"
+    "cover": "https://777723-xyz.github.io/didgogns-MineHero/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T13:56:12.549Z",
+    "runtimeLoadMs": 4354,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "diegoliveros-diegoliveros-github-io",
@@ -3890,7 +3894,11 @@
     "upstreamCover": "https://webrpg.org/DiegOliveros-diegoliveros.github.io/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/DiegOliveros-diegoliveros.github.io/game.html",
-    "cover": "https://777723-xyz.github.io/DiegOliveros-diegoliveros.github.io/cover.png"
+    "cover": "https://777723-xyz.github.io/DiegOliveros-diegoliveros.github.io/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T13:56:12.577Z",
+    "runtimeLoadMs": 4382,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "iswpoli-servicios-bibliotecarios",
@@ -5525,7 +5533,11 @@
     "upstreamCover": "https://webrpg.org/DewandraR-College-Live/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/DewandraR-College-Live/index.html",
-    "cover": "https://777723-xyz.github.io/DewandraR-College-Live/cover.png"
+    "cover": "https://777723-xyz.github.io/DewandraR-College-Live/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T13:56:12.542Z",
+    "runtimeLoadMs": 4347,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "blairwilcox-colosseum",
@@ -7126,7 +7138,11 @@
     "validationScore": 118,
     "totalSize": 824374,
     "dataSize": 11596817,
-    "forkName": "DSAF-Decompliations-OpenDSAF3"
+    "forkName": "DSAF-Decompliations-OpenDSAF3",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T13:56:15.806Z",
+    "runtimeLoadMs": 753,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "mattmaomao-dual-escape-rpg",
@@ -9000,7 +9016,11 @@
     "upstreamCover": "https://webrpg.org/discus-sions-The-Fall-PREVIEW1/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/discus-sions-The-Fall-PREVIEW1/index.html",
-    "cover": "https://777723-xyz.github.io/discus-sions-The-Fall-PREVIEW1/cover.png"
+    "cover": "https://777723-xyz.github.io/discus-sions-The-Fall-PREVIEW1/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T13:56:13.897Z",
+    "runtimeLoadMs": 1288,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "pbkn-hbd-rpg",
@@ -9282,7 +9302,13 @@
     "validationScore": 115,
     "totalSize": 189966,
     "dataSize": 0,
-    "forkName": "Donais04-ISATArchipelago"
+    "forkName": "Donais04-ISATArchipelago",
+    "runtimeStatus": "failed",
+    "runtimeCheckedAt": "2026-07-25T13:56:42.801Z",
+    "runtimeLoadMs": 30002,
+    "runtimeHttpStatus": 404,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496 csp | page.waitForFunction: Timeout 29397ms exceeded."
   },
   {
     "id": "therealmythdeveloper-buildingblox",
@@ -9964,7 +9990,11 @@
     "validationScore": 118,
     "totalSize": 435866,
     "dataSize": 787929,
-    "forkName": "dovmantov-Lack-of-Life"
+    "forkName": "dovmantov-Lack-of-Life",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T13:56:14.991Z",
+    "runtimeLoadMs": 1055,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "giltry-lamento-de-las-flores",
@@ -10010,7 +10040,11 @@
     "upstreamCover": "https://webrpg.org/drusepth-game-sandbox/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/drusepth-game-sandbox/index.html",
-    "cover": "https://777723-xyz.github.io/drusepth-game-sandbox/cover.png"
+    "cover": "https://777723-xyz.github.io/drusepth-game-sandbox/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T13:56:15.280Z",
+    "runtimeLoadMs": 873,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "kenshindias-kenshindias-github-io",
@@ -13151,7 +13185,11 @@
     "upstreamCover": "https://webrpg.org/dg12345689-rpgmaker0730/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/dg12345689-rpgmaker0730/index.html",
-    "cover": "https://777723-xyz.github.io/dg12345689-rpgmaker0730/cover.png"
+    "cover": "https://777723-xyz.github.io/dg12345689-rpgmaker0730/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T13:56:12.542Z",
+    "runtimeLoadMs": 4347,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "ryanbram-rpg-mv-ace",
@@ -13396,7 +13434,11 @@
     "upstreamCover": "https://webrpg.org/DiegoNave-diegonave.github.io/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/DiegoNave-diegonave.github.io/index.html",
-    "cover": "https://777723-xyz.github.io/DiegoNave-diegonave.github.io/cover.png"
+    "cover": "https://777723-xyz.github.io/DiegoNave-diegonave.github.io/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T13:56:12.499Z",
+    "runtimeLoadMs": 4304,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "fernando-simaoo-the-legend-of-brick",
@@ -15763,7 +15805,11 @@
     "validationScore": 118,
     "totalSize": 784201,
     "dataSize": 1017111,
-    "forkName": "DOAmaster-GameOff2022TSS"
+    "forkName": "DOAmaster-GameOff2022TSS",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T13:56:14.041Z",
+    "runtimeLoadMs": 1401,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "fsworld009-rmmv-snake",
@@ -16013,7 +16059,13 @@
     "validationScore": 115,
     "totalSize": 426202,
     "dataSize": 0,
-    "forkName": "Dreafun-starcrystal"
+    "forkName": "Dreafun-starcrystal",
+    "runtimeStatus": "failed",
+    "runtimeCheckedAt": "2026-07-25T13:56:44.247Z",
+    "runtimeLoadMs": 30003,
+    "runtimeHttpStatus": 404,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496 csp | page.waitForFunction: Timeout 29520ms exceeded."
   },
   {
     "id": "teyplays-starfall-sanctuary",
@@ -16857,7 +16909,11 @@
     "upstreamCover": "https://webrpg.org/drclcomputers-The-Curse-of-The-Sceptrum/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/drclcomputers-The-Curse-of-The-Sceptrum/index.html",
-    "cover": "https://777723-xyz.github.io/drclcomputers-The-Curse-of-The-Sceptrum/cover.png"
+    "cover": "https://777723-xyz.github.io/drclcomputers-The-Curse-of-The-Sceptrum/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T13:56:15.167Z",
+    "runtimeLoadMs": 1040,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "dcarlin-devil-king-rpgmaker-mv-game",
@@ -16947,7 +17003,11 @@
     "upstreamCover": "https://webrpg.org/discus-sions-The-Fall-PREVIEW2/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/discus-sions-The-Fall-PREVIEW2/index.html",
-    "cover": "https://777723-xyz.github.io/discus-sions-The-Fall-PREVIEW2/cover.png"
+    "cover": "https://777723-xyz.github.io/discus-sions-The-Fall-PREVIEW2/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T13:56:14.069Z",
+    "runtimeLoadMs": 1445,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "reismahnic-farmhorrorgame",
@@ -18573,7 +18633,11 @@
     "validationScore": 118,
     "totalSize": 162247,
     "dataSize": 2768346,
-    "forkName": "DocPainkiller-FargoHL"
+    "forkName": "DocPainkiller-FargoHL",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T13:56:14.247Z",
+    "runtimeLoadMs": 1597,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "elghinn2512-cyberschool",
