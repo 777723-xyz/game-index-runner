@@ -4957,7 +4957,11 @@
     "upstreamCover": "https://webrpg.org/Bundtologist-rpgmaker/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Bundtologist-rpgmaker/index.html",
-    "cover": "https://777723-xyz.github.io/Bundtologist-rpgmaker/cover.png"
+    "cover": "https://777723-xyz.github.io/Bundtologist-rpgmaker/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T06:26:05.406Z",
+    "runtimeLoadMs": 723,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "hashakgik-bullethell-rmmv",
@@ -6950,7 +6954,11 @@
     "upstreamCover": "https://webrpg.org/brunolcarli-Dragonsden/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/brunolcarli-Dragonsden/index.html",
-    "cover": "https://777723-xyz.github.io/brunolcarli-Dragonsden/cover.png"
+    "cover": "https://777723-xyz.github.io/brunolcarli-Dragonsden/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T06:26:04.637Z",
+    "runtimeLoadMs": 826,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "brunolcarli-rpgmakermvweb3integration-testgame",
@@ -6974,7 +6982,11 @@
     "upstreamCover": "https://webrpg.org/brunolcarli-RPGMakerMVWeb3Integration_testgame/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/brunolcarli-RPGMakerMVWeb3Integration_testgame/index.html",
-    "cover": "https://777723-xyz.github.io/brunolcarli-RPGMakerMVWeb3Integration_testgame/cover.png"
+    "cover": "https://777723-xyz.github.io/brunolcarli-RPGMakerMVWeb3Integration_testgame/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T06:26:04.638Z",
+    "runtimeLoadMs": 822,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "adanrafli-dreamcore-x1",
@@ -7165,7 +7177,11 @@
     "validationScore": 118,
     "totalSize": 430186,
     "dataSize": 1383381,
-    "forkName": "BotakHage-Eduventure"
+    "forkName": "BotakHage-Eduventure",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T06:26:03.661Z",
+    "runtimeLoadMs": 6714,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "agjimenez-ra-s-quest",
@@ -8434,7 +8450,13 @@
     "upstreamCover": "https://webrpg.org/Brand24376-Brand24376.github.io/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Brand24376-Brand24376.github.io/personalProjects/Get%202%20School/game.html",
-    "cover": "https://777723-xyz.github.io/Brand24376-Brand24376.github.io/cover.png"
+    "cover": "https://777723-xyz.github.io/Brand24376-Brand24376.github.io/cover.png",
+    "runtimeStatus": "failed",
+    "runtimeCheckedAt": "2026-07-25T06:26:26.952Z",
+    "runtimeLoadMs": 30005,
+    "runtimeHttpStatus": 404,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496 csp | page.waitForFunction: Timeout 25043ms exceeded."
   },
   {
     "id": "wasipo09-getschooled-alpha-1",
@@ -11007,7 +11029,11 @@
     "upstreamCover": "https://webrpg.org/ButterToasty-games2/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/ButterToasty-games2/index.html",
-    "cover": "https://777723-xyz.github.io/ButterToasty-games2/cover.png"
+    "cover": "https://777723-xyz.github.io/ButterToasty-games2/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T06:26:06.679Z",
+    "runtimeLoadMs": 1292,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "fairlyll-horror",
@@ -11612,7 +11638,13 @@
     "upstreamCover": "https://webrpg.org/brooklynruff-d/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/brooklynruff-d/other/omori/index.html",
-    "cover": "https://777723-xyz.github.io/brooklynruff-d/cover.png"
+    "cover": "https://777723-xyz.github.io/brooklynruff-d/cover.png",
+    "runtimeStatus": "failed",
+    "runtimeCheckedAt": "2026-07-25T06:26:33.810Z",
+    "runtimeLoadMs": 30004,
+    "runtimeHttpStatus": 404,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496 csp | page.waitForFunction: Timeout 29597ms exceeded."
   },
   {
     "id": "bucknbill-nothtmsgaming",
@@ -13816,7 +13848,13 @@
     "upstreamCover": "https://webrpg.org/cafel176-EventConditionPro/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/cafel176-EventConditionPro/ExampleProject_MV/index.html",
-    "cover": "https://777723-xyz.github.io/cafel176-EventConditionPro/cover.png"
+    "cover": "https://777723-xyz.github.io/cafel176-EventConditionPro/cover.png",
+    "runtimeStatus": "failed",
+    "runtimeCheckedAt": "2026-07-25T06:26:37.050Z",
+    "runtimeLoadMs": 30002,
+    "runtimeHttpStatus": 404,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496 csp | page.waitForFunction: Timeout 29870ms exceeded."
   },
   {
     "id": "quxios-electronmv",
@@ -14321,7 +14359,11 @@
     "upstreamCover": "https://webrpg.org/BrenoLuna0-Reliquias-de-Fen/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/BrenoLuna0-Reliquias-de-Fen/index.html",
-    "cover": "https://777723-xyz.github.io/BrenoLuna0-Reliquias-de-Fen/cover.png"
+    "cover": "https://777723-xyz.github.io/BrenoLuna0-Reliquias-de-Fen/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T06:26:03.692Z",
+    "runtimeLoadMs": 6745,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "byvalvin-excalibur",
@@ -14345,7 +14387,11 @@
     "upstreamCover": "https://webrpg.org/Byvalvin-Excalibur/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Byvalvin-Excalibur/index.html",
-    "cover": "https://777723-xyz.github.io/Byvalvin-Excalibur/cover.png"
+    "cover": "https://777723-xyz.github.io/Byvalvin-Excalibur/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T06:26:06.100Z",
+    "runtimeLoadMs": 638,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "pelinal-returntosender",
@@ -14918,7 +14964,13 @@
     "upstreamCover": "https://webrpg.org/Byvalvin-Sanctuary/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Byvalvin-Sanctuary/Sanctuary/index.html",
-    "cover": "https://777723-xyz.github.io/Byvalvin-Sanctuary/cover.png"
+    "cover": "https://777723-xyz.github.io/Byvalvin-Sanctuary/cover.png",
+    "runtimeStatus": "failed",
+    "runtimeCheckedAt": "2026-07-25T06:26:36.113Z",
+    "runtimeLoadMs": 30004,
+    "runtimeHttpStatus": 404,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496 csp | page.waitForFunction: Timeout 29763ms exceeded."
   },
   {
     "id": "sailorshulk9-test",
@@ -16438,7 +16490,11 @@
     "upstreamCover": "https://webrpg.org/bywuuu-lecWeb/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/bywuuu-lecWeb/index.html",
-    "cover": "https://777723-xyz.github.io/bywuuu-lecWeb/cover.png"
+    "cover": "https://777723-xyz.github.io/bywuuu-lecWeb/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T06:26:07.029Z",
+    "runtimeLoadMs": 334,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "nuyykatazou-theamazonia",
@@ -17406,7 +17462,11 @@
     "upstreamCover": "https://webrpg.org/briancain-tutorial-test/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/briancain-tutorial-test/index.html",
-    "cover": "https://777723-xyz.github.io/briancain-tutorial-test/cover.png"
+    "cover": "https://777723-xyz.github.io/briancain-tutorial-test/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T06:26:03.695Z",
+    "runtimeLoadMs": 6748,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "mysterymagination-twilightning",
@@ -18083,7 +18143,11 @@
     "upstreamCover": "https://webrpg.org/brunolcarli-yggdrasilMMO/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/brunolcarli-yggdrasilMMO/index2.html",
-    "cover": "https://777723-xyz.github.io/brunolcarli-yggdrasilMMO/cover.png"
+    "cover": "https://777723-xyz.github.io/brunolcarli-yggdrasilMMO/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T06:26:05.377Z",
+    "runtimeLoadMs": 701,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "frogteapot-your-turn-to-die",
@@ -18290,7 +18354,13 @@
     "validationScore": 115,
     "totalSize": 392661,
     "dataSize": 0,
-    "forkName": "Boris12432-Afera-belika-alfa-1.0"
+    "forkName": "Boris12432-Afera-belika-alfa-1.0",
+    "runtimeStatus": "failed",
+    "runtimeCheckedAt": "2026-07-25T06:26:26.953Z",
+    "runtimeLoadMs": 30006,
+    "runtimeHttpStatus": 404,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496 csp | page.waitForFunction: Timeout 25051ms exceeded."
   },
   {
     "id": "docpainkiller-fargohl",
