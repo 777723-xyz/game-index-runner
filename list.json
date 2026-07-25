@@ -2975,7 +2975,11 @@
     "validationScore": 118,
     "totalSize": 400459,
     "dataSize": 692627,
-    "forkName": "EVAFG-A-stormy-story"
+    "forkName": "EVAFG-A-stormy-story",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T17:35:14.664Z",
+    "runtimeLoadMs": 5854,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "jeysser-a-torre",
@@ -4889,7 +4893,12 @@
     "upstreamCover": "https://webrpg.org/expressiaann-BMP-CHatGpT-Test-Environment/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/expressiaann-BMP-CHatGpT-Test-Environment/index.html",
-    "cover": "https://777723-xyz.github.io/expressiaann-BMP-CHatGpT-Test-Environment/cover.png"
+    "cover": "https://777723-xyz.github.io/expressiaann-BMP-CHatGpT-Test-Environment/cover.png",
+    "runtimeCheckedAt": "2026-07-25T17:35:44.230Z",
+    "runtimeLoadMs": 30008,
+    "runtimeHttpStatus": 200,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://yx.ecy.al/expressiaann-BMP-CHatGpT-Test-Environment/js/plugins.js net::ERR_ABORTED | request: https://yx.ecy.al/expressiaann-BMP-CHatGpT-Test-Environment/js/rpg_managers.js net::ERR_ABORTED | request: https://yx.ecy.al/expressiaann-BMP-CHatGpT-Test-Environment/js/rpg_objects.js net::ERR_ABORTED | request: https://yx.ecy.al/expressiaann-BMP-CHatGpT-Test-Environment/js/rpg_windows.js net::ERR_ABORTED | request: https://yx.ecy.al/expressiaann-BMP-CHatGpT-Test-Environment/js/rpg_sce"
   },
   {
     "id": "apress-beg-rpg-maker-mv",
@@ -8392,7 +8401,11 @@
     "upstreamCover": "https://webrpg.org/FangBruce-RPG_game1/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/FangBruce-RPG_game1/index.html",
-    "cover": "https://777723-xyz.github.io/FangBruce-RPG_game1/cover.png"
+    "cover": "https://777723-xyz.github.io/FangBruce-RPG_game1/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T17:35:16.784Z",
+    "runtimeLoadMs": 774,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "alphinbijeesh-test-version",
@@ -9169,7 +9182,11 @@
     "upstreamCover": "https://webrpg.org/FalconPilot-house-of-the-7th-star/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/FalconPilot-house-of-the-7th-star/index.html",
-    "cover": "https://777723-xyz.github.io/FalconPilot-house-of-the-7th-star/cover.png"
+    "cover": "https://777723-xyz.github.io/FalconPilot-house-of-the-7th-star/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T17:35:16.346Z",
+    "runtimeLoadMs": 851,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "franck-audiger-hunterevolutionjs",
@@ -9479,7 +9496,11 @@
     "upstreamCover": "https://webrpg.org/FalconPilot-inquisitor_rpg_mv/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/FalconPilot-inquisitor_rpg_mv/index.html",
-    "cover": "https://777723-xyz.github.io/FalconPilot-inquisitor_rpg_mv/cover.png"
+    "cover": "https://777723-xyz.github.io/FalconPilot-inquisitor_rpg_mv/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T17:35:16.538Z",
+    "runtimeLoadMs": 870,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "enigmadragons-intothedark",
@@ -9639,7 +9660,11 @@
     "upstreamCover": "https://webrpg.org/exadmax-Proto/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/exadmax-Proto/index.html",
-    "cover": "https://777723-xyz.github.io/exadmax-Proto/cover.png"
+    "cover": "https://777723-xyz.github.io/exadmax-Proto/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T17:35:13.908Z",
+    "runtimeLoadMs": 5098,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "aslated-jstesting",
@@ -9861,7 +9886,11 @@
     "validationScore": 118,
     "totalSize": 388844,
     "dataSize": 1023940,
-    "forkName": "etg227-NEW-GAME"
+    "forkName": "etg227-NEW-GAME",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T17:35:13.873Z",
+    "runtimeLoadMs": 5063,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "wongcyrus-k8s-isekai",
@@ -10174,7 +10203,12 @@
     "upstreamCover": "https://webrpg.org/FaetterP-Lily-s-Well-Rus/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/FaetterP-Lily-s-Well-Rus/index.html",
-    "cover": "https://777723-xyz.github.io/FaetterP-Lily-s-Well-Rus/cover.png"
+    "cover": "https://777723-xyz.github.io/FaetterP-Lily-s-Well-Rus/cover.png",
+    "runtimeCheckedAt": "2026-07-25T17:35:44.376Z",
+    "runtimeLoadMs": 30002,
+    "runtimeHttpStatus": 200,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/libs/lz-string.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/rpg_scenes.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/libs/pixi-tilemap.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/main.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/j"
   },
   {
     "id": "cardcaph-rpg-pwa-test-1",
@@ -10324,7 +10358,11 @@
     "upstreamCover": "https://webrpg.org/Etamus-LostMemories/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Etamus-LostMemories/index.html",
-    "cover": "https://777723-xyz.github.io/Etamus-LostMemories/cover.png"
+    "cover": "https://777723-xyz.github.io/Etamus-LostMemories/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T17:35:13.848Z",
+    "runtimeLoadMs": 5031,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "apokryph-lost-places",
@@ -10837,7 +10875,11 @@
     "upstreamCover": "https://webrpg.org/FannarHrafn-veffortvoloka/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/FannarHrafn-veffortvoloka/maze.html",
-    "cover": "https://777723-xyz.github.io/FannarHrafn-veffortvoloka/cover.png"
+    "cover": "https://777723-xyz.github.io/FannarHrafn-veffortvoloka/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T17:35:17.074Z",
+    "runtimeLoadMs": 682,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "saigurunagula-ik5",
@@ -11241,7 +11283,11 @@
     "upstreamCover": "https://webrpg.org/Fairlyll-Horror/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Fairlyll-Horror/index.html",
-    "cover": "https://777723-xyz.github.io/Fairlyll-Horror/cover.png"
+    "cover": "https://777723-xyz.github.io/Fairlyll-Horror/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T17:35:15.984Z",
+    "runtimeLoadMs": 1243,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "erasmojunkes-mutant-codebreaker",
@@ -11677,7 +11723,11 @@
     "upstreamCover": "https://webrpg.org/Excel-myl/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Excel-myl/index.html",
-    "cover": "https://777723-xyz.github.io/Excel-myl/cover.png"
+    "cover": "https://777723-xyz.github.io/Excel-myl/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T17:35:15.542Z",
+    "runtimeLoadMs": 1587,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "fifomori-nwcompat",
@@ -14443,7 +14493,11 @@
     "upstreamCover": "https://webrpg.org/favoriteheroes-Re-Tale/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/favoriteheroes-Re-Tale/index.html",
-    "cover": "https://777723-xyz.github.io/favoriteheroes-Re-Tale/cover.png"
+    "cover": "https://777723-xyz.github.io/favoriteheroes-Re-Tale/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T17:35:17.404Z",
+    "runtimeLoadMs": 830,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "saintclairlima-reachup",
@@ -16291,7 +16345,11 @@
     "upstreamCover": "https://webrpg.org/Excel-magic-tech/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Excel-magic-tech/index.html",
-    "cover": "https://777723-xyz.github.io/Excel-magic-tech/cover.png"
+    "cover": "https://777723-xyz.github.io/Excel-magic-tech/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T17:35:13.913Z",
+    "runtimeLoadMs": 5103,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "momoriarty-survivalgame",
@@ -16430,7 +16488,11 @@
     "upstreamCover": "https://webrpg.org/Excel-top/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Excel-top/index.html",
-    "cover": "https://777723-xyz.github.io/Excel-top/cover.png"
+    "cover": "https://777723-xyz.github.io/Excel-top/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T17:35:15.448Z",
+    "runtimeLoadMs": 1483,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "teamcstudios-teamcstudiosadventure-exploration",
