@@ -2113,7 +2113,11 @@
     "source": "upstream-webrpg-index",
     "upstreamPagesUrl": "https://webrpg.org/aqua012-aqua012.github.io/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/aqua012-aqua012.github.io/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/aqua012-aqua012.github.io/index.html",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T00:12:58.153Z",
+    "runtimeLoadMs": 1475,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "tychouhaha-zk-restaurant",
@@ -3740,7 +3744,11 @@
     "upstreamCover": "https://webrpg.org/avery-pierce-averypierce.me/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/avery-pierce-averypierce.me/games/BasicRPG/www/index.html",
-    "cover": "https://777723-xyz.github.io/avery-pierce-averypierce.me/cover.png"
+    "cover": "https://777723-xyz.github.io/avery-pierce-averypierce.me/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T00:12:59.454Z",
+    "runtimeLoadMs": 864,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "savesub-bathroommaze-en",
@@ -4844,7 +4852,11 @@
     "upstreamCover": "https://webrpg.org/Apress-beg-rpg-maker-mv/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Apress-beg-rpg-maker-mv/9781484219669/9781484219669_Ch1/Chapter%201/index.html",
-    "cover": "https://777723-xyz.github.io/Apress-beg-rpg-maker-mv/cover.png"
+    "cover": "https://777723-xyz.github.io/Apress-beg-rpg-maker-mv/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T00:12:57.009Z",
+    "runtimeLoadMs": 5319,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "ec-developer-hub-broadwayyyy",
@@ -4909,7 +4921,11 @@
     "sourceRepo": "AzureAlexis/AnimaSola-BB",
     "upstreamPagesUrl": "https://webrpg.org/AzureAlexis-AnimaSola-BB/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/AzureAlexis-AnimaSola-BB/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/AzureAlexis-AnimaSola-BB/index.html",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T00:12:59.707Z",
+    "runtimeLoadMs": 798,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "bundtologist-rpgmaker",
@@ -7565,7 +7581,11 @@
     "upstreamCover": "https://webrpg.org/apollovy-fear-and-hunger/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/apollovy-fear-and-hunger/index.html",
-    "cover": "https://777723-xyz.github.io/apollovy-fear-and-hunger/cover.png"
+    "cover": "https://777723-xyz.github.io/apollovy-fear-and-hunger/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T00:12:56.529Z",
+    "runtimeLoadMs": 4839,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "mattiefm-andyandlayley",
@@ -9461,7 +9481,11 @@
     "validationScore": 118,
     "totalSize": 400705,
     "dataSize": 669060,
-    "forkName": "ASlated-JSTesting"
+    "forkName": "ASlated-JSTesting",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T00:12:58.889Z",
+    "runtimeLoadMs": 682,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "szatkus-wachaj-pale-kajdaniarzu",
@@ -10112,7 +10136,11 @@
     "validationScore": 118,
     "totalSize": 388549,
     "dataSize": 670468,
-    "forkName": "Apokryph-lost_places"
+    "forkName": "Apokryph-lost_places",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T00:12:56.443Z",
+    "runtimeLoadMs": 4753,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "timmetry-lostinamaze",
@@ -10375,7 +10403,11 @@
     "upstreamCover": "https://webrpg.org/Apress-make-a-2d-rpg-in-a-weekend-15/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Apress-make-a-2d-rpg-in-a-weekend-15/Make%20a%202D%20RPG%20in%20a%20Weekend/index.html",
-    "cover": "https://777723-xyz.github.io/Apress-make-a-2d-rpg-in-a-weekend-15/cover.png"
+    "cover": "https://777723-xyz.github.io/Apress-make-a-2d-rpg-in-a-weekend-15/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T00:12:57.667Z",
+    "runtimeLoadMs": 1159,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "xmandarava-plugins4rmmv",
@@ -11306,7 +11338,11 @@
     "upstreamCover": "https://webrpg.org/antiperfectclub-codingforfun/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/antiperfectclub-codingforfun/RPG%20Maker/NewStarter/index.html",
-    "cover": "https://777723-xyz.github.io/antiperfectclub-codingforfun/cover.png"
+    "cover": "https://777723-xyz.github.io/antiperfectclub-codingforfun/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T00:12:56.457Z",
+    "runtimeLoadMs": 4767,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "potasiuombun-nhkgame-collab",
@@ -13061,7 +13097,11 @@
     "upstreamCover": "https://webrpg.org/asifexplore-Secret-Paladin/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/asifexplore-Secret-Paladin/index.html",
-    "cover": "https://777723-xyz.github.io/asifexplore-Secret-Paladin/cover.png"
+    "cover": "https://777723-xyz.github.io/asifexplore-Secret-Paladin/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T00:12:59.061Z",
+    "runtimeLoadMs": 877,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "chibibaku-rmmv-webhost",
@@ -13880,7 +13920,12 @@
     "sourceRepo": "Arise/QMV-Master-Demo-DEV",
     "upstreamPagesUrl": "https://webrpg.org/Arise-QMV-Master-Demo-DEV/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/Arise-QMV-Master-Demo-DEV/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/Arise-QMV-Master-Demo-DEV/index.html",
+    "runtimeCheckedAt": "2026-07-25T00:13:27.086Z",
+    "runtimeLoadMs": 30004,
+    "runtimeHttpStatus": 200,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://yx.ecy.al/Arise-QMV-Master-Demo-DEV/js/libs/pixi.js net::ERR_ABORTED | request: https://yx.ecy.al/Arise-QMV-Master-Demo-DEV/js/libs/lz-string.js net::ERR_ABORTED | request: https://yx.ecy.al/Arise-QMV-Master-Demo-DEV/js/libs/pixi-tilemap.js net::ERR_ABORTED | request: https://yx.ecy.al/Arise-QMV-Master-Demo-DEV/js/main.js net::ERR_ABORTED | request: https://yx.ecy.al/Arise-QMV-Master-Demo-DEV/js/rpg_scenes.js net::ERR_ABORTED | request: https://yx.ecy.al/Arise-QMV-Master-Demo-DE"
   },
   {
     "id": "cheekibreeki421-quillquest3",
@@ -14726,7 +14771,11 @@
     "upstreamCover": "https://webrpg.org/Archeia-RuselandNessy/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Archeia-RuselandNessy/index.html",
-    "cover": "https://777723-xyz.github.io/Archeia-RuselandNessy/cover.png"
+    "cover": "https://777723-xyz.github.io/Archeia-RuselandNessy/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T00:12:58.153Z",
+    "runtimeLoadMs": 1406,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "thewhitecanvas-saintseiya-rmmv",
@@ -15209,7 +15258,11 @@
     "upstreamCover": "https://webrpg.org/ArturllVale-esarmmv/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/ArturllVale-esarmmv/game.html",
-    "cover": "https://777723-xyz.github.io/ArturllVale-esarmmv/cover.png"
+    "cover": "https://777723-xyz.github.io/ArturllVale-esarmmv/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T00:12:58.546Z",
+    "runtimeLoadMs": 852,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "jkaz1968-output",
@@ -16885,7 +16938,11 @@
     "validationScore": 118,
     "totalSize": 1036336,
     "dataSize": 40873071,
-    "forkName": "apotb-the-trail"
+    "forkName": "apotb-the-trail",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-25T00:12:56.958Z",
+    "runtimeLoadMs": 5268,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "patrick-ayo-misinformation-game",
@@ -17211,7 +17268,13 @@
     "upstreamCover": "https://webrpg.org/arqui-dev-ProjetoCaminhoneiro/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/arqui-dev-ProjetoCaminhoneiro/Projeto%20RPG%20Maker%20MV/Trucker%20Quest/index.html",
-    "cover": "https://777723-xyz.github.io/arqui-dev-ProjetoCaminhoneiro/cover.png"
+    "cover": "https://777723-xyz.github.io/arqui-dev-ProjetoCaminhoneiro/cover.png",
+    "runtimeStatus": "failed",
+    "runtimeCheckedAt": "2026-07-25T00:13:27.107Z",
+    "runtimeLoadMs": 30010,
+    "runtimeHttpStatus": 404,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "page.waitForFunction: Timeout 29339ms exceeded."
   },
   {
     "id": "xymol-tsmgi",
