@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T11:40:27.836Z",
+  "generatedAt": "2026-07-26T14:01:24.864Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 857,
   "upstreamTotal": 857,
@@ -2974,8 +2974,12 @@
       "sourceRepo": "altoc/rpg_maker_jam",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Altoc-rpg_maker_jam/The%20RPG%20Maker/index.html",
+          "ours": "https://777723-xyz.github.io/Altoc-rpg_maker_jam/index.html",
           "upstream": "https://webrpg.org/Altoc-rpg_maker_jam/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "The RPG Maker/index.html"
         }
       }
     },
@@ -3116,8 +3120,12 @@
       "sourceRepo": "altanturan/protocol-takeover",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/AltanTuran-Protocol-Takeover/Assets/Asset/Galacti-Chrons%20Sci-Fi%20Warehouse%20Pack/Galacti-Chrons%20Sci-Fi%20Warehouse%20Pack/index.html",
+          "ours": "https://777723-xyz.github.io/AltanTuran-Protocol-Takeover/index.html",
           "upstream": "https://webrpg.org/AltanTuran-Protocol-Takeover/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Assets/Asset/Galacti-Chrons Sci-Fi Warehouse Pack/Galacti-Chrons Sci-Fi Warehouse Pack/index.html"
         }
       }
     },
@@ -4307,11 +4315,11 @@
           "upstream": null
         },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/AnibalSJ-Last-Years/Ingreso/homecoming/www/index.html",
+          "ours": "https://777723-xyz.github.io/AnibalSJ-Last-Years/index.html",
           "upstream": null
         },
         "entryPath": {
-          "ours": "Ingreso/homecoming/www/index.html",
+          "ours": "index.html",
           "upstream": null
         }
       }
@@ -6579,8 +6587,12 @@
       "sourceRepo": "albondigaboy/juegos_creados",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/AlbondigaBoy-Juegos_creados/Shrek%20vs%20Warroten/GAME/www/index.html",
+          "ours": "https://777723-xyz.github.io/AlbondigaBoy-Juegos_creados/index.html",
           "upstream": "https://webrpg.org/AlbondigaBoy-Juegos_creados/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Shrek vs Warroten/GAME/www/index.html"
         }
       }
     },
