@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T15:33:52.187Z",
+  "generatedAt": "2026-07-26T17:19:39.862Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 857,
   "upstreamTotal": 857,
@@ -86,19 +86,11 @@
       "sourceRepo": "chino-541/saikou-no-ramen-damashi",
       "differences": {
         "status": {
-          "ours": "verified",
+          "ours": "invalid_structure",
           "upstream": "indexed"
         },
         "forkName": {
           "ours": "Chino-541-Saikou-no-Ramen-Damashi",
-          "upstream": null
-        },
-        "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Chino-541-Saikou-no-Ramen-Damashi/Assets/Ken-assets/Map%20Assets/MV%E7%89%88%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88_%E4%BD%8F%E5%AE%85%E5%9C%B0/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "Assets/Ken-assets/Map Assets/MV版サンプルプロジェクト_住宅地/index.html",
           "upstream": null
         }
       }
@@ -247,15 +239,7 @@
       "sourceRepo": "cdgaming/cdgaming.github.io",
       "differences": {
         "status": {
-          "ours": "verified",
-          "upstream": null
-        },
-        "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/cdgaming-cdgaming.github.io/dev/Game/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "dev/Game/index.html",
+          "ours": "invalid_structure",
           "upstream": null
         }
       }
@@ -3246,8 +3230,12 @@
     {
       "sourceRepo": "brand24376/brand24376.github.io",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Brand24376-Brand24376.github.io/personalProjects/Get%202%20School/game.html",
+          "ours": null,
           "upstream": "https://webrpg.org/Brand24376-Brand24376.github.io/"
         }
       }
@@ -4890,8 +4878,12 @@
     {
       "sourceRepo": "brooklynruff/d",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/brooklynruff-d/other/omori/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/brooklynruff-d/"
         }
       }
@@ -7181,19 +7173,11 @@
       "sourceRepo": "dcarlin/devil-king---rpgmaker-mv-game",
       "differences": {
         "status": {
-          "ours": "verified",
+          "ours": "invalid_structure",
           "upstream": "indexed"
         },
         "forkName": {
           "ours": "dcarlin-Devil-King-RPGMaker-MV-Game",
-          "upstream": null
-        },
-        "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/dcarlin-Devil-King-RPGMaker-MV-Game/Devil%20King/www/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "Devil King/www/index.html",
           "upstream": null
         }
       }
@@ -7264,8 +7248,12 @@
       "sourceRepo": "battousairurik/rpgmakercollabproject",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/battousairurik-RPGMakerCollabProject/RPGMakerMVCollabProject/index.html",
+          "ours": "https://777723-xyz.github.io/battousairurik-RPGMakerCollabProject/index.html",
           "upstream": "https://webrpg.org/battousairurik-RPGMakerCollabProject/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "RPGMakerMVCollabProject/index.html"
         }
       }
     },
@@ -7463,8 +7451,12 @@
     {
       "sourceRepo": "boolaw/tombofhorrors",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/BooLAW-TombOfHorrors/Tomb%20Of%20Horrors/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/BooLAW-TombOfHorrors/"
         }
       }
@@ -7930,19 +7922,11 @@
       "sourceRepo": "boris12432/afera-belika-alfa-1.0",
       "differences": {
         "status": {
-          "ours": "verified",
+          "ours": "invalid_structure",
           "upstream": "indexed"
         },
         "forkName": {
           "ours": "Boris12432-Afera-belika-alfa-1.0",
-          "upstream": null
-        },
-        "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Boris12432-Afera-belika-alfa-1.0/%D0%9F%D0%BE%D0%B4%D0%BB%D0%B0%D1%8F%20%D0%B0%D1%84%D0%B5%D1%80%D0%B0%20%D1%81%D1%8D%D1%80%D0%B0%20%D0%91%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "Подлая афера сэра Белика/index.html",
           "upstream": null
         }
       }
