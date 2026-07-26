@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T14:01:24.864Z",
+  "generatedAt": "2026-07-26T15:33:52.187Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 857,
   "upstreamTotal": 857,
@@ -1614,8 +1614,12 @@
       "sourceRepo": "avery-pierce/averypierce.me",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/avery-pierce-averypierce.me/games/BasicRPG/www/index.html",
+          "ours": "https://777723-xyz.github.io/avery-pierce-averypierce.me/index.html",
           "upstream": "https://webrpg.org/avery-pierce-averypierce.me/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "games/BasicRPG/www/index.html"
         }
       }
     },
@@ -1839,8 +1843,12 @@
       "sourceRepo": "apress/beg-rpg-maker-mv",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Apress-beg-rpg-maker-mv/9781484219669/9781484219669_Ch1/Chapter%201/index.html",
+          "ours": "https://777723-xyz.github.io/Apress-beg-rpg-maker-mv/index.html",
           "upstream": "https://webrpg.org/Apress-beg-rpg-maker-mv/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "9781484219669/9781484219669_Ch1/Chapter 1/index.html"
         }
       }
     },
@@ -4285,8 +4293,12 @@
       "sourceRepo": "apress/make-a-2d-rpg-in-a-weekend-15",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Apress-make-a-2d-rpg-in-a-weekend-15/Make%20a%202D%20RPG%20in%20a%20Weekend/index.html",
+          "ours": "https://777723-xyz.github.io/Apress-make-a-2d-rpg-in-a-weekend-15/index.html",
           "upstream": "https://webrpg.org/Apress-make-a-2d-rpg-in-a-weekend-15/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Make a 2D RPG in a Weekend/index.html"
         }
       }
     },
@@ -4753,8 +4765,12 @@
       "sourceRepo": "antiperfectclub/codingforfun",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/antiperfectclub-codingforfun/RPG%20Maker/NewStarter/index.html",
+          "ours": "https://777723-xyz.github.io/antiperfectclub-codingforfun/index.html",
           "upstream": "https://webrpg.org/antiperfectclub-codingforfun/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "RPG Maker/NewStarter/index.html"
         }
       }
     },
@@ -6514,8 +6530,12 @@
       "sourceRepo": "arturllvale/esarmmv",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/ArturllVale-esarmmv/game.html",
+          "ours": "https://777723-xyz.github.io/ArturllVale-esarmmv/index.html",
           "upstream": "https://webrpg.org/ArturllVale-esarmmv/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "game.html"
         }
       }
     },
@@ -7484,8 +7504,12 @@
       "sourceRepo": "arqui-dev/projetocaminhoneiro",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/arqui-dev-ProjetoCaminhoneiro/Projeto%20RPG%20Maker%20MV/Trucker%20Quest/index.html",
+          "ours": "https://777723-xyz.github.io/arqui-dev-ProjetoCaminhoneiro/index.html",
           "upstream": "https://webrpg.org/arqui-dev-ProjetoCaminhoneiro/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Projeto RPG Maker MV/Trucker Quest/index.html"
         }
       }
     },
