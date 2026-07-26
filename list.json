@@ -2990,7 +2990,11 @@
     "upstreamCover": "https://webrpg.org/PedroMaxDEV-A-LENDA-DE-CAMUTANGA/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/PedroMaxDEV-A-LENDA-DE-CAMUTANGA/jogo.html.html",
-    "cover": "https://777723-xyz.github.io/PedroMaxDEV-A-LENDA-DE-CAMUTANGA/cover.png"
+    "cover": "https://777723-xyz.github.io/PedroMaxDEV-A-LENDA-DE-CAMUTANGA/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T17:11:29.316Z",
+    "runtimeLoadMs": 3411,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "evafg-a-stormy-story",
@@ -5290,7 +5294,11 @@
     "upstreamCover": "https://webrpg.org/PeterDrake-cascadia-pilot-game/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/PeterDrake-cascadia-pilot-game/index.html",
-    "cover": "https://777723-xyz.github.io/PeterDrake-cascadia-pilot-game/cover.png"
+    "cover": "https://777723-xyz.github.io/PeterDrake-cascadia-pilot-game/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T17:11:32.125Z",
+    "runtimeLoadMs": 1705,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "cosmiccatacorn-ahjkjh",
@@ -6200,7 +6208,12 @@
     "upstreamCover": "https://webrpg.org/poopsterbrown-schoolofrock/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/poopsterbrown-schoolofrock/index.html",
-    "cover": "https://777723-xyz.github.io/poopsterbrown-schoolofrock/cover.png"
+    "cover": "https://777723-xyz.github.io/poopsterbrown-schoolofrock/cover.png",
+    "runtimeCheckedAt": "2026-07-26T17:12:01.892Z",
+    "runtimeLoadMs": 30002,
+    "runtimeHttpStatus": 200,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://yx.ecy.al/poopsterbrown-schoolofrock/js/plugins.js net::ERR_ABORTED | request: https://yx.ecy.al/poopsterbrown-schoolofrock/js/rpg_scenes.js net::ERR_ABORTED | request: https://yx.ecy.al/poopsterbrown-schoolofrock/js/rpg_managers.js net::ERR_ABORTED | request: https://yx.ecy.al/poopsterbrown-schoolofrock/js/rpg_windows.js net::ERR_ABORTED | request: https://yx.ecy.al/poopsterbrown-schoolofrock/js/rpg_core.js net::ERR_ABORTED | request: https://yx.ecy.al/poopsterbrown-schoolofroc"
   },
   {
     "id": "dubiousdale-cst120dannyz",
@@ -8309,7 +8322,11 @@
     "upstreamCover": "https://webrpg.org/ProximitiGames-FrayedSystem/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/ProximitiGames-FrayedSystem/index.html",
-    "cover": "https://777723-xyz.github.io/ProximitiGames-FrayedSystem/cover.png"
+    "cover": "https://777723-xyz.github.io/ProximitiGames-FrayedSystem/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T17:11:33.288Z",
+    "runtimeLoadMs": 1030,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "proximitigames-frayedsystemexe",
@@ -8807,7 +8824,11 @@
     "upstreamCover": "https://webrpg.org/pipakin-GDG-GCF-Talk/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/pipakin-GDG-GCF-Talk/index.html",
-    "cover": "https://777723-xyz.github.io/pipakin-GDG-GCF-Talk/cover.png"
+    "cover": "https://777723-xyz.github.io/pipakin-GDG-GCF-Talk/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T17:11:31.874Z",
+    "runtimeLoadMs": 1434,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "ratchetgame-ratchetgame-github-io",
@@ -9391,7 +9412,11 @@
     "upstreamCover": "https://webrpg.org/pbkn-hbd-rpg/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/pbkn-hbd-rpg/index.html",
-    "cover": "https://777723-xyz.github.io/pbkn-hbd-rpg/cover.png"
+    "cover": "https://777723-xyz.github.io/pbkn-hbd-rpg/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T17:11:30.355Z",
+    "runtimeLoadMs": 4450,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "merrilynnqm-merrilynnqm-github-io",
@@ -11431,7 +11456,11 @@
     "upstreamCover": "https://webrpg.org/professor-eggs-Mighty-Game/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/professor-eggs-Mighty-Game/index.html",
-    "cover": "https://777723-xyz.github.io/professor-eggs-Mighty-Game/cover.png"
+    "cover": "https://777723-xyz.github.io/professor-eggs-Mighty-Game/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T17:11:33.228Z",
+    "runtimeLoadMs": 1065,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "m2wasabi-milkcocoa-adv-20151203",
@@ -12105,7 +12134,11 @@
     "upstreamCover": "https://webrpg.org/Potasiuombun-NHKGame-collab/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Potasiuombun-NHKGame-collab/index.html",
-    "cover": "https://777723-xyz.github.io/Potasiuombun-NHKGame-collab/cover.png"
+    "cover": "https://777723-xyz.github.io/Potasiuombun-NHKGame-collab/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T17:11:33.027Z",
+    "runtimeLoadMs": 1125,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "sabotai-sabotai-github-io",
@@ -12219,7 +12252,11 @@
     "validationScore": 118,
     "totalSize": 395828,
     "dataSize": 870323,
-    "forkName": "paulo1211-O-Castelo-das-Sombras"
+    "forkName": "paulo1211-O-Castelo-das-Sombras",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T17:11:30.345Z",
+    "runtimeLoadMs": 4440,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "eltonleao-happycodegames",
@@ -13605,7 +13642,12 @@
     "upstreamCover": "https://webrpg.org/pokemon-essentials-pokemon-essentials/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/pokemon-essentials-pokemon-essentials/index.html",
-    "cover": "https://777723-xyz.github.io/pokemon-essentials-pokemon-essentials/cover.png"
+    "cover": "https://777723-xyz.github.io/pokemon-essentials-pokemon-essentials/cover.png",
+    "runtimeCheckedAt": "2026-07-26T17:12:00.454Z",
+    "runtimeLoadMs": 30002,
+    "runtimeHttpStatus": 200,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "page.waitForFunction: Timeout 28871ms exceeded."
   },
   {
     "id": "lauglitch-pokemonpink",
@@ -15306,7 +15348,11 @@
     "validationScore": 118,
     "totalSize": 484020,
     "dataSize": 926929,
-    "forkName": "Pelinal-ReturnToSender"
+    "forkName": "Pelinal-ReturnToSender",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T17:11:30.332Z",
+    "runtimeLoadMs": 4427,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "matheuspereirakrumm-rise-of-shinigami",
@@ -15683,7 +15729,11 @@
     "sourceRepo": "peq42/RPG-Battle-Royal",
     "upstreamPagesUrl": "https://webrpg.org/peq42-RPG-Battle-Royal/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/peq42-RPG-Battle-Royal/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/peq42-RPG-Battle-Royal/index.html",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T17:11:30.901Z",
+    "runtimeLoadMs": 1510,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "taroxd-rpgmv-taiko",
@@ -17604,7 +17654,11 @@
     "upstreamCover": "https://webrpg.org/Pigg0Bot-S-rpgmaker-proj/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Pigg0Bot-S-rpgmaker-proj/index.html",
-    "cover": "https://777723-xyz.github.io/Pigg0Bot-S-rpgmaker-proj/cover.png"
+    "cover": "https://777723-xyz.github.io/Pigg0Bot-S-rpgmaker-proj/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T17:11:31.877Z",
+    "runtimeLoadMs": 1446,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "graveyardshiftpd-tcoaar-project",
@@ -17733,7 +17787,11 @@
     "upstreamCover": "https://webrpg.org/PaulStubbs-TheCorporateLadder/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/PaulStubbs-TheCorporateLadder/index.html",
-    "cover": "https://777723-xyz.github.io/PaulStubbs-TheCorporateLadder/cover.png"
+    "cover": "https://777723-xyz.github.io/PaulStubbs-TheCorporateLadder/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T17:11:30.337Z",
+    "runtimeLoadMs": 4432,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "drclcomputers-the-curse-of-the-sceptrum",
@@ -18002,7 +18060,11 @@
     "upstreamCover": "https://webrpg.org/Polatrite-TheMindsEyeRPG/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Polatrite-TheMindsEyeRPG/index.html",
-    "cover": "https://777723-xyz.github.io/Polatrite-TheMindsEyeRPG/cover.png"
+    "cover": "https://777723-xyz.github.io/Polatrite-TheMindsEyeRPG/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T17:11:32.170Z",
+    "runtimeLoadMs": 1235,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "cloudxtreme-the-nights-watch",
