@@ -43,7 +43,11 @@
     "upstreamCover": "https://webrpg.org/katai5plate-Demoscene-2017/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/katai5plate-Demoscene-2017/index.html",
-    "cover": "https://777723-xyz.github.io/katai5plate-Demoscene-2017/cover.png"
+    "cover": "https://777723-xyz.github.io/katai5plate-Demoscene-2017/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T00:09:39.109Z",
+    "runtimeLoadMs": 1221,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "dododogame-dododogame-github-io",
@@ -1284,7 +1288,11 @@
     "upstreamCover": "https://webrpg.org/kata235-MV01/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/kata235-MV01/index.html",
-    "cover": "https://777723-xyz.github.io/kata235-MV01/cover.png"
+    "cover": "https://777723-xyz.github.io/kata235-MV01/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T00:09:38.946Z",
+    "runtimeLoadMs": 1165,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "xjzsq-1",
@@ -1303,7 +1311,11 @@
     "validationScore": 115,
     "totalSize": 625420,
     "dataSize": 3362053,
-    "sourceRepo": "xjzsq/1"
+    "sourceRepo": "xjzsq/1",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T00:09:36.171Z",
+    "runtimeLoadMs": 3490,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "eeg1412-wikimoe-blog-archive",
@@ -7610,7 +7622,11 @@
     "sourceRepo": "katai5plate/rpgmv-game-kanban",
     "upstreamPagesUrl": "https://webrpg.org/katai5plate-rpgmv-game-kanban/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/katai5plate-rpgmv-game-kanban/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/katai5plate-rpgmv-game-kanban/index.html",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T00:09:39.871Z",
+    "runtimeLoadMs": 903,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "ovate-rmmv-skit-system",
@@ -10026,7 +10042,11 @@
     "entryPath": "docs/gameTest/index.html",
     "validationScore": 115,
     "totalSize": 87375,
-    "dataSize": 0
+    "dataSize": 0,
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T00:09:37.810Z",
+    "runtimeLoadMs": 1548,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "etg227-new-game",
@@ -10199,7 +10219,11 @@
     "validationScore": 118,
     "totalSize": 1490582,
     "dataSize": 3551244,
-    "forkName": "kaotickj-Labyrinth"
+    "forkName": "kaotickj-Labyrinth",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T00:09:37.959Z",
+    "runtimeLoadMs": 1331,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "dovmantov-lack-of-life",
@@ -11661,7 +11685,11 @@
     "sourceRepo": "katai5plate/mvblackout",
     "upstreamPagesUrl": "https://webrpg.org/katai5plate-mvblackout/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/katai5plate-mvblackout/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/katai5plate-mvblackout/index.html",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T00:09:39.048Z",
+    "runtimeLoadMs": 964,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "katai5plate-rpgmv-starter-for-me",
@@ -11728,7 +11756,11 @@
     "upstreamCover": "https://webrpg.org/jswessler-MYMEMORY/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/jswessler-MYMEMORY/index.html",
-    "cover": "https://777723-xyz.github.io/jswessler-MYMEMORY/cover.png"
+    "cover": "https://777723-xyz.github.io/jswessler-MYMEMORY/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T00:09:36.171Z",
+    "runtimeLoadMs": 3490,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "zhiwei-zhiwei-game-rpgmaker-magicnomagic",
@@ -11800,7 +11832,11 @@
     "upstreamCover": "https://webrpg.org/katai5plate-rpgmv-newgame-lite/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/katai5plate-rpgmv-newgame-lite/index.html",
-    "cover": "https://777723-xyz.github.io/katai5plate-rpgmv-newgame-lite/cover.png"
+    "cover": "https://777723-xyz.github.io/katai5plate-rpgmv-newgame-lite/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T00:09:39.977Z",
+    "runtimeLoadMs": 874,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "antiperfectclub-codingforfun",
@@ -11897,7 +11933,11 @@
     "validationScore": 115,
     "totalSize": 84043,
     "dataSize": 0,
-    "forkName": "k45514n-NodeConfAR-2017"
+    "forkName": "k45514n-NodeConfAR-2017",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T00:09:37.760Z",
+    "runtimeLoadMs": 1309,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "excel-myl",
@@ -13062,7 +13102,11 @@
     "upstreamCover": "https://webrpg.org/jpmendezf-osianndventures/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/jpmendezf-osianndventures/index.html",
-    "cover": "https://777723-xyz.github.io/jpmendezf-osianndventures/cover.png"
+    "cover": "https://777723-xyz.github.io/jpmendezf-osianndventures/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T00:09:36.206Z",
+    "runtimeLoadMs": 3525,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "beatrizminoura-cmyk-ossos-do-oficio",
@@ -15650,7 +15694,11 @@
     "validationScore": 118,
     "totalSize": 820218,
     "dataSize": 1447138,
-    "forkName": "jsnb21-SCI-HIGH_RMMV"
+    "forkName": "jsnb21-SCI-HIGH_RMMV",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T00:09:36.197Z",
+    "runtimeLoadMs": 3516,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "jsnb21-sci-high-website",
@@ -15674,7 +15722,11 @@
     "upstreamCover": "https://webrpg.org/jsnb21-SCI-HIGH_WEBSITE/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/jsnb21-SCI-HIGH_WEBSITE/index.html",
-    "cover": "https://777723-xyz.github.io/jsnb21-SCI-HIGH_WEBSITE/cover.png"
+    "cover": "https://777723-xyz.github.io/jsnb21-SCI-HIGH_WEBSITE/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T00:09:36.124Z",
+    "runtimeLoadMs": 3443,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "kimhanwol-rpgmaker-projectsu",
@@ -19184,7 +19236,12 @@
     "sourceRepo": "kangana1024/demorpggame",
     "upstreamPagesUrl": "https://webrpg.org/kangana1024-demorpggame/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/kangana1024-demorpggame/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/kangana1024-demorpggame/index.html",
+    "runtimeCheckedAt": "2026-07-26T00:10:06.622Z",
+    "runtimeLoadMs": 30001,
+    "runtimeHttpStatus": 200,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "page.waitForFunction: Timeout 29144ms exceeded."
   },
   {
     "id": "gorani777-1930",
@@ -19925,7 +19982,12 @@
     "source": "upstream-webrpg-index",
     "upstreamPagesUrl": "https://webrpg.org/jyxjyx1234-misc_game-chs/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/jyxjyx1234-misc_game-chs/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/jyxjyx1234-misc_game-chs/index.html",
+    "runtimeCheckedAt": "2026-07-26T00:10:06.295Z",
+    "runtimeLoadMs": 30005,
+    "runtimeHttpStatus": 200,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://yx.ecy.al/jyxjyx1234-misc_game-chs/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/jyxjyx1234-misc_game-chs/js/rpg_sprites.js net::ERR_ABORTED | request: https://yx.ecy.al/jyxjyx1234-misc_game-chs/js/libs/pixi-tilemap.js net::ERR_ABORTED | request: https://yx.ecy.al/jyxjyx1234-misc_game-chs/js/libs/lz-string.js net::ERR_ABORTED | request: https://yx.ecy.al/jyxjyx1234-misc_game-chs/js/libs/fpsmeter.js net::ERR_ABORTED | request: https://yx.ecy.al/jyxjyx1234-misc_"
   },
   {
     "id": "umaaji298-riturpg",
