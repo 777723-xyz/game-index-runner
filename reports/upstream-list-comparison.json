@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T09:27:17.453Z",
+  "generatedAt": "2026-07-26T11:40:27.836Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 857,
   "upstreamTotal": 857,
@@ -73,11 +73,11 @@
           "upstream": null
         },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/amarillonmc-amarillonmc.github.io/Special/recoil/index.html",
+          "ours": "https://777723-xyz.github.io/amarillonmc-amarillonmc.github.io/index.html",
           "upstream": null
         },
         "entryPath": {
-          "ours": "Special/recoil/index.html",
+          "ours": "index.html",
           "upstream": null
         }
       }
@@ -5411,11 +5411,11 @@
           "upstream": null
         },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Alriosa-awaken-mz/Project1/index.html",
+          "ours": "https://777723-xyz.github.io/Alriosa-awaken-mz/index.html",
           "upstream": null
         },
         "entryPath": {
-          "ours": "Project1/index.html",
+          "ours": "index.html",
           "upstream": null
         }
       }
@@ -5934,8 +5934,12 @@
       "sourceRepo": "agus-sosa/reactmonster",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Agus-Sosa-ReactMonster/Client/client/public/rpg/Rm/www/index.html",
+          "ours": "https://777723-xyz.github.io/Agus-Sosa-ReactMonster/index.html",
           "upstream": "https://webrpg.org/Agus-Sosa-ReactMonster/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Client/client/public/rpg/Rm/www/index.html"
         }
       }
     },
@@ -8268,11 +8272,11 @@
           "upstream": null
         },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/AlecYawata-TkoolMV_PluginCommandBook/SampleProject/index.html",
+          "ours": "https://777723-xyz.github.io/AlecYawata-TkoolMV_PluginCommandBook/index.html",
           "upstream": null
         },
         "entryPath": {
-          "ours": "SampleProject/index.html",
+          "ours": "index.html",
           "upstream": null
         }
       }
