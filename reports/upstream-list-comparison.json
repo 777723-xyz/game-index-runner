@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T22:16:51.206Z",
+  "generatedAt": "2026-07-26T23:17:35.328Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 857,
   "upstreamTotal": 857,
@@ -1397,8 +1397,12 @@
     {
       "sourceRepo": "caiofov/animationgenerator-dataset-propor2024",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/caiofov-AnimationGenerator-Dataset-PROPOR2024/Animations/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/caiofov-AnimationGenerator-Dataset-PROPOR2024/"
         }
       }
@@ -4227,8 +4231,12 @@
     {
       "sourceRepo": "collinsumrell/sunset-valley",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/CollinSumrell-Sunset-Valley/Lab%20Assets/sample_maps_(RPG_Maker_MV-MZ)/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/CollinSumrell-Sunset-Valley/"
         }
       }
@@ -4424,8 +4432,12 @@
     {
       "sourceRepo": "copperchihuahua/coppers-touhou-game-jam",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/CopperChihuahua-Coppers-Touhou-Game-Jam/09%20RPGMaker/Touhou%20Game%20Jam/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/CopperChihuahua-Coppers-Touhou-Game-Jam/"
         }
       }
@@ -5449,8 +5461,12 @@
     {
       "sourceRepo": "ckeiser2/ckeiser2.github.io",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/ckeiser2-ckeiser2.github.io/assets/games/rpgmaker/Project1/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/ckeiser2-ckeiser2.github.io/"
         }
       }
@@ -5458,8 +5474,12 @@
     {
       "sourceRepo": "ckeiser2/portfolio",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/ckeiser2-portfolio/assets/games/rpgmaker/Project1/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/ckeiser2-portfolio/"
         }
       }
@@ -5787,8 +5807,12 @@
     {
       "sourceRepo": "cafel176/eventconditionpro",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/cafel176-EventConditionPro/ExampleProject_MV/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/cafel176-EventConditionPro/"
         }
       }
@@ -5832,8 +5856,12 @@
     {
       "sourceRepo": "cheekibreeki421/quillquest3",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/CheekiBreeki421-QuillQuest3/Quillquest%203%20-%20The%20Finale/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/CheekiBreeki421-QuillQuest3/"
         }
       }
@@ -6339,8 +6367,12 @@
     {
       "sourceRepo": "byvalvin/sanctuary",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Byvalvin-Sanctuary/Sanctuary/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/Byvalvin-Sanctuary/"
         }
       }
