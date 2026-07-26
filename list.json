@@ -19,7 +19,12 @@
     "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
     "upstreamPagesUrl": "https://webrpg.org/shaddockh-rmmv_ts_boilerplate/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/shaddockh-rmmv_ts_boilerplate/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/shaddockh-rmmv_ts_boilerplate/index.html",
+    "runtimeCheckedAt": "2026-07-26T22:34:39.596Z",
+    "runtimeLoadMs": 30002,
+    "runtimeHttpStatus": 200,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://yx.ecy.al/shaddockh-rmmv_ts_boilerplate/js/rpg_objects.js net::ERR_ABORTED | request: https://yx.ecy.al/shaddockh-rmmv_ts_boilerplate/js/libs/pixi.js net::ERR_ABORTED | request: https://yx.ecy.al/shaddockh-rmmv_ts_boilerplate/js/rpg_core.js net::ERR_ABORTED | request: https://yx.ecy.al/shaddockh-rmmv_ts_boilerplate/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/shaddockh-rmmv_ts_boilerplate/js/libs/pixi-picture.js net::ERR_ABORTED | request: https://yx.ecy.al/s"
   },
   {
     "id": "katai5plate-demoscene-2017",
@@ -5388,7 +5393,11 @@
     "upstreamCover": "https://webrpg.org/shirorimi-chaos/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/shirorimi-chaos/index.html",
-    "cover": "https://777723-xyz.github.io/shirorimi-chaos/cover.png"
+    "cover": "https://777723-xyz.github.io/shirorimi-chaos/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T22:34:14.812Z",
+    "runtimeLoadMs": 1343,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "shirorimi-chaosver10",
@@ -5412,7 +5421,11 @@
     "upstreamCover": "https://webrpg.org/shirorimi-chaosver10/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/shirorimi-chaosver10/index.html",
-    "cover": "https://777723-xyz.github.io/shirorimi-chaosver10/cover.png"
+    "cover": "https://777723-xyz.github.io/shirorimi-chaosver10/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T22:34:14.779Z",
+    "runtimeLoadMs": 1297,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "hackerman998-spacejam",
@@ -5649,7 +5662,11 @@
     "validationScore": 115,
     "totalSize": 434456,
     "dataSize": 2081805,
-    "forkName": "shayderrr-idkugssuggestion"
+    "forkName": "shayderrr-idkugssuggestion",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T22:34:14.028Z",
+    "runtimeLoadMs": 4434,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "taekfighter-google-drive-hub",
@@ -6020,7 +6037,11 @@
     "upstreamCover": "https://webrpg.org/soapstain22-crimpoquestMV/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/soapstain22-crimpoquestMV/index.html",
-    "cover": "https://777723-xyz.github.io/soapstain22-crimpoquestMV/cover.png"
+    "cover": "https://777723-xyz.github.io/soapstain22-crimpoquestMV/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T22:34:17.190Z",
+    "runtimeLoadMs": 1167,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "soapstain22-soapstain22-github-io",
@@ -6328,7 +6349,11 @@
     "upstreamCover": "https://webrpg.org/SheikhSafwan-Daybreak/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/SheikhSafwan-Daybreak/index.html",
-    "cover": "https://777723-xyz.github.io/SheikhSafwan-Daybreak/cover.png"
+    "cover": "https://777723-xyz.github.io/SheikhSafwan-Daybreak/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T22:34:13.381Z",
+    "runtimeLoadMs": 3787,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "aukak-fyinx",
@@ -9971,7 +9996,11 @@
     "validationScore": 118,
     "totalSize": 388632,
     "dataSize": 786938,
-    "forkName": "SirPacings-IsoIslandRpg"
+    "forkName": "SirPacings-IsoIslandRpg",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T22:34:16.852Z",
+    "runtimeLoadMs": 907,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "thomazdevmaster-matematica",
@@ -13014,7 +13043,12 @@
     "upstreamCover": "https://webrpg.org/sigmiliarity-web/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/sigmiliarity-web/index.html",
-    "cover": "https://777723-xyz.github.io/sigmiliarity-web/cover.png"
+    "cover": "https://777723-xyz.github.io/sigmiliarity-web/cover.png",
+    "runtimeCheckedAt": "2026-07-26T22:34:44.798Z",
+    "runtimeLoadMs": 30001,
+    "runtimeHttpStatus": 200,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://yx.ecy.al/api/sigmiliarity/web/bloodmoney/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/api/sigmiliarity/web/bloodmoney/js/libs/lz-string.js net::ERR_ABORTED | request: https://yx.ecy.al/api/sigmiliarity/web/bloodmoney/js/libs/pixi-tilemap.js net::ERR_ABORTED | request: https://yx.ecy.al/api/sigmiliarity/web/bloodmoney/js/main.js net::ERR_ABORTED | request: https://yx.ecy.al/api/sigmiliarity/web/bloodmoney/js/rpg_windows.js net::ERR_ABORTED | request: https://"
   },
   {
     "id": "starsnail-tokimori",
@@ -14716,7 +14750,11 @@
     "upstreamCover": "https://webrpg.org/sinonymousx-rpgMakerTest/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/sinonymousx-rpgMakerTest/index.html",
-    "cover": "https://777723-xyz.github.io/sinonymousx-rpgMakerTest/cover.png"
+    "cover": "https://777723-xyz.github.io/sinonymousx-rpgMakerTest/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T22:34:15.970Z",
+    "runtimeLoadMs": 986,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "pascal-the-elf-project-h5",
@@ -15137,7 +15175,11 @@
     "upstreamCover": "https://webrpg.org/shen0V0-GDP/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/shen0V0-GDP/index.html",
-    "cover": "https://777723-xyz.github.io/shen0V0-GDP/cover.png"
+    "cover": "https://777723-xyz.github.io/shen0V0-GDP/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T22:34:13.376Z",
+    "runtimeLoadMs": 3782,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "shen0v0-gdp-op",
@@ -15161,7 +15203,11 @@
     "upstreamCover": "https://webrpg.org/shen0V0-GDP_OP/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/shen0V0-GDP_OP/index.html",
-    "cover": "https://777723-xyz.github.io/shen0V0-GDP_OP/cover.png"
+    "cover": "https://777723-xyz.github.io/shen0V0-GDP_OP/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T22:34:13.379Z",
+    "runtimeLoadMs": 3785,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "favoriteheroes-re-tale",
@@ -15506,7 +15552,11 @@
     "upstreamCover": "https://webrpg.org/SirMcPotato-RMMV-MMO-webkit/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/SirMcPotato-RMMV-MMO-webkit/index.html",
-    "cover": "https://777723-xyz.github.io/SirMcPotato-RMMV-MMO-webkit/cover.png"
+    "cover": "https://777723-xyz.github.io/SirMcPotato-RMMV-MMO-webkit/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T22:34:16.009Z",
+    "runtimeLoadMs": 859,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "aiko-it-systems-rmmv-core",
@@ -16625,7 +16675,11 @@
     "upstreamCover": "https://webrpg.org/sifue-SIerQuest/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/sifue-SIerQuest/index.html",
-    "cover": "https://777723-xyz.github.io/sifue-SIerQuest/cover.png"
+    "cover": "https://777723-xyz.github.io/sifue-SIerQuest/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T22:34:15.110Z",
+    "runtimeLoadMs": 1019,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "biud436-cefmv",
@@ -16783,7 +16837,11 @@
     "upstreamCover": "https://webrpg.org/shirorimi-snipe/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/shirorimi-snipe/index.html",
-    "cover": "https://777723-xyz.github.io/shirorimi-snipe/cover.png"
+    "cover": "https://777723-xyz.github.io/shirorimi-snipe/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T22:34:14.767Z",
+    "runtimeLoadMs": 1273,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "miguelarcjr-sombradalua",
@@ -17451,7 +17509,11 @@
     "upstreamCover": "https://webrpg.org/sin-hu-study/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/sin-hu-study/index.html",
-    "cover": "https://777723-xyz.github.io/sin-hu-study/cover.png"
+    "cover": "https://777723-xyz.github.io/sin-hu-study/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T22:34:15.934Z",
+    "runtimeLoadMs": 1124,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "spikespieg-el-rpgtest",
