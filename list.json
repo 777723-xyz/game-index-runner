@@ -3929,7 +3929,11 @@
     "upstreamCover": "https://webrpg.org/SaveSub-BathroomMaze_EN/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/SaveSub-BathroomMaze_EN/index.html",
-    "cover": "https://777723-xyz.github.io/SaveSub-BathroomMaze_EN/cover.png"
+    "cover": "https://777723-xyz.github.io/SaveSub-BathroomMaze_EN/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T21:07:28.365Z",
+    "runtimeLoadMs": 1198,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "tomoshibi06-bathroom",
@@ -5455,7 +5459,11 @@
     "sourceRepo": "sasakimika487/chuyentausninhtu",
     "upstreamPagesUrl": "https://webrpg.org/sasakimika487-chuyentausninhtu/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/sasakimika487-chuyentausninhtu/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/sasakimika487-chuyentausninhtu/index.html",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T21:07:27.044Z",
+    "runtimeLoadMs": 3341,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "p-guilherme-cidadesustentavel",
@@ -7829,7 +7837,11 @@
     "upstreamCover": "https://webrpg.org/SaveSub-FairyMaze_EN/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/SaveSub-FairyMaze_EN/index.html",
-    "cover": "https://777723-xyz.github.io/SaveSub-FairyMaze_EN/cover.png"
+    "cover": "https://777723-xyz.github.io/SaveSub-FairyMaze_EN/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T21:07:28.467Z",
+    "runtimeLoadMs": 1060,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "tomoshibi06-fairymaze2",
@@ -8086,7 +8098,12 @@
     "sourceRepo": "ScorpGaming4432/fungerterminapl",
     "upstreamPagesUrl": "https://webrpg.org/ScorpGaming4432-fungerterminapl/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/ScorpGaming4432-fungerterminapl/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/ScorpGaming4432-fungerterminapl/index.html",
+    "runtimeCheckedAt": "2026-07-26T21:07:58.688Z",
+    "runtimeLoadMs": 30008,
+    "runtimeHttpStatus": 200,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://yx.ecy.al/ScorpGaming4432-fungerterminapl/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/ScorpGaming4432-fungerterminapl/js/libs/pixi.js net::ERR_ABORTED | request: https://yx.ecy.al/ScorpGaming4432-fungerterminapl/js/rpg_objects.js net::ERR_ABORTED | request: https://yx.ecy.al/ScorpGaming4432-fungerterminapl/js/libs/iphone-inline-video.browser.js net::ERR_ABORTED | request: https://yx.ecy.al/ScorpGaming4432-fungerterminapl/js/rpg_windows.js net::ERR_ABORTED | "
   },
   {
     "id": "tobyyasha-fear-and-hunger-mods",
@@ -11354,7 +11371,11 @@
     "validationScore": 118,
     "totalSize": 1437,
     "dataSize": 673851,
-    "forkName": "SaiguruNagula-ik5"
+    "forkName": "SaiguruNagula-ik5",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T21:07:27.116Z",
+    "runtimeLoadMs": 3413,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "jefrob-megaearth2049",
@@ -12356,7 +12377,11 @@
     "upstreamCover": "https://webrpg.org/SausageMania-Odd-of-Eden-Project/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/SausageMania-Odd-of-Eden-Project/index.html",
-    "cover": "https://777723-xyz.github.io/SausageMania-Odd-of-Eden-Project/cover.png"
+    "cover": "https://777723-xyz.github.io/SausageMania-Odd-of-Eden-Project/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T21:07:28.487Z",
+    "runtimeLoadMs": 1327,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "0x736f6d657468696e67-new-layers",
@@ -13623,7 +13648,11 @@
     "upstreamCover": "https://webrpg.org/SaiTsuki-GameDesign/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/SaiTsuki-GameDesign/index.html",
-    "cover": "https://777723-xyz.github.io/SaiTsuki-GameDesign/cover.png"
+    "cover": "https://777723-xyz.github.io/SaiTsuki-GameDesign/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T21:07:27.043Z",
+    "runtimeLoadMs": 3340,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "laferu-platina-the-wolf",
@@ -15208,7 +15237,11 @@
     "upstreamCover": "https://webrpg.org/saintclairlima-ReachUp/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/saintclairlima-ReachUp/index.html",
-    "cover": "https://777723-xyz.github.io/saintclairlima-ReachUp/cover.png"
+    "cover": "https://777723-xyz.github.io/saintclairlima-ReachUp/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T21:07:27.079Z",
+    "runtimeLoadMs": 3376,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "agus-sosa-reactmonster",
@@ -16069,7 +16102,11 @@
     "validationScore": 115,
     "totalSize": 403927,
     "dataSize": 740062,
-    "forkName": "scaryinc-tg"
+    "forkName": "scaryinc-tg",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T21:07:29.956Z",
+    "runtimeLoadMs": 1539,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "miegithub-scholars-journey",
@@ -16482,7 +16519,11 @@
     "validationScore": 118,
     "totalSize": 433113,
     "dataSize": 2085923,
-    "forkName": "Schwarze-Neko-Shattered-Dreams"
+    "forkName": "Schwarze-Neko-Shattered-Dreams",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T21:07:29.991Z",
+    "runtimeLoadMs": 1381,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "takoikatakotako-happybirthday-2018",
@@ -17566,7 +17607,11 @@
     "upstreamCover": "https://webrpg.org/scringly-TestQuest/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/scringly-TestQuest/index.html",
-    "cover": "https://777723-xyz.github.io/scringly-TestQuest/cover.png"
+    "cover": "https://777723-xyz.github.io/scringly-TestQuest/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T21:07:30.000Z",
+    "runtimeLoadMs": 1203,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "hzj199710-rpgmakerp1",
@@ -17642,7 +17687,11 @@
     "sourceRepo": "samsam2310/Zatho",
     "upstreamPagesUrl": "https://webrpg.org/samsam2310-Zatho/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/samsam2310-Zatho/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/samsam2310-Zatho/index.html",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T21:07:28.370Z",
+    "runtimeLoadMs": 4667,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "bywuuu-lecweb",
@@ -19796,7 +19845,11 @@
     "validationScore": 118,
     "totalSize": 168806,
     "dataSize": 2355543,
-    "forkName": "ServerMana-Country-Life"
+    "forkName": "ServerMana-Country-Life",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T21:07:30.498Z",
+    "runtimeLoadMs": 815,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "ciart-knightdream-old",
@@ -20067,7 +20120,11 @@
     "upstreamCover": "https://webrpg.org/SaveSub-SlaveTrader_EN/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/SaveSub-SlaveTrader_EN/index.html",
-    "cover": "https://777723-xyz.github.io/SaveSub-SlaveTrader_EN/cover.png"
+    "cover": "https://777723-xyz.github.io/SaveSub-SlaveTrader_EN/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T21:07:29.630Z",
+    "runtimeLoadMs": 1231,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "ihatechickfila-tickling-escape-2",
@@ -20111,7 +20168,11 @@
     "upstreamCover": "https://webrpg.org/SaveSub-Elise_Tickleland_EN/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/SaveSub-Elise_Tickleland_EN/index.html",
-    "cover": "https://777723-xyz.github.io/SaveSub-Elise_Tickleland_EN/cover.png"
+    "cover": "https://777723-xyz.github.io/SaveSub-Elise_Tickleland_EN/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T21:07:28.422Z",
+    "runtimeLoadMs": 1247,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "john-smith-rpg-kuso",
