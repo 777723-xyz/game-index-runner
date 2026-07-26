@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T23:16:44.046Z",
+  "generatedAt": "2026-07-26T00:18:24.898Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 856,
   "upstreamTotal": 856,
@@ -526,7 +526,15 @@
       "sourceRepo": "xjzsq/1",
       "differences": {
         "status": {
-          "ours": "indexed",
+          "ours": "verified",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/xjzsq-1/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
           "upstream": null
         }
       }
