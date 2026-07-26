@@ -3283,7 +3283,11 @@
     "upstreamCover": "https://webrpg.org/rober26522-th-grade-work/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/rober26522-th-grade-work/index.html",
-    "cover": "https://777723-xyz.github.io/rober26522-th-grade-work/cover.png"
+    "cover": "https://777723-xyz.github.io/rober26522-th-grade-work/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T19:49:44.886Z",
+    "runtimeLoadMs": 4731,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "rober26522-9thgradework",
@@ -3307,7 +3311,11 @@
     "upstreamCover": "https://webrpg.org/rober26522-9thGradeWork/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/rober26522-9thGradeWork/index.html",
-    "cover": "https://777723-xyz.github.io/rober26522-9thGradeWork/cover.png"
+    "cover": "https://777723-xyz.github.io/rober26522-9thGradeWork/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T19:49:44.873Z",
+    "runtimeLoadMs": 4718,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "rober26522-rober26522-github-io",
@@ -3331,7 +3339,11 @@
     "upstreamCover": "https://webrpg.org/rober26522-rober26522.github.io/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/rober26522-rober26522.github.io/index.html",
-    "cover": "https://777723-xyz.github.io/rober26522-rober26522.github.io/cover.png"
+    "cover": "https://777723-xyz.github.io/rober26522-rober26522.github.io/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T19:49:44.896Z",
+    "runtimeLoadMs": 4741,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "chocabloc-adventure-game",
@@ -6835,7 +6847,11 @@
     "upstreamCover": "https://webrpg.org/Ruandersonvieira-educamais/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Ruandersonvieira-educamais/index.html",
-    "cover": "https://777723-xyz.github.io/Ruandersonvieira-educamais/cover.png"
+    "cover": "https://777723-xyz.github.io/Ruandersonvieira-educamais/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T19:49:46.338Z",
+    "runtimeLoadMs": 1341,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "ec-developer-hub-desolationnn",
@@ -8402,7 +8418,11 @@
     "upstreamCover": "https://webrpg.org/safejoy-15-Gay-Launcher/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/safejoy-15-Gay-Launcher/index.html",
-    "cover": "https://777723-xyz.github.io/safejoy-15-Gay-Launcher/cover.png"
+    "cover": "https://777723-xyz.github.io/safejoy-15-Gay-Launcher/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T19:49:48.605Z",
+    "runtimeLoadMs": 1190,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "feilongproject-fubuki-h-game",
@@ -11588,7 +11608,12 @@
     "validationScore": 118,
     "totalSize": 390796,
     "dataSize": 792099,
-    "forkName": "RPGCosmos-Example-MMO"
+    "forkName": "RPGCosmos-Example-MMO",
+    "runtimeCheckedAt": "2026-07-26T19:50:14.994Z",
+    "runtimeLoadMs": 30002,
+    "runtimeHttpStatus": 200,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "page.waitForFunction: Timeout 29013ms exceeded."
   },
   {
     "id": "jpmendezf-my-mmorpg",
@@ -12166,7 +12191,11 @@
     "upstreamCover": "https://webrpg.org/sabotai-sabotai.github.io/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/sabotai-sabotai.github.io/index.html",
-    "cover": "https://777723-xyz.github.io/sabotai-sabotai.github.io/cover.png"
+    "cover": "https://777723-xyz.github.io/sabotai-sabotai.github.io/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T19:49:47.716Z",
+    "runtimeLoadMs": 1239,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "k45514n-nodeconfar-2017",
@@ -14630,7 +14659,11 @@
     "upstreamCover": "https://webrpg.org/rinne-grid-tkoolmv_plugin_RecollectionMode/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/rinne-grid-tkoolmv_plugin_RecollectionMode/index.html",
-    "cover": "https://777723-xyz.github.io/rinne-grid-tkoolmv_plugin_RecollectionMode/cover.png"
+    "cover": "https://777723-xyz.github.io/rinne-grid-tkoolmv_plugin_RecollectionMode/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T19:49:44.886Z",
+    "runtimeLoadMs": 4731,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "sinonymousx-rpgmakertest",
@@ -14727,7 +14760,11 @@
     "validationScore": 115,
     "totalSize": 24894,
     "dataSize": 702027,
-    "forkName": "sabakan03-mv"
+    "forkName": "sabakan03-mv",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T19:49:47.382Z",
+    "runtimeLoadMs": 942,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "cafel176-eventconditionpro",
@@ -15602,7 +15639,11 @@
     "validationScore": 118,
     "totalSize": 388538,
     "dataSize": 668345,
-    "forkName": "RoryTheGame-RoryRPG"
+    "forkName": "RoryTheGame-RoryRPG",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T19:49:46.245Z",
+    "runtimeLoadMs": 1275,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "cjtan0503-rpgfantasy",
@@ -16870,7 +16911,11 @@
     "upstreamCover": "https://webrpg.org/SaddlebackCSS-Parker/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/SaddlebackCSS-Parker/index.html",
-    "cover": "https://777723-xyz.github.io/SaddlebackCSS-Parker/cover.png"
+    "cover": "https://777723-xyz.github.io/SaddlebackCSS-Parker/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T19:49:47.756Z",
+    "runtimeLoadMs": 1227,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "inababyakko-ssplayerforrpgmv",
@@ -17867,7 +17912,11 @@
     "upstreamCover": "https://webrpg.org/robles1301-videojuego/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/robles1301-videojuego/index.html",
-    "cover": "https://777723-xyz.github.io/robles1301-videojuego/cover.png"
+    "cover": "https://777723-xyz.github.io/robles1301-videojuego/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T19:49:44.900Z",
+    "runtimeLoadMs": 4745,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "discus-sions-the-fall-preview2",
@@ -18506,7 +18555,11 @@
     "upstreamCover": "https://webrpg.org/RyanBram-ryanbram.github.io/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/RyanBram-ryanbram.github.io/index.html",
-    "cover": "https://777723-xyz.github.io/RyanBram-ryanbram.github.io/cover.png"
+    "cover": "https://777723-xyz.github.io/RyanBram-ryanbram.github.io/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T19:49:47.551Z",
+    "runtimeLoadMs": 1274,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "arqui-dev-projetocaminhoneiro",
@@ -19844,7 +19897,11 @@
     "upstreamCover": "https://webrpg.org/rpg9979-rpg9979/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/rpg9979-rpg9979/index.html",
-    "cover": "https://777723-xyz.github.io/rpg9979-rpg9979/cover.png"
+    "cover": "https://777723-xyz.github.io/rpg9979-rpg9979/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T19:49:46.338Z",
+    "runtimeLoadMs": 1359,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "tomoshibi06-abcv",
@@ -20313,7 +20370,11 @@
     "upstreamCover": "https://webrpg.org/RyanBram-RPGMV-Plugins/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/RyanBram-RPGMV-Plugins/index.html",
-    "cover": "https://777723-xyz.github.io/RyanBram-RPGMV-Plugins/cover.png"
+    "cover": "https://777723-xyz.github.io/RyanBram-RPGMV-Plugins/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-26T19:49:46.332Z",
+    "runtimeLoadMs": 1321,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "oden-bremen",
