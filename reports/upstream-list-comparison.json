@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T17:19:39.862Z",
+  "generatedAt": "2026-07-26T19:38:37.792Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 857,
   "upstreamTotal": 857,
@@ -3564,19 +3564,11 @@
       "sourceRepo": "donais04/isatarchipelago",
       "differences": {
         "status": {
-          "ours": "verified",
+          "ours": "invalid_structure",
           "upstream": "indexed"
         },
         "forkName": {
           "ours": "Donais04-ISATArchipelago",
-          "upstream": null
-        },
-        "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Donais04-ISATArchipelago/lookISAT/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "lookISAT/index.html",
           "upstream": null
         }
       }
@@ -6816,19 +6808,11 @@
       "sourceRepo": "dreafun/starcrystal",
       "differences": {
         "status": {
-          "ours": "verified",
+          "ours": "invalid_structure",
           "upstream": "indexed"
         },
         "forkName": {
           "ours": "Dreafun-starcrystal",
-          "upstream": null
-        },
-        "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Dreafun-starcrystal/Star%20Crystal/www/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "Star Crystal/www/index.html",
           "upstream": null
         }
       }
