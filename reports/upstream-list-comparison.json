@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T17:15:15.075Z",
+  "generatedAt": "2026-07-27T18:51:26.499Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 857,
   "upstreamTotal": 857,
@@ -3027,8 +3027,12 @@
       "sourceRepo": "lovehina13/finalsymphonia",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/lovehina13-FinalSymphonia/Final_Symphonia/index.html",
+          "ours": "https://777723-xyz.github.io/lovehina13-FinalSymphonia/index.html",
           "upstream": "https://webrpg.org/lovehina13-FinalSymphonia/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Final_Symphonia/index.html"
         }
       }
     },
@@ -4218,11 +4222,11 @@
           "upstream": null
         },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/kellym19-Luxx/Luxx/index.html",
+          "ours": "https://777723-xyz.github.io/kellym19-Luxx/index.html",
           "upstream": null
         },
         "entryPath": {
-          "ours": "Luxx/index.html",
+          "ours": "index.html",
           "upstream": null
         }
       }
@@ -6262,8 +6266,12 @@
       "sourceRepo": "eml17028/rpgmaker_horror_gamejam_24",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/eml17028-RPGMaker_Horror_GameJam_24/SpookySeaGame/index.html",
+          "ours": "https://777723-xyz.github.io/eml17028-RPGMaker_Horror_GameJam_24/index.html",
           "upstream": "https://webrpg.org/eml17028-RPGMaker_Horror_GameJam_24/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "SpookySeaGame/index.html"
         }
       }
     },
@@ -6350,8 +6358,12 @@
       "sourceRepo": "lolosenpai/aob",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/LoLoSenPai-AOB/public/_source/rpg-forest/Sample%20Map/index.html",
+          "ours": "https://777723-xyz.github.io/LoLoSenPai-AOB/index.html",
           "upstream": "https://webrpg.org/LoLoSenPai-AOB/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "public/_source/rpg-forest/Sample Map/index.html"
         }
       }
     },
