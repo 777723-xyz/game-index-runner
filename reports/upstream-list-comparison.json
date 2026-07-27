@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T11:44:05.752Z",
+  "generatedAt": "2026-07-27T15:18:05.275Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 857,
   "upstreamTotal": 857,
@@ -5828,8 +5828,12 @@
     {
       "sourceRepo": "dudleydehenau/ephec",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/dudleydehenau-Ephec/DevIII/ScapeGame-dev/fronted/login/src/assets/Prison/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/dudleydehenau-Ephec/"
         }
       }
