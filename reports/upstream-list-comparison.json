@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T04:11:15.509Z",
+  "generatedAt": "2026-07-27T07:56:32.327Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 857,
   "upstreamTotal": 857,
@@ -2366,8 +2366,12 @@
     {
       "sourceRepo": "davidlopez3d/project_darkestvalley",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/davidlopez3D-project_darkestvalley/DarkestValley/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/davidlopez3D-project_darkestvalley/"
         }
       }
@@ -2436,8 +2440,12 @@
     {
       "sourceRepo": "deogracia/rpgmaker-creditsmarkdown",
       "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/deogracia-rpgmaker-CreditsMarkdown/rmmv/DemoCreditsMardown/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/deogracia-rpgmaker-CreditsMarkdown/"
         }
       }
