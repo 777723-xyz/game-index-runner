@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T20:47:03.444Z",
+  "generatedAt": "2026-07-27T22:30:31.882Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 857,
   "upstreamTotal": 857,
@@ -4265,8 +4265,12 @@
       "sourceRepo": "luciddreamforcapstone/luciddream",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/LucidDreamForCapstone-LucidDream/Assets/06.Resources/madscientist/sample_maps_(RPG_Maker_MV-MZ)/index.html",
+          "ours": "https://777723-xyz.github.io/LucidDreamForCapstone-LucidDream/index.html",
           "upstream": "https://webrpg.org/LucidDreamForCapstone-LucidDream/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Assets/06.Resources/madscientist/sample_maps_(RPG_Maker_MV-MZ)/index.html"
         }
       }
     },
@@ -5754,8 +5758,12 @@
       "sourceRepo": "mattiefm/idkgame",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/mattieFM-idkGame/Project2/index.html",
+          "ours": "https://777723-xyz.github.io/mattieFM-idkGame/index.html",
           "upstream": "https://webrpg.org/mattieFM-idkGame/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Project2/index.html"
         }
       }
     },
@@ -7490,11 +7498,11 @@
           "upstream": null
         },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Martinetto33-To-Glory/To%20Glory/index.html",
+          "ours": "https://777723-xyz.github.io/Martinetto33-To-Glory/index.html",
           "upstream": null
         },
         "entryPath": {
-          "ours": "To Glory/index.html",
+          "ours": "index.html",
           "upstream": null
         }
       }
@@ -7921,8 +7929,12 @@
       "sourceRepo": "luisaugusto2005/cheeesss",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/LuisAugusto2005-Cheeesss/TheodosiusPlayground/Zadrez/www/index.html",
+          "ours": "https://777723-xyz.github.io/LuisAugusto2005-Cheeesss/index.html",
           "upstream": "https://webrpg.org/LuisAugusto2005-Cheeesss/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "TheodosiusPlayground/Zadrez/www/index.html"
         }
       }
     },
