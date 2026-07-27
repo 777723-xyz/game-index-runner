@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T18:51:26.499Z",
+  "generatedAt": "2026-07-27T20:47:03.444Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 857,
   "upstreamTotal": 857,
@@ -3141,8 +3141,12 @@
       "sourceRepo": "enclaireee/spacegame",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/enclaireee-spacegame/assets/Galacti-Chrons%20Sci-Fi%20Warehouse%20Pack/index.html",
+          "ours": "https://777723-xyz.github.io/enclaireee-spacegame/index.html",
           "upstream": "https://webrpg.org/enclaireee-spacegame/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "assets/Galacti-Chrons Sci-Fi Warehouse Pack/index.html"
         }
       }
     },
@@ -3654,8 +3658,12 @@
       "sourceRepo": "enigmadragons/intothedark",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/EnigmaDragons-IntoTheDark/IntoTheDark/index.html",
+          "ours": "https://777723-xyz.github.io/EnigmaDragons-IntoTheDark/index.html",
           "upstream": "https://webrpg.org/EnigmaDragons-IntoTheDark/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "IntoTheDark/index.html"
         }
       }
     },
@@ -4575,8 +4583,12 @@
       "sourceRepo": "kyubuns/mmom",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/kyubuns-MMOM/Client/index.html",
+          "ours": "https://777723-xyz.github.io/kyubuns-MMOM/index.html",
           "upstream": "https://webrpg.org/kyubuns-MMOM/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Client/index.html"
         }
       }
     },
@@ -6184,8 +6196,12 @@
       "sourceRepo": "epic12terrarian/road-to-joshsdale",
       "differences": {
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Epic12Terrarian-Road-to-Joshsdale/testProject/index.html",
+          "ours": "https://777723-xyz.github.io/Epic12Terrarian-Road-to-Joshsdale/index.html",
           "upstream": "https://webrpg.org/Epic12Terrarian-Road-to-Joshsdale/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "testProject/index.html"
         }
       }
     },
@@ -6257,8 +6273,12 @@
           "upstream": "LoKiLyn-RPGMakerMV"
         },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Lino-saur-RPGMakerMV/Games/platforms/ios/HelloCordova.xcarchive/Products/Applications/HelloCordova.app/www/index.html",
+          "ours": "https://777723-xyz.github.io/Lino-saur-RPGMakerMV/index.html",
           "upstream": "https://webrpg.org/LoKiLyn-RPGMakerMV/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "Games/platforms/ios/HelloCordova.xcarchive/Products/Applications/HelloCordova.app/www/index.html"
         }
       }
     },
