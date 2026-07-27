@@ -3843,7 +3843,11 @@
     "validationScore": 118,
     "totalSize": 631282,
     "dataSize": 9022514,
-    "forkName": "UnboxingVideoReal-bambi-civ"
+    "forkName": "UnboxingVideoReal-bambi-civ",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-27T12:34:30.964Z",
+    "runtimeLoadMs": 1641,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "unboxingvideoreal-bambi-civ-fangame-pc",
@@ -3864,7 +3868,11 @@
     "validationScore": 115,
     "totalSize": 610364,
     "dataSize": 9022514,
-    "forkName": "UnboxingVideoReal-bambi-civ-fangame-pc"
+    "forkName": "UnboxingVideoReal-bambi-civ-fangame-pc",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-27T12:34:30.949Z",
+    "runtimeLoadMs": 1556,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "benjaminpants-benjaminpants-github-io",
@@ -5804,7 +5812,11 @@
     "upstreamCover": "https://webrpg.org/UnboundStudios-colours-missing/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/UnboundStudios-colours-missing/index.html",
-    "cover": "https://777723-xyz.github.io/UnboundStudios-colours-missing/cover.png"
+    "cover": "https://777723-xyz.github.io/UnboundStudios-colours-missing/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-27T12:34:30.689Z",
+    "runtimeLoadMs": 1388,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "imaginaryvillain-community-lights",
@@ -6881,7 +6893,11 @@
     "validationScore": 115,
     "totalSize": 391455,
     "dataSize": 745880,
-    "forkName": "uppteam-uppteam.github.io"
+    "forkName": "uppteam-uppteam.github.io",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-27T12:34:32.009Z",
+    "runtimeLoadMs": 1262,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "ruandersonvieira-educamais",
@@ -7171,7 +7187,11 @@
     "upstreamCover": "https://webrpg.org/unofficialsquaregames-DISSIDIA-TACTICS-FANTASY/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/unofficialsquaregames-DISSIDIA-TACTICS-FANTASY/index.html",
-    "cover": "https://777723-xyz.github.io/unofficialsquaregames-DISSIDIA-TACTICS-FANTASY/cover.png"
+    "cover": "https://777723-xyz.github.io/unofficialsquaregames-DISSIDIA-TACTICS-FANTASY/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-27T12:34:31.910Z",
+    "runtimeLoadMs": 1203,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "akanetr-divirtual",
@@ -7515,7 +7535,11 @@
     "upstreamCover": "https://webrpg.org/uides1-uides1.dcs.github.io/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/uides1-uides1.dcs.github.io/index.html",
-    "cover": "https://777723-xyz.github.io/uides1-uides1.dcs.github.io/cover.png"
+    "cover": "https://777723-xyz.github.io/uides1-uides1.dcs.github.io/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-27T12:34:29.130Z",
+    "runtimeLoadMs": 2269,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "andrewharn-dwellers-empty-path-plus",
@@ -8569,7 +8593,11 @@
     "upstreamCover": "https://webrpg.org/UNBL0CKEDZ0NE-ubassets/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/UNBL0CKEDZ0NE-ubassets/index.html",
-    "cover": "https://777723-xyz.github.io/UNBL0CKEDZ0NE-ubassets/cover.png"
+    "cover": "https://777723-xyz.github.io/UNBL0CKEDZ0NE-ubassets/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-27T12:34:34.775Z",
+    "runtimeLoadMs": 5695,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "nikitosiknekitoser-sus-futato-project",
@@ -13721,7 +13749,11 @@
     "sourceRepo": "U-K-L/ContentSupportExamples",
     "upstreamPagesUrl": "https://webrpg.org/U-K-L-ContentSupportExamples/",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/U-K-L-ContentSupportExamples/index.html"
+    "pagesUrl": "https://777723-xyz.github.io/U-K-L-ContentSupportExamples/index.html",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-27T12:34:29.023Z",
+    "runtimeLoadMs": 2162,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "u-k-l-rpgame-patreon-example",
@@ -13742,7 +13774,11 @@
     "validationScore": 115,
     "totalSize": 72641,
     "dataSize": 693580,
-    "forkName": "U-K-L-RPGAME-Patreon-Example"
+    "forkName": "U-K-L-RPGAME-Patreon-Example",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-27T12:34:29.089Z",
+    "runtimeLoadMs": 2228,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "saitsuki-gamedesign",
@@ -18726,7 +18762,11 @@
     "upstreamCover": "https://webrpg.org/tyllastarr-ld46/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/tyllastarr-ld46/index.html",
-    "cover": "https://777723-xyz.github.io/tyllastarr-ld46/cover.png"
+    "cover": "https://777723-xyz.github.io/tyllastarr-ld46/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-27T12:34:29.025Z",
+    "runtimeLoadMs": 2164,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "boolaw-tombofhorrors",
@@ -19066,7 +19106,11 @@
     "upstreamCover": "https://webrpg.org/UrrezkoKaiola-gaiden-one/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/UrrezkoKaiola-gaiden-one/index.html",
-    "cover": "https://777723-xyz.github.io/UrrezkoKaiola-gaiden-one/cover.png"
+    "cover": "https://777723-xyz.github.io/UrrezkoKaiola-gaiden-one/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-27T12:34:32.101Z",
+    "runtimeLoadMs": 1122,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "urrezkokaiola-gaiden-two",
@@ -19090,7 +19134,11 @@
     "upstreamCover": "https://webrpg.org/UrrezkoKaiola-gaiden-two/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/UrrezkoKaiola-gaiden-two/index.html",
-    "cover": "https://777723-xyz.github.io/UrrezkoKaiola-gaiden-two/cover.png"
+    "cover": "https://777723-xyz.github.io/UrrezkoKaiola-gaiden-two/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-27T12:34:32.287Z",
+    "runtimeLoadMs": 1251,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "urrezkokaiola-terminal1",
@@ -19114,7 +19162,11 @@
     "upstreamCover": "https://webrpg.org/UrrezkoKaiola-terminal1/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/UrrezkoKaiola-terminal1/index.html",
-    "cover": "https://777723-xyz.github.io/UrrezkoKaiola-terminal1/cover.png"
+    "cover": "https://777723-xyz.github.io/UrrezkoKaiola-terminal1/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-27T12:34:32.915Z",
+    "runtimeLoadMs": 958,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "urrezkokaiola-urrezkokaiola-github-io",
@@ -20482,7 +20534,11 @@
     "upstreamCover": "https://webrpg.org/tw123777tw-SiyuToHusigiNoGakuen/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/tw123777tw-SiyuToHusigiNoGakuen/index.html",
-    "cover": "https://777723-xyz.github.io/tw123777tw-SiyuToHusigiNoGakuen/cover.png"
+    "cover": "https://777723-xyz.github.io/tw123777tw-SiyuToHusigiNoGakuen/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-27T12:34:29.173Z",
+    "runtimeLoadMs": 2312,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "haturatu-sradjp",
@@ -20842,7 +20898,11 @@
     "upstreamCover": "https://webrpg.org/umaaji298-rituRPG/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/umaaji298-rituRPG/index.html",
-    "cover": "https://777723-xyz.github.io/umaaji298-rituRPG/cover.png"
+    "cover": "https://777723-xyz.github.io/umaaji298-rituRPG/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-27T12:34:30.712Z",
+    "runtimeLoadMs": 1652,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "chorako666-obake",
