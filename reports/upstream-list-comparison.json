@@ -1,19 +1,11 @@
 {
-  "generatedAt": "2026-07-28T09:51:40.159Z",
+  "generatedAt": "2026-07-28T12:17:26.364Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 858,
-  "upstreamTotal": 857,
-  "shared": 857,
+  "upstreamTotal": 858,
+  "shared": 858,
   "upstreamOnly": [],
-  "localOnly": [
-    {
-      "id": "ikyih-gamesofthehub",
-      "sourceRepo": "ikyih/gamesofthehub",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    }
-  ],
+  "localOnly": [],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -3910,6 +3902,27 @@
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/juridon-juridon.github.io/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
+      "sourceRepo": "ikyih/gamesofthehub",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "ikyih-gamesofthehub",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/ikyih-gamesofthehub/index.html",
           "upstream": null
         },
         "entryPath": {
