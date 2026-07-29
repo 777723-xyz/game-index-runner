@@ -20334,11 +20334,11 @@
     "totalSize": 3410,
     "dataSize": 92446,
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-07-29T16:36:50.384Z",
+    "runtimeCheckedAt": "2026-07-29T23:35:47.960Z",
     "runtimeLoadMs": 30005,
     "runtimeHttpStatus": 404,
-    "runtimeFailureCount": 8,
-    "runtimeLastError": "request: https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496 csp | page.waitForFunction: Timeout 27622ms exceeded.",
+    "runtimeFailureCount": 9,
+    "runtimeLastError": "request: https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496 csp | page.waitForFunction: Timeout 27310ms exceeded.",
     "forkName": "GYHGwangju-Sinacs_RhythmQTE"
   },
   {
