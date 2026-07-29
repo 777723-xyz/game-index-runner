@@ -14775,11 +14775,11 @@
     "pagesUrl": "https://777723-xyz.github.io/Stuocs-PequeJRPG/index.html",
     "cover": "https://777723-xyz.github.io/Stuocs-PequeJRPG/cover.png",
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-07-28T22:37:45.630Z",
-    "runtimeLoadMs": 30020,
+    "runtimeCheckedAt": "2026-07-29T07:05:36.354Z",
+    "runtimeLoadMs": 30005,
     "runtimeHttpStatus": 404,
-    "runtimeFailureCount": 5,
-    "runtimeLastError": "request: https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496 csp | page.waitForFunction: Timeout 29260ms exceeded."
+    "runtimeFailureCount": 6,
+    "runtimeLastError": "request: https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496 csp | page.waitForFunction: Timeout 26722ms exceeded."
   },
   {
     "id": "talbal-ripper-tfi-builder",
@@ -17847,11 +17847,11 @@
     "pagesUrl": "https://777723-xyz.github.io/SpikeSpieg-el-rpgTest/index.html",
     "cover": "https://777723-xyz.github.io/SpikeSpieg-el-rpgTest/cover.png",
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-07-28T22:37:45.616Z",
-    "runtimeLoadMs": 30006,
+    "runtimeCheckedAt": "2026-07-29T07:05:36.356Z",
+    "runtimeLoadMs": 30007,
     "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 5,
-    "runtimeLastError": "pageerror: bridge is not defined | page.waitForFunction: Timeout 29098ms exceeded."
+    "runtimeFailureCount": 6,
+    "runtimeLastError": "pageerror: bridge is not defined | page.waitForFunction: Timeout 26545ms exceeded."
   },
   {
     "id": "firekula-erogame",
@@ -18209,11 +18209,11 @@
     "pagesUrl": "https://777723-xyz.github.io/vertexiii-vertexiii.github.io/index.html",
     "cover": "https://777723-xyz.github.io/vertexiii-vertexiii.github.io/cover.png",
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-07-28T22:37:45.615Z",
-    "runtimeLoadMs": 30005,
+    "runtimeCheckedAt": "2026-07-29T07:05:36.356Z",
+    "runtimeLoadMs": 30007,
     "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 5,
-    "runtimeLastError": "request: https://kdata1.com/2023/03/the-coffin-of-andy-and-leyley/js/libs/pixi-tilemap.js net::ERR_BLOCKED_BY_ORB | request: https://kdata1.com/2023/03/the-coffin-of-andy-and-leyley/js/plugins.js net::ERR_BLOCKED_BY_ORB | request: https://kdata1.com/2023/03/the-coffin-of-andy-and-leyley/js/libs/fpsmeter.js net::ERR_BLOCKED_BY_ORB | request: https://yx.ecy.al/vertexiii-vertexiii.github.io/games/thecoffinofandyandleyley/fonts/gamefont.css net::ERR_ABORTED | request: https://kdata1.com/2023/03/the-"
+    "runtimeFailureCount": 6,
+    "runtimeLastError": "request: https://yx.ecy.al/vertexiii-vertexiii.github.io/games/thecoffinofandyandleyley/fonts/gamefont.css net::ERR_ABORTED | request: https://kdata1.com/2023/03/the-coffin-of-andy-and-leyley/js/libs/fpsmeter.js net::ERR_BLOCKED_BY_ORB | request: https://kdata1.com/2023/03/the-coffin-of-andy-and-leyley/js/libs/lz-string.js net::ERR_BLOCKED_BY_ORB | request: https://kdata1.com/2023/03/the-coffin-of-andy-and-leyley/js/plugins.js net::ERR_BLOCKED_BY_ORB | request: https://kdata1.com/2023/03/the-cof"
   },
   {
     "id": "kidev-tcoaalbrowserloader",
