@@ -134,23 +134,24 @@ jobs:
           merge-multiple: true
           path: workflow-results
 
+      - name: Capture catalog baseline
+        run: cp list.json "$RUNNER_TEMP/list-base.json"
+
       - name: Update list metadata
         env:
           DRY_RUN: "false"
           RESULTS_DIR: workflow-results
         run: node scripts/update-list-from-results.mjs
 
-      - name: Commit list metadata
-        run: |
-          git config user.name "webrpg-bot[bot]"
-          git config user.email "webrpg-bot[bot]@users.noreply.github.com"
-          git add list.json
-          if git diff --cached --quiet; then
-            echo "No list.json changes to commit."
-          else
-            git commit -m "Update fork validation metadata"
-            git push
-          fi
+      - name: Publish list metadata atomically
+        env:
+          GITHUB_TOKEN: ${{ steps.index-token.outputs.token }}
+          BASE_PATH: ${{ runner.temp }}/list-base.json
+          GENERATED_PATH: list.json
+          TARGET_PATH: list.json
+          MERGE_MODE: catalog
+          COMMIT_MESSAGE: Update fork validation metadata
+        run: node scripts/publish-generated-file.mjs
 
       - name: Create portal dispatch token
         id: portal-token

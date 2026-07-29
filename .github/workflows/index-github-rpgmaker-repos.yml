@@ -34,6 +34,9 @@ jobs:
         with:
           node-version: "24"
 
+      - name: Capture catalog baseline
+        run: cp list.json "$RUNNER_TEMP/list-base.json"
+
       - name: Sync upstream WebRPG catalog
         run: node scripts/sync-upstream-list.mjs
 
@@ -45,14 +48,12 @@ jobs:
           SEARCH_DELAY_SECONDS: "8"
         run: node scripts/index-github-rpgmaker-repos.mjs
 
-      - name: Commit index updates
-        run: |
-          git config user.name "webrpg-bot[bot]"
-          git config user.email "webrpg-bot[bot]@users.noreply.github.com"
-          git add list.json
-          if git diff --cached --quiet; then
-            echo "No list.json changes to commit."
-          else
-            git commit -m "Index GitHub RPG Maker repositories"
-            git push
-          fi
+      - name: Publish index updates atomically
+        env:
+          GITHUB_TOKEN: ${{ steps.index-token.outputs.token }}
+          BASE_PATH: ${{ runner.temp }}/list-base.json
+          GENERATED_PATH: list.json
+          TARGET_PATH: list.json
+          MERGE_MODE: catalog
+          COMMIT_MESSAGE: Index GitHub RPG Maker repositories
+        run: node scripts/publish-generated-file.mjs

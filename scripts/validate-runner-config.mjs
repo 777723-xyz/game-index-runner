@@ -12,6 +12,9 @@ const paths = {
   runtimeWorkflow: ".github/workflows/runtime-smoke-test.yml",
   runtimeScript: "scripts/runtime-smoke-test.mjs",
   runtimeLib: "scripts/runtime-smoke-lib.mjs",
+  publisher: "scripts/publish-generated-file.mjs",
+  publisherLib: "scripts/generated-file-publisher-lib.mjs",
+  compare: ".github/workflows/compare-upstream-list.yml",
 };
 
 const entries = await Promise.all(Object.entries(paths).map(async ([key, path]) => [key, await fs.readFile(path, "utf8")]));
@@ -69,6 +72,17 @@ requireValue(source.runtimeScript.includes("resolveGameUrl(game)"), "runtime che
 requireValue(source.runtimeScript.includes("serviceWorkers: \"allow\""), "runtime checker must not disable game service workers");
 requireValue(source.runtimeLib.includes("runtimeFailureCount"), "runtime checker must retain transient failure state");
 requireValue(source.runtimeLib.includes("hasChineseTitle(right.entry.title)"), "runtime batches must prioritize Chinese titles");
+for (const [name, workflow] of Object.entries({ index: source.index, prepare: source.prepare, bulk: source.bulk, runtime: source.runtimeWorkflow })) {
+  requireValue(workflow.includes("Capture catalog baseline"), `${name} workflow must capture the catalog baseline`);
+  requireValue(workflow.includes("publish-generated-file.mjs"), `${name} workflow must publish catalog changes atomically`);
+  requireValue(workflow.includes("MERGE_MODE: catalog"), `${name} workflow must merge catalog fields by entry`);
+  requireValue(!workflow.includes("git push"), `${name} workflow must not push a stale checkout directly`);
+}
+requireValue(source.compare.includes("publish-generated-file.mjs"), "comparison report must be published atomically");
+requireValue(!source.compare.includes("git push"), "comparison workflow must not push a stale checkout directly");
+requireValue(source.publisher.includes("MAX_ATTEMPTS"), "atomic publisher must use bounded retries");
+requireValue(source.publisherLib.includes("mergeCatalogUpdate"), "atomic publisher must preserve concurrent catalog fields");
+requireValue(source.publisherLib.includes("[409, 422]"), "atomic publisher must retry GitHub SHA conflicts");
 requireValue(!Object.values(source).some((text) => /google-analytics|googletagmanager|gtag\(|matomo|umami|plausible/i.test(text)), "unapproved analytics integration found");
 requireValue(![source.prepare, source.bulk].some((text) => text.includes("ANALYTICS_SCRIPT_TAG")), "game source injection must stay disabled");
 

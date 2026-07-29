@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test:runtime": "node scripts/test-runtime-smoke.mjs"
+    "test:runtime": "node scripts/test-runtime-smoke.mjs",
+    "test:publisher": "node scripts/test-generated-file-publisher.mjs"
   },
   "devDependencies": {
     "playwright": "1.61.1"
