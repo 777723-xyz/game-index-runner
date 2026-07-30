@@ -1914,7 +1914,11 @@
     "cover": "https://777723-xyz.github.io/Kevin28576-rpgmv-great-escape/cover.png",
     "validationScore": 115,
     "totalSize": 388561,
-    "dataSize": 938522
+    "dataSize": 938522,
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-07-30T10:00:57.007Z",
+    "runtimeLoadMs": 1604,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "ruan-cat-drill-plugins-fork-from-drill",
