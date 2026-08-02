@@ -1,19 +1,11 @@
 {
-  "generatedAt": "2026-08-02T15:31:08.041Z",
+  "generatedAt": "2026-08-02T17:20:03.282Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 860,
-  "upstreamTotal": 859,
-  "shared": 859,
+  "upstreamTotal": 860,
+  "shared": 860,
   "upstreamOnly": [],
-  "localOnly": [
-    {
-      "id": "hitexe2023mino-prog-quarta-alumines-and-tangel-eg",
-      "sourceRepo": "hitexe2023mino-prog/quarta-alumines-and-tangel-eg",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    }
-  ],
+  "localOnly": [],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -765,6 +757,27 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/lzk716088-prisoner/index.html",
           "upstream": "https://webrpg.org/lzk716088-prisoner/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "hitexe2023mino-prog/quarta-alumines-and-tangel-eg",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "hitexe2023mino-prog-Quarta-Alumines-and-Tangel-EG",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/hitexe2023mino-prog-Quarta-Alumines-and-Tangel-EG/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
