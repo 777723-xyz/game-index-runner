@@ -1,11 +1,19 @@
 {
-  "generatedAt": "2026-08-02T14:00:38.980Z",
+  "generatedAt": "2026-08-02T15:31:08.041Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 859,
+  "localTotal": 860,
   "upstreamTotal": 859,
   "shared": 859,
   "upstreamOnly": [],
-  "localOnly": [],
+  "localOnly": [
+    {
+      "id": "hitexe2023mino-prog-quarta-alumines-and-tangel-eg",
+      "sourceRepo": "hitexe2023mino-prog/quarta-alumines-and-tangel-eg",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    }
+  ],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
