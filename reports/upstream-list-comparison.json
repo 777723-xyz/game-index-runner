@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T00:18:58.446Z",
+  "generatedAt": "2026-08-07T03:22:47.580Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 862,
   "upstreamTotal": 862,
@@ -1358,6 +1358,27 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/KONDO-Yuuki-alteReal/index.html",
           "upstream": "https://webrpg.org/KONDO-Yuuki-alteReal/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "bubseatbubs/amogii-defeaters-2-test",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "Bubseatbubs-Amogii-Defeaters-2-Test",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/Bubseatbubs-Amogii-Defeaters-2-Test/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
