@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T03:22:47.580Z",
+  "generatedAt": "2026-08-07T05:53:55.404Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 862,
   "upstreamTotal": 862,
@@ -7987,10 +7987,14 @@
       }
     },
     {
-      "sourceRepo": "soupcanubg/yesterdays-meat",
+      "sourceRepo": "notreallyrx/yesterdays-meat",
       "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/SoupcanUBG-Yesterdays-Meat/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/SoupcanUBG-Yesterdays-Meat/"
         }
       }
