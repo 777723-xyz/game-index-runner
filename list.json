@@ -720,8 +720,8 @@
     "pagesUrl": "https://777723-xyz.github.io/YuukiOgino-ProjectTogebuTraial/index.html",
     "cover": "https://777723-xyz.github.io/YuukiOgino-ProjectTogebuTraial/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-07-27T18:59:34.784Z",
-    "runtimeLoadMs": 3973,
+    "runtimeCheckedAt": "2026-08-08T07:56:27.956Z",
+    "runtimeLoadMs": 4365,
     "runtimeHttpStatus": 200
   },
   {
@@ -5662,8 +5662,8 @@
     "pagesUrl": "https://777723-xyz.github.io/yutom3-UCI-CKI-RPGMMO/index.html",
     "cover": "https://777723-xyz.github.io/yutom3-UCI-CKI-RPGMMO/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-07-27T18:59:34.858Z",
-    "runtimeLoadMs": 4047,
+    "runtimeCheckedAt": "2026-08-08T07:56:29.895Z",
+    "runtimeLoadMs": 1851,
     "runtimeHttpStatus": 200
   },
   {
@@ -5996,8 +5996,8 @@
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/StevenRomero98-ConceptGameDeployment/index.html",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-07-27T22:15:08.198Z",
-    "runtimeLoadMs": 894,
+    "runtimeCheckedAt": "2026-08-08T07:56:31.364Z",
+    "runtimeLoadMs": 1233,
     "runtimeHttpStatus": 200
   },
   {
@@ -7248,8 +7248,8 @@
     "pagesUrl": "https://777723-xyz.github.io/zhuobinggang-dirt-rpg/index.html",
     "cover": "https://777723-xyz.github.io/zhuobinggang-dirt-rpg/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-07-27T18:59:36.628Z",
-    "runtimeLoadMs": 1778,
+    "runtimeCheckedAt": "2026-08-08T07:56:29.560Z",
+    "runtimeLoadMs": 1342,
     "runtimeHttpStatus": 200
   },
   {
@@ -7276,8 +7276,8 @@
     "pagesUrl": "https://777723-xyz.github.io/zhuobinggang-flower-of-evil/index.html",
     "cover": "https://777723-xyz.github.io/zhuobinggang-flower-of-evil/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-07-27T18:59:36.246Z",
-    "runtimeLoadMs": 1317,
+    "runtimeCheckedAt": "2026-08-08T07:56:29.484Z",
+    "runtimeLoadMs": 1429,
     "runtimeHttpStatus": 200
   },
   {
@@ -10204,8 +10204,8 @@
     "totalSize": 400458,
     "dataSize": 738609,
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-07-27T18:59:34.765Z",
-    "runtimeLoadMs": 3954,
+    "runtimeCheckedAt": "2026-08-08T07:56:27.908Z",
+    "runtimeLoadMs": 4317,
     "runtimeHttpStatus": 200,
     "forkName": "yumeTsukiiii-irotoridorino_sekai_game"
   },
@@ -10902,8 +10902,8 @@
     "pagesUrl": "https://777723-xyz.github.io/yuhan2680-Level-C-1366_Demo/index.html",
     "cover": "https://777723-xyz.github.io/yuhan2680-Level-C-1366_Demo/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-07-27T18:59:34.738Z",
-    "runtimeLoadMs": 3927,
+    "runtimeCheckedAt": "2026-08-08T07:56:27.970Z",
+    "runtimeLoadMs": 4379,
     "runtimeHttpStatus": 200
   },
   {
@@ -11477,8 +11477,8 @@
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/XMandarava-Plugins4RMMV/index.html",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-07-27T17:19:29.223Z",
-    "runtimeLoadMs": 2022,
+    "runtimeCheckedAt": "2026-08-08T07:56:27.945Z",
+    "runtimeLoadMs": 4355,
     "runtimeHttpStatus": 200
   },
   {
@@ -12457,8 +12457,8 @@
     "pagesUrl": "https://777723-xyz.github.io/zhiwei-zhiwei-Game_RPGMaker_MagicnoMagic/index.html",
     "cover": "https://777723-xyz.github.io/zhiwei-zhiwei-Game_RPGMaker_MagicnoMagic/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-07-27T18:59:34.768Z",
-    "runtimeLoadMs": 3957,
+    "runtimeCheckedAt": "2026-08-08T07:56:27.930Z",
+    "runtimeLoadMs": 4339,
     "runtimeHttpStatus": 200
   },
   {
@@ -16139,9 +16139,11 @@
     "pagesUrl": "https://777723-xyz.github.io/CJTan0503-RPGFantasy/index.html",
     "cover": "https://777723-xyz.github.io/CJTan0503-RPGFantasy/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-07-27T20:39:49.772Z",
-    "runtimeLoadMs": 3133,
-    "runtimeHttpStatus": 200
+    "runtimeCheckedAt": "2026-08-08T07:56:59.642Z",
+    "runtimeLoadMs": 30004,
+    "runtimeHttpStatus": 200,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "pageerror: xhr is not defined | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Troops.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Weapons.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Animations.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Skills.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Armors.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFan"
   },
   {
     "id": "a2937-rpg-maker-mv-test-template",
@@ -16429,8 +16431,8 @@
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/LoLoSenPai-AOB/index.html",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-07-27T22:14:10.188Z",
-    "runtimeLoadMs": 3023,
+    "runtimeCheckedAt": "2026-08-08T07:56:31.215Z",
+    "runtimeLoadMs": 1253,
     "runtimeHttpStatus": 200
   },
   {
@@ -16672,8 +16674,8 @@
     "totalSize": 23660,
     "dataSize": 67464,
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-07-27T18:59:36.639Z",
-    "runtimeLoadMs": 1563,
+    "runtimeCheckedAt": "2026-08-08T07:56:31.047Z",
+    "runtimeLoadMs": 1542,
     "runtimeHttpStatus": 200,
     "forkName": "zkrejcov-rmmv-plugins"
   },
@@ -17543,8 +17545,8 @@
     "pagesUrl": "https://777723-xyz.github.io/Zikanforum-Stir/index.html",
     "cover": "https://777723-xyz.github.io/Zikanforum-Stir/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-07-27T18:59:36.348Z",
-    "runtimeLoadMs": 1410,
+    "runtimeCheckedAt": "2026-08-08T07:56:29.555Z",
+    "runtimeLoadMs": 1480,
     "runtimeHttpStatus": 200
   },
   {
@@ -19179,8 +19181,8 @@
     "pagesUrl": "https://777723-xyz.github.io/arqui-dev-ProjetoCaminhoneiro/index.html",
     "cover": "https://777723-xyz.github.io/arqui-dev-ProjetoCaminhoneiro/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-07-27T20:39:49.905Z",
-    "runtimeLoadMs": 3266,
+    "runtimeCheckedAt": "2026-08-08T07:56:31.011Z",
+    "runtimeLoadMs": 1288,
     "runtimeHttpStatus": 200
   },
   {
@@ -19633,8 +19635,8 @@
     "pagesUrl": "https://777723-xyz.github.io/zoujiahuan-TheGame4Muse/index.html",
     "cover": "https://777723-xyz.github.io/zoujiahuan-TheGame4Muse/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-07-27T18:59:36.250Z",
-    "runtimeLoadMs": 1162,
+    "runtimeCheckedAt": "2026-08-08T07:56:29.999Z",
+    "runtimeLoadMs": 1935,
     "runtimeHttpStatus": 200
   },
   {
