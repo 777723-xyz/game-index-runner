@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T14:01:53.395Z",
+  "generatedAt": "2026-08-08T14:52:55.388Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 863,
   "upstreamTotal": 863,
@@ -7310,12 +7310,8 @@
     {
       "sourceRepo": "suhukk/bbb",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/Suhukk-bbb/index.html",
           "upstream": "https://webrpg.org/Suhukk-bbb/"
         }
       }
