@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T04:31:36.399Z",
+  "generatedAt": "2026-08-08T06:00:23.973Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 863,
   "upstreamTotal": 863,
@@ -2173,6 +2173,19 @@
         },
         "entryPath": {
           "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
+      "sourceRepo": "thatoneguy-67/snoopy-web",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "ThatOneGuy-67-snoopy-web",
           "upstream": null
         }
       }
