@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T19:47:18.686Z",
+  "generatedAt": "2026-08-08T20:52:12.273Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 863,
   "upstreamTotal": 863,
@@ -7105,6 +7105,23 @@
         "entryPath": {
           "ours": "index.html",
           "upstream": "src/Tales-of-Estos/index.html"
+        }
+      }
+    },
+    {
+      "sourceRepo": "muletmiles/muletmiles.github.io",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/muletmiles-muletmiles.github.io/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
