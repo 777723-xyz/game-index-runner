@@ -16139,11 +16139,9 @@
     "pagesUrl": "https://777723-xyz.github.io/CJTan0503-RPGFantasy/index.html",
     "cover": "https://777723-xyz.github.io/CJTan0503-RPGFantasy/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-08-08T07:56:59.642Z",
-    "runtimeLoadMs": 30004,
-    "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 1,
-    "runtimeLastError": "pageerror: xhr is not defined | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Troops.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Weapons.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Animations.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Skills.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Armors.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFan"
+    "runtimeCheckedAt": "2026-08-08T14:41:22.206Z",
+    "runtimeLoadMs": 3401,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "a2937-rpg-maker-mv-test-template",
@@ -18316,7 +18314,11 @@
     "upstreamCover": "https://webrpg.org/Suhukk-bbb/cover.png",
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/Suhukk-bbb/index.html",
-    "cover": "https://777723-xyz.github.io/Suhukk-bbb/cover.png"
+    "cover": "https://777723-xyz.github.io/Suhukk-bbb/cover.png",
+    "runtimeStatus": "playable",
+    "runtimeCheckedAt": "2026-08-08T14:41:22.207Z",
+    "runtimeLoadMs": 3403,
+    "runtimeHttpStatus": 200
   },
   {
     "id": "vertexiii-vertexiii-github-io",
