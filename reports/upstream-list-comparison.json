@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T21:51:31.392Z",
+  "generatedAt": "2026-08-09T22:54:02.445Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 865,
   "upstreamTotal": 865,
@@ -1840,6 +1840,27 @@
         "entryPath": {
           "ours": "index.html",
           "upstream": "games/Blood Money/index.html"
+        }
+      }
+    },
+    {
+      "sourceRepo": "liamdeathboy/cautious-fishstick",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "liamdeathboy-cautious-fishstick",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/liamdeathboy-cautious-fishstick/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
