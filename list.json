@@ -21,11 +21,11 @@
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/shaddockh-rmmv_ts_boilerplate/index.html",
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-08-11T05:17:53.591Z",
-    "runtimeLoadMs": 30011,
+    "runtimeCheckedAt": "2026-08-11T11:24:42.041Z",
+    "runtimeLoadMs": 30007,
     "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 49,
-    "runtimeLastError": "request: https://yx.ecy.al/shaddockh-rmmv_ts_boilerplate/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/shaddockh-rmmv_ts_boilerplate/js/libs/pixi-picture.js net::ERR_ABORTED | request: https://yx.ecy.al/shaddockh-rmmv_ts_boilerplate/js/libs/pixi.js net::ERR_ABORTED | request: https://yx.ecy.al/shaddockh-rmmv_ts_boilerplate/js/libs/pixi-tilemap.js net::ERR_ABORTED | request: https://yx.ecy.al/shaddockh-rmmv_ts_boilerplate/js/libs/lz-string.js net::ERR_ABORTED | request: https:/"
+    "runtimeFailureCount": 50,
+    "runtimeLastError": "request: https://yx.ecy.al/shaddockh-rmmv_ts_boilerplate/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/shaddockh-rmmv_ts_boilerplate/js/libs/fpsmeter.js net::ERR_ABORTED | request: https://yx.ecy.al/shaddockh-rmmv_ts_boilerplate/js/libs/pixi.js net::ERR_ABORTED | request: https://yx.ecy.al/shaddockh-rmmv_ts_boilerplate/js/libs/pixi-tilemap.js net::ERR_ABORTED | request: https://yx.ecy.al/shaddockh-rmmv_ts_boilerplate/js/rpg_core.js net::ERR_ABORTED | request: https://yx.ecy.al"
   },
   {
     "id": "katai5plate-demoscene-2017",
@@ -4917,11 +4917,11 @@
     "totalSize": 985043,
     "dataSize": 224887,
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-08-11T05:18:23.901Z",
-    "runtimeLoadMs": 30014,
+    "runtimeCheckedAt": "2026-08-11T11:25:12.162Z",
+    "runtimeLoadMs": 30018,
     "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 49,
-    "runtimeLastError": "request: https://cdn.jsdelivr.net/gh/genizy/web-port@main/bloodmoney/fonts/gamefont.css net::ERR_BLOCKED_BY_ORB | request: https://cdn.jsdelivr.net/gh/genizy/web-port@main/bloodmoney/js/rpg_sprites.js net::ERR_BLOCKED_BY_ORB | request: https://cdn.jsdelivr.net/gh/genizy/web-port@main/bloodmoney/js/plugins.js net::ERR_BLOCKED_BY_ORB | request: https://cdn.jsdelivr.net/gh/genizy/web-port@main/bloodmoney/js/rpg_windows.js net::ERR_BLOCKED_BY_ORB | request: https://cdn.jsdelivr.net/gh/genizy/web-por",
+    "runtimeFailureCount": 50,
+    "runtimeLastError": "request: https://cdn.jsdelivr.net/gh/genizy/web-port@main/bloodmoney/fonts/gamefont.css net::ERR_BLOCKED_BY_ORB | request: https://cdn.jsdelivr.net/gh/genizy/web-port@main/bloodmoney/js/rpg_scenes.js net::ERR_BLOCKED_BY_ORB | request: https://cdn.jsdelivr.net/gh/genizy/web-port@main/bloodmoney/js/rpg_managers.js net::ERR_BLOCKED_BY_ORB | request: https://cdn.jsdelivr.net/gh/genizy/web-port@main/bloodmoney/js/rpg_core.js net::ERR_BLOCKED_BY_ORB | request: https://cdn.jsdelivr.net/gh/genizy/web-po",
     "forkName": "marty-games-mga-html5x"
   },
   {
@@ -6467,11 +6467,11 @@
     "pagesUrl": "https://777723-xyz.github.io/poopsterbrown-schoolofrock/index.html",
     "cover": "https://777723-xyz.github.io/poopsterbrown-schoolofrock/cover.png",
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-08-11T05:18:23.902Z",
-    "runtimeLoadMs": 30011,
+    "runtimeCheckedAt": "2026-08-11T11:25:12.164Z",
+    "runtimeLoadMs": 30013,
     "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 49,
-    "runtimeLastError": "request: https://yx.ecy.al/poopsterbrown-schoolofrock/js/rpg_core.js net::ERR_ABORTED | request: https://yx.ecy.al/poopsterbrown-schoolofrock/js/rpg_windows.js net::ERR_ABORTED | request: https://yx.ecy.al/poopsterbrown-schoolofrock/js/rpg_scenes.js net::ERR_ABORTED | request: https://yx.ecy.al/poopsterbrown-schoolofrock/js/rpg_objects.js net::ERR_ABORTED | request: https://yx.ecy.al/poopsterbrown-schoolofrock/js/plugins.js net::ERR_ABORTED | request: https://yx.ecy.al/poopsterbrown-schoolofrock"
+    "runtimeFailureCount": 50,
+    "runtimeLastError": "request: https://yx.ecy.al/poopsterbrown-schoolofrock/js/rpg_managers.js net::ERR_ABORTED | request: https://yx.ecy.al/poopsterbrown-schoolofrock/js/rpg_core.js net::ERR_ABORTED | request: https://yx.ecy.al/poopsterbrown-schoolofrock/js/rpg_sprites.js net::ERR_ABORTED | request: https://yx.ecy.al/poopsterbrown-schoolofrock/js/plugins.js net::ERR_ABORTED | request: https://yx.ecy.al/poopsterbrown-schoolofrock/js/rpg_windows.js net::ERR_ABORTED | request: https://yx.ecy.al/poopsterbrown-schoolofro"
   },
   {
     "id": "dubiousdale-cst120dannyz",
@@ -8370,11 +8370,11 @@
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/ScorpGaming4432-fungerterminapl/index.html",
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-08-11T05:18:23.903Z",
-    "runtimeLoadMs": 30003,
+    "runtimeCheckedAt": "2026-08-11T11:25:12.165Z",
+    "runtimeLoadMs": 30009,
     "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 49,
-    "runtimeLastError": "request: https://yx.ecy.al/ScorpGaming4432-fungerterminapl/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/ScorpGaming4432-fungerterminapl/js/libs/pixi.js net::ERR_ABORTED | request: https://yx.ecy.al/ScorpGaming4432-fungerterminapl/js/libs/pixi-tilemap.js net::ERR_ABORTED | request: https://yx.ecy.al/ScorpGaming4432-fungerterminapl/js/libs/pixi-picture.js net::ERR_ABORTED | request: https://yx.ecy.al/ScorpGaming4432-fungerterminapl/js/rpg_core.js net::ERR_ABORTED | request: htt"
+    "runtimeFailureCount": 50,
+    "runtimeLastError": "request: https://yx.ecy.al/ScorpGaming4432-fungerterminapl/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/ScorpGaming4432-fungerterminapl/js/libs/pixi-picture.js net::ERR_ABORTED | request: https://yx.ecy.al/ScorpGaming4432-fungerterminapl/js/libs/pixi-tilemap.js net::ERR_ABORTED | request: https://yx.ecy.al/ScorpGaming4432-fungerterminapl/js/libs/pixi.js net::ERR_ABORTED | request: https://yx.ecy.al/ScorpGaming4432-fungerterminapl/js/libs/fpsmeter.js net::ERR_ABORTED | request"
   },
   {
     "id": "tobyyasha-fear-and-hunger-mods",
@@ -10345,11 +10345,11 @@
     "totalSize": 46591,
     "dataSize": 0,
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-08-11T05:17:53.589Z",
-    "runtimeLoadMs": 30009,
+    "runtimeCheckedAt": "2026-08-11T11:24:42.040Z",
+    "runtimeLoadMs": 30007,
     "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 49,
-    "runtimeLastError": "request: https://yx.ecy.al/qadwas-qwerty1s/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/qadwas-qwerty1s/js/plugins.js net::ERR_ABORTED | pageerror: $plugins is not defined | page.waitForFunction: Timeout 25350ms exceeded.",
+    "runtimeFailureCount": 50,
+    "runtimeLastError": "request: https://yx.ecy.al/qadwas-qwerty1s/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/qadwas-qwerty1s/js/plugins.js net::ERR_ABORTED | pageerror: $plugins is not defined | page.waitForFunction: Timeout 22620ms exceeded.",
     "forkName": "qadwas-qwerty1s"
   },
   {
@@ -12018,11 +12018,11 @@
     "totalSize": 389967,
     "dataSize": 792099,
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-08-11T05:17:53.592Z",
-    "runtimeLoadMs": 30012,
+    "runtimeCheckedAt": "2026-08-11T11:24:42.040Z",
+    "runtimeLoadMs": 30006,
     "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 49,
-    "runtimeLastError": "page.waitForFunction: Timeout 25318ms exceeded.",
+    "runtimeFailureCount": 50,
+    "runtimeLastError": "page.waitForFunction: Timeout 22607ms exceeded.",
     "forkName": "RPGCosmos-Example-MMO"
   },
   {
@@ -13433,11 +13433,11 @@
     "pagesUrl": "https://777723-xyz.github.io/sigmiliarity-web/index.html",
     "cover": "https://777723-xyz.github.io/sigmiliarity-web/cover.png",
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-08-11T05:18:23.916Z",
-    "runtimeLoadMs": 30011,
+    "runtimeCheckedAt": "2026-08-11T11:25:12.166Z",
+    "runtimeLoadMs": 30005,
     "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 49,
-    "runtimeLastError": "request: https://yx.ecy.al/api/sigmiliarity/web/bloodmoney/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/api/sigmiliarity/web/bloodmoney/js/libs/pixi.js net::ERR_ABORTED | request: https://yx.ecy.al/api/sigmiliarity/web/bloodmoney/js/libs/pixi-tilemap.js net::ERR_ABORTED | request: https://yx.ecy.al/api/sigmiliarity/web/bloodmoney/js/libs/fpsmeter.js net::ERR_ABORTED | request: https://yx.ecy.al/api/sigmiliarity/web/bloodmoney/js/libs/pixi-picture.js net::ERR_ABORTED | request"
+    "runtimeFailureCount": 50,
+    "runtimeLastError": "request: https://yx.ecy.al/api/sigmiliarity/web/bloodmoney/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/api/sigmiliarity/web/bloodmoney/js/rpg_managers.js net::ERR_ABORTED | request: https://yx.ecy.al/api/sigmiliarity/web/bloodmoney/js/rpg_core.js net::ERR_ABORTED | request: https://yx.ecy.al/api/sigmiliarity/web/bloodmoney/js/libs/pixi-tilemap.js net::ERR_ABORTED | request: https://yx.ecy.al/api/sigmiliarity/web/bloodmoney/js/libs/pixi.js net::ERR_ABORTED | request: https://"
   },
   {
     "id": "starsnail-tokimori",
@@ -13850,9 +13850,11 @@
     "pagesUrl": "https://777723-xyz.github.io/jpmendezf-osianndventures/index.html",
     "cover": "https://777723-xyz.github.io/jpmendezf-osianndventures/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-08-04T09:23:35.532Z",
-    "runtimeLoadMs": 859,
-    "runtimeHttpStatus": 200
+    "runtimeCheckedAt": "2026-08-11T11:25:42.154Z",
+    "runtimeLoadMs": 30007,
+    "runtimeHttpStatus": 200,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "request: https://yx.ecy.al/jpmendezf-osianndventures/js/rpg_managers.js net::ERR_ABORTED | pageerror: PluginManager is not defined | page.waitForFunction: Timeout 29475ms exceeded."
   },
   {
     "id": "beatrizminoura-cmyk-ossos-do-oficio",
@@ -14147,11 +14149,11 @@
     "pagesUrl": "https://777723-xyz.github.io/pokemon-essentials-pokemon-essentials/index.html",
     "cover": "https://777723-xyz.github.io/pokemon-essentials-pokemon-essentials/cover.png",
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-08-11T05:17:53.591Z",
-    "runtimeLoadMs": 30011,
+    "runtimeCheckedAt": "2026-08-11T11:24:42.041Z",
+    "runtimeLoadMs": 30007,
     "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 49,
-    "runtimeLastError": "page.waitForFunction: Timeout 25347ms exceeded."
+    "runtimeFailureCount": 50,
+    "runtimeLastError": "page.waitForFunction: Timeout 22628ms exceeded."
   },
   {
     "id": "lauglitch-pokemonpink",
@@ -14804,11 +14806,11 @@
     "totalSize": 0,
     "dataSize": 686172,
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-08-11T05:17:53.591Z",
-    "runtimeLoadMs": 30011,
+    "runtimeCheckedAt": "2026-08-11T11:24:42.038Z",
+    "runtimeLoadMs": 30005,
     "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 49,
-    "runtimeLastError": "request: https://yx.ecy.al/manaten-rpgclitest/fonts/gamefont.css net::ERR_ABORTED | pageerror: exports is not defined | pageerror: global is not defined | pageerror: PluginManager.setup is not a function | page.waitForFunction: Timeout 25369ms exceeded.",
+    "runtimeFailureCount": 50,
+    "runtimeLastError": "request: https://yx.ecy.al/manaten-rpgclitest/fonts/gamefont.css net::ERR_ABORTED | pageerror: exports is not defined | pageerror: global is not defined | pageerror: PluginManager.setup is not a function | page.waitForFunction: Timeout 22639ms exceeded.",
     "forkName": "manaten-rpgclitest"
   },
   {
@@ -18376,11 +18378,11 @@
     "pagesUrl": "https://777723-xyz.github.io/vertexiii-vertexiii.github.io/index.html",
     "cover": "https://777723-xyz.github.io/vertexiii-vertexiii.github.io/cover.png",
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-08-11T05:18:23.882Z",
-    "runtimeLoadMs": 30000,
+    "runtimeCheckedAt": "2026-08-11T11:25:12.141Z",
+    "runtimeLoadMs": 30002,
     "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 49,
-    "runtimeLastError": "request: https://yx.ecy.al/vertexiii-vertexiii.github.io/games/thecoffinofandyandleyley/fonts/gamefont.css net::ERR_ABORTED | request: https://kdata1.com/2023/03/the-coffin-of-andy-and-leyley/js/libs/fpsmeter.js net::ERR_BLOCKED_BY_ORB | request: https://kdata1.com/2023/03/the-coffin-of-andy-and-leyley/js/main.js net::ERR_BLOCKED_BY_ORB | request: https://kdata1.com/2023/03/the-coffin-of-andy-and-leyley/js/libs/pixi.js net::ERR_BLOCKED_BY_ORB | request: https://kdata1.com/2023/03/the-coffin-of-a"
+    "runtimeFailureCount": 50,
+    "runtimeLastError": "request: https://kdata1.com/2023/03/the-coffin-of-andy-and-leyley/js/libs/pixi.js net::ERR_BLOCKED_BY_ORB | request: https://kdata1.com/2023/03/the-coffin-of-andy-and-leyley/js/libs/pixi-picture.js net::ERR_BLOCKED_BY_ORB | request: https://kdata1.com/2023/03/the-coffin-of-andy-and-leyley/js/libs/pixi-tilemap.js net::ERR_BLOCKED_BY_ORB | request: https://kdata1.com/2023/03/the-coffin-of-andy-and-leyley/js/libs/lz-string.js net::ERR_BLOCKED_BY_ORB | request: https://kdata1.com/2023/03/the-coffin-"
   },
   {
     "id": "kidev-tcoaalbrowserloader",
