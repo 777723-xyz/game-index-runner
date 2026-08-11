@@ -1,19 +1,11 @@
 {
-  "generatedAt": "2026-08-11T02:31:07.117Z",
+  "generatedAt": "2026-08-11T04:43:20.409Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 866,
-  "upstreamTotal": 865,
-  "shared": 865,
+  "upstreamTotal": 866,
+  "shared": 866,
   "upstreamOnly": [],
-  "localOnly": [
-    {
-      "id": "vehirus-kor-2026-capstone-design",
-      "sourceRepo": "vehirus-kor/2026_capstone_design",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    }
-  ],
+  "localOnly": [],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -8320,6 +8312,27 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/rpg9979-rpg9979/index.html",
           "upstream": "https://webrpg.org/rpg9979-rpg9979/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "vehirus-kor/2026_capstone_design",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "Vehirus-KOR-2026_Capstone_Design",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/Vehirus-KOR-2026_Capstone_Design/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
