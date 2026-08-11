@@ -1,11 +1,19 @@
 {
-  "generatedAt": "2026-08-10T23:53:44.519Z",
+  "generatedAt": "2026-08-11T02:31:07.117Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 865,
+  "localTotal": 866,
   "upstreamTotal": 865,
   "shared": 865,
   "upstreamOnly": [],
-  "localOnly": [],
+  "localOnly": [
+    {
+      "id": "vehirus-kor-2026-capstone-design",
+      "sourceRepo": "vehirus-kor/2026_capstone_design",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    }
+  ],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
