@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T13:46:51.519Z",
+  "generatedAt": "2026-08-15T14:43:01.751Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 866,
   "upstreamTotal": 866,
@@ -7838,12 +7838,8 @@
     {
       "sourceRepo": "urrezkokaiola/urrezkokaiola.github.io",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/UrrezkoKaiola-urrezkokaiola.github.io/index.html",
           "upstream": "https://webrpg.org/UrrezkoKaiola-urrezkokaiola.github.io/"
         }
       }
