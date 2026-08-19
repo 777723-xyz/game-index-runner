@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T04:55:45.981Z",
+  "generatedAt": "2026-08-19T05:50:09.149Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 869,
   "upstreamTotal": 869,
@@ -2530,6 +2530,19 @@
         },
         "forkName": {
           "ours": "mynamescrax-aetheris",
+          "upstream": null
+        }
+      }
+    },
+    {
+      "sourceRepo": "raahimsyed/rift",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "raahimsyed-rift",
           "upstream": null
         }
       }
