@@ -1,11 +1,19 @@
 {
-  "generatedAt": "2026-08-20T19:49:27.385Z",
+  "generatedAt": "2026-08-20T20:50:20.866Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 869,
+  "localTotal": 870,
   "upstreamTotal": 869,
   "shared": 869,
   "upstreamOnly": [],
-  "localOnly": [],
+  "localOnly": [
+    {
+      "id": "hyperfrog7-books",
+      "sourceRepo": "hyperfrog7/books",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    }
+  ],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
