@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T20:50:20.866Z",
+  "generatedAt": "2026-08-20T21:47:29.494Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 870,
   "upstreamTotal": 869,
@@ -9,8 +9,8 @@
     {
       "id": "hyperfrog7-books",
       "sourceRepo": "hyperfrog7/books",
-      "status": "indexed",
-      "forkName": null,
+      "status": "invalid_structure",
+      "forkName": "HyperFrog7-books",
       "pagesUrl": null
     }
   ],
