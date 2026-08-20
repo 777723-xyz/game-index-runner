@@ -1,19 +1,11 @@
 {
-  "generatedAt": "2026-08-20T21:47:29.494Z",
+  "generatedAt": "2026-08-20T22:48:52.014Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 870,
-  "upstreamTotal": 869,
-  "shared": 869,
+  "upstreamTotal": 870,
+  "shared": 870,
   "upstreamOnly": [],
-  "localOnly": [
-    {
-      "id": "hyperfrog7-books",
-      "sourceRepo": "hyperfrog7/books",
-      "status": "invalid_structure",
-      "forkName": "HyperFrog7-books",
-      "pagesUrl": null
-    }
-  ],
+  "localOnly": [],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -3155,6 +3147,19 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/web-ports-fear-and-hunger-2/index.html",
           "upstream": "https://webrpg.org/web-ports-fear-and-hunger-2/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "hyperfrog7/books",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "HyperFrog7-books",
+          "upstream": null
         }
       }
     },
