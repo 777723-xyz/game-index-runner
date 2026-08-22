@@ -9748,8 +9748,8 @@
     "totalSize": 393586,
     "dataSize": 711563,
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-08-15T21:49:47.383Z",
-    "runtimeLoadMs": 3265,
+    "runtimeCheckedAt": "2026-08-22T21:51:04.166Z",
+    "runtimeLoadMs": 3230,
     "runtimeHttpStatus": 200,
     "forkName": "balensmatheo-balensmatheo.github.io"
   },
@@ -16241,12 +16241,12 @@
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/CJTan0503-RPGFantasy/index.html",
     "cover": "https://777723-xyz.github.io/CJTan0503-RPGFantasy/cover.png",
-    "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-08-22T15:30:15.951Z",
-    "runtimeLoadMs": 30007,
+    "runtimeStatus": "failed",
+    "runtimeCheckedAt": "2026-08-22T21:51:30.940Z",
+    "runtimeLoadMs": 30004,
     "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 1,
-    "runtimeLastError": "pageerror: xhr is not defined | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/MapInfos.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Armors.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Enemies.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Animations.json net::ERR_ABORTED | request: https://yx.ecy.al/cdn-cgi/rum? net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Troops.json n"
+    "runtimeFailureCount": 2,
+    "runtimeLastError": "pageerror: xhr is not defined | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/MapInfos.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Armors.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Enemies.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Animations.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Troops.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGF"
   },
   {
     "id": "a2937-rpg-maker-mv-test-template",
@@ -18756,8 +18756,8 @@
     "pagesUrl": "https://777723-xyz.github.io/battousairurik-RPGMakerCollabProject/index.html",
     "cover": "https://777723-xyz.github.io/battousairurik-RPGMakerCollabProject/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-08-15T21:49:47.570Z",
-    "runtimeLoadMs": 3452,
+    "runtimeCheckedAt": "2026-08-22T21:51:03.867Z",
+    "runtimeLoadMs": 2931,
     "runtimeHttpStatus": 200
   },
   {
