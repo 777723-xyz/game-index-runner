@@ -16248,9 +16248,11 @@
     "pagesUrl": "https://777723-xyz.github.io/CJTan0503-RPGFantasy/index.html",
     "cover": "https://777723-xyz.github.io/CJTan0503-RPGFantasy/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-08-15T14:52:46.917Z",
-    "runtimeLoadMs": 2076,
-    "runtimeHttpStatus": 200
+    "runtimeCheckedAt": "2026-08-22T15:30:15.951Z",
+    "runtimeLoadMs": 30007,
+    "runtimeHttpStatus": 200,
+    "runtimeFailureCount": 1,
+    "runtimeLastError": "pageerror: xhr is not defined | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/MapInfos.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Armors.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Enemies.json net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Animations.json net::ERR_ABORTED | request: https://yx.ecy.al/cdn-cgi/rum? net::ERR_ABORTED | request: https://yx.ecy.al/CJTan0503-RPGFantasy/data/Troops.json n"
   },
   {
     "id": "a2937-rpg-maker-mv-test-template",
@@ -18434,8 +18436,8 @@
     "pagesUrl": "https://777723-xyz.github.io/Suhukk-bbb/index.html",
     "cover": "https://777723-xyz.github.io/Suhukk-bbb/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-08-15T14:52:46.919Z",
-    "runtimeLoadMs": 2078,
+    "runtimeCheckedAt": "2026-08-22T15:29:50.968Z",
+    "runtimeLoadMs": 5024,
     "runtimeHttpStatus": 200
   },
   {
