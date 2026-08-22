@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T19:40:05.718Z",
+  "generatedAt": "2026-08-22T20:43:37.657Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 870,
   "upstreamTotal": 870,
@@ -1570,12 +1570,8 @@
     {
       "sourceRepo": "tw123777tw/badstatusdr",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/tw123777tw-BadStatusDR/index.html",
           "upstream": "https://webrpg.org/tw123777tw-BadStatusDR/"
         }
       }
@@ -3701,13 +3697,13 @@
     {
       "sourceRepo": "shinyjiggly/dungeon-crashers-website",
       "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        },
         "pagesUrl": {
-          "ours": null,
+          "ours": "https://777723-xyz.github.io/shinyjiggly-dungeon-crashers-website/index.html",
           "upstream": "https://webrpg.org/shinyjiggly-dungeon-crashers-website/"
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": "hyacinthheld_MV/hycheld/index.html"
         }
       }
     },
