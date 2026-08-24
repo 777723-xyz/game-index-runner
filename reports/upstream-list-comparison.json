@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T05:57:10.620Z",
+  "generatedAt": "2026-08-24T07:32:08.506Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 871,
   "upstreamTotal": 871,
@@ -429,6 +429,10 @@
     {
       "sourceRepo": "anthonytonyz/rougedemo",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/AnthonyTonyZ-rougedemo/index.html",
           "upstream": "https://webrpg.org/AnthonyTonyZ-rougedemo/"
@@ -1094,7 +1098,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
@@ -1561,6 +1565,10 @@
     {
       "sourceRepo": "victor-vd/babassu",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/victor-vd-babassu/index.html",
           "upstream": "https://webrpg.org/victor-vd-babassu/"
@@ -2039,6 +2047,10 @@
     {
       "sourceRepo": "winterdp/projectelfattorney",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/WinterDP-ProjectElfAttorney/index.html",
           "upstream": "https://webrpg.org/WinterDP-ProjectElfAttorney/"
@@ -2254,6 +2266,10 @@
     {
       "sourceRepo": "unboundstudios/colours-missing",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/UnboundStudios-colours-missing/index.html",
           "upstream": "https://webrpg.org/UnboundStudios-colours-missing/"
@@ -2702,6 +2718,10 @@
     {
       "sourceRepo": "zhuobinggang/flower-of-evil",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/zhuobinggang-flower-of-evil/index.html",
           "upstream": "https://webrpg.org/zhuobinggang-flower-of-evil/"
@@ -2724,6 +2744,10 @@
     {
       "sourceRepo": "unofficialsquaregames/dissidia-tactics-fantasy-",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/unofficialsquaregames-DISSIDIA-TACTICS-FANTASY/index.html",
           "upstream": "https://webrpg.org/unofficialsquaregames-DISSIDIA-TACTICS-FANTASY/"
@@ -3140,6 +3164,10 @@
     {
       "sourceRepo": "web-ports/fear-and-hunger-2",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/web-ports-fear-and-hunger-2/index.html",
           "upstream": "https://webrpg.org/web-ports-fear-and-hunger-2/"
@@ -4543,6 +4571,10 @@
     {
       "sourceRepo": "watchmedash/mojazer",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/watchmedash-mojazer/index.html",
           "upstream": "https://webrpg.org/watchmedash-mojazer/"
@@ -5109,6 +5141,15 @@
       }
     },
     {
+      "sourceRepo": "cheesy-website/cheesy-website.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "deeeland0ohio/sigma-games",
       "differences": {
         "status": {
@@ -5136,6 +5177,15 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/einstein95-omori-joiplay/index.html",
           "upstream": "https://webrpg.org/einstein95-omori-joiplay/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "escartem/omorisource",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
         }
       }
     },
@@ -5439,6 +5489,15 @@
         "entryPath": {
           "ours": "index.html",
           "upstream": "Planescaper Quest/index.html"
+        }
+      }
+    },
+    {
+      "sourceRepo": "laferu/platina-the-wolf",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
         }
       }
     },
@@ -7420,6 +7479,15 @@
       }
     },
     {
+      "sourceRepo": "escartem/tcoaalsource",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
       "sourceRepo": "suhukk/bbb",
       "differences": {
         "pagesUrl": {
@@ -7564,6 +7632,10 @@
     {
       "sourceRepo": "vivekmedepalli/threedungeonsneakpeak_ver.2",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/vivekmedepalli-ThreeDungeonSneakPeak_Ver.2/index.html",
           "upstream": "https://webrpg.org/vivekmedepalli-ThreeDungeonSneakPeak_Ver.2/"
@@ -7877,6 +7949,10 @@
     {
       "sourceRepo": "urrezkokaiola/gaiden-two",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/UrrezkoKaiola-gaiden-two/index.html",
           "upstream": "https://webrpg.org/UrrezkoKaiola-gaiden-two/"
@@ -8538,7 +8614,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
