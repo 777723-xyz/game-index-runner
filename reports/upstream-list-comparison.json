@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T09:08:28.439Z",
+  "generatedAt": "2026-08-24T10:07:58.398Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 871,
   "upstreamTotal": 871,
@@ -107,6 +107,10 @@
     {
       "sourceRepo": "xwilarg/19thrpgmakerhorrorjam",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Xwilarg-19thRPGMakerHorrorJam/index.html",
           "upstream": "https://webrpg.org/Xwilarg-19thRPGMakerHorrorJam/"
@@ -1076,7 +1080,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -1547,6 +1551,10 @@
     {
       "sourceRepo": "wongcyrus/azure-isekai",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/wongcyrus-azure-isekai/index.html",
           "upstream": "https://webrpg.org/wongcyrus-azure-isekai/"
@@ -2174,6 +2182,10 @@
     {
       "sourceRepo": "yutom3/uci-cki-rpgmmo",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/yutom3-UCI-CKI-RPGMMO/index.html",
           "upstream": "https://webrpg.org/yutom3-UCI-CKI-RPGMMO/"
@@ -2974,6 +2986,10 @@
     {
       "sourceRepo": "gcascalese/tfg_uoc",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/gcascalese-TFG_UOC/index.html",
           "upstream": "https://webrpg.org/gcascalese-TFG_UOC/"
@@ -3088,6 +3104,10 @@
     {
       "sourceRepo": "tomoshibi06/fairymaze2",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/tomoshibi06-FairyMaze2/index.html",
           "upstream": "https://webrpg.org/tomoshibi06-FairyMaze2/"
@@ -3097,6 +3117,10 @@
     {
       "sourceRepo": "tomoshibi06/fm2",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/tomoshibi06-fm2/index.html",
           "upstream": "https://webrpg.org/tomoshibi06-fm2/"
@@ -6636,6 +6660,10 @@
     {
       "sourceRepo": "webservicesjarm/juego1",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/webservicesjarm-Juego1/index.html",
           "upstream": "https://webrpg.org/webservicesjarm-Juego1/"
@@ -7800,6 +7828,10 @@
     {
       "sourceRepo": "tyllastarr/ld46",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/tyllastarr-ld46/index.html",
           "upstream": "https://webrpg.org/tyllastarr-ld46/"
@@ -8173,6 +8205,10 @@
     {
       "sourceRepo": "tomoshibi06/xmasmaze",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/tomoshibi06-XmasMaze/index.html",
           "upstream": "https://webrpg.org/tomoshibi06-XmasMaze/"
