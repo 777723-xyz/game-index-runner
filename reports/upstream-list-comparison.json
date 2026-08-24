@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T11:47:04.688Z",
+  "generatedAt": "2026-08-24T13:17:10.938Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 871,
   "upstreamTotal": 871,
@@ -28,6 +28,10 @@
     {
       "sourceRepo": "timirlankenji/phantasma",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/TimirlanKenji-Phantasma/index.html",
           "upstream": "https://webrpg.org/TimirlanKenji-Phantasma/"
@@ -3901,6 +3905,10 @@
     {
       "sourceRepo": "thomazdevmaster/iso25k-square-rpg",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/thomazdevmaster-ISO25k-Square-RPG/index.html",
           "upstream": "https://webrpg.org/thomazdevmaster-ISO25k-Square-RPG/"
@@ -3995,6 +4003,10 @@
     {
       "sourceRepo": "szatkus/wachaj_pale_kajdaniarzu",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/szatkus-wachaj_pale_kajdaniarzu/index.html",
           "upstream": "https://webrpg.org/szatkus-wachaj_pale_kajdaniarzu/"
@@ -4425,6 +4437,10 @@
     {
       "sourceRepo": "timmetry/lostinamaze",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/timmetry-LostInAmaze/index.html",
           "upstream": "https://webrpg.org/timmetry-LostInAmaze/"
@@ -5976,6 +5992,10 @@
     {
       "sourceRepo": "thattakashi/tales-of-arcadia",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/ThatTakashi-Tales-of-Arcadia/index.html",
           "upstream": "https://webrpg.org/ThatTakashi-Tales-of-Arcadia/"
@@ -6932,6 +6952,10 @@
     {
       "sourceRepo": "takoikatakotako/happybirthday-2018",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/takoikatakotako-HappyBirthday-2018/index.html",
           "upstream": "https://webrpg.org/takoikatakotako-HappyBirthday-2018/"
@@ -7863,6 +7887,10 @@
     {
       "sourceRepo": "tnguy510/split-4",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/tnguy510-Split-4/index.html",
           "upstream": "https://webrpg.org/tnguy510-Split-4/"
