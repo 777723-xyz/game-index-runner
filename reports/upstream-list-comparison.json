@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T17:50:34.826Z",
+  "generatedAt": "2026-08-24T19:03:11.453Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 871,
   "upstreamTotal": 871,
@@ -2320,6 +2320,10 @@
     {
       "sourceRepo": "stevenromero98/conceptgamedeployment",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/StevenRomero98-ConceptGameDeployment/index.html",
           "upstream": "https://webrpg.org/StevenRomero98-ConceptGameDeployment/"
@@ -2403,6 +2407,10 @@
     {
       "sourceRepo": "soapstain22/crimpoquestmv",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/soapstain22-crimpoquestMV/index.html",
           "upstream": "https://webrpg.org/soapstain22-crimpoquestMV/"
@@ -2415,10 +2423,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/soapstain22-soapstain22.github.io/crimpoquest.html",
           "upstream": "https://webrpg.org/soapstain22-soapstain22.github.io/"
-        },
-        "entryPath": {
-          "ours": "crimpoquest.html",
-          "upstream": "www/crimpoquest.html"
         }
       }
     },
@@ -3261,6 +3265,10 @@
     {
       "sourceRepo": "sombriks/foo-bar-tales",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/sombriks-foo-bar-tales/index.html",
           "upstream": "https://webrpg.org/sombriks-foo-bar-tales/"
@@ -7425,6 +7433,10 @@
     {
       "sourceRepo": "spikespieg-el/rpgtest",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/SpikeSpieg-el-rpgTest/index.html",
           "upstream": "https://webrpg.org/SpikeSpieg-el-rpgTest/"
@@ -7786,6 +7798,10 @@
     {
       "sourceRepo": "st651102064101-design/the-game--the-late-riser",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/st651102064101-design-The-game-The-Late-Riser/index.html",
           "upstream": "https://webrpg.org/st651102064101-design-The-game-The-Late-Riser/"
@@ -7808,6 +7824,10 @@
     {
       "sourceRepo": "stebpleb/thisisnicegame",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/StebPleb-ThisIsNiceGame/index.html",
           "upstream": "https://webrpg.org/StebPleb-ThisIsNiceGame/"
