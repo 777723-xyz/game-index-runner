@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T15:04:37.383Z",
+  "generatedAt": "2026-08-24T15:59:39.548Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 871,
   "upstreamTotal": 871,
@@ -102,6 +102,10 @@
     {
       "sourceRepo": "watakoro/gamedevproject",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/WataKoro-GameDevProject/index.html",
           "upstream": "https://webrpg.org/WataKoro-GameDevProject/"
@@ -3072,6 +3076,10 @@
     {
       "sourceRepo": "susobhang70/rpg_maze_runner",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/susobhang70-rpg_maze_runner/index.html",
           "upstream": "https://webrpg.org/susobhang70-rpg_maze_runner/"
@@ -3604,6 +3612,10 @@
     {
       "sourceRepo": "enigmadragons/legendaryfrailty",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/EnigmaDragons-LegendaryFrailty/index.html",
           "upstream": "https://webrpg.org/EnigmaDragons-LegendaryFrailty/"
@@ -5026,6 +5038,10 @@
     {
       "sourceRepo": "sunset513/ncu-fresh-map-draft",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/sunset513-ncu-fresh-map-draft/index.html",
           "upstream": "https://webrpg.org/sunset513-ncu-fresh-map-draft/"
@@ -5962,6 +5978,10 @@
     {
       "sourceRepo": "stuocs/pequejrpg",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Stuocs-PequeJRPG/index.html",
           "upstream": "https://webrpg.org/Stuocs-PequeJRPG/"
@@ -7245,10 +7265,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/stl1988-stl1988.github.io/index.html",
           "upstream": "https://webrpg.org/stl1988-stl1988.github.io/"
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": "mvdemo/index.html"
         }
       }
     },
@@ -7361,6 +7377,10 @@
     {
       "sourceRepo": "synystercola/ldjam44",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/SynysterCola-ldjam44/index.html",
           "upstream": "https://webrpg.org/SynysterCola-ldjam44/"
