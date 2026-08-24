@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T20:52:15.306Z",
+  "generatedAt": "2026-08-24T21:47:15.466Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 871,
   "upstreamTotal": 871,
@@ -2137,6 +2137,10 @@
     {
       "sourceRepo": "shirorimi/chaos",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/shirorimi-chaos/index.html",
           "upstream": "https://webrpg.org/shirorimi-chaos/"
@@ -2146,6 +2150,10 @@
     {
       "sourceRepo": "shirorimi/chaosver10",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/shirorimi-chaosver10/index.html",
           "upstream": "https://webrpg.org/shirorimi-chaosver10/"
@@ -6115,6 +6123,10 @@
     {
       "sourceRepo": "sinonymousx/rpgmakertest",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/sinonymousx-rpgMakerTest/index.html",
           "upstream": "https://webrpg.org/sinonymousx-rpgMakerTest/"
@@ -6459,6 +6471,10 @@
     {
       "sourceRepo": "sirmcpotato/rmmv-mmo-webkit",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/SirMcPotato-RMMV-MMO-webkit/index.html",
           "upstream": "https://webrpg.org/SirMcPotato-RMMV-MMO-webkit/"
@@ -7106,6 +7122,10 @@
     {
       "sourceRepo": "shirorimi/snipe",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/shirorimi-snipe/index.html",
           "upstream": "https://webrpg.org/shirorimi-snipe/"
@@ -7420,6 +7440,10 @@
     {
       "sourceRepo": "sin-hu/study",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/sin-hu-study/index.html",
           "upstream": "https://webrpg.org/sin-hu-study/"
@@ -7674,7 +7698,7 @@
       "differences": {
         "status": {
           "ours": "indexed",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
