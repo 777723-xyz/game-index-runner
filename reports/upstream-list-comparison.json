@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T13:14:58.669Z",
+  "generatedAt": "2026-08-25T14:09:03.629Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 874,
   "upstreamTotal": 874,
@@ -2413,6 +2413,27 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/mn3zx-CorridaAcademica/index.html",
           "upstream": "https://webrpg.org/mn3zx-CorridaAcademica/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "c7lison/cozy-studio-game",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "c7lison-cozy-studio-game",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/c7lison-cozy-studio-game/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
