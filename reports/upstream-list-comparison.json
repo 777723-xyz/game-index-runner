@@ -1,11 +1,19 @@
 {
-  "generatedAt": "2026-08-25T03:15:38.301Z",
+  "generatedAt": "2026-08-25T04:05:24.142Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 872,
+  "localTotal": 873,
   "upstreamTotal": 872,
   "shared": 872,
   "upstreamOnly": [],
-  "localOnly": [],
+  "localOnly": [
+    {
+      "id": "gx-gamescrack-gx-gamescrack-github-io",
+      "sourceRepo": "gx-gamescrack/gx-gamescrack.github.io",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    }
+  ],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -3132,6 +3140,10 @@
     {
       "sourceRepo": "savesub/fairymaze_en",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/SaveSub-FairyMaze_EN/index.html",
           "upstream": "https://webrpg.org/SaveSub-FairyMaze_EN/"
@@ -5351,6 +5363,10 @@
     {
       "sourceRepo": "sigmiliarity/web",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/sigmiliarity-web/index.html",
           "upstream": "https://webrpg.org/sigmiliarity-web/"
