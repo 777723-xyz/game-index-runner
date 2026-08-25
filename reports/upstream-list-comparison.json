@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T01:56:00.873Z",
+  "generatedAt": "2026-08-25T03:15:38.301Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 872,
   "upstreamTotal": 872,
@@ -2587,6 +2587,19 @@
         },
         "forkName": {
           "ours": "raahimsyed-rift",
+          "upstream": null
+        }
+      }
+    },
+    {
+      "sourceRepo": "spaceyy1/nexite",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "spaceyy1-Nexite",
           "upstream": null
         }
       }
