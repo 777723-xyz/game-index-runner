@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T04:05:24.142Z",
+  "generatedAt": "2026-08-25T04:57:41.707Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 873,
   "upstreamTotal": 872,
@@ -9,8 +9,8 @@
     {
       "id": "gx-gamescrack-gx-gamescrack-github-io",
       "sourceRepo": "gx-gamescrack/gx-gamescrack.github.io",
-      "status": "indexed",
-      "forkName": null,
+      "status": "invalid_structure",
+      "forkName": "gx-gamescrack-GX-Gamescrack.github.io",
       "pagesUrl": null
     }
   ],
