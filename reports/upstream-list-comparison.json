@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-24T23:41:03.005Z",
+  "generatedAt": "2026-08-25T01:56:00.873Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 871,
-  "upstreamTotal": 871,
-  "shared": 871,
+  "localTotal": 872,
+  "upstreamTotal": 872,
+  "shared": 872,
   "upstreamOnly": [],
   "localOnly": [],
   "changed": [
@@ -3781,6 +3781,10 @@
     {
       "sourceRepo": "shinyjiggly/dungeon-crashers-website",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/shinyjiggly-dungeon-crashers-website/index.html",
           "upstream": "https://webrpg.org/shinyjiggly-dungeon-crashers-website/"
@@ -6305,6 +6309,10 @@
     {
       "sourceRepo": "shen0v0/gdp",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/shen0V0-GDP/index.html",
           "upstream": "https://webrpg.org/shen0V0-GDP/"
@@ -6318,6 +6326,10 @@
     {
       "sourceRepo": "shen0v0/gdp_op",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/shen0V0-GDP_OP/index.html",
           "upstream": "https://webrpg.org/shen0V0-GDP_OP/"
@@ -7497,6 +7509,10 @@
     {
       "sourceRepo": "scringly/testquest",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/scringly-TestQuest/index.html",
           "upstream": "https://webrpg.org/scringly-TestQuest/"
