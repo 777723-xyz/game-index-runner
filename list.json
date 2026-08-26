@@ -11163,11 +11163,11 @@
     "pagesUrl": "https://777723-xyz.github.io/FaetterP-Lily-s-Well-Rus/index.html",
     "cover": "https://777723-xyz.github.io/FaetterP-Lily-s-Well-Rus/cover.png",
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-08-25T21:37:15.831Z",
+    "runtimeCheckedAt": "2026-08-26T04:19:37.814Z",
     "runtimeLoadMs": 30004,
     "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 103,
-    "runtimeLastError": "request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/libs/pixi.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/libs/pixi-tilemap.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/libs/pixi-picture.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/libs/fpsmeter.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s"
+    "runtimeFailureCount": 104,
+    "runtimeLastError": "request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/libs/pixi.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/libs/pixi-picture.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/libs/lz-string.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/libs/pixi-tilemap.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-"
   },
   {
     "id": "cardcaph-rpg-pwa-test-1",
@@ -15267,8 +15267,8 @@
     "pagesUrl": "https://777723-xyz.github.io/LiXiaYu-MVMota/index.html",
     "cover": "https://777723-xyz.github.io/LiXiaYu-MVMota/cover.png",
     "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-08-19T03:06:02.884Z",
-    "runtimeLoadMs": 793,
+    "runtimeCheckedAt": "2026-08-26T04:19:11.335Z",
+    "runtimeLoadMs": 3525,
     "runtimeHttpStatus": 200
   },
   {
