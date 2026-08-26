@@ -11166,11 +11166,11 @@
     "pagesUrl": "https://777723-xyz.github.io/FaetterP-Lily-s-Well-Rus/index.html",
     "cover": "https://777723-xyz.github.io/FaetterP-Lily-s-Well-Rus/cover.png",
     "runtimeStatus": "failed",
-    "runtimeCheckedAt": "2026-08-26T10:45:45.331Z",
+    "runtimeCheckedAt": "2026-08-26T16:55:11.544Z",
     "runtimeLoadMs": 30005,
     "runtimeHttpStatus": 200,
-    "runtimeFailureCount": 105,
-    "runtimeLastError": "request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/libs/pixi.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/rpg_managers.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/rpg_objects.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/rpg_core.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/lib"
+    "runtimeFailureCount": 106,
+    "runtimeLastError": "request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/rpg_sprites.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/libs/pixi.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/libs/pixi-picture.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Rus/js/rpg_windows.js net::ERR_ABORTED | request: https://yx.ecy.al/FaetterP-Lily-s-Well-Ru"
   },
   {
     "id": "cardcaph-rpg-pwa-test-1",
