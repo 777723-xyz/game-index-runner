@@ -1,11 +1,26 @@
 {
-  "generatedAt": "2026-08-26T23:40:58.807Z",
+  "generatedAt": "2026-08-27T09:55:48.745Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 874,
+  "localTotal": 876,
   "upstreamTotal": 874,
   "shared": 874,
   "upstreamOnly": [],
-  "localOnly": [],
+  "localOnly": [
+    {
+      "id": "unblockedgames99x-code-dshsfdghaswerweq",
+      "sourceRepo": "unblockedgames99x-code/dshsfdghaswerweq",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    },
+    {
+      "id": "spacelord42-gn-math",
+      "sourceRepo": "spacelord42/gn-math",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    }
+  ],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
