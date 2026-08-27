@@ -1,26 +1,11 @@
 {
-  "generatedAt": "2026-08-27T09:55:48.745Z",
+  "generatedAt": "2026-08-27T20:34:57.229Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 876,
-  "upstreamTotal": 874,
-  "shared": 874,
+  "upstreamTotal": 876,
+  "shared": 876,
   "upstreamOnly": [],
-  "localOnly": [
-    {
-      "id": "unblockedgames99x-code-dshsfdghaswerweq",
-      "sourceRepo": "unblockedgames99x-code/dshsfdghaswerweq",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    },
-    {
-      "id": "spacelord42-gn-math",
-      "sourceRepo": "spacelord42/gn-math",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    }
-  ],
+  "localOnly": [],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -1934,6 +1919,19 @@
       }
     },
     {
+      "sourceRepo": "unblockedgames99x-code/dshsfdghaswerweq",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "unblockedgames99x-code-dshsfdghaswerweq",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "urnperiodic/urnperiodic.github.io",
       "differences": {
         "status": {
@@ -3272,6 +3270,19 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/ScorpGaming4432-fungerterminapl/index.html",
           "upstream": "https://webrpg.org/ScorpGaming4432-fungerterminapl/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "spacelord42/gn-math",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "spacelord42-gn-math",
+          "upstream": null
         }
       }
     },
