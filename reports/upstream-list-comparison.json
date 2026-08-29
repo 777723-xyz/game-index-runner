@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T18:47:40.773Z",
+  "generatedAt": "2026-08-29T02:14:25.410Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 877,
   "upstreamTotal": 877,
@@ -5299,6 +5299,19 @@
         "status": {
           "ours": "indexed",
           "upstream": "skipped_large"
+        }
+      }
+    },
+    {
+      "sourceRepo": "cronusz3n96/stolenstuff",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "Cronusz3n96-stolenstuff",
+          "upstream": null
         }
       }
     },
