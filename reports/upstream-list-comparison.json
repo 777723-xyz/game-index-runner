@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T14:31:04.203Z",
+  "generatedAt": "2026-08-29T18:34:00.535Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 878,
   "upstreamTotal": 878,
@@ -5603,6 +5603,27 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Andaroth-anda.ninja/index.html",
           "upstream": "https://webrpg.org/Andaroth-anda.ninja/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "harleythetech/capstone_ppv2",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "Harleythetech-CAPSTONE_PPV2",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/Harleythetech-CAPSTONE_PPV2/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
