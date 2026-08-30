@@ -1,11 +1,19 @@
 {
-  "generatedAt": "2026-08-30T00:23:07.866Z",
+  "generatedAt": "2026-08-30T06:43:34.055Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 879,
+  "localTotal": 880,
   "upstreamTotal": 879,
   "shared": 879,
   "upstreamOnly": [],
-  "localOnly": [],
+  "localOnly": [
+    {
+      "id": "riyoway-aooni2016-restored",
+      "sourceRepo": "riyoway/aooni2016-restored",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    }
+  ],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -2596,6 +2604,19 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/SheikhSafwan-Daybreak/index.html",
           "upstream": "https://webrpg.org/SheikhSafwan-Daybreak/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "gmshelf/truffled",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "gmshelf-truffled",
+          "upstream": null
         }
       }
     },
