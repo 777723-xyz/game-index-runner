@@ -1,19 +1,11 @@
 {
-  "generatedAt": "2026-08-30T06:43:34.055Z",
+  "generatedAt": "2026-08-30T12:56:48.004Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 880,
-  "upstreamTotal": 879,
-  "shared": 879,
+  "upstreamTotal": 880,
+  "shared": 880,
   "upstreamOnly": [],
-  "localOnly": [
-    {
-      "id": "riyoway-aooni2016-restored",
-      "sourceRepo": "riyoway/aooni2016-restored",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    }
-  ],
+  "localOnly": [],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -738,6 +730,27 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/renrender0209-aooni/index.html",
           "upstream": "https://webrpg.org/renrender0209-aooni/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "riyoway/aooni2016-restored",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "Riyoway-aooni2016-restored",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/Riyoway-aooni2016-restored/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
