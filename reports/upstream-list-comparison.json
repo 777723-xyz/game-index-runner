@@ -1,11 +1,19 @@
 {
-  "generatedAt": "2026-08-31T23:54:44.700Z",
+  "generatedAt": "2026-09-01T05:16:32.433Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 880,
+  "localTotal": 881,
   "upstreamTotal": 880,
   "shared": 880,
   "upstreamOnly": [],
-  "localOnly": [],
+  "localOnly": [
+    {
+      "id": "dotgui-dev-dotgui-old",
+      "sourceRepo": "dotgui-dev/dotgui-old",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    }
+  ],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
