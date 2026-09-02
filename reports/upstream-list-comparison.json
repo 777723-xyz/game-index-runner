@@ -1,19 +1,11 @@
 {
-  "generatedAt": "2026-09-02T19:50:54.677Z",
+  "generatedAt": "2026-09-02T22:42:34.427Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 882,
-  "upstreamTotal": 881,
-  "shared": 881,
+  "upstreamTotal": 882,
+  "shared": 882,
   "upstreamOnly": [],
-  "localOnly": [
-    {
-      "id": "luics415-eternalmazesrpg-windows",
-      "sourceRepo": "luics415/eternalmazesrpg-windows",
-      "status": "verified",
-      "forkName": "Luics415-EternalMazesRPG-Windows",
-      "pagesUrl": "https://777723-xyz.github.io/Luics415-EternalMazesRPG-Windows/index.html"
-    }
-  ],
+  "localOnly": [],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -3197,6 +3189,27 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/susobhang70-rpg_maze_runner/index.html",
           "upstream": "https://webrpg.org/susobhang70-rpg_maze_runner/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "luics415/eternalmazesrpg-windows",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "Luics415-EternalMazesRPG-Windows",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/Luics415-EternalMazesRPG-Windows/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
