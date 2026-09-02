@@ -1,11 +1,19 @@
 {
-  "generatedAt": "2026-09-02T11:25:14.834Z",
+  "generatedAt": "2026-09-02T16:39:20.417Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 881,
+  "localTotal": 882,
   "upstreamTotal": 881,
   "shared": 881,
   "upstreamOnly": [],
-  "localOnly": [],
+  "localOnly": [
+    {
+      "id": "luics415-eternalmazesrpg-windows",
+      "sourceRepo": "luics415/eternalmazesrpg-windows",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    }
+  ],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
