@@ -1,11 +1,19 @@
 {
-  "generatedAt": "2026-09-03T16:30:20.879Z",
+  "generatedAt": "2026-09-03T19:54:30.310Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 883,
+  "localTotal": 884,
   "upstreamTotal": 883,
   "shared": 883,
   "upstreamOnly": [],
-  "localOnly": [],
+  "localOnly": [
+    {
+      "id": "redpillphil-emberchain",
+      "sourceRepo": "redpillphil/emberchain",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    }
+  ],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -5929,6 +5937,27 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/TheRainbowPhoenix-LDS/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "beeveelutions/project-starmans",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "Beeveelutions-Project-Starmans",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/Beeveelutions-Project-Starmans/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
