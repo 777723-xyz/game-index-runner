@@ -1,14 +1,21 @@
 {
-  "generatedAt": "2026-09-03T19:54:30.310Z",
+  "generatedAt": "2026-09-03T22:38:49.327Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 884,
-  "upstreamTotal": 883,
-  "shared": 883,
+  "localTotal": 886,
+  "upstreamTotal": 884,
+  "shared": 884,
   "upstreamOnly": [],
   "localOnly": [
     {
-      "id": "redpillphil-emberchain",
-      "sourceRepo": "redpillphil/emberchain",
+      "id": "mengtl4-rpgmaker-mv-android-mod",
+      "sourceRepo": "mengtl4/rpgmaker-mv-android-mod",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    },
+    {
+      "id": "kuhaku411a-infinite-domination-rw",
+      "sourceRepo": "kuhaku411a/infinite_domination_rw",
       "status": "indexed",
       "forkName": null,
       "pagesUrl": null
@@ -3128,6 +3135,27 @@
         "entryPath": {
           "ours": "index.html",
           "upstream": "12DTM-RPGMAKER-Project/index.html"
+        }
+      }
+    },
+    {
+      "sourceRepo": "redpillphil/emberchain",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "RedPillPhil-Emberchain",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/RedPillPhil-Emberchain/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
