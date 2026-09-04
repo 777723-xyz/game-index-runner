@@ -1,26 +1,11 @@
 {
-  "generatedAt": "2026-09-03T22:38:49.327Z",
+  "generatedAt": "2026-09-04T01:02:54.336Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 886,
-  "upstreamTotal": 884,
-  "shared": 884,
+  "upstreamTotal": 886,
+  "shared": 886,
   "upstreamOnly": [],
-  "localOnly": [
-    {
-      "id": "mengtl4-rpgmaker-mv-android-mod",
-      "sourceRepo": "mengtl4/rpgmaker-mv-android-mod",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    },
-    {
-      "id": "kuhaku411a-infinite-domination-rw",
-      "sourceRepo": "kuhaku411a/infinite_domination_rw",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    }
-  ],
+  "localOnly": [],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -1228,6 +1213,19 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/daylight5378-once-upon-a-squire/index.html",
           "upstream": "https://webrpg.org/daylight5378-once-upon-a-squire/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "mengtl4/rpgmaker-mv-android-mod",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "MengTL4-rpgmaker-mv-android-mod",
+          "upstream": null
         }
       }
     },
@@ -4026,6 +4024,19 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/web-ports-in-stars-and-time/index.html",
           "upstream": "https://webrpg.org/web-ports-in-stars-and-time/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "kuhaku411a/infinite_domination_rw",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "Kuhaku411A-Infinite_Domination_RW",
+          "upstream": null
         }
       }
     },
