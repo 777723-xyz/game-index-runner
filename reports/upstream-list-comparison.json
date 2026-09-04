@@ -1,11 +1,19 @@
 {
-  "generatedAt": "2026-09-04T19:40:04.446Z",
+  "generatedAt": "2026-09-04T22:24:16.474Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 886,
+  "localTotal": 887,
   "upstreamTotal": 886,
   "shared": 886,
   "upstreamOnly": [],
-  "localOnly": [],
+  "localOnly": [
+    {
+      "id": "retrom-project-retrom",
+      "sourceRepo": "retrom-project/retrom",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    }
+  ],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
