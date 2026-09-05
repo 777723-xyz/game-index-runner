@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T19:05:21.536Z",
+  "generatedAt": "2026-09-05T21:19:15.405Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 891,
   "upstreamTotal": 891,
@@ -6338,6 +6338,27 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/LiXiaYu-MVMota/index.html",
           "upstream": "https://webrpg.org/LiXiaYu-MVMota/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "31mada/liyab-prime",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "31madA-LIYAB-Prime",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/31madA-LIYAB-Prime/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
