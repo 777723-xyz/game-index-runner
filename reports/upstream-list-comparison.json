@@ -1,11 +1,19 @@
 {
-  "generatedAt": "2026-09-05T21:19:15.405Z",
+  "generatedAt": "2026-09-05T23:57:26.243Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 891,
+  "localTotal": 892,
   "upstreamTotal": 891,
   "shared": 891,
   "upstreamOnly": [],
-  "localOnly": [],
+  "localOnly": [
+    {
+      "id": "phexus23-phexus23-github-io",
+      "sourceRepo": "phexus23/phexus23.github.io",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    }
+  ],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
