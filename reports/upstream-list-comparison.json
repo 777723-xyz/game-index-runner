@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-04T22:24:16.474Z",
+  "generatedAt": "2026-09-05T01:02:10.687Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 887,
-  "upstreamTotal": 886,
-  "shared": 886,
+  "localTotal": 888,
+  "upstreamTotal": 887,
+  "shared": 887,
   "upstreamOnly": [],
   "localOnly": [
     {
-      "id": "retrom-project-retrom",
-      "sourceRepo": "retrom-project/retrom",
+      "id": "yellowdevelopment-sienna",
+      "sourceRepo": "yellowdevelopment/sienna",
       "status": "indexed",
       "forkName": null,
       "pagesUrl": null
@@ -6693,6 +6693,27 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Byvalvin-Excalibur/index.html",
           "upstream": "https://webrpg.org/Byvalvin-Excalibur/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "retrom-project/retrom",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "retrom-project-retrom",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/retrom-project-retrom/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
