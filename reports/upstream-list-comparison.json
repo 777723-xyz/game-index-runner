@@ -1,19 +1,11 @@
 {
-  "generatedAt": "2026-09-05T05:49:21.065Z",
+  "generatedAt": "2026-09-05T10:41:45.381Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 889,
-  "upstreamTotal": 888,
-  "shared": 888,
+  "localTotal": 890,
+  "upstreamTotal": 890,
+  "shared": 890,
   "upstreamOnly": [],
-  "localOnly": [
-    {
-      "id": "emowbaik-project-tefa-b",
-      "sourceRepo": "emowbaik/project-tefa-b",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    }
-  ],
+  "localOnly": [],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -7704,6 +7696,27 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/PabloTorr17-Juego-ITC/index.html",
           "upstream": "https://webrpg.org/PabloTorr17-Juego-ITC/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "emowbaik/project-tefa-b",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "emowbaik-project-Tefa-B",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/emowbaik-project-Tefa-B/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
