@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T10:41:45.381Z",
+  "generatedAt": "2026-09-05T13:54:33.952Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 890,
   "upstreamTotal": 890,
@@ -9074,6 +9074,27 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/munokura-DQ-like-Sample-MV/index.html",
           "upstream": "https://webrpg.org/munokura-DQ-like-Sample-MV/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "neonnoiru/xzxrdbw",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "NeonNoirU-xzxrdbw",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/NeonNoirU-xzxrdbw/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
