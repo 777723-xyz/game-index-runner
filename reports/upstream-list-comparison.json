@@ -1,19 +1,11 @@
 {
-  "generatedAt": "2026-09-05T23:57:26.243Z",
+  "generatedAt": "2026-09-06T04:45:56.504Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 892,
-  "upstreamTotal": 891,
-  "shared": 891,
+  "upstreamTotal": 892,
+  "shared": 892,
   "upstreamOnly": [],
-  "localOnly": [
-    {
-      "id": "phexus23-phexus23-github-io",
-      "sourceRepo": "phexus23/phexus23.github.io",
-      "status": "indexed",
-      "forkName": null,
-      "pagesUrl": null
-    }
-  ],
+  "localOnly": [],
   "changed": [
     {
       "sourceRepo": "shaddockh/rmmv_ts_boilerplate",
@@ -5532,6 +5524,19 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Neoexm-Kuakin/index.html",
           "upstream": "https://webrpg.org/Neoexm-Kuakin/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "phexus23/phexus23.github.io",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "phexus23-phexus23.github.io",
+          "upstream": null
         }
       }
     },
