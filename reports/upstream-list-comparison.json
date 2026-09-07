@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T04:49:21.203Z",
+  "generatedAt": "2026-09-07T10:25:14.602Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 894,
   "upstreamTotal": 894,
@@ -1283,6 +1283,27 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/PedroMaxDEV-A-LENDA-DE-CAMUTANGA/jogo.html.html",
           "upstream": "https://webrpg.org/PedroMaxDEV-A-LENDA-DE-CAMUTANGA/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "sness128/sness128.github.io",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "sness128-sness128.github.io",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/sness128-sness128.github.io/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
@@ -5488,6 +5509,19 @@
         },
         "forkName": {
           "ours": "holy-unblocker-theatre",
+          "upstream": null
+        }
+      }
+    },
+    {
+      "sourceRepo": "kanyewest50000/offline-learning",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "kanyewest50000-offline-learning",
           "upstream": null
         }
       }
