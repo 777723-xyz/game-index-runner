@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T11:30:15.414Z",
+  "generatedAt": "2026-09-09T16:43:26.898Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 897,
   "upstreamTotal": 896,
@@ -1284,6 +1284,10 @@
     {
       "sourceRepo": "pedromaxdev/a-lenda-de-camutanga",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/PedroMaxDEV-A-LENDA-DE-CAMUTANGA/jogo.html.html",
           "upstream": "https://webrpg.org/PedroMaxDEV-A-LENDA-DE-CAMUTANGA/"
@@ -1529,6 +1533,10 @@
     {
       "sourceRepo": "masudinn/animal-hunting",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/masudinn-Animal-Hunting/index.html",
           "upstream": "https://webrpg.org/masudinn-Animal-Hunting/"
@@ -2299,6 +2307,10 @@
     {
       "sourceRepo": "p-guilherme/cidadesustentavel",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/p-guilherme-cidadesustentavel/index.html",
           "upstream": "https://webrpg.org/p-guilherme-cidadesustentavel/"
@@ -2479,10 +2491,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/masahirotanaka-cordova-final-quest/index.html",
           "upstream": "https://webrpg.org/masahirotanaka-cordova-final-quest/"
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": "www/index.html"
         }
       }
     },
@@ -2932,6 +2940,10 @@
     {
       "sourceRepo": "lucaslovestacos/lucaslovestacos.github.io",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/lucaslovestacos-lucaslovestacos.github.io/index.html",
           "upstream": "https://webrpg.org/lucaslovestacos-lucaslovestacos.github.io/"
@@ -3222,6 +3234,10 @@
     {
       "sourceRepo": "luisdef/end",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/luisdef-end/index.html",
           "upstream": "https://webrpg.org/luisdef-end/"
@@ -3488,6 +3504,10 @@
     {
       "sourceRepo": "lovehina13/finalsymphonia",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/lovehina13-FinalSymphonia/index.html",
           "upstream": "https://webrpg.org/lovehina13-FinalSymphonia/"
@@ -3706,6 +3726,10 @@
     {
       "sourceRepo": "pipakin/gdg-gcf-talk",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/pipakin-GDG-GCF-Talk/index.html",
           "upstream": "https://webrpg.org/pipakin-GDG-GCF-Talk/"
@@ -3759,6 +3783,10 @@
     {
       "sourceRepo": "m00nl16h7/m00nl16h7.github.io",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/M00NL16H7-m00nl16h7.github.io/index.html",
           "upstream": "https://webrpg.org/M00NL16H7-m00nl16h7.github.io/"
@@ -3981,6 +4009,10 @@
     {
       "sourceRepo": "pbkn/hbd-rpg",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/pbkn-hbd-rpg/index.html",
           "upstream": "https://webrpg.org/pbkn-hbd-rpg/"
@@ -4800,6 +4832,10 @@
     {
       "sourceRepo": "luciddreamforcapstone/luciddream",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/LucidDreamForCapstone-LucidDream/index.html",
           "upstream": "https://webrpg.org/LucidDreamForCapstone-LucidDream/"
@@ -5955,10 +5991,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/pokemon-essentials-pokemon-essentials/index.html",
           "upstream": "https://webrpg.org/pokemon-essentials-pokemon-essentials/"
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": "project/index.html"
         }
       }
     },
@@ -6455,6 +6487,10 @@
     {
       "sourceRepo": "lixiayu/mvmota",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/LiXiaYu-MVMota/index.html",
           "upstream": "https://webrpg.org/LiXiaYu-MVMota/"
@@ -6506,6 +6542,10 @@
     {
       "sourceRepo": "mattiefm/idkgame",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/mattieFM-idkGame/index.html",
           "upstream": "https://webrpg.org/mattieFM-idkGame/"
@@ -6552,10 +6592,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/pascal-the-elf-Project-H5/index.html",
           "upstream": "https://webrpg.org/pascal-the-elf-Project-H5/"
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": "rpg/1/index.html"
         }
       }
     },
@@ -6618,6 +6654,10 @@
     {
       "sourceRepo": "lemarsito02/core",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/LeMarsito02-core/index.html",
           "upstream": "https://webrpg.org/LeMarsito02-core/"
@@ -6887,6 +6927,10 @@
     {
       "sourceRepo": "matheuspereirakrumm/rise-of-shinigami",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/matheusPereiraKrumm-rise-of-shinigami/index.html",
           "upstream": "https://webrpg.org/matheusPereiraKrumm-rise-of-shinigami/"
@@ -7175,6 +7219,10 @@
     {
       "sourceRepo": "lolosenpai/aob",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/LoLoSenPai-AOB/index.html",
           "upstream": "https://webrpg.org/LoLoSenPai-AOB/"
@@ -7842,6 +7890,10 @@
     {
       "sourceRepo": "pablotorr17/juego-itc",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/PabloTorr17-Juego-ITC/index.html",
           "upstream": "https://webrpg.org/PabloTorr17-Juego-ITC/"
@@ -7955,6 +8007,10 @@
     {
       "sourceRepo": "marcuskim442/lostinwonder",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/MarcusKim442-LostInWonder/index.html",
           "upstream": "https://webrpg.org/MarcusKim442-LostInWonder/"
@@ -8034,6 +8090,10 @@
     {
       "sourceRepo": "pigg0bot-s/rpgmaker-proj",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Pigg0Bot-S-rpgmaker-proj/index.html",
           "upstream": "https://webrpg.org/Pigg0Bot-S-rpgmaker-proj/"
@@ -8087,6 +8147,10 @@
     {
       "sourceRepo": "paulstubbs/thecorporateladder",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/PaulStubbs-TheCorporateLadder/index.html",
           "upstream": "https://webrpg.org/PaulStubbs-TheCorporateLadder/"
@@ -8279,6 +8343,10 @@
     {
       "sourceRepo": "patrick-ayo/misinformation-game",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Patrick-ayo-MISINFORMATION-GAME/index.html",
           "upstream": "https://webrpg.org/Patrick-ayo-MISINFORMATION-GAME/"
@@ -8292,6 +8360,10 @@
     {
       "sourceRepo": "patrick-ayo/mumbai-hacks",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Patrick-ayo-Mumbai-Hacks/index.html",
           "upstream": "https://webrpg.org/Patrick-ayo-Mumbai-Hacks/"
@@ -8679,6 +8751,10 @@
     {
       "sourceRepo": "materialrandom/viajetirnanog1",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/MaterialRandom-ViajeTirNaNog1/index.html",
           "upstream": "https://webrpg.org/MaterialRandom-ViajeTirNaNog1/"
@@ -9035,6 +9111,10 @@
     {
       "sourceRepo": "llb1026/llb1026.github.io",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/llb1026-llb1026.github.io/index.html",
           "upstream": "https://webrpg.org/llb1026-llb1026.github.io/"
