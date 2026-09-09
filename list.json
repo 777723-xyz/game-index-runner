@@ -742,7 +742,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "www/index.html",
-    "checkedAt": "2026-09-09T21:53:28.966Z",
+    "checkedAt": "2026-07-05T06:45:29.356Z",
     "forkName": "eric0308a-The_Devils_Seven_Days",
     "entryPath": "index.html",
     "validationScore": 115,
@@ -751,8 +751,7 @@
     "sourceRepo": "eric0308a/The_Devils_Seven_Days",
     "upstreamPagesUrl": "https://webrpg.org/eric0308a-The_Devils_Seven_Days/",
     "upstreamCover": "https://webrpg.org/eric0308a-The_Devils_Seven_Days/cover.png",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "cyh0521-rpg-e580416c",
@@ -850,7 +849,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-05T16:45:16.864Z",
     "runtimeLoadMs": 1297,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "f777aacfedd46b8779a7e21ccf41d33293b5db52",
+    "processedHeadSha": "1786ace01d90964b660357ff619957a921c68e39",
+    "syncedFromSource": true
   },
   {
     "id": "yinshi91-game-3",
@@ -874,7 +877,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-05T16:45:17.175Z",
     "runtimeLoadMs": 1798,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "f64402a49573592ba310f08ccf3772f7e49a1fa5",
+    "processedHeadSha": "13306d0ae80c8a46c086f0ec34ac2555eeab4044",
+    "syncedFromSource": true
   },
   {
     "id": "formidi-kanzidego",
@@ -932,13 +939,14 @@
     "source": "upstream-webrpg-index",
     "upstreamPagesUrl": "https://webrpg.org/xlanwux-TravelInDoomWithYou/",
     "upstreamCover": "https://webrpg.org/xlanwux-TravelInDoomWithYou/cover.png",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/xlanwux-TravelInDoomWithYou/index.html",
     "cover": "https://777723-xyz.github.io/xlanwux-TravelInDoomWithYou/cover.png",
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-05T16:45:15.324Z",
     "runtimeLoadMs": 2509,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 1100472 KB exceeds the 250000 KB limit."
   },
   {
     "id": "rfvtgbzxc-rmmz-ts-vite",
@@ -1222,7 +1230,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "Windows/www/index.html",
-    "checkedAt": "2026-09-09T21:53:46.161Z",
+    "checkedAt": "2026-07-09T19:01:48.930Z",
     "forkName": "tw123777tw-GiantGirlClub",
     "entryPath": "Windows/www/index.html",
     "validationScore": 115,
@@ -1231,8 +1239,7 @@
     "sourceRepo": "tw123777tw/GiantGirlClub",
     "upstreamPagesUrl": "https://webrpg.org/tw123777tw-GiantGirlClub/",
     "upstreamCover": "https://webrpg.org/tw123777tw-GiantGirlClub/cover.png",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "zhuobinggang-decision-maker-rpg-game",
@@ -1456,7 +1463,9 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-05T16:45:18.078Z",
     "runtimeLoadMs": 1156,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 395630 KB exceeds the 250000 KB limit.",
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "kotpot197-rabbit",
@@ -2524,7 +2533,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-05T22:51:38.929Z",
     "runtimeLoadMs": 2319,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "393b255f9bfec55b92de8ba2d8054cdca3cfea17",
+    "processedHeadSha": "d18efbe1958195bf0c67d1243f17917760d49ba0",
+    "syncedFromSource": true
   },
   {
     "id": "cyh0521-rpg-7b8c988a",
@@ -2656,7 +2669,7 @@
     "discoveredAt": "2026-06-15T15:29:11.705Z",
     "source": "github-code-search",
     "sourcePath": "www/index.html",
-    "checkedAt": "2026-09-09T21:54:41.960Z",
+    "checkedAt": "2026-08-24T09:53:52.059Z",
     "forkName": "NeonNoir-Yuki-wlts",
     "entryPath": "www/index.html",
     "validationScore": 115,
@@ -2666,8 +2679,7 @@
     "upstreamPagesUrl": "https://webrpg.org/NeonNoir-Yuki-wlts/",
     "upstreamCover": "https://webrpg.org/NeonNoir-Yuki-wlts/cover.png",
     "upstreamStatus": "skipped_large",
-    "invalidReason": "Repository size 1256074 KB exceeds the 250000 KB limit.",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "invalidReason": "Repository size 1256074 KB exceeds the 250000 KB limit."
   },
   {
     "id": "realquantumcookie-wulinwaizhuan",
@@ -2702,13 +2714,12 @@
     "owner": "NeonNoir-Yuki",
     "name": "xrkxq",
     "engine": "RPG Maker MV",
-    "checkedAt": "2026-09-09T21:54:18.280Z",
+    "checkedAt": "2026-08-24T07:02:55.564Z",
     "forkName": "NeonNoir-Yuki-xrkxq",
     "source": "upstream-webrpg-index",
     "status": "indexed",
     "invalidReason": "Repository size 1573176 KB exceeds the 250000 KB limit.",
-    "upstreamStatus": "skipped_large",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "skipped_large"
   },
   {
     "id": "cos3915-kksalldemo",
@@ -3132,7 +3143,7 @@
     "sourcePath": "TesteLuiz/index.html",
     "checkedAt": "2026-07-19T07:25:56.391Z",
     "forkName": "1LgR-Treinamento-RPG-MAKER",
-    "upstreamStatus": "indexed",
+    "upstreamStatus": "skipped_large",
     "invalidReason": "No RPG Maker MV/MZ HTML entry point or core scripts were found."
   },
   {
@@ -3327,7 +3338,7 @@
     "sourcePath": "www/index.html",
     "checkedAt": "2026-09-09T06:29:20.734Z",
     "forkName": "okshaone-loop",
-    "upstreamStatus": "indexed",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/okshaone-loop/index.html",
     "cover": "https://777723-xyz.github.io/okshaone-loop/cover.png",
     "entryPath": "index.html",
@@ -3337,7 +3348,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-09T21:55:05.880Z",
     "runtimeLoadMs": 906,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 388735 KB exceeds the 250000 KB limit."
   },
   {
     "id": "aaaaagold-mylightballs",
@@ -5367,7 +5379,7 @@
     "sourcePath": "Blueberry Manor/index.html",
     "checkedAt": "2026-09-08T22:58:50.239Z",
     "forkName": "Moon-Network-Service-Blueberry-Manor-Project",
-    "upstreamStatus": "indexed",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/Moon-Network-Service-Blueberry-Manor-Project/index.html",
     "cover": "https://777723-xyz.github.io/Moon-Network-Service-Blueberry-Manor-Project/cover.png",
     "entryPath": "index.html",
@@ -5377,7 +5389,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-06T19:03:31.812Z",
     "runtimeLoadMs": 2662,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 425593 KB exceeds the 250000 KB limit."
   },
   {
     "id": "expressiaann-bmp-chatgpt-test-environment",
@@ -5788,7 +5801,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T15:42:41.344Z",
     "runtimeLoadMs": 966,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Repository size 664700 KB exceeds the 250000 KB limit."
   },
   {
     "id": "shirorimi-chaosver10",
@@ -5816,7 +5830,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T15:42:43.179Z",
     "runtimeLoadMs": 902,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Repository size 1181244 KB exceeds the 250000 KB limit."
   },
   {
     "id": "hackerman998-spacejam",
@@ -6004,7 +6019,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-06T19:03:31.742Z",
     "runtimeLoadMs": 2602,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "1e1af7789ca7eea511144bd4abd05c4f718a806c",
+    "processedHeadSha": "00d6710e75b34861414a70c3589e48625c7dc3f3",
+    "syncedFromSource": true
   },
   {
     "id": "bubbls-ugs-singlefile",
@@ -6501,7 +6520,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T17:38:18.798Z",
     "runtimeLoadMs": 2450,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Repository size 914264 KB exceeds the 250000 KB limit."
   },
   {
     "id": "soapstain22-soapstain22-github-io",
@@ -7510,7 +7530,7 @@
     "sourcePath": "public/www/index.html",
     "checkedAt": "2026-09-08T22:58:43.227Z",
     "forkName": "NautsSky-nautssky",
-    "upstreamStatus": "indexed",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/NautsSky-nautssky/index.html",
     "cover": "https://777723-xyz.github.io/NautsSky-nautssky/cover.png",
     "entryPath": "index.html",
@@ -7520,7 +7540,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-06T19:03:34.492Z",
     "runtimeLoadMs": 2484,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 615587 KB exceeds the 250000 KB limit."
   },
   {
     "id": "ovate-rmmv-dice",
@@ -7548,7 +7569,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-09T21:55:03.394Z",
     "runtimeLoadMs": 866,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "ba0d728e68764e18b00af0ac12d1e08d7c2d00af",
+    "processedHeadSha": "27e739733a486f636685a59e690ec898dc4a9a9e",
+    "syncedFromSource": true
   },
   {
     "id": "tw123777tw-kyoko",
@@ -7598,13 +7623,14 @@
     "sourceRepo": "OscarGilley/OscarGilley.github.io",
     "upstreamPagesUrl": "https://webrpg.org/OscarGilley-OscarGilley.github.io/",
     "upstreamCover": "https://webrpg.org/OscarGilley-OscarGilley.github.io/cover.png",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/OscarGilley-OscarGilley.github.io/index.html",
     "cover": "https://777723-xyz.github.io/OscarGilley-OscarGilley.github.io/cover.png",
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-07T23:43:38.399Z",
     "runtimeLoadMs": 1629,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 872868 KB exceeds the 250000 KB limit."
   },
   {
     "id": "zhuobinggang-dirt-rpg",
@@ -7817,7 +7843,7 @@
     "sourcePath": "GameJam_windows/www/index.html",
     "checkedAt": "2026-09-08T22:59:19.001Z",
     "forkName": "NoorinAsjad-Global-Gamejam-2018",
-    "upstreamStatus": "indexed",
+    "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/NoorinAsjad-Global-Gamejam-2018/index.html",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -7826,7 +7852,13 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-07T23:43:36.049Z",
     "runtimeLoadMs": 2179,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceRepo": "NoorinAsjad/Global-Gamejam-2018",
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "192ce54c5697ad5d633d3f316c2fa81fe947ce6f",
+    "processedHeadSha": "30ad95355249f78045f5eb92a326c6a4093569e6",
+    "syncedFromSource": true,
+    "upstreamPagesUrl": "https://webrpg.org/NoorinAsjad-Global-Gamejam-2018/"
   },
   {
     "id": "johnnypackard-unnamed-rpg",
@@ -8478,7 +8510,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-09T21:55:01.596Z",
     "runtimeLoadMs": 934,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "d3a29fcb00d0e799fabd7cad8d41386dd8e6ad63",
+    "processedHeadSha": "3aea1c013bad62d48da7268f37623d0d326b15e5",
+    "syncedFromSource": true
   },
   {
     "id": "savesub-fairymaze-en",
@@ -9268,7 +9304,7 @@
     "sourcePath": "www/index.html",
     "checkedAt": "2026-09-08T22:59:18.857Z",
     "forkName": "nikitosiknekitoser-sus-futato_project",
-    "upstreamStatus": "indexed",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/nikitosiknekitoser-sus-futato_project/index.html",
     "cover": "https://777723-xyz.github.io/nikitosiknekitoser-sus-futato_project/cover.png",
     "entryPath": "index.html",
@@ -9278,7 +9314,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-07T00:55:51.456Z",
     "runtimeLoadMs": 1957,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 539312 KB exceeds the 250000 KB limit."
   },
   {
     "id": "altanturan-protocol-takeover",
@@ -9645,7 +9682,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "story/wadanohara_re.html",
-    "checkedAt": "2026-09-09T21:54:59.680Z",
+    "checkedAt": "2026-09-09T10:56:58.473Z",
     "forkName": "ratchetgame-ratchetgame.github.io",
     "entryPath": "story/wadanohara_re.html",
     "validationScore": 110,
@@ -9658,8 +9695,7 @@
     "sourceDefaultBranch": "main",
     "sourceHeadSha": "1d1ca92769f785ce818e61e0d9c67a5e81b75dc2",
     "processedHeadSha": "db2a8dc1acde31e57d0768f7293cc2d3356638db",
-    "syncedFromSource": true,
-    "lastCheckError": "Refusing to flatten story/wadanohara_re/: flattened tree is missing the HTML entry or RPG Maker runtime."
+    "syncedFromSource": true
   },
   {
     "id": "brand24376-brand24376-github-io",
@@ -10102,13 +10138,14 @@
     "sourceRepo": "Mrxdaunknown/EncodeHackathon",
     "upstreamPagesUrl": "https://webrpg.org/Mrxdaunknown-EncodeHackathon/",
     "upstreamCover": "https://webrpg.org/Mrxdaunknown-EncodeHackathon/cover.png",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/Mrxdaunknown-EncodeHackathon/index.html",
     "cover": "https://777723-xyz.github.io/Mrxdaunknown-EncodeHackathon/cover.png",
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-06T19:03:34.923Z",
     "runtimeLoadMs": 2078,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 388681 KB exceeds the 250000 KB limit."
   },
   {
     "id": "nerdsonly-half-heroes",
@@ -10130,13 +10167,14 @@
     "sourceRepo": "nerdsonly/half-heroes",
     "upstreamPagesUrl": "https://webrpg.org/nerdsonly-half-heroes/",
     "upstreamCover": "https://webrpg.org/nerdsonly-half-heroes/cover.png",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/nerdsonly-half-heroes/index.html",
     "cover": "https://777723-xyz.github.io/nerdsonly-half-heroes/cover.png",
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-07T23:43:35.694Z",
     "runtimeLoadMs": 2053,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 526841 KB exceeds the 250000 KB limit."
   },
   {
     "id": "balensmatheo-balensmatheo-github-io",
@@ -10960,7 +10998,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "RPGMakerGames/AmStudYouth/index.html",
-    "checkedAt": "2026-09-09T21:54:11.138Z",
+    "checkedAt": "2026-07-10T00:13:47.795Z",
     "forkName": "TheModernSMoore-themodernsmoore.github.io",
     "entryPath": "RPGMakerGames/AmStudYouth/index.html",
     "validationScore": 115,
@@ -10969,8 +11007,7 @@
     "sourceRepo": "TheModernSMoore/themodernsmoore.github.io",
     "upstreamPagesUrl": "https://webrpg.org/TheModernSMoore-themodernsmoore.github.io/",
     "upstreamCover": "https://webrpg.org/TheModernSMoore-themodernsmoore.github.io/cover.png",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "renrender0209-kankin",
@@ -11060,7 +11097,7 @@
     "sourcePath": "www/index.html",
     "checkedAt": "2026-09-09T06:29:05.918Z",
     "forkName": "okshaone-Kiki-s-adventure-v1",
-    "upstreamStatus": "indexed",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/okshaone-Kiki-s-adventure-v1/index.html",
     "cover": "https://777723-xyz.github.io/okshaone-Kiki-s-adventure-v1/cover.png",
     "entryPath": "index.html",
@@ -11070,7 +11107,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-07T23:43:38.444Z",
     "runtimeLoadMs": 2075,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 382140 KB exceeds the 250000 KB limit."
   },
   {
     "id": "redhawkphyre-killer-nights",
@@ -11419,7 +11457,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "fisica/index.html",
-    "checkedAt": "2026-09-09T21:54:03.398Z",
+    "checkedAt": "2026-06-19T06:24:30.470Z",
     "forkName": "kenshindias-kenshindias.github.io",
     "entryPath": "Canudos/index.html",
     "validationScore": 115,
@@ -11428,8 +11466,7 @@
     "sourceRepo": "kenshindias/kenshindias.github.io",
     "upstreamPagesUrl": "https://webrpg.org/kenshindias-kenshindias.github.io/",
     "upstreamCover": "https://webrpg.org/kenshindias-kenshindias.github.io/cover.png",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "yuhan2680-level-c-1366-demo",
@@ -12218,7 +12255,7 @@
     "sourcePath": "max(beta)/www/index.html",
     "checkedAt": "2026-09-08T22:59:14.011Z",
     "forkName": "NikitaBelk-Nikita-Channel-Animation",
-    "upstreamStatus": "indexed",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/NikitaBelk-Nikita-Channel-Animation/index.html",
     "cover": "https://777723-xyz.github.io/NikitaBelk-Nikita-Channel-Animation/cover.png",
     "entryPath": "index.html",
@@ -12228,7 +12265,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-07T23:43:35.568Z",
     "runtimeLoadMs": 1939,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 303773 KB exceeds the 250000 KB limit."
   },
   {
     "id": "fannarhrafn-veffortvoloka",
@@ -12353,13 +12391,14 @@
     "sourceRepo": "Nad795/Memories-of-You-Demo-Version",
     "upstreamPagesUrl": "https://webrpg.org/Nad795-Memories-of-You-Demo-Version/",
     "upstreamCover": "https://webrpg.org/Nad795-Memories-of-You-Demo-Version/cover.png",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/Nad795-Memories-of-You-Demo-Version/index.html",
     "cover": "https://777723-xyz.github.io/Nad795-Memories-of-You-Demo-Version/cover.png",
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-07T00:55:51.845Z",
     "runtimeLoadMs": 2358,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 389126 KB exceeds the 250000 KB limit."
   },
   {
     "id": "grimelion-gamedev",
@@ -12631,7 +12670,7 @@
     "sourcePath": "www/index.html",
     "checkedAt": "2026-09-08T22:59:07.972Z",
     "forkName": "NguyenDacLiem-monad",
-    "upstreamStatus": "indexed",
+    "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/NguyenDacLiem-monad/index.html",
     "cover": "https://777723-xyz.github.io/NguyenDacLiem-monad/cover.png",
     "entryPath": "index.html",
@@ -12641,7 +12680,14 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-07T00:55:52.724Z",
     "runtimeLoadMs": 1495,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceRepo": "NguyenDacLiem/monad",
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "330416132b2e33d418ba07ba5c60fbd2a240e46b",
+    "processedHeadSha": "fcdceaab27c159bb585b411d948446822dbece32",
+    "syncedFromSource": true,
+    "upstreamPagesUrl": "https://webrpg.org/NguyenDacLiem-monad/",
+    "upstreamCover": "https://webrpg.org/NguyenDacLiem-monad/cover.png"
   },
   {
     "id": "jackdarker-moonwood",
@@ -12791,9 +12837,7 @@
     "source": "github-code-search",
     "sourcePath": "data/mv-sample/index.html",
     "upstreamStatus": "indexed",
-    "forkName": "take-cheeze-rpg-maker-clone",
-    "checkedAt": "2026-09-09T21:53:29.122Z",
-    "lastCheckError": "Refusing to flatten data/mv-sample/: flattened tree is missing the HTML entry or RPG Maker runtime."
+    "forkName": "take-cheeze-rpg-maker-clone"
   },
   {
     "id": "xuyanwen2012-rmmv-battle-system-js",
@@ -13030,13 +13074,14 @@
     "sourceRepo": "zhiwei-zhiwei/Game_RPGMaker_MagicnoMagic",
     "upstreamPagesUrl": "https://webrpg.org/zhiwei-zhiwei-Game_RPGMaker_MagicnoMagic/",
     "upstreamCover": "https://webrpg.org/zhiwei-zhiwei-Game_RPGMaker_MagicnoMagic/cover.png",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/zhiwei-zhiwei-Game_RPGMaker_MagicnoMagic/index.html",
     "cover": "https://777723-xyz.github.io/zhiwei-zhiwei-Game_RPGMaker_MagicnoMagic/cover.png",
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-22T08:41:26.452Z",
     "runtimeLoadMs": 2293,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 422773 KB exceeds the 250000 KB limit."
   },
   {
     "id": "sunset513-ncu-fresh-map-draft",
@@ -13448,11 +13493,10 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "webport-hosting/omori-fixed/index.html",
-    "checkedAt": "2026-09-09T21:54:20.163Z",
+    "checkedAt": "2026-08-24T07:03:09.858Z",
     "forkName": "Cheesy-Website-Cheesy-Website.github.io",
     "upstreamStatus": "skipped_large",
-    "invalidReason": "Repository size 10309461 KB exceeds the 250000 KB limit.",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "invalidReason": "Repository size 10309461 KB exceeds the 250000 KB limit."
   },
   {
     "id": "cronusz3n96-stolenstuff",
@@ -13603,11 +13647,10 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "project/index.html",
-    "checkedAt": "2026-09-09T21:54:20.436Z",
+    "checkedAt": "2026-08-24T07:03:15.870Z",
     "forkName": "Escartem-OmoriSource",
     "upstreamStatus": "skipped_large",
-    "invalidReason": "Repository size 1533758 KB exceeds the 250000 KB limit.",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "invalidReason": "Repository size 1533758 KB exceeds the 250000 KB limit."
   },
   {
     "id": "ethantphillips-unblockedgames",
@@ -13929,12 +13972,13 @@
     "dataSize": 71663028,
     "sourceRepo": "Neoexm/Kuakin",
     "upstreamPagesUrl": "https://webrpg.org/Neoexm-Kuakin/",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/Neoexm-Kuakin/index.html",
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-07T23:43:38.224Z",
     "runtimeLoadMs": 2614,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 1665757 KB exceeds the 250000 KB limit."
   },
   {
     "id": "neurontechofficial-spacecatgames",
@@ -14548,7 +14592,7 @@
     "sourcePath": "GoldRelease/index.html",
     "checkedAt": "2026-09-08T22:59:09.358Z",
     "forkName": "navdeep5-navdeep5.github.io",
-    "upstreamStatus": "indexed",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/navdeep5-navdeep5.github.io/index.html",
     "cover": "https://777723-xyz.github.io/navdeep5-navdeep5.github.io/cover.png",
     "entryPath": "index.html",
@@ -14558,7 +14602,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-06T19:03:33.878Z",
     "runtimeLoadMs": 2455,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 528806 KB exceeds the 250000 KB limit."
   },
   {
     "id": "navdeep5-quokka-quest-team",
@@ -14573,7 +14618,7 @@
     "sourcePath": "cmput250 game_test/index.html",
     "checkedAt": "2026-09-08T22:59:22.516Z",
     "forkName": "navdeep5-Quokka_Quest_Team",
-    "upstreamStatus": "indexed",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/navdeep5-Quokka_Quest_Team/index.html",
     "cover": "https://777723-xyz.github.io/navdeep5-Quokka_Quest_Team/cover.png",
     "entryPath": "index.html",
@@ -14583,7 +14628,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-06T19:03:34.076Z",
     "runtimeLoadMs": 2229,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 433953 KB exceeds the 250000 KB limit."
   },
   {
     "id": "andaroth-anda-ninja",
@@ -14774,11 +14820,10 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "public/platina-the-wolf-and-the-heir-of-the-light/index.html",
-    "checkedAt": "2026-09-09T21:54:24.135Z",
+    "checkedAt": "2026-08-24T07:03:25.658Z",
     "forkName": "Laferu-platina-the-wolf",
     "upstreamStatus": "skipped_large",
-    "invalidReason": "Repository size 1102656 KB exceeds the 250000 KB limit.",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "invalidReason": "Repository size 1102656 KB exceeds the 250000 KB limit."
   },
   {
     "id": "laferu-platina-the-wolf-and-the-heir-of-light",
@@ -14878,7 +14923,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "pokemon-agent-town/frontend/assets/index.html",
-    "checkedAt": "2026-09-09T21:53:33.767Z",
+    "checkedAt": "2026-06-30T00:18:09.197Z",
     "forkName": "fada-com-filtro-IA-agents",
     "entryPath": "index.html",
     "validationScore": 115,
@@ -14887,8 +14932,7 @@
     "sourceRepo": "fada-com-filtro/IA-agents",
     "upstreamPagesUrl": "https://webrpg.org/fada-com-filtro-IA-agents/",
     "upstreamCover": "https://webrpg.org/fada-com-filtro-IA-agents/cover.png",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "aak581-polkadot-cats-game",
@@ -15060,7 +15104,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "template/index.html",
-    "checkedAt": "2026-09-09T21:54:56.614Z",
+    "checkedAt": "2026-09-09T10:55:34.788Z",
     "forkName": "RyanBram-RPG-MV-Ace",
     "entryPath": "index.html",
     "validationScore": 70,
@@ -15072,8 +15116,7 @@
     "sourceDefaultBranch": "main",
     "sourceHeadSha": "394592eaaf4c8d90f1cca72fefee5da7b50651d6",
     "processedHeadSha": "d0c90a52e0bbffe90c63dba3063f8f6d15f371bc",
-    "syncedFromSource": true,
-    "lastCheckError": "Refusing to flatten template/: flattened tree is missing the HTML entry or RPG Maker runtime."
+    "syncedFromSource": true
   },
   {
     "id": "therainbowphoenix-lds",
@@ -15086,7 +15129,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "template/index.html",
-    "checkedAt": "2026-09-09T21:54:10.383Z",
+    "checkedAt": "2026-07-09T22:36:55.487Z",
     "forkName": "TheRainbowPhoenix-LDS",
     "entryPath": "index.html",
     "validationScore": 70,
@@ -15094,8 +15137,7 @@
     "dataSize": 835669,
     "sourceRepo": "TheRainbowPhoenix/LDS",
     "upstreamPagesUrl": "https://webrpg.org/TheRainbowPhoenix-LDS/",
-    "upstreamStatus": "verified",
-    "lastCheckError": "Refusing to flatten template/: flattened tree is missing the HTML entry or RPG Maker runtime."
+    "upstreamStatus": "verified"
   },
   {
     "id": "beeveelutions-project-starmans",
@@ -15932,7 +15974,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T17:38:19.204Z",
     "runtimeLoadMs": 2871,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Repository size 388550 KB exceeds the 250000 KB limit."
   },
   {
     "id": "pascal-the-elf-project-h5",
@@ -16247,13 +16290,14 @@
     "sourceRepo": "eijialice/Raison-D-Etre",
     "upstreamPagesUrl": "https://webrpg.org/eijialice-Raison-D-Etre/",
     "upstreamCover": "https://webrpg.org/eijialice-Raison-D-Etre/cover.png",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/eijialice-Raison-D-Etre/index.html",
     "cover": "https://777723-xyz.github.io/eijialice-Raison-D-Etre/cover.png",
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-23T20:54:09.926Z",
     "runtimeLoadMs": 3814,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 396305 KB exceeds the 250000 KB limit."
   },
   {
     "id": "rakkiisto-rakkiisto-rmmv",
@@ -16310,7 +16354,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "RMMV/index.html",
-    "checkedAt": "2026-09-09T21:54:46.459Z",
+    "checkedAt": "2026-09-09T05:58:14.456Z",
     "forkName": "themabus-Get-the-Balance-Right",
     "entryPath": "RMMV/index.html",
     "validationScore": 70,
@@ -16322,8 +16366,7 @@
     "sourceDefaultBranch": "main",
     "sourceHeadSha": "d7bee768195f042e03c971179754755f8c8ddfd4",
     "processedHeadSha": "22a32bf5e0c9fab4826b86c03b503383e9fca11c",
-    "syncedFromSource": true,
-    "lastCheckError": "Refusing to flatten RMMV/: flattened tree is missing the HTML entry or RPG Maker runtime."
+    "syncedFromSource": true
   },
   {
     "id": "shen0v0-gdp",
@@ -16351,7 +16394,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T15:42:42.261Z",
     "runtimeLoadMs": 910,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Repository size 440373 KB exceeds the 250000 KB limit."
   },
   {
     "id": "shen0v0-gdp-op",
@@ -16379,7 +16423,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T15:42:37.534Z",
     "runtimeLoadMs": 1009,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Repository size 439020 KB exceeds the 250000 KB limit."
   },
   {
     "id": "favoriteheroes-re-tale",
@@ -16762,7 +16807,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T17:38:18.623Z",
     "runtimeLoadMs": 2284,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Repository size 400547 KB exceeds the 250000 KB limit."
   },
   {
     "id": "aiko-it-systems-rmmv-core",
@@ -18077,7 +18123,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T15:42:40.371Z",
     "runtimeLoadMs": 992,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Repository size 1360460 KB exceeds the 250000 KB limit."
   },
   {
     "id": "miguelarcjr-sombradalua",
@@ -18600,7 +18647,7 @@
     "sourcePath": "Tales of Nickeria/index.html",
     "checkedAt": "2026-09-05T23:17:30.666Z",
     "forkName": "muletmiles-muletmiles.github.io",
-    "upstreamStatus": "indexed",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/muletmiles-muletmiles.github.io/index.html",
     "entryPath": "index.html",
     "cover": "https://777723-xyz.github.io/muletmiles-muletmiles.github.io/cover.png",
@@ -18610,7 +18657,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-22T20:54:52.477Z",
     "runtimeLoadMs": 1856,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 929017 KB exceeds the 250000 KB limit."
   },
   {
     "id": "excel-top",
@@ -18828,7 +18876,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T15:42:44.111Z",
     "runtimeLoadMs": 923,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Repository size 560494 KB exceeds the 250000 KB limit."
   },
   {
     "id": "spikespieg-el-rpgtest",
@@ -18970,7 +19019,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T15:42:38.419Z",
     "runtimeLoadMs": 876,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Repository size 393429 KB exceeds the 250000 KB limit."
   },
   {
     "id": "hzj199710-rpgmakerp1",
@@ -19103,13 +19153,14 @@
     "sourceRepo": "NuyyKatazou/TheAmazonia",
     "upstreamPagesUrl": "https://webrpg.org/NuyyKatazou-TheAmazonia/",
     "upstreamCover": "https://webrpg.org/NuyyKatazou-TheAmazonia/cover.png",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/NuyyKatazou-TheAmazonia/index.html",
     "cover": "https://777723-xyz.github.io/NuyyKatazou-TheAmazonia/cover.png",
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-07T23:43:38.377Z",
     "runtimeLoadMs": 2418,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 518525 KB exceeds the 250000 KB limit."
   },
   {
     "id": "pigg0bot-s-rpgmaker-proj",
@@ -19151,7 +19202,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "www/index.html",
-    "checkedAt": "2026-09-09T21:53:29.193Z",
+    "checkedAt": "2026-07-04T23:05:17.063Z",
     "forkName": "graveyardshiftpd-tcoaar-project",
     "entryPath": "index.html",
     "validationScore": 115,
@@ -19160,8 +19211,7 @@
     "sourceRepo": "graveyardshiftpd/tcoaar-project",
     "upstreamPagesUrl": "https://webrpg.org/graveyardshiftpd-tcoaar-project/",
     "upstreamCover": "https://webrpg.org/graveyardshiftpd-tcoaar-project/cover.png",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "escartem-tcoaalsource",
@@ -19174,11 +19224,10 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "project/index.html",
-    "checkedAt": "2026-09-09T21:54:35.528Z",
+    "checkedAt": "2026-08-24T07:03:26.692Z",
     "forkName": "Escartem-TCOAALSource",
     "upstreamStatus": "skipped_large",
-    "invalidReason": "Repository size 486228 KB exceeds the 250000 KB limit.",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "invalidReason": "Repository size 486228 KB exceeds the 250000 KB limit."
   },
   {
     "id": "suhukk-bbb",
@@ -19498,7 +19547,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "game/templates/game/index.html",
-    "checkedAt": "2026-09-09T21:54:45.080Z",
+    "checkedAt": "2026-08-24T21:35:52.210Z",
     "forkName": "shivanshs9-MMORPG-TLO",
     "entryPath": "game/templates/game/index.html",
     "validationScore": 115,
@@ -19508,8 +19557,7 @@
     "upstreamPagesUrl": "https://webrpg.org/shivanshs9-MMORPG-TLO/",
     "upstreamCover": "https://webrpg.org/shivanshs9-MMORPG-TLO/cover.png",
     "upstreamStatus": "skipped_large",
-    "invalidReason": "Repository size 398692 KB exceeds the 250000 KB limit.",
-    "lastCheckError": "Refusing to flatten game/static/game/: flattened tree is missing the HTML entry or RPG Maker runtime."
+    "invalidReason": "Repository size 398692 KB exceeds the 250000 KB limit."
   },
   {
     "id": "battousairurik-rpgmakercollabproject",
@@ -20111,13 +20159,14 @@
     "source": "upstream-webrpg-index",
     "upstreamPagesUrl": "https://webrpg.org/xymol-tsmgi/",
     "upstreamCover": "https://webrpg.org/xymol-tsmgi/cover.png",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/xymol-tsmgi/index.html",
     "cover": "https://777723-xyz.github.io/xymol-tsmgi/cover.png",
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-05T16:45:17.122Z",
     "runtimeLoadMs": 1702,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 365535 KB exceeds the 250000 KB limit."
   },
   {
     "id": "darlos9d-turnbasedstrategy",
@@ -20188,7 +20237,7 @@
     "sourcePath": "Twilightning/index.html",
     "checkedAt": "2026-09-08T22:58:56.959Z",
     "forkName": "mysterymagination-twilightning",
-    "upstreamStatus": "indexed",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/mysterymagination-twilightning/index.html",
     "cover": "https://777723-xyz.github.io/mysterymagination-twilightning/cover.png",
     "entryPath": "index.html",
@@ -20198,7 +20247,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-06T19:03:31.881Z",
     "runtimeLoadMs": 2619,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 389434 KB exceeds the 250000 KB limit."
   },
   {
     "id": "beyondoff-umi-the-game",
@@ -20566,7 +20616,7 @@
     "sourcePath": "Project2/index.html",
     "checkedAt": "2026-09-09T06:29:09.704Z",
     "forkName": "ojoh1993-SCP_OOPArt",
-    "upstreamStatus": "indexed",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/ojoh1993-SCP_OOPArt/index.html",
     "cover": "https://777723-xyz.github.io/ojoh1993-SCP_OOPArt/cover.png",
     "entryPath": "index.html",
@@ -20576,7 +20626,8 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-08T22:57:00.021Z",
     "runtimeLoadMs": 2481,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 405634 KB exceeds the 250000 KB limit."
   },
   {
     "id": "versionaryy-versionary-game",
@@ -20803,13 +20854,14 @@
     "sourceRepo": "mysterymagination/WeirdWyrdWorld",
     "upstreamPagesUrl": "https://webrpg.org/mysterymagination-WeirdWyrdWorld/",
     "upstreamCover": "https://webrpg.org/mysterymagination-WeirdWyrdWorld/cover.png",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/mysterymagination-WeirdWyrdWorld/index.html",
     "cover": "https://777723-xyz.github.io/mysterymagination-WeirdWyrdWorld/cover.png",
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-07T00:55:51.850Z",
     "runtimeLoadMs": 1511,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "invalidReason": "Upstream repository size 389690 KB exceeds the 250000 KB limit."
   },
   {
     "id": "emay6-whatliesbeneath",
