@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T19:46:10.738Z",
+  "generatedAt": "2026-09-10T22:39:12.675Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 899,
   "upstreamTotal": 898,
@@ -1472,6 +1472,10 @@
     {
       "sourceRepo": "blocklet/rpgmaker-demo",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/blocklet-rpgmaker-demo/index.html",
           "upstream": "https://webrpg.org/blocklet-rpgmaker-demo/"
@@ -1886,6 +1890,10 @@
     {
       "sourceRepo": "benjaminpants/benjaminpants.github.io",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/benjaminpants-benjaminpants.github.io/index.html",
           "upstream": "https://webrpg.org/benjaminpants-benjaminpants.github.io/"
@@ -1895,6 +1903,10 @@
     {
       "sourceRepo": "avery-pierce/averypierce.me",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/avery-pierce-averypierce.me/index.html",
           "upstream": "https://webrpg.org/avery-pierce-averypierce.me/"
@@ -3210,6 +3222,10 @@
     {
       "sourceRepo": "brunolcarli/rpgmakermvweb3integration_testgame",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/brunolcarli-RPGMakerMVWeb3Integration_testgame/index.html",
           "upstream": "https://webrpg.org/brunolcarli-RPGMakerMVWeb3Integration_testgame/"
@@ -3931,7 +3947,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -5060,6 +5076,10 @@
     {
       "sourceRepo": "blairwilcox/magic-battle",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/blairwilcox-magic-battle/index.html",
           "upstream": "https://webrpg.org/blairwilcox-magic-battle/"
@@ -5410,6 +5430,10 @@
     {
       "sourceRepo": "buttertoasty/games2",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/ButterToasty-games2/index.html",
           "upstream": "https://webrpg.org/ButterToasty-games2/"
@@ -5718,7 +5742,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -6440,6 +6464,10 @@
     {
       "sourceRepo": "asifexplore/secret-paladin",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/asifexplore-Secret-Paladin/index.html",
           "upstream": "https://webrpg.org/asifexplore-Secret-Paladin/"
@@ -6847,7 +6875,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -6884,6 +6912,10 @@
     {
       "sourceRepo": "anthonygit1/qhatulab-frontend",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/AnthonyGit1-QhatuLab-Frontend/index.html",
           "upstream": "https://webrpg.org/AnthonyGit1-QhatuLab-Frontend/"
@@ -7092,6 +7124,10 @@
     {
       "sourceRepo": "brenoluna0/reliquias-de-fen",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/BrenoLuna0-Reliquias-de-Fen/index.html",
           "upstream": "https://webrpg.org/BrenoLuna0-Reliquias-de-Fen/"
@@ -7101,6 +7137,10 @@
     {
       "sourceRepo": "byvalvin/excalibur",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Byvalvin-Excalibur/index.html",
           "upstream": "https://webrpg.org/Byvalvin-Excalibur/"
@@ -7492,7 +7532,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -7672,6 +7712,10 @@
     {
       "sourceRepo": "arturllvale/esarmmv",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/ArturllVale-esarmmv/index.html",
           "upstream": "https://webrpg.org/ArturllVale-esarmmv/"
@@ -8299,6 +8343,10 @@
     {
       "sourceRepo": "bigren0615/rpgmakermv-custommainmenulearning",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/bigren0615-rpgMakerMV-CustomMainMenuLearning/index.html",
           "upstream": "https://webrpg.org/bigren0615-rpgMakerMV-CustomMainMenuLearning/"
@@ -8470,6 +8518,10 @@
     {
       "sourceRepo": "bintangfauzan/the-letter",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/BintangFauzan-The-Letter/index.html",
           "upstream": "https://webrpg.org/BintangFauzan-The-Letter/"
@@ -8501,6 +8553,10 @@
     {
       "sourceRepo": "battousairurik/rpgmakercollabproject",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/battousairurik-RPGMakerCollabProject/index.html",
           "upstream": "https://webrpg.org/battousairurik-RPGMakerCollabProject/"
@@ -8735,7 +8791,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -8785,6 +8841,10 @@
     {
       "sourceRepo": "arqui-dev/projetocaminhoneiro",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/arqui-dev-ProjetoCaminhoneiro/index.html",
           "upstream": "https://webrpg.org/arqui-dev-ProjetoCaminhoneiro/"
@@ -8820,6 +8880,10 @@
     {
       "sourceRepo": "briancain/tutorial-test",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/briancain-tutorial-test/index.html",
           "upstream": "https://webrpg.org/briancain-tutorial-test/"
