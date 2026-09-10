@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-10T01:08:47.865Z",
+  "generatedAt": "2026-09-10T06:02:49.541Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 897,
-  "upstreamTotal": 896,
-  "shared": 896,
+  "localTotal": 898,
+  "upstreamTotal": 897,
+  "shared": 897,
   "upstreamOnly": [],
   "localOnly": [
     {
@@ -192,6 +192,10 @@
     {
       "sourceRepo": "kotpot197/bikiniarmor",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/kotpot197-BikiniArmor/index.html",
           "upstream": "https://webrpg.org/kotpot197-BikiniArmor/"
@@ -275,6 +279,10 @@
     {
       "sourceRepo": "lisachouhc/drdresapre",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/lisachouHC-drdresapre/index.html",
           "upstream": "https://webrpg.org/lisachouHC-drdresapre/"
@@ -284,6 +292,10 @@
     {
       "sourceRepo": "lisachouhc/drdrescape_v2",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/lisachouHC-drdrescape_V2/index.html",
           "upstream": "https://webrpg.org/lisachouHC-drdrescape_V2/"
@@ -345,6 +357,10 @@
     {
       "sourceRepo": "kotpot197/furantozaininnosima",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/kotpot197-FuranToZaininNoSima/index.html",
           "upstream": "https://webrpg.org/kotpot197-FuranToZaininNoSima/"
@@ -434,6 +450,10 @@
     {
       "sourceRepo": "miracleyoo/hcrs-online",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/miracleyoo-HCRS-Online/index.html",
           "upstream": "https://webrpg.org/miracleyoo-HCRS-Online/"
@@ -443,6 +463,10 @@
     {
       "sourceRepo": "miracleyoo/hua-cai-ren-sheng",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/miracleyoo-Hua-Cai-Ren-Sheng/index.html",
           "upstream": "https://webrpg.org/miracleyoo-Hua-Cai-Ren-Sheng/"
@@ -551,7 +575,7 @@
       "differences": {
         "status": {
           "ours": "verified",
-          "upstream": null
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/xjzsq-1/index.html",
@@ -631,6 +655,10 @@
     {
       "sourceRepo": "kotpot197/rabbit",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/kotpot197-rabbit/index.html",
           "upstream": "https://webrpg.org/kotpot197-rabbit/"
@@ -658,6 +686,10 @@
     {
       "sourceRepo": "klsdf/get-free-javascript-learning-materials",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/klsdf-Get-Free-JavaScript-Learning-Materials/index.html",
           "upstream": "https://webrpg.org/klsdf-Get-Free-JavaScript-Learning-Materials/"
@@ -667,6 +699,10 @@
     {
       "sourceRepo": "kyouka8234/magical-girl-celesphonia",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Kyouka8234-Magical-Girl-Celesphonia/index.html",
           "upstream": "https://webrpg.org/Kyouka8234-Magical-Girl-Celesphonia/"
@@ -712,6 +748,10 @@
     {
       "sourceRepo": "pieworkplace/mota-mv",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/pieworkplace-mota-mv/index.html",
           "upstream": "https://webrpg.org/pieworkplace-mota-mv/"
@@ -1005,6 +1045,10 @@
     {
       "sourceRepo": "joshika39/rpg-camp-game",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/joshika39-rpg-camp-game/index.html",
           "upstream": "https://webrpg.org/joshika39-rpg-camp-game/"
@@ -1058,10 +1102,6 @@
     {
       "sourceRepo": "cyh0521/rpg",
       "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "skipped_large"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/cyh0521-rpg/index.html",
           "upstream": null
@@ -1075,10 +1115,6 @@
     {
       "sourceRepo": "huanggaole/huanggaole.github.io",
       "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "skipped_large"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/huanggaole-huanggaole.github.io/index.html",
           "upstream": null
@@ -1232,6 +1268,10 @@
     {
       "sourceRepo": "kotpot197/melancholianna",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/kotpot197-melancholianna/index.html",
           "upstream": "https://webrpg.org/kotpot197-melancholianna/"
@@ -4487,17 +4527,13 @@
     {
       "sourceRepo": "juridon/juridon.github.io",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/juridon-juridon.github.io/index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/juridon-juridon.github.io/"
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": null
+          "upstream": "docs/gameTest/index.html"
         }
       }
     },
@@ -7214,6 +7250,10 @@
     {
       "sourceRepo": "oden/rmmv",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/oden-RMMV/index.html",
           "upstream": "https://webrpg.org/oden-RMMV/"
@@ -7732,8 +7772,16 @@
     {
       "sourceRepo": "tklninja/spectoria-eng",
       "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "verified"
+        },
+        "forkName": {
+          "ours": "WebRPG-Translations-Spectoria-Eng-CN",
+          "upstream": "TKLNinja-Spectoria-Eng"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/TKLNinja-Spectoria-Eng/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/TKLNinja-Spectoria-Eng/"
         }
       }
@@ -7748,23 +7796,15 @@
       }
     },
     {
-      "sourceRepo": "webrpg-translations/spectoria-eng-cn",
+      "sourceRepo": "tklninja/spectoria-eng",
       "differences": {
         "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "WebRPG-Translations-Spectoria-Eng-CN",
-          "upstream": null
+          "ours": "duplicate_name",
+          "upstream": "verified"
         },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/WebRPG-Translations-Spectoria-Eng-CN/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "ours": null,
+          "upstream": "https://webrpg.org/WebRPG-Translations-Spectoria-Eng-CN/"
         }
       }
     },
@@ -8828,6 +8868,10 @@
     {
       "sourceRepo": "hu-prts/giselle",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Hu-PRTS-giselle/index.html",
           "upstream": "https://webrpg.org/Hu-PRTS-giselle/"
@@ -9288,17 +9332,9 @@
     {
       "sourceRepo": "ihatechickfila/tickling-escape-2",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Ihatechickfila-Tickling-escape-2/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/Ihatechickfila-Tickling-escape-2/"
         }
       }
     },
@@ -9314,17 +9350,9 @@
     {
       "sourceRepo": "john-smith/rpg-kuso",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/john-smith-rpg-kuso/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/john-smith-rpg-kuso/"
         }
       }
     },
@@ -9351,7 +9379,7 @@
       "differences": {
         "status": {
           "ours": "verified",
-          "upstream": null
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Kill-rose-wiki/index.html",
@@ -9414,6 +9442,10 @@
     {
       "sourceRepo": "oden/neetles",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/oden-neetles/index.html",
           "upstream": "https://webrpg.org/oden-neetles/"
@@ -9480,6 +9512,10 @@
     {
       "sourceRepo": "oden/bremen",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/oden-Bremen/index.html",
           "upstream": "https://webrpg.org/oden-Bremen/"
@@ -9524,6 +9560,10 @@
     {
       "sourceRepo": "jyxjyx1234/misc_game-chs",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/jyxjyx1234-misc_game-chs/index.html",
           "upstream": "https://webrpg.org/jyxjyx1234-misc_game-chs/"
