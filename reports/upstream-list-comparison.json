@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T22:36:43.957Z",
+  "generatedAt": "2026-09-10T01:08:47.865Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 897,
   "upstreamTotal": 896,
@@ -67,6 +67,10 @@
     {
       "sourceRepo": "anglesgirl/ambrosia",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/anglesgirl-Ambrosia/index.html",
           "upstream": "https://webrpg.org/anglesgirl-Ambrosia/"
@@ -156,7 +160,7 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": null
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/huanggaole-huanggaole.github.io/index.html",
@@ -260,7 +264,11 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": null
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/cdgaming-cdgaming.github.io/"
         }
       }
     },
@@ -285,6 +293,10 @@
     {
       "sourceRepo": "cbginoshoo/touhou_isouhu",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/cbginoshoo-Touhou_Isouhu/index.html",
           "upstream": "https://webrpg.org/cbginoshoo-Touhou_Isouhu/"
@@ -318,7 +330,7 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": null
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/cyh0521-rpg/index.html",
@@ -369,6 +381,10 @@
     {
       "sourceRepo": "formidi/kanzidego",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Formidi-KanzideGo/index.html",
           "upstream": "https://webrpg.org/Formidi-KanzideGo/"
@@ -561,7 +577,7 @@
       "differences": {
         "status": {
           "ours": "verified",
-          "upstream": null
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/fredpoole-fredpoole.github.io/index.html",
@@ -624,17 +640,9 @@
     {
       "sourceRepo": "easychen/gamedemo",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/easychen-GameDemo/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/easychen-GameDemo/"
         }
       }
     },
@@ -904,6 +912,10 @@
     {
       "sourceRepo": "eric0308a/game_shao_cao_zhi",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/eric0308a-Game_shao_cao_zhi/index.html",
           "upstream": "https://webrpg.org/eric0308a-Game_shao_cao_zhi/"
@@ -967,6 +979,10 @@
     {
       "sourceRepo": "gfdgd-xi/siyemuxu-online",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/gfdgd-xi-siyemuxu-online/index.html",
           "upstream": "https://webrpg.org/gfdgd-xi-siyemuxu-online/"
@@ -1007,17 +1023,9 @@
     {
       "sourceRepo": "ambiwlans/toofastrpg",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Ambiwlans-TooFastRPG/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/Ambiwlans-TooFastRPG/"
         }
       }
     },
@@ -1026,7 +1034,7 @@
       "differences": {
         "status": {
           "ours": "verified",
-          "upstream": null
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/ChenFengYese-ChenFengYese.github.io/index.html",
@@ -1050,6 +1058,10 @@
     {
       "sourceRepo": "cyh0521/rpg",
       "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/cyh0521-rpg/index.html",
           "upstream": null
@@ -1063,6 +1075,10 @@
     {
       "sourceRepo": "huanggaole/huanggaole.github.io",
       "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/huanggaole-huanggaole.github.io/index.html",
           "upstream": null
@@ -1146,6 +1162,10 @@
     {
       "sourceRepo": "cos3915/kksalldemo",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Cos3915-kksalldemo/index.html",
           "upstream": "https://webrpg.org/Cos3915-kksalldemo/"
@@ -1155,6 +1175,10 @@
     {
       "sourceRepo": "adarkmaker/hxk-rpg",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/aDarkMaker-HXK-RPG/index.html",
           "upstream": "https://webrpg.org/aDarkMaker-HXK-RPG/"
@@ -1175,13 +1199,17 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
     {
       "sourceRepo": "cnfrestone/rpgtcyx",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/CNFrestone-RPGTCYX/index.html",
           "upstream": "https://webrpg.org/CNFrestone-RPGTCYX/"
@@ -1191,6 +1219,10 @@
     {
       "sourceRepo": "etxian/heroland",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/etxian-heroland/index.html",
           "upstream": "https://webrpg.org/etxian-heroland/"
@@ -1218,6 +1250,10 @@
     {
       "sourceRepo": "daylight5378/once-upon-a-squire",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/daylight5378-once-upon-a-squire/index.html",
           "upstream": "https://webrpg.org/daylight5378-once-upon-a-squire/"
@@ -9228,7 +9264,7 @@
       "differences": {
         "status": {
           "ours": "verified",
-          "upstream": null
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/waycrosspublicmedia-whatver/index.html",
@@ -9387,17 +9423,9 @@
     {
       "sourceRepo": "hanakusogame/hanakusogame.github.io",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/hanakusogame-hanakusogame.github.io/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/hanakusogame-hanakusogame.github.io/"
         }
       }
     },
@@ -9413,6 +9441,10 @@
     {
       "sourceRepo": "catbread00/www",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/CatBread00-www/index.html",
           "upstream": "https://webrpg.org/CatBread00-www/"
@@ -9422,17 +9454,13 @@
     {
       "sourceRepo": "alecyawata/tkoolmv_plugincommandbook",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/AlecYawata-TkoolMV_PluginCommandBook/index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/AlecYawata-TkoolMV_PluginCommandBook/"
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": null
+          "upstream": "SampleProject/index.html"
         }
       }
     },
@@ -9474,6 +9502,10 @@
     {
       "sourceRepo": "a12204002-ryujiatsuta/eboshi_web",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/a12204002-RyujiAtsuta-Eboshi_web/index.html",
           "upstream": "https://webrpg.org/a12204002-RyujiAtsuta-Eboshi_web/"
