@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-11T06:05:07.494Z",
+  "generatedAt": "2026-09-11T11:28:42.633Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 900,
-  "upstreamTotal": 898,
-  "shared": 898,
+  "upstreamTotal": 899,
+  "shared": 899,
   "upstreamOnly": [],
   "localOnly": [
     {
@@ -11,13 +11,6 @@
       "sourceRepo": "amogus0471/jhon-pork-unblocked",
       "status": "invalid_structure",
       "forkName": "amogus0471-Jhon-pork-unblocked",
-      "pagesUrl": null
-    },
-    {
-      "id": "chiyungjie-rpg20240811",
-      "sourceRepo": "chiyungjie/rpg20240811",
-      "status": "indexed",
-      "forkName": null,
       "pagesUrl": null
     }
   ],
@@ -5439,6 +5432,10 @@
     {
       "sourceRepo": "sigmiliarity/web",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/sigmiliarity-web/index.html",
           "upstream": "https://webrpg.org/sigmiliarity-web/"
@@ -6235,6 +6232,27 @@
       }
     },
     {
+      "sourceRepo": "chiyungjie/rpg20240811",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "chiyungjie-RPG20240811",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/chiyungjie-RPG20240811/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "kristenyu/kristenyu.github.io",
       "differences": {
         "status": {
@@ -6474,10 +6492,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/shen0V0-GDP_OP/index.html",
           "upstream": "https://webrpg.org/shen0V0-GDP_OP/"
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": "www/index.html"
         }
       }
     },
@@ -6648,10 +6662,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/SirMcPotato-RMMV-MMO-webkit/index.html",
           "upstream": "https://webrpg.org/SirMcPotato-RMMV-MMO-webkit/"
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": "public/game/index.html"
         }
       }
     },
