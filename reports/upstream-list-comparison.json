@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:39:12.675Z",
+  "generatedAt": "2026-09-11T01:10:15.628Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 899,
   "upstreamTotal": 898,
@@ -1689,7 +1689,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -2550,6 +2550,10 @@
     {
       "sourceRepo": "dewandrar/college-live",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/DewandraR-College-Live/index.html",
           "upstream": "https://webrpg.org/DewandraR-College-Live/"
@@ -2697,6 +2701,10 @@
     {
       "sourceRepo": "dejely-bean-studios/crime-never-sleeps",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Dejely-Bean-Studios-Crime-Never-Sleeps/index.html",
           "upstream": "https://webrpg.org/Dejely-Bean-Studios-Crime-Never-Sleeps/"
@@ -2763,6 +2771,10 @@
     {
       "sourceRepo": "cute-fame-studio/cutefamedemo",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Cute-Fame-Studio-cutefamedemo/index.html",
           "upstream": "https://webrpg.org/Cute-Fame-Studio-cutefamedemo/"
@@ -2830,7 +2842,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -2960,7 +2972,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -3317,6 +3329,10 @@
     {
       "sourceRepo": "chruscikszef/dzzt-android",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/chruscikszef-dzzt-android/index.html",
           "upstream": "https://webrpg.org/chruscikszef-dzzt-android/"
@@ -4750,6 +4766,10 @@
     {
       "sourceRepo": "davidcolla11/la-cruzada-del-ebola",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/davidcolla11-La-Cruzada-del-Ebola/index.html",
           "upstream": "https://webrpg.org/davidcolla11-La-Cruzada-del-Ebola/"
@@ -4911,6 +4931,10 @@
     {
       "sourceRepo": "camiinyx/the-8-elements",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/CamiiNyx-The-8-Elements/index.html",
           "upstream": "https://webrpg.org/CamiiNyx-The-8-Elements/"
@@ -5251,7 +5275,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -6344,6 +6368,10 @@
     {
       "sourceRepo": "chanchipong1226-dev/project.repositry",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/chanchipong1226-dev-project.repositry/index.html",
           "upstream": "https://webrpg.org/chanchipong1226-dev-project.repositry/"
@@ -6477,6 +6505,10 @@
     {
       "sourceRepo": "chibibaku/rmmv-webhost",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/chibibaku-rmmv-webhost/index.html",
           "upstream": "https://webrpg.org/chibibaku-rmmv-webhost/"
@@ -6501,7 +6533,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -6936,7 +6968,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
@@ -7345,6 +7377,10 @@
     {
       "sourceRepo": "cjtan0503/rpgfantasy",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/CJTan0503-RPGFantasy/index.html",
           "upstream": "https://webrpg.org/CJTan0503-RPGFantasy/"
@@ -7667,6 +7703,10 @@
     {
       "sourceRepo": "daffadaff/pengembangan-game",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/DaffaDaff-pengembangan-game/index.html",
           "upstream": "https://webrpg.org/DaffaDaff-pengembangan-game/"
@@ -8239,6 +8279,10 @@
     {
       "sourceRepo": "corddt/rpg_maker_toandroid",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Corddt-RPG_Maker_toAndroid/index.html",
           "upstream": "https://webrpg.org/Corddt-RPG_Maker_toAndroid/"
@@ -8365,6 +8409,10 @@
     {
       "sourceRepo": "bywuuu/lecweb",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/bywuuu-lecWeb/index.html",
           "upstream": "https://webrpg.org/bywuuu-lecWeb/"
@@ -8531,6 +8579,10 @@
     {
       "sourceRepo": "cppiod/eagle-s-crossing",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/cppiod-Eagle-s-Crossing/index.html",
           "upstream": "https://webrpg.org/cppiod-Eagle-s-Crossing/"
@@ -8871,6 +8923,10 @@
     {
       "sourceRepo": "darlos9d/turnbasedstrategy",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Darlos9D-TurnBasedStrategy/index.html",
           "upstream": "https://webrpg.org/Darlos9D-TurnBasedStrategy/"
@@ -9141,6 +9197,10 @@
     {
       "sourceRepo": "darius1325/the-enemy-within",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Darius1325-the-enemy-within/index.html",
           "upstream": "https://webrpg.org/Darius1325-the-enemy-within/"
@@ -9302,6 +9362,10 @@
     {
       "sourceRepo": "dalk12/dd",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Dalk12-DD/index.html",
           "upstream": "https://webrpg.org/Dalk12-DD/"
@@ -9414,6 +9478,10 @@
     {
       "sourceRepo": "ciart/knightdream-old",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Ciart-KnightDream-Old/index.html",
           "upstream": "https://webrpg.org/Ciart-KnightDream-Old/"
