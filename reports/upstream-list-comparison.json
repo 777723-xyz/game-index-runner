@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T11:28:42.633Z",
+  "generatedAt": "2026-09-11T16:33:34.811Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 900,
   "upstreamTotal": 899,
@@ -2660,6 +2660,10 @@
     {
       "sourceRepo": "stinkalistic/swaggames",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Stinkalistic-SWAGgames/index.html",
           "upstream": "https://webrpg.org/Stinkalistic-SWAGgames/"
@@ -2824,10 +2828,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/lucaslovestacos-lucaslovestacos.github.io/index.html",
           "upstream": "https://webrpg.org/lucaslovestacos-lucaslovestacos.github.io/"
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": "secret/rpg/index.html"
         }
       }
     },
@@ -3102,10 +3102,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/luisdef-end/index.html",
           "upstream": "https://webrpg.org/luisdef-end/"
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": "game/index.html"
         }
       }
     },
@@ -5518,6 +5514,10 @@
     {
       "sourceRepo": "squanky1372/squanky1372.github.io",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/squanky1372-squanky1372.github.io/index.html",
           "upstream": "https://webrpg.org/squanky1372-squanky1372.github.io/"
@@ -6640,10 +6640,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/matheusPereiraKrumm-rise-of-shinigami/index.html",
           "upstream": "https://webrpg.org/matheusPereiraKrumm-rise-of-shinigami/"
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": "src/index.html"
         }
       }
     },
@@ -7735,10 +7731,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Pigg0Bot-S-rpgmaker-proj/index.html",
           "upstream": "https://webrpg.org/Pigg0Bot-S-rpgmaker-proj/"
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": "bishop/index.html"
         }
       }
     },
