@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T19:47:21.615Z",
+  "generatedAt": "2026-09-11T22:39:11.082Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 900,
   "upstreamTotal": 899,
@@ -1332,11 +1332,7 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/okshaone-loop/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/okshaone-loop/"
         }
       }
     },
@@ -2214,10 +2210,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/p-guilherme-cidadesustentavel/index.html",
           "upstream": "https://webrpg.org/p-guilherme-cidadesustentavel/"
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": "projeto/index.html"
         }
       }
     },
@@ -4196,11 +4188,7 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/okshaone-Kiki-s-adventure-v1/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/okshaone-Kiki-s-adventure-v1/"
         }
       }
     },
@@ -4601,6 +4589,10 @@
     {
       "sourceRepo": "luciddreamforcapstone/luciddream",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/LucidDreamForCapstone-LucidDream/index.html",
           "upstream": "https://webrpg.org/LucidDreamForCapstone-LucidDream/"
@@ -4739,11 +4731,7 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/NikitaBelk-Nikita-Channel-Animation/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/NikitaBelk-Nikita-Channel-Animation/"
         }
       }
     },
@@ -5585,11 +5573,11 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/navdeep5-navdeep5.github.io/index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/navdeep5-navdeep5.github.io/"
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": null
+          "upstream": "BetaRelease/index.html"
         }
       }
     },
@@ -5598,11 +5586,7 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/navdeep5-Quokka_Quest_Team/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/navdeep5-Quokka_Quest_Team/"
         }
       }
     },
@@ -7523,11 +7507,11 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/muletmiles-muletmiles.github.io/index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/muletmiles-muletmiles.github.io/"
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": null
+          "upstream": "Tales of Nickeria/index.html"
         }
       }
     },
@@ -7956,10 +7940,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Patrick-ayo-MISINFORMATION-GAME/index.html",
           "upstream": "https://webrpg.org/Patrick-ayo-MISINFORMATION-GAME/"
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": "game2mz/index.html"
         }
       }
     },
@@ -7969,10 +7949,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Patrick-ayo-Mumbai-Hacks/index.html",
           "upstream": "https://webrpg.org/Patrick-ayo-Mumbai-Hacks/"
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": "game2mz/index.html"
         }
       }
     },
@@ -8160,11 +8136,11 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/mysterymagination-twilightning/index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/mysterymagination-twilightning/"
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": null
+          "upstream": "Twilightning/index.html"
         }
       }
     },
@@ -8301,11 +8277,11 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/ojoh1993-SCP_OOPArt/index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/ojoh1993-SCP_OOPArt/"
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": null
+          "upstream": "Project2/index.html"
         }
       }
     },
@@ -8676,10 +8652,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/llb1026-llb1026.github.io/index.html",
           "upstream": "https://webrpg.org/llb1026-llb1026.github.io/"
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": "_site/game/index.html"
         }
       }
     },
