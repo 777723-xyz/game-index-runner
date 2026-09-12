@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T01:11:45.406Z",
+  "generatedAt": "2026-09-12T05:53:16.560Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 900,
   "upstreamTotal": 899,
@@ -515,11 +515,7 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/xjzsq-1/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/xjzsq-1/"
         }
       }
     },
@@ -613,10 +609,14 @@
       }
     },
     {
-      "sourceRepo": "kyouka8234/magical-girl-celesphonia",
+      "sourceRepo": "neonnoiru/mfsnclx",
       "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
         "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Kyouka8234-Magical-Girl-Celesphonia/index.html",
+          "ours": null,
           "upstream": "https://webrpg.org/Kyouka8234-Magical-Girl-Celesphonia/"
         }
       }
@@ -990,10 +990,6 @@
     {
       "sourceRepo": "cyh0521/rpg",
       "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "verified"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/cyh0521-rpg/index.html",
           "upstream": "https://webrpg.org/cyh0521-rpg/"
@@ -8941,6 +8937,10 @@
     {
       "sourceRepo": "jyxjyx1234/misc_game-chs",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/jyxjyx1234-misc_game-chs/index.html",
           "upstream": "https://webrpg.org/jyxjyx1234-misc_game-chs/"
