@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T22:39:11.082Z",
+  "generatedAt": "2026-09-12T01:11:45.406Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 900,
   "upstreamTotal": 899,
@@ -314,11 +314,7 @@
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/cyh0521-rpg/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/cyh0521-rpg/"
         }
       }
     },
@@ -541,11 +537,11 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/fredpoole-fredpoole.github.io/index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/fredpoole-fredpoole.github.io/"
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": null
+          "upstream": "Legend of Four Dragons/www/index.html"
         }
       }
     },
@@ -576,11 +572,7 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/whiterrabbit3672-touhou-GhostFairy-do-people/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/whiterrabbit3672-touhou-GhostFairy-do-people/"
         }
       }
     },
@@ -982,11 +974,7 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/ChenFengYese-ChenFengYese.github.io/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/ChenFengYese-ChenFengYese.github.io/"
         }
       }
     },
@@ -1002,13 +990,13 @@
     {
       "sourceRepo": "cyh0521/rpg",
       "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "verified"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/cyh0521-rpg/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/cyh0521-rpg/"
         }
       }
     },
@@ -1123,15 +1111,6 @@
       }
     },
     {
-      "sourceRepo": "artpowernewmedia/artpowernewmedia.github.io",
-      "differences": {
-        "status": {
-          "ours": "invalid_structure",
-          "upstream": "verified"
-        }
-      }
-    },
-    {
       "sourceRepo": "cnfrestone/rpgtcyx",
       "differences": {
         "pagesUrl": {
@@ -1234,6 +1213,10 @@
         "status": {
           "ours": "invalid_structure",
           "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/1LgR-Treinamento-RPG-MAKER/"
         }
       }
     },
@@ -1974,11 +1957,11 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Moon-Network-Service-Blueberry-Manor-Project/index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/Moon-Network-Service-Blueberry-Manor-Project/"
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": null
+          "upstream": "Blueberry Manor/index.html"
         }
       }
     },
@@ -2757,11 +2740,7 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/NautsSky-nautssky/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/NautsSky-nautssky/"
         }
       }
     },
@@ -8306,6 +8285,10 @@
     {
       "sourceRepo": "hu-prts/giselle",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Hu-PRTS-giselle/index.html",
           "upstream": "https://webrpg.org/Hu-PRTS-giselle/"
@@ -8724,6 +8707,10 @@
     {
       "sourceRepo": "waycrosspublicmedia/whatver",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/waycrosspublicmedia-whatver/index.html",
           "upstream": null
@@ -8789,15 +8776,15 @@
       }
     },
     {
-      "sourceRepo": "kill-rose/wiki",
+      "sourceRepo": "dorian-noki/wiki",
       "differences": {
-        "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/Kill-rose-wiki/index.html",
-          "upstream": null
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
         },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Kill-rose-wiki/"
         }
       }
     },
