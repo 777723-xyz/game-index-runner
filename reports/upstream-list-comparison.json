@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T05:53:16.560Z",
+  "generatedAt": "2026-09-12T10:53:40.233Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 900,
   "upstreamTotal": 899,
@@ -669,6 +669,10 @@
     {
       "sourceRepo": "tw123777tw/pdlsdyzzh",
       "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "verified"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/tw123777tw-pdlsdyzzh/index.html",
           "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
@@ -742,6 +746,10 @@
     {
       "sourceRepo": "tw123777tw/pdlsdyzzh",
       "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "verified"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/tw123777tw-pdlsdyzzh/index.html",
           "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
@@ -887,6 +895,10 @@
     {
       "sourceRepo": "ruan-cat/rm-monorepo",
       "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "verified"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/ruan-cat-rm-monorepo/index.html",
           "upstream": "https://webrpg.org/ruan-cat-rm-monorepo/"
