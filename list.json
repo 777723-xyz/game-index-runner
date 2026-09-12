@@ -673,7 +673,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-10T22:28:02.975Z",
     "runtimeLoadMs": 2693,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "df27ec68311ddb7c290452bb4eee2dd7840d5582",
+    "processedHeadSha": "508e19addc701b90e88b0ec1511db97fa79e91cd",
+    "syncedFromSource": true
   },
   {
     "id": "lisachouhc-drdrescape-v2",
@@ -699,7 +703,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-10T22:28:02.954Z",
     "runtimeLoadMs": 2658,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "58f8c23d2156fa22c959ef7ea650e3164760340a",
+    "processedHeadSha": "7f76675a6ee8e9174c05967af639f87fc1ace5b2",
+    "syncedFromSource": true
   },
   {
     "id": "neonnoir-yuki-drkxq",
@@ -788,7 +796,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "www/index.html",
-    "checkedAt": "2026-09-12T04:59:03.792Z",
+    "checkedAt": "2026-07-05T06:45:29.356Z",
     "forkName": "eric0308a-The_Devils_Seven_Days",
     "entryPath": "index.html",
     "validationScore": 115,
@@ -797,8 +805,7 @@
     "sourceRepo": "eric0308a/The_Devils_Seven_Days",
     "upstreamPagesUrl": "https://webrpg.org/eric0308a-The_Devils_Seven_Days/",
     "upstreamCover": "https://webrpg.org/eric0308a-The_Devils_Seven_Days/cover.png",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "cyh0521-rpg-e580416c",
@@ -854,7 +861,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-08T22:56:58.998Z",
     "runtimeLoadMs": 2572,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "3e83ab1e59e4091eb91f4ef645ab47351c3bc454",
+    "processedHeadSha": "7e661d2992681f1796cfce0d6b2b920cd3763101",
+    "syncedFromSource": true
   },
   {
     "id": "lzk716088-beneath-the-snow",
@@ -1072,7 +1083,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-04T21:24:02.384Z",
     "runtimeLoadMs": 940,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "bd14958be351685de2f3a26c54332ecf500edb3b",
+    "processedHeadSha": "85de40570ac2b38c8a8c0ffb83d73be8d18831ed",
+    "syncedFromSource": true
   },
   {
     "id": "say-hanabi-dev-hanabi-rpg-game-frontend",
@@ -1098,7 +1113,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-05T22:51:38.855Z",
     "runtimeLoadMs": 2226,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "fb1b5f7fdcbecabf8942941beba95a1f328d1342",
+    "processedHeadSha": "7a5be97b626e9b4f9f6f85bfc6110e6d96e5ee7d",
+    "syncedFromSource": true
   },
   {
     "id": "miracleyoo-hcrs-online",
@@ -1124,7 +1143,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-10T22:28:06.040Z",
     "runtimeLoadMs": 1707,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "7f1b6303fe38a0221706a8fba999bfcebd638583",
+    "processedHeadSha": "c2e2be1e40ef53e94a8cd6ef04fbe48c071dd46a",
+    "syncedFromSource": true
   },
   {
     "id": "miracleyoo-hua-cai-ren-sheng",
@@ -1150,7 +1173,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-10T22:28:05.143Z",
     "runtimeLoadMs": 1575,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "98ec229944624636f9f8130309a8f9aa831e16de",
+    "processedHeadSha": "b2044d8191c07c1eee11a5106843bbd2ca3cc33d",
+    "syncedFromSource": true
   },
   {
     "id": "q3226257-rpg-game",
@@ -1176,7 +1203,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-11T23:11:41.755Z",
     "runtimeLoadMs": 2597,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "00662cf565cc0d11f17b070a075c375072f3b55f",
+    "processedHeadSha": "e2681b3288f5de5fac905d639066818781d0dcf3",
+    "syncedFromSource": true
   },
   {
     "id": "anthonytonyz-rougedemo",
@@ -1303,7 +1334,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "Windows/www/index.html",
-    "checkedAt": "2026-09-12T04:59:13.541Z",
+    "checkedAt": "2026-07-09T19:01:48.930Z",
     "forkName": "tw123777tw-GiantGirlClub",
     "entryPath": "Windows/www/index.html",
     "validationScore": 115,
@@ -1312,8 +1343,7 @@
     "sourceRepo": "tw123777tw/GiantGirlClub",
     "upstreamPagesUrl": "https://webrpg.org/tw123777tw-GiantGirlClub/",
     "upstreamCover": "https://webrpg.org/tw123777tw-GiantGirlClub/cover.png",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "zhuobinggang-decision-maker-rpg-game",
@@ -1422,7 +1452,14 @@
     "runtimeCheckedAt": "2026-09-05T22:51:38.889Z",
     "runtimeLoadMs": 2269,
     "runtimeHttpStatus": 200,
-    "upstreamStatus": "verified"
+    "upstreamStatus": "verified",
+    "sourceRepo": "xjzsq/1",
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "7789fadfba19e3131ebf5c0e18f509ef178f470c",
+    "processedHeadSha": "e389261bb1c5e49304e0c54cdffbefc314550d66",
+    "syncedFromSource": true,
+    "upstreamPagesUrl": "https://webrpg.org/xjzsq-1/",
+    "upstreamCover": "https://webrpg.org/xjzsq-1/cover.png"
   },
   {
     "id": "eeg1412-wikimoe-blog-archive",
@@ -1536,7 +1573,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-04T21:24:03.241Z",
     "runtimeLoadMs": 851,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "37915a25740a63074c54a8c584f0f8544decaa2b",
+    "processedHeadSha": "e3fadb1017737f4b9efbea788cae40ae4eca549c",
+    "syncedFromSource": true
   },
   {
     "id": "whiterrabbit3672-touhou-ghostfairy-do-people",
@@ -1592,7 +1633,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-08T22:56:59.813Z",
     "runtimeLoadMs": 2456,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "fc7f08110b735c5d3bb3e199db73aa27a8bc8119",
+    "processedHeadSha": "ddf908585e4c854d99802454fecf72eb10586a83",
+    "syncedFromSource": true
   },
   {
     "id": "easychen-gamedemo",
@@ -1685,28 +1730,26 @@
   {
     "id": "kyouka8234-magical-girl-celesphonia",
     "title": "魔法少女苍蓝星",
-    "repo": "https://github.com/Kyouka8234/Magical-Girl-Celesphonia",
-    "owner": "Kyouka8234",
-    "name": "Magical-Girl-Celesphonia",
+    "repo": "https://github.com/NeonNoirU/mfsnclx",
+    "owner": "NeonNoirU",
+    "name": "mfsnclx",
     "engine": "RPG Maker MV",
-    "status": "verified",
-    "checkedAt": "2026-09-08T13:35:10.885Z",
+    "status": "indexed",
+    "checkedAt": "2026-09-12T03:22:13.903Z",
     "forkName": "Kyouka8234-Magical-Girl-Celesphonia",
     "entryPath": "index.html",
     "validationScore": 118,
-    "totalSize": 2681663,
+    "totalSize": 2681661,
     "dataSize": 34082727,
-    "sourceRepo": "Kyouka8234/Magical-Girl-Celesphonia",
+    "sourceRepo": "NeonNoirU/mfsnclx",
     "source": "upstream-webrpg-index",
     "upstreamPagesUrl": "https://webrpg.org/Kyouka8234-Magical-Girl-Celesphonia/",
     "upstreamCover": "https://webrpg.org/Kyouka8234-Magical-Girl-Celesphonia/cover.png",
     "upstreamStatus": "verified",
-    "pagesUrl": "https://777723-xyz.github.io/Kyouka8234-Magical-Girl-Celesphonia/index.html",
-    "cover": "https://777723-xyz.github.io/Kyouka8234-Magical-Girl-Celesphonia/cover.png",
-    "runtimeStatus": "playable",
-    "runtimeCheckedAt": "2026-09-10T22:28:03.132Z",
-    "runtimeLoadMs": 2831,
-    "runtimeHttpStatus": 200
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "2d567e81bd309b29e9efa51dbad5361d4d7c3296",
+    "processedHeadSha": "e25f092170a0d8ceb13d8278414aef077395b312",
+    "syncedFromSource": true
   },
   {
     "id": "tomoshibi06-mio",
@@ -1820,7 +1863,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-11T23:11:39.173Z",
     "runtimeLoadMs": 3066,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "298d4b96037116ceaf6e9d6719d576451e0b9454",
+    "processedHeadSha": "63f74c3fbf91c1022c205abd8210d091718022f6",
+    "syncedFromSource": true
   },
   {
     "id": "pieworkplace-mota-mv",
@@ -1846,7 +1893,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-11T23:11:39.181Z",
     "runtimeLoadMs": 3061,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "13439360b7de13c6f5a52c950e164d09ad982ccc",
+    "processedHeadSha": "12c0876bd2259b0bc4fa3bc8568f52b7ba8f962a",
+    "syncedFromSource": true
   },
   {
     "id": "tw123777tw-pdlsdyzzh-4ce89b29",
@@ -2363,7 +2414,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T20:34:42.936Z",
     "runtimeLoadMs": 9494,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "0a553bdb146c5bf6125cb51f556239f8b6289e04",
+    "processedHeadSha": "115b71d28f2ad8938089b101b88e52288b0922a0",
+    "syncedFromSource": true
   },
   {
     "id": "shd101wyy-shd101wyy-github-io",
@@ -2739,7 +2794,7 @@
     "checkedAt": "2026-07-24T06:16:20.918Z",
     "forkName": "cyh0521-rpg",
     "source": "upstream-webrpg-index",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "duplicate_name",
     "pagesUrl": "https://777723-xyz.github.io/cyh0521-rpg/index.html",
     "cover": "https://777723-xyz.github.io/cyh0521-rpg/cover.png",
     "entryPath": "index.html",
@@ -2853,7 +2908,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-04T21:24:01.372Z",
     "runtimeLoadMs": 4830,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "ce856a09224f2d29ec02a3b62fa988c38519bdfb",
+    "processedHeadSha": "73f857bfc2b5e28de2d6c824633e1df1e0bfe8d3",
+    "syncedFromSource": true
   },
   {
     "id": "neonnoir-yuki-wlts",
@@ -2866,7 +2925,7 @@
     "discoveredAt": "2026-06-15T15:29:11.705Z",
     "source": "github-code-search",
     "sourcePath": "www/index.html",
-    "checkedAt": "2026-09-12T04:59:55.964Z",
+    "checkedAt": "2026-09-11T03:17:48.446Z",
     "forkName": "NeonNoir-Yuki-wlts",
     "entryPath": "www/index.html",
     "validationScore": 115,
@@ -2875,8 +2934,7 @@
     "sourceRepo": "NeonNoir-Yuki/wlts",
     "upstreamPagesUrl": "https://webrpg.org/NeonNoir-Yuki-wlts/",
     "upstreamCover": "https://webrpg.org/NeonNoir-Yuki-wlts/cover.png",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "realquantumcookie-wulinwaizhuan",
@@ -2902,7 +2960,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-11T23:11:41.447Z",
     "runtimeLoadMs": 1835,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "069c1d4b294bb5bdfd3282b726f333a6880d3370",
+    "processedHeadSha": "b8cedee499930fbd095b912e28c2d81150277cd8",
+    "syncedFromSource": true
   },
   {
     "id": "neonnoir-yuki-xrkxq",
@@ -2911,12 +2973,11 @@
     "owner": "NeonNoir-Yuki",
     "name": "xrkxq",
     "engine": "RPG Maker MV",
-    "checkedAt": "2026-09-12T04:59:44.104Z",
+    "checkedAt": "2026-09-11T03:16:20.434Z",
     "forkName": "NeonNoir-Yuki-xrkxq",
     "source": "upstream-webrpg-index",
     "status": "indexed",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "cos3915-kksalldemo",
@@ -3124,7 +3185,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-08T22:56:59.704Z",
     "runtimeLoadMs": 2481,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "69d4e2dbeb23fc08a93bd7ab3050eba284781cd9",
+    "processedHeadSha": "3158e318c360e4e530e63e794ab4e33554f9fd30",
+    "syncedFromSource": true
   },
   {
     "id": "tychouhaha-zk-game",
@@ -10084,7 +10149,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "story/wadanohara_re.html",
-    "checkedAt": "2026-09-12T04:59:45.063Z",
+    "checkedAt": "2026-09-09T10:56:58.473Z",
     "forkName": "ratchetgame-ratchetgame.github.io",
     "entryPath": "story/wadanohara_re.html",
     "validationScore": 110,
@@ -10097,8 +10162,7 @@
     "sourceDefaultBranch": "main",
     "sourceHeadSha": "1d1ca92769f785ce818e61e0d9c67a5e81b75dc2",
     "processedHeadSha": "db2a8dc1acde31e57d0768f7293cc2d3356638db",
-    "syncedFromSource": true,
-    "lastCheckError": "Refusing to flatten story/wadanohara_re/: flattened tree is missing the HTML entry or RPG Maker runtime."
+    "syncedFromSource": true
   },
   {
     "id": "brand24376-brand24376-github-io",
@@ -10371,7 +10435,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-11T23:11:39.059Z",
     "runtimeLoadMs": 2924,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "bdaeac9df31247e1aab11994c2edb530f1e24a9e",
+    "processedHeadSha": "60a2d4957438e1e58112136a70bf42faf9287012",
+    "syncedFromSource": true
   },
   {
     "id": "igfcoimbra-gladius-saga",
@@ -11429,7 +11497,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "RPGMakerGames/AmStudYouth/index.html",
-    "checkedAt": "2026-09-12T04:59:38.149Z",
+    "checkedAt": "2026-07-10T00:13:47.795Z",
     "forkName": "TheModernSMoore-themodernsmoore.github.io",
     "entryPath": "RPGMakerGames/AmStudYouth/index.html",
     "validationScore": 115,
@@ -11438,8 +11506,7 @@
     "sourceRepo": "TheModernSMoore/themodernsmoore.github.io",
     "upstreamPagesUrl": "https://webrpg.org/TheModernSMoore-themodernsmoore.github.io/",
     "upstreamCover": "https://webrpg.org/TheModernSMoore-themodernsmoore.github.io/cover.png",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "renrender0209-kankin",
@@ -11906,7 +11973,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "fisica/index.html",
-    "checkedAt": "2026-09-12T04:59:03.831Z",
+    "checkedAt": "2026-06-19T06:24:30.470Z",
     "forkName": "kenshindias-kenshindias.github.io",
     "entryPath": "Canudos/index.html",
     "validationScore": 115,
@@ -11915,8 +11982,7 @@
     "sourceRepo": "kenshindias/kenshindias.github.io",
     "upstreamPagesUrl": "https://webrpg.org/kenshindias-kenshindias.github.io/",
     "upstreamCover": "https://webrpg.org/kenshindias-kenshindias.github.io/cover.png",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "yuhan2680-level-c-1366-demo",
@@ -13317,9 +13383,7 @@
     "source": "github-code-search",
     "sourcePath": "data/mv-sample/index.html",
     "upstreamStatus": "indexed",
-    "forkName": "take-cheeze-rpg-maker-clone",
-    "checkedAt": "2026-09-12T04:59:04.164Z",
-    "lastCheckError": "Refusing to flatten data/mv-sample/: flattened tree is missing the HTML entry or RPG Maker runtime."
+    "forkName": "take-cheeze-rpg-maker-clone"
   },
   {
     "id": "xuyanwen2012-rmmv-battle-system-js",
@@ -13433,7 +13497,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-11T23:11:39.059Z",
     "runtimeLoadMs": 2934,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "dec6d0152e10ef73527f9f3bfeb9c4ca4cc82091",
+    "processedHeadSha": "41e14d5c46dcbfaf4efb69c910c7a4fd18cae83e",
+    "syncedFromSource": true
   },
   {
     "id": "katai5plate-mvblackout",
@@ -13988,11 +14056,10 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "webport-hosting/omori-fixed/index.html",
-    "checkedAt": "2026-09-12T04:59:50.628Z",
+    "checkedAt": "2026-09-11T03:16:21.427Z",
     "forkName": "Cheesy-Website-Cheesy-Website.github.io",
     "upstreamStatus": "skipped_large",
-    "invalidReason": "Upstream repository size 10309514 KB exceeds the 8388608 KB limit.",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "invalidReason": "Upstream repository size 10309514 KB exceeds the 8388608 KB limit."
   },
   {
     "id": "cronusz3n96-stolenstuff",
@@ -14143,10 +14210,9 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "project/index.html",
-    "checkedAt": "2026-09-12T05:00:03.799Z",
+    "checkedAt": "2026-09-12T03:21:45.472Z",
     "forkName": "Escartem-OmoriSource",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "ethantphillips-unblockedgames",
@@ -15355,10 +15421,9 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "public/platina-the-wolf-and-the-heir-of-the-light/index.html",
-    "checkedAt": "2026-09-12T05:00:07.601Z",
+    "checkedAt": "2026-09-12T03:21:45.768Z",
     "forkName": "Laferu-platina-the-wolf",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "laferu-platina-the-wolf-and-the-heir-of-light",
@@ -15458,7 +15523,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "pokemon-agent-town/frontend/assets/index.html",
-    "checkedAt": "2026-09-12T04:59:05.856Z",
+    "checkedAt": "2026-06-30T00:18:09.197Z",
     "forkName": "fada-com-filtro-IA-agents",
     "entryPath": "index.html",
     "validationScore": 115,
@@ -15467,8 +15532,7 @@
     "sourceRepo": "fada-com-filtro/IA-agents",
     "upstreamPagesUrl": "https://webrpg.org/fada-com-filtro-IA-agents/",
     "upstreamCover": "https://webrpg.org/fada-com-filtro-IA-agents/cover.png",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "aak581-polkadot-cats-game",
@@ -15648,7 +15712,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "template/index.html",
-    "checkedAt": "2026-09-12T04:59:44.545Z",
+    "checkedAt": "2026-09-09T10:55:34.788Z",
     "forkName": "RyanBram-RPG-MV-Ace",
     "entryPath": "index.html",
     "validationScore": 70,
@@ -15660,8 +15724,7 @@
     "sourceDefaultBranch": "main",
     "sourceHeadSha": "394592eaaf4c8d90f1cca72fefee5da7b50651d6",
     "processedHeadSha": "d0c90a52e0bbffe90c63dba3063f8f6d15f371bc",
-    "syncedFromSource": true,
-    "lastCheckError": "Refusing to flatten template/: flattened tree is missing the HTML entry or RPG Maker runtime."
+    "syncedFromSource": true
   },
   {
     "id": "therainbowphoenix-lds",
@@ -15674,7 +15737,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "template/index.html",
-    "checkedAt": "2026-09-12T04:59:26.085Z",
+    "checkedAt": "2026-07-09T22:36:55.487Z",
     "forkName": "TheRainbowPhoenix-LDS",
     "entryPath": "index.html",
     "validationScore": 70,
@@ -15682,8 +15745,7 @@
     "dataSize": 835669,
     "sourceRepo": "TheRainbowPhoenix/LDS",
     "upstreamPagesUrl": "https://webrpg.org/TheRainbowPhoenix-LDS/",
-    "upstreamStatus": "verified",
-    "lastCheckError": "Refusing to flatten template/: flattened tree is missing the HTML entry or RPG Maker runtime."
+    "upstreamStatus": "verified"
   },
   {
     "id": "beeveelutions-project-starmans",
@@ -16954,7 +17016,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "RMMV/index.html",
-    "checkedAt": "2026-09-12T04:59:37.799Z",
+    "checkedAt": "2026-09-09T05:58:14.456Z",
     "forkName": "themabus-Get-the-Balance-Right",
     "entryPath": "RMMV/index.html",
     "validationScore": 70,
@@ -16966,8 +17028,7 @@
     "sourceDefaultBranch": "main",
     "sourceHeadSha": "d7bee768195f042e03c971179754755f8c8ddfd4",
     "processedHeadSha": "22a32bf5e0c9fab4826b86c03b503383e9fca11c",
-    "syncedFromSource": true,
-    "lastCheckError": "Refusing to flatten RMMV/: flattened tree is missing the HTML entry or RPG Maker runtime."
+    "syncedFromSource": true
   },
   {
     "id": "shen0v0-gdp",
@@ -17789,7 +17850,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-09T21:55:00.029Z",
     "runtimeLoadMs": 650,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "f19f4e873ca79105f92327ea597c17a670217fbe",
+    "processedHeadSha": "6538b5d4cd3ad9c5f2a468a25157fdabb8b025b3",
+    "syncedFromSource": true
   },
   {
     "id": "hikko624-rpg-maker-mv-kc3-lt",
@@ -18607,7 +18672,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T15:42:39.371Z",
     "runtimeLoadMs": 943,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "gh-pages",
+    "sourceHeadSha": "1dce8393690da2f466eee703a4cc1170299d0bb6",
+    "processedHeadSha": "9195a3fe48941e9b82a71e40843c90027e4d73f5",
+    "syncedFromSource": true
   },
   {
     "id": "biud436-cefmv",
@@ -19894,7 +19963,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "www/index.html",
-    "checkedAt": "2026-09-12T04:59:05.118Z",
+    "checkedAt": "2026-07-04T23:05:17.063Z",
     "forkName": "graveyardshiftpd-tcoaar-project",
     "entryPath": "index.html",
     "validationScore": 115,
@@ -19903,8 +19972,7 @@
     "sourceRepo": "graveyardshiftpd/tcoaar-project",
     "upstreamPagesUrl": "https://webrpg.org/graveyardshiftpd-tcoaar-project/",
     "upstreamCover": "https://webrpg.org/graveyardshiftpd-tcoaar-project/cover.png",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 502: Server Error"
+    "upstreamStatus": "verified"
   },
   {
     "id": "escartem-tcoaalsource",
@@ -19917,10 +19985,9 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "project/index.html",
-    "checkedAt": "2026-09-12T05:00:14.298Z",
+    "checkedAt": "2026-09-12T03:21:43.313Z",
     "forkName": "Escartem-TCOAALSource",
-    "upstreamStatus": "verified",
-    "lastCheckError": "GitHub API 422: Sorry, your request timed out.  It's likely that your input was too large to process.  Consider building the tree incrementally, or building the commits you need in a local clone of the repository and then pushing them to GitHub."
+    "upstreamStatus": "verified"
   },
   {
     "id": "suhukk-bbb",
@@ -20249,7 +20316,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "game/templates/game/index.html",
-    "checkedAt": "2026-09-12T04:59:57.841Z",
+    "checkedAt": "2026-09-11T10:48:44.724Z",
     "forkName": "shivanshs9-MMORPG-TLO",
     "entryPath": "game/templates/game/index.html",
     "validationScore": 115,
@@ -20262,8 +20329,7 @@
     "sourceDefaultBranch": "master",
     "sourceHeadSha": "5edbd524e1c9ba6dc33de50242e07ec37b9c6319",
     "processedHeadSha": "73d63799530a4c2f2fb2b3f1fbde89ff610cca1b",
-    "syncedFromSource": true,
-    "lastCheckError": "Refusing to flatten game/static/game/: flattened tree is missing the HTML entry or RPG Maker runtime."
+    "syncedFromSource": true
   },
   {
     "id": "battousairurik-rpgmakercollabproject",
@@ -22411,7 +22477,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T11:35:01.481Z",
     "runtimeLoadMs": 2896,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "e3c9530b8ecae8c4def14f9925fabec148bf9ec3",
+    "processedHeadSha": "dd1fc36e017d9c8e72f7a7eded5e76d2191bfa11",
+    "syncedFromSource": true
   },
   {
     "id": "waycrosspublicmedia-htmlfiles",
@@ -22479,7 +22549,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T14:46:31.266Z",
     "runtimeLoadMs": 2994,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "a8100f94a7c7503bcfe0fc764f54e0203efd3dc9",
+    "processedHeadSha": "4f98aba22bfe854259d416e0177fe1bbb6d9dbbe",
+    "syncedFromSource": true
   },
   {
     "id": "ihatechickfila-tickling-escape-2",
@@ -22535,7 +22609,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T14:46:29.945Z",
     "runtimeLoadMs": 2050,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "main",
+    "sourceHeadSha": "3663db6fa697575e96c24f597eebe13b8cca77c1",
+    "processedHeadSha": "c4f75a28dafff4ffd6b64d622eacca03ff043c64",
+    "syncedFromSource": true
   },
   {
     "id": "john-smith-rpg-kuso",
@@ -22748,7 +22826,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-07T23:43:35.628Z",
     "runtimeLoadMs": 1991,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "7ed7f73353b0b08d4357a7d1c63a48b901362668",
+    "processedHeadSha": "9a76b7d7ab3f43b961aae8da243c4c9925031077",
+    "syncedFromSource": true
   },
   {
     "id": "hanakusogame-hanakusogame-github-io",
@@ -22900,7 +22982,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-08-21T11:56:45.747Z",
     "runtimeLoadMs": 3651,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "40817d4b759a0c5735942e64326da6d3cf8fb26f",
+    "processedHeadSha": "d50ce80ab26b44d3c903ce74c53b2dfdd69ad4fc",
+    "syncedFromSource": true
   },
   {
     "id": "oden-bremen",
@@ -22926,7 +23012,11 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-07T23:43:36.676Z",
     "runtimeLoadMs": 2993,
-    "runtimeHttpStatus": 200
+    "runtimeHttpStatus": 200,
+    "sourceDefaultBranch": "master",
+    "sourceHeadSha": "7b79261ef1873227ddb485666cce95119ce22e60",
+    "processedHeadSha": "d150cb8226a4f48521425ba80481df66d06e3ba2",
+    "syncedFromSource": true
   },
   {
     "id": "katai5plate-rpgmv-overflow",
@@ -23043,14 +23133,15 @@
     "sourceRepo": "jyxjyx1234/misc_game-chs",
     "source": "upstream-webrpg-index",
     "upstreamPagesUrl": "https://webrpg.org/jyxjyx1234-misc_game-chs/",
-    "upstreamStatus": "verified",
+    "upstreamStatus": "skipped_large",
     "pagesUrl": "https://777723-xyz.github.io/jyxjyx1234-misc_game-chs/index.html",
     "runtimeStatus": "failed",
     "runtimeCheckedAt": "2026-09-12T01:30:06.497Z",
     "runtimeLoadMs": 30001,
     "runtimeHttpStatus": 200,
     "runtimeFailureCount": 142,
-    "runtimeLastError": "request: https://yx.ecy.al/jyxjyx1234-misc_game-chs/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/jyxjyx1234-misc_game-chs/js/libs/pixi.js net::ERR_ABORTED | request: https://yx.ecy.al/jyxjyx1234-misc_game-chs/js/libs/pixi-tilemap.js net::ERR_ABORTED | request: https://yx.ecy.al/jyxjyx1234-misc_game-chs/js/libs/pixi-picture.js net::ERR_ABORTED | request: https://yx.ecy.al/jyxjyx1234-misc_game-chs/js/libs/fpsmeter.js net::ERR_ABORTED | request: https://yx.ecy.al/jyxjyx1234-misc"
+    "runtimeLastError": "request: https://yx.ecy.al/jyxjyx1234-misc_game-chs/fonts/gamefont.css net::ERR_ABORTED | request: https://yx.ecy.al/jyxjyx1234-misc_game-chs/js/libs/pixi.js net::ERR_ABORTED | request: https://yx.ecy.al/jyxjyx1234-misc_game-chs/js/libs/pixi-tilemap.js net::ERR_ABORTED | request: https://yx.ecy.al/jyxjyx1234-misc_game-chs/js/libs/pixi-picture.js net::ERR_ABORTED | request: https://yx.ecy.al/jyxjyx1234-misc_game-chs/js/libs/fpsmeter.js net::ERR_ABORTED | request: https://yx.ecy.al/jyxjyx1234-misc",
+    "invalidReason": "GitHub returned a truncated recursive tree."
   },
   {
     "id": "umaaji298-riturpg",
