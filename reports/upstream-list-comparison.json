@@ -1,11 +1,18 @@
 {
-  "generatedAt": "2026-09-12T14:12:36.766Z",
+  "generatedAt": "2026-09-12T17:14:53.982Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 900,
+  "localTotal": 901,
   "upstreamTotal": 899,
   "shared": 899,
   "upstreamOnly": [],
   "localOnly": [
+    {
+      "id": "szymor-elemental-saga",
+      "sourceRepo": "szymor/elemental-saga",
+      "status": "indexed",
+      "forkName": null,
+      "pagesUrl": null
+    },
     {
       "id": "amogus0471-jhon-pork-unblocked",
       "sourceRepo": "amogus0471/jhon-pork-unblocked",
@@ -669,10 +676,6 @@
     {
       "sourceRepo": "tw123777tw/pdlsdyzzh",
       "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "verified"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/tw123777tw-pdlsdyzzh/index.html",
           "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
@@ -746,10 +749,6 @@
     {
       "sourceRepo": "tw123777tw/pdlsdyzzh",
       "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "verified"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/tw123777tw-pdlsdyzzh/index.html",
           "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
@@ -895,10 +894,6 @@
     {
       "sourceRepo": "ruan-cat/rm-monorepo",
       "differences": {
-        "status": {
-          "ours": "duplicate_name",
-          "upstream": "verified"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/ruan-cat-rm-monorepo/index.html",
           "upstream": "https://webrpg.org/ruan-cat-rm-monorepo/"
@@ -5221,7 +5216,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "verified"
+          "upstream": "skipped_large"
         },
         "pagesUrl": {
           "ours": null,
