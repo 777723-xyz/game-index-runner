@@ -1,18 +1,11 @@
 {
-  "generatedAt": "2026-09-12T19:27:00.075Z",
+  "generatedAt": "2026-09-12T22:22:17.237Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 901,
-  "upstreamTotal": 899,
-  "shared": 899,
+  "upstreamTotal": 900,
+  "shared": 900,
   "upstreamOnly": [],
   "localOnly": [
-    {
-      "id": "szymor-elemental-saga",
-      "sourceRepo": "szymor/elemental-saga",
-      "status": "verified",
-      "forkName": "szymor-elemental-saga",
-      "pagesUrl": "https://777723-xyz.github.io/szymor-elemental-saga/index.html"
-    },
     {
       "id": "amogus0471-jhon-pork-unblocked",
       "sourceRepo": "amogus0471/jhon-pork-unblocked",
@@ -2404,6 +2397,27 @@
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/c7lison-cozy-studio-game/index.html",
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
+      "sourceRepo": "szymor/elemental-saga",
+      "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "szymor-elemental-saga",
+          "upstream": null
+        },
+        "pagesUrl": {
+          "ours": "https://777723-xyz.github.io/szymor-elemental-saga/index.html",
           "upstream": null
         },
         "entryPath": {
