@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T06:16:37.707Z",
+  "generatedAt": "2026-09-13T12:02:45.282Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 901,
   "upstreamTotal": 900,
@@ -922,15 +922,15 @@
       }
     },
     {
-      "sourceRepo": "guilhermelemos14/fabulousbeasts",
+      "sourceRepo": "mikaelbelanger/fabulousbeasts",
       "differences": {
-        "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/GuilhermeLemos14-FabulousBeasts/index.html",
-          "upstream": "https://webrpg.org/GuilhermeLemos14-FabulousBeasts/"
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
         },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": "FLC Game/FLC Chapter 1+2/www/index.html"
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/GuilhermeLemos14-FabulousBeasts/"
         }
       }
     },
@@ -1823,6 +1823,10 @@
     {
       "sourceRepo": "geodmeeeeee/forksnspoons",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/geodmeeeeee-forksnspoons/index.html",
           "upstream": "https://webrpg.org/geodmeeeeee-forksnspoons/"
@@ -5284,6 +5288,10 @@
     {
       "sourceRepo": "genizy/web-port",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/genizy-web-port/index.html",
           "upstream": "https://webrpg.org/genizy-web-port/"
