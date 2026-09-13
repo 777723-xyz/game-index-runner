@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T01:05:09.977Z",
+  "generatedAt": "2026-09-13T06:16:37.707Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 901,
   "upstreamTotal": 900,
@@ -522,6 +522,10 @@
     {
       "sourceRepo": "eeg1412/wikimoe-blog-archive",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "skipped_large"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/eeg1412-wikimoe-blog-archive/index.html",
           "upstream": "https://webrpg.org/eeg1412-wikimoe-blog-archive/"
@@ -721,21 +725,9 @@
     {
       "sourceRepo": "24c49x/24c49x.github.io",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "24c49x-24c49x.github.io",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/24c49x-24c49x.github.io/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/24c49x-24c49x.github.io/"
         }
       }
     },
@@ -2034,21 +2026,9 @@
     {
       "sourceRepo": "hashakgik/bullethell-rmmv",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "HashakGik-BulletHell-RMMV",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/HashakGik-BulletHell-RMMV/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/HashakGik-BulletHell-RMMV/"
         }
       }
     },
@@ -4357,21 +4337,9 @@
     {
       "sourceRepo": "dovmantov/lack-of-life",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "dovmantov-Lack-of-Life",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/dovmantov-Lack-of-Life/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/dovmantov-Lack-of-Life/"
         }
       }
     },
@@ -5515,21 +5483,9 @@
     {
       "sourceRepo": "kayaphilliaiac/orangeblood",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "kayaphilliaiac-orangeblood",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/kayaphilliaiac-orangeblood/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/kayaphilliaiac-orangeblood/"
         }
       }
     },
@@ -5907,21 +5863,13 @@
     {
       "sourceRepo": "alriosa/awaken-mz",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "Alriosa-awaken-mz",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Alriosa-awaken-mz/index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/Alriosa-awaken-mz/"
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": null
+          "upstream": "Project1/index.html"
         }
       }
     },
@@ -6098,21 +6046,13 @@
     {
       "sourceRepo": "remento/pennycode",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "remento-pennycode",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/remento-pennycode/index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/remento-pennycode/"
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": null
+          "upstream": "Project1/index.html"
         }
       }
     },
@@ -6394,19 +6334,6 @@
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/CheekiBreeki421-QuillQuest3/"
-        }
-      }
-    },
-    {
-      "sourceRepo": "rewrite2411/loginthiencuu2411",
-      "differences": {
-        "status": {
-          "ours": "invalid_structure",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "rewrite2411-loginthiencuu2411",
-          "upstream": null
         }
       }
     },
@@ -7777,11 +7704,11 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
+          "upstream": "verified"
         },
-        "forkName": {
-          "ours": "dcarlin-Devil-King-RPGMaker-MV-Game",
-          "upstream": null
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/dcarlin-Devil-King-RPGMaker-MV-Game/"
         }
       }
     },
@@ -7986,21 +7913,9 @@
     {
       "sourceRepo": "tklninja/timbrowser",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "TKLNinja-TIMbrowser",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/TKLNinja-TIMbrowser/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/TKLNinja-TIMbrowser/"
         }
       }
     },
@@ -8529,21 +8444,9 @@
     {
       "sourceRepo": "docpainkiller/fargohl",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "DocPainkiller-FargoHL",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/DocPainkiller-FargoHL/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/DocPainkiller-FargoHL/"
         }
       }
     },
