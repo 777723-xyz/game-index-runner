@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T22:28:51.113Z",
+  "generatedAt": "2026-09-14T01:11:24.025Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 902,
   "upstreamTotal": 901,
@@ -72,21 +72,13 @@
     {
       "sourceRepo": "amarillonmc/amarillonmc.github.io",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "amarillonmc-amarillonmc.github.io",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/amarillonmc-amarillonmc.github.io/index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/amarillonmc-amarillonmc.github.io/"
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": null
+          "upstream": "Special/recoil/index.html"
         }
       }
     },
@@ -1181,10 +1173,6 @@
           "ours": "verified",
           "upstream": "indexed"
         },
-        "forkName": {
-          "ours": "IsekaiAgile-laboratory",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/IsekaiAgile-laboratory/index.html",
           "upstream": null
@@ -1727,27 +1715,6 @@
       }
     },
     {
-      "sourceRepo": "complex-arcade/complex-arcade.github.io",
-      "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "complex-arcade-complex-arcade.github.io",
-          "upstream": null
-        },
-        "pagesUrl": {
-          "ours": "https://777723-xyz.github.io/complex-arcade-complex-arcade.github.io/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
-        }
-      }
-    },
-    {
       "sourceRepo": "craf1ed/lite-assets",
       "differences": {
         "status": {
@@ -1847,6 +1814,19 @@
         "forkName": {
           "ours": "gx-gamescrack-GX-Gamescrack.github.io",
           "upstream": null
+        }
+      }
+    },
+    {
+      "sourceRepo": "idontwannabetheguy/complex-arcade.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/complex-arcade-complex-arcade.github.io/"
         }
       }
     },
@@ -2142,19 +2122,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/shirorimi-chaosver10/index.html",
           "upstream": "https://webrpg.org/shirorimi-chaosver10/"
-        }
-      }
-    },
-    {
-      "sourceRepo": "hackerman998/spacejam",
-      "differences": {
-        "status": {
-          "ours": "invalid_structure",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "HackerMan998-SpaceJam",
-          "upstream": null
         }
       }
     },
@@ -2709,21 +2676,9 @@
     {
       "sourceRepo": "ec-developer-hub/desolationnn",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "EC-Developer-Hub-desolationnn",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/EC-Developer-Hub-desolationnn/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/EC-Developer-Hub-desolationnn/"
         }
       }
     },
@@ -2815,21 +2770,9 @@
     {
       "sourceRepo": "akanetr/divirtual",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "akanetr-Divirtual",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/akanetr-Divirtual/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/akanetr-Divirtual/"
         }
       }
     },
@@ -2907,21 +2850,9 @@
     {
       "sourceRepo": "adanrafli/dreamcore-x1",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "AdanRafli-Dreamcore-X1",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/AdanRafli-Dreamcore-X1/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/AdanRafli-Dreamcore-X1/"
         }
       }
     },
@@ -3082,11 +3013,7 @@
       "differences": {
         "status": {
           "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "maperche2-Endless-Pain.net",
-          "upstream": null
+          "upstream": "invalid_structure"
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/maperche2-Endless-Pain.net/index.html",
@@ -3851,19 +3778,6 @@
       }
     },
     {
-      "sourceRepo": "blooketnzp/xellonzpfetchmetheirsouls1212",
-      "differences": {
-        "status": {
-          "ours": "invalid_structure",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "blooketnzp-xellonzpfetchmetheirsouls1212",
-          "upstream": null
-        }
-      }
-    },
-    {
       "sourceRepo": "donais04/isatarchipelago",
       "differences": {
         "status": {
@@ -4514,21 +4428,13 @@
     {
       "sourceRepo": "kellym19/luxx",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "kellym19-Luxx",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/kellym19-Luxx/index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/kellym19-Luxx/"
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": null
+          "upstream": "Luxx/index.html"
         }
       }
     },
@@ -5152,21 +5058,9 @@
     {
       "sourceRepo": "paulo1211/o-castelo-das-sombras",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "paulo1211-O-Castelo-das-Sombras",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/paulo1211-O-Castelo-das-Sombras/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/paulo1211-O-Castelo-das-Sombras/"
         }
       }
     },
@@ -5320,19 +5214,6 @@
         },
         "forkName": {
           "ours": "kanyewest50000-offline-learning",
-          "upstream": null
-        }
-      }
-    },
-    {
-      "sourceRepo": "lapi32/bye-bye-dd",
-      "differences": {
-        "status": {
-          "ours": "invalid_structure",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "lapi32-bye-bye-DD",
           "upstream": null
         }
       }
@@ -5717,21 +5598,9 @@
     {
       "sourceRepo": "leejh10003/preproduction_foglands",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "leejh10003-PreProduction_foglands",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/leejh10003-PreProduction_foglands/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/leejh10003-PreProduction_foglands/"
         }
       }
     },
@@ -5847,11 +5716,11 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
+          "upstream": "verified"
         },
-        "forkName": {
-          "ours": "affonsoamendola-oldprojects",
-          "upstream": null
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/affonsoamendola-oldprojects/"
         }
       }
     },
@@ -5990,21 +5859,9 @@
     {
       "sourceRepo": "luerl21/rpgmakermv1",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "Luerl21-RPGMakerMV1",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Luerl21-RPGMakerMV1/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/Luerl21-RPGMakerMV1/"
         }
       }
     },
@@ -6681,21 +6538,9 @@
     {
       "sourceRepo": "a2937/rpg-maker-mv-test-template",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "a2937-RPG-Maker-MV-Test-Template",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/a2937-RPG-Maker-MV-Test-Template/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/a2937-RPG-Maker-MV-Test-Template/"
         }
       }
     },
@@ -6948,21 +6793,9 @@
     {
       "sourceRepo": "ec-developer-hub/virusssss",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "EC-Developer-Hub-virusssss",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/EC-Developer-Hub-virusssss/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/EC-Developer-Hub-virusssss/"
         }
       }
     },
@@ -7834,21 +7667,9 @@
     {
       "sourceRepo": "apotb/the-trail",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "apotb-the-trail",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/apotb-the-trail/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/apotb-the-trail/"
         }
       }
     },
@@ -8076,6 +7897,19 @@
         },
         "entryPath": {
           "ours": "index.html",
+          "upstream": null
+        }
+      }
+    },
+    {
+      "sourceRepo": "nebuli-os/nebuli-os.github.io",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        },
+        "forkName": {
+          "ours": "Nebuli-OS-Nebuli-OS.github.io",
           "upstream": null
         }
       }
@@ -8383,21 +8217,9 @@
     {
       "sourceRepo": "wolverinexxxxxz/sat-muhammed-ali-ture",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "Wolverinexxxxxz-Sat-Muhammed-Ali-Ture",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Wolverinexxxxxz-Sat-Muhammed-Ali-Ture/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/Wolverinexxxxxz-Sat-Muhammed-Ali-Ture/"
         }
       }
     },
@@ -8475,42 +8297,18 @@
     {
       "sourceRepo": "gorani777/1930",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "gorani777-1930",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/gorani777-1930/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/gorani777-1930/"
         }
       }
     },
     {
       "sourceRepo": "servermana/country-life",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "ServerMana-Country-Life",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/ServerMana-Country-Life/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/ServerMana-Country-Life/"
         }
       }
     },
