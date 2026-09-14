@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-14T19:26:30.374Z",
+  "generatedAt": "2026-09-14T23:11:36.813Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 902,
+  "localTotal": 903,
   "upstreamTotal": 901,
   "shared": 901,
   "upstreamOnly": [],
@@ -11,6 +11,13 @@
       "sourceRepo": "amogus0471/jhon-pork-unblocked",
       "status": "invalid_structure",
       "forkName": "amogus0471-Jhon-pork-unblocked",
+      "pagesUrl": null
+    },
+    {
+      "id": "perfectnip-perfectnip-github-io",
+      "sourceRepo": "perfectnip/perfectnip.github.io",
+      "status": "indexed",
+      "forkName": null,
       "pagesUrl": null
     }
   ],
