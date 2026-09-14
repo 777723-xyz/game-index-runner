@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T01:11:24.025Z",
+  "generatedAt": "2026-09-14T06:23:44.810Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 902,
   "upstreamTotal": 901,
@@ -87,11 +87,11 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
+          "upstream": "verified"
         },
-        "forkName": {
-          "ours": "Chino-541-Saikou-no-Ramen-Damashi",
-          "upstream": null
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Chino-541-Saikou-no-Ramen-Damashi/"
         }
       }
     },
@@ -667,11 +667,11 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/tw123777tw-pdlsdyzzh/index.html",
-          "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
+          "upstream": null
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": "www/Bonus/Cake/index.html"
+          "upstream": null
         }
       }
     },
@@ -728,11 +728,11 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/tw123777tw-pdlsdyzzh/index.html",
-          "upstream": "https://webrpg.org/tw123777tw-pdlsdyzzh/"
+          "upstream": null
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": "www/Bonus/Cake/index.html"
+          "upstream": null
         }
       }
     },
@@ -873,7 +873,11 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/ruan-cat-rm-monorepo/index.html",
-          "upstream": "https://webrpg.org/ruan-cat-rm-monorepo/"
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
@@ -963,6 +967,15 @@
       }
     },
     {
+      "sourceRepo": "kotpot197/game",
+      "differences": {
+        "forkName": {
+          "ours": "kotpot197-game",
+          "upstream": null
+        }
+      }
+    },
+    {
       "sourceRepo": "zenhanyin/rpgmakerdemo",
       "differences": {
         "pagesUrl": {
@@ -976,7 +989,11 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/cyh0521-rpg/index.html",
-          "upstream": "https://webrpg.org/cyh0521-rpg/"
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
@@ -1706,11 +1723,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "caughtwitlean-Lowkey-Chopped-Elite",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
@@ -1719,11 +1732,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "Craf1ed-lite-assets",
-          "upstream": null
+          "upstream": "check_error"
         }
       }
     },
@@ -1732,11 +1741,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "Deformed-steve-Youtube-Playables.github.io",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
@@ -1745,11 +1750,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "DevEchoX2-Xeno",
-          "upstream": null
+          "upstream": "skipped_large"
         }
       }
     },
@@ -2019,21 +2020,9 @@
     {
       "sourceRepo": "choyoru/bunny-and-space-dungeons",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "Choyoru-Bunny-and-space-dungeons",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Choyoru-Bunny-and-space-dungeons/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/Choyoru-Bunny-and-space-dungeons/"
         }
       }
     },
@@ -2080,21 +2069,9 @@
     {
       "sourceRepo": "cosmiccatacorn/ahjkjh",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "cosmiccatacorn-ahjkjh",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/cosmiccatacorn-ahjkjh/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/cosmiccatacorn-ahjkjh/"
         }
       }
     },
@@ -2527,11 +2504,16 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "1ucent-centauri",
-          "upstream": null
+          "upstream": "skipped_large"
+        }
+      }
+    },
+    {
+      "sourceRepo": "amogus0471/classroom",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "skipped_large"
         }
       }
     },
@@ -2868,21 +2850,9 @@
     {
       "sourceRepo": "dsaf-decompliations/opendsaf3",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "DSAF-Decompliations-OpenDSAF3",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/DSAF-Decompliations-OpenDSAF3/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/DSAF-Decompliations-OpenDSAF3/"
         }
       }
     },
@@ -2925,21 +2895,9 @@
     {
       "sourceRepo": "botakhage/eduventure",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "BotakHage-Eduventure",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/BotakHage-Eduventure/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/BotakHage-Eduventure/"
         }
       }
     },
@@ -3611,11 +3569,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "dixonSolutions-potatoetomatoe3",
-          "upstream": null
+          "upstream": "check_error"
         }
       }
     },
@@ -3658,42 +3612,18 @@
     {
       "sourceRepo": "balensmatheo/balensmatheo.github.io",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "balensmatheo-balensmatheo.github.io",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/balensmatheo-balensmatheo.github.io/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/balensmatheo-balensmatheo.github.io/"
         }
       }
     },
     {
       "sourceRepo": "balensmatheo/harassmentescape.github.io",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "balensmatheo-HarassmentEscape.github.io",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/balensmatheo-HarassmentEscape.github.io/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/balensmatheo-HarassmentEscape.github.io/"
         }
       }
     },
@@ -3782,11 +3712,11 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
+          "upstream": "verified"
         },
-        "forkName": {
-          "ours": "Donais04-ISATArchipelago",
-          "upstream": null
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Donais04-ISATArchipelago/"
         }
       }
     },
@@ -3837,21 +3767,9 @@
     {
       "sourceRepo": "dvancuyk/initial-fantasy",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "dvancuyk-initial-fantasy",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/dvancuyk-initial-fantasy/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/dvancuyk-initial-fantasy/"
         }
       }
     },
@@ -3974,21 +3892,9 @@
     {
       "sourceRepo": "aslated/jstesting",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "ASlated-JSTesting",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/ASlated-JSTesting/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/ASlated-JSTesting/"
         }
       }
     },
@@ -4213,21 +4119,9 @@
     {
       "sourceRepo": "cesarvfilo/videojuegosyfilosofia",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "CesarVfilo-videojuegosyfilosofia",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/CesarVfilo-videojuegosyfilosofia/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/CesarVfilo-videojuegosyfilosofia/"
         }
       }
     },
@@ -4380,21 +4274,9 @@
     {
       "sourceRepo": "apokryph/lost_places",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "Apokryph-lost_places",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Apokryph-lost_places/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/Apokryph-lost_places/"
         }
       }
     },
@@ -4533,21 +4415,9 @@
     {
       "sourceRepo": "anibalsj/last-years",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "AnibalSJ-Last-Years",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/AnibalSJ-Last-Years/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/AnibalSJ-Last-Years/"
         }
       }
     },
@@ -4730,21 +4600,9 @@
     {
       "sourceRepo": "clone1018/mv-mmo-test",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "clone1018-mv-mmo-test",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/clone1018-mv-mmo-test/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/clone1018-mv-mmo-test/"
         }
       }
     },
@@ -5110,45 +4968,6 @@
         "status": {
           "ours": "indexed",
           "upstream": "skipped_large"
-        }
-      }
-    },
-    {
-      "sourceRepo": "cronusz3n96/stolenstuff",
-      "differences": {
-        "status": {
-          "ours": "invalid_structure",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "Cronusz3n96-stolenstuff",
-          "upstream": null
-        }
-      }
-    },
-    {
-      "sourceRepo": "deeeland0ohio/sigma-games",
-      "differences": {
-        "status": {
-          "ours": "invalid_structure",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "deeeland0ohio-Sigma-Games",
-          "upstream": null
-        }
-      }
-    },
-    {
-      "sourceRepo": "dotgui-dev/dotgui-old",
-      "differences": {
-        "status": {
-          "ours": "invalid_structure",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "dotgui-dev-DotGUI-old",
-          "upstream": null
         }
       }
     },
@@ -5672,21 +5491,9 @@
     {
       "sourceRepo": "beeveelutions/project-starmans",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "Beeveelutions-Project-Starmans",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Beeveelutions-Project-Starmans/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/Beeveelutions-Project-Starmans/"
         }
       }
     },
@@ -5987,11 +5794,7 @@
       "differences": {
         "status": {
           "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "31madA-LIYAB-Prime",
-          "upstream": null
+          "upstream": "check_error"
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/31madA-LIYAB-Prime/index.html",
@@ -6006,21 +5809,9 @@
     {
       "sourceRepo": "chiyungjie/rpg20240811",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "chiyungjie-RPG20240811",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/chiyungjie-RPG20240811/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/chiyungjie-RPG20240811/"
         }
       }
     },
@@ -6423,21 +6214,9 @@
     {
       "sourceRepo": "cronus23/tencomandments",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "Cronus23-tenComandments",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Cronus23-tenComandments/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/Cronus23-tenComandments/"
         }
       }
     },
@@ -6995,21 +6774,9 @@
     {
       "sourceRepo": "doamaster/gameoff2022tss",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "DOAmaster-GameOff2022TSS",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/DOAmaster-GameOff2022TSS/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/DOAmaster-GameOff2022TSS/"
         }
       }
     },
@@ -7055,21 +6822,9 @@
     {
       "sourceRepo": "caiocpassos/sorcery-of-truth",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
-        "forkName": {
-          "ours": "caiocpassos-Sorcery-of-Truth",
-          "upstream": null
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/caiocpassos-Sorcery-of-Truth/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/caiocpassos-Sorcery-of-Truth/"
         }
       }
     },
@@ -7093,13 +6848,13 @@
           "ours": "duplicate_name",
           "upstream": "verified"
         },
-        "forkName": {
-          "ours": "WebRPG-Translations-Spectoria-Eng-CN",
-          "upstream": "TKLNinja-Spectoria-Eng"
-        },
         "pagesUrl": {
           "ours": null,
           "upstream": "https://webrpg.org/TKLNinja-Spectoria-Eng/"
+        },
+        "entryPath": {
+          "ours": null,
+          "upstream": "index.html"
         }
       }
     },
@@ -7109,15 +6864,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/tomoshibi06-SPECTORIA/index.html",
           "upstream": "https://webrpg.org/tomoshibi06-SPECTORIA/"
-        }
-      }
-    },
-    {
-      "sourceRepo": "tklninja/spectoria-eng",
-      "differences": {
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/WebRPG-Translations-Spectoria-Eng-CN/"
         }
       }
     },
@@ -7152,11 +6898,11 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
+          "upstream": "verified"
         },
-        "forkName": {
-          "ours": "Dreafun-starcrystal",
-          "upstream": null
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Dreafun-starcrystal/"
         }
       }
     },
@@ -8250,11 +7996,11 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
+          "upstream": "verified"
         },
-        "forkName": {
-          "ours": "Boris12432-Afera-belika-alfa-1.0",
-          "upstream": null
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Boris12432-Afera-belika-alfa-1.0/"
         }
       }
     },
