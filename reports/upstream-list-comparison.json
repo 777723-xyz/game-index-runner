@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T23:11:36.813Z",
+  "generatedAt": "2026-09-15T01:32:49.535Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 903,
   "upstreamTotal": 901,
@@ -16,8 +16,8 @@
     {
       "id": "perfectnip-perfectnip-github-io",
       "sourceRepo": "perfectnip/perfectnip.github.io",
-      "status": "indexed",
-      "forkName": null,
+      "status": "invalid_structure",
+      "forkName": "perfectnip-perfectnip.github.io",
       "pagesUrl": null
     }
   ],
@@ -8068,6 +8068,10 @@
     {
       "sourceRepo": "ciart/knightdream-old",
       "differences": {
+        "forkName": {
+          "ours": "ciart-KnightDream-Old",
+          "upstream": "Ciart-KnightDream-Old"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Ciart-KnightDream-Old/index.html",
           "upstream": "https://webrpg.org/Ciart-KnightDream-Old/"
