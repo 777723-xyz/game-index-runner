@@ -837,7 +837,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "www/index.html",
-    "checkedAt": "2026-07-05T06:45:29.356Z",
+    "checkedAt": "2026-09-15T12:51:54.267Z",
     "forkName": "eric0308a-The_Devils_Seven_Days",
     "entryPath": "index.html",
     "validationScore": 115,
@@ -846,7 +846,8 @@
     "sourceRepo": "eric0308a/The_Devils_Seven_Days",
     "upstreamPagesUrl": "https://webrpg.org/eric0308a-The_Devils_Seven_Days/",
     "upstreamCover": "https://webrpg.org/eric0308a-The_Devils_Seven_Days/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "verified",
+    "lastCheckError": "GitHub API 502: Server Error"
   },
   {
     "id": "cyh0521-rpg-e580416c",
@@ -1375,7 +1376,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "Windows/www/index.html",
-    "checkedAt": "2026-07-09T19:01:48.930Z",
+    "checkedAt": "2026-09-15T12:52:28.560Z",
     "forkName": "tw123777tw-GiantGirlClub",
     "entryPath": "Windows/www/index.html",
     "validationScore": 115,
@@ -1384,7 +1385,8 @@
     "sourceRepo": "tw123777tw/GiantGirlClub",
     "upstreamPagesUrl": "https://webrpg.org/tw123777tw-GiantGirlClub/",
     "upstreamCover": "https://webrpg.org/tw123777tw-GiantGirlClub/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "verified",
+    "lastCheckError": "GitHub API 422: Sorry, your request timed out.  It's likely that your input was too large to process.  Consider building the tree incrementally, or building the commits you need in a local clone of the repository and then pushing them to GitHub."
   },
   {
     "id": "zhuobinggang-decision-maker-rpg-game",
@@ -1517,7 +1519,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "web_demo/game_nazo/index.html",
-    "checkedAt": "2026-09-08T09:06:02.473Z",
+    "checkedAt": "2026-09-15T12:54:10.505Z",
     "forkName": "eeg1412-wikimoe-blog-archive",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -1532,8 +1534,7 @@
     "runtimeStatus": "playable",
     "runtimeCheckedAt": "2026-09-09T21:54:59.365Z",
     "runtimeLoadMs": 2974,
-    "runtimeHttpStatus": 200,
-    "invalidReason": "Repository has 2042 HTML files, exceeding the 500 file limit."
+    "runtimeHttpStatus": 200
   },
   {
     "id": "fredpoole-fredpoole-github-io",
@@ -2996,7 +2997,7 @@
     "discoveredAt": "2026-06-15T15:29:11.705Z",
     "source": "github-code-search",
     "sourcePath": "www/index.html",
-    "checkedAt": "2026-09-11T03:17:48.446Z",
+    "checkedAt": "2026-09-15T12:52:47.890Z",
     "forkName": "NeonNoir-Yuki-wlts",
     "entryPath": "www/index.html",
     "validationScore": 115,
@@ -3005,7 +3006,8 @@
     "sourceRepo": "NeonNoir-Yuki/wlts",
     "upstreamPagesUrl": "https://webrpg.org/NeonNoir-Yuki-wlts/",
     "upstreamCover": "https://webrpg.org/NeonNoir-Yuki-wlts/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "verified",
+    "lastCheckError": "GitHub API 502: Server Error"
   },
   {
     "id": "realquantumcookie-wulinwaizhuan",
@@ -3044,11 +3046,12 @@
     "owner": "NeonNoir-Yuki",
     "name": "xrkxq",
     "engine": "RPG Maker MV",
-    "checkedAt": "2026-09-11T03:16:20.434Z",
+    "checkedAt": "2026-09-15T12:52:40.909Z",
     "forkName": "NeonNoir-Yuki-xrkxq",
     "source": "upstream-webrpg-index",
     "status": "indexed",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "verified",
+    "lastCheckError": "GitHub API 502: Server Error"
   },
   {
     "id": "cos3915-kksalldemo",
@@ -3827,7 +3830,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "alpha-omega/index.html",
-    "checkedAt": "2026-09-08T09:05:59.311Z",
+    "checkedAt": "2026-09-15T12:54:00.900Z",
     "forkName": "eduardomourar-easyrpg-web",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -4742,7 +4745,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "biblioteca_web/game.html",
-    "checkedAt": "2026-09-08T09:05:09.330Z",
+    "checkedAt": "2026-09-15T12:53:16.298Z",
     "forkName": "DiegOliveros-diegoliveros.github.io",
     "entryPath": "game.html",
     "validationScore": 110,
@@ -10550,7 +10553,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "story/wadanohara_re.html",
-    "checkedAt": "2026-09-09T10:56:58.473Z",
+    "checkedAt": "2026-09-15T12:52:32.759Z",
     "forkName": "ratchetgame-ratchetgame.github.io",
     "entryPath": "story/wadanohara_re.html",
     "validationScore": 110,
@@ -10563,7 +10566,8 @@
     "sourceDefaultBranch": "main",
     "sourceHeadSha": "1d1ca92769f785ce818e61e0d9c67a5e81b75dc2",
     "processedHeadSha": "db2a8dc1acde31e57d0768f7293cc2d3356638db",
-    "syncedFromSource": true
+    "syncedFromSource": true,
+    "lastCheckError": "Refusing to flatten story/wadanohara_re/: flattened tree is missing the HTML entry or RPG Maker runtime."
   },
   {
     "id": "brand24376-brand24376-github-io",
@@ -11163,7 +11167,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-09-08T09:05:28.555Z",
+    "checkedAt": "2026-09-15T12:53:36.906Z",
     "forkName": "discus-sions-The-Fall-PREVIEW1",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -11992,7 +11996,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "RPGMakerGames/AmStudYouth/index.html",
-    "checkedAt": "2026-07-10T00:13:47.795Z",
+    "checkedAt": "2026-09-15T12:52:17.331Z",
     "forkName": "TheModernSMoore-themodernsmoore.github.io",
     "entryPath": "RPGMakerGames/AmStudYouth/index.html",
     "validationScore": 115,
@@ -12001,7 +12005,8 @@
     "sourceRepo": "TheModernSMoore/themodernsmoore.github.io",
     "upstreamPagesUrl": "https://webrpg.org/TheModernSMoore-themodernsmoore.github.io/",
     "upstreamCover": "https://webrpg.org/TheModernSMoore-themodernsmoore.github.io/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "verified",
+    "lastCheckError": "GitHub API 502: Server Error"
   },
   {
     "id": "renrender0209-kankin",
@@ -12283,7 +12288,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-09-08T09:05:38.204Z",
+    "checkedAt": "2026-09-15T12:53:48.954Z",
     "forkName": "ealiagay-RPG-Web-Game-Vercel",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -12464,7 +12469,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-09-08T09:05:36.520Z",
+    "checkedAt": "2026-09-15T12:53:43.843Z",
     "forkName": "drusepth-game-sandbox",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -12496,7 +12501,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "fisica/index.html",
-    "checkedAt": "2026-09-13T20:28:40.365Z",
+    "checkedAt": "2026-09-15T12:52:50.784Z",
     "forkName": "kenshindias-kenshindias.github.io",
     "entryPath": "Canudos/index.html",
     "validationScore": 115,
@@ -12509,7 +12514,8 @@
     "sourceDefaultBranch": "master",
     "sourceHeadSha": "26c3cfc238e2dc6d839fa08990d1df6c10ff8da7",
     "processedHeadSha": "8e03e41b052ebb242c0e401bf66216a120310df6",
-    "syncedFromSource": true
+    "syncedFromSource": true,
+    "lastCheckError": "GitHub API 502: Server Error"
   },
   {
     "id": "yuhan2680-level-c-1366-demo",
@@ -12934,7 +12940,7 @@
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/kellym19-Luxx/index.html",
     "cover": "https://777723-xyz.github.io/kellym19-Luxx/cover.png",
-    "checkedAt": "2026-09-08T09:06:14.142Z",
+    "checkedAt": "2026-09-15T12:54:34.176Z",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 353707,
@@ -14026,7 +14032,9 @@
     "source": "github-code-search",
     "sourcePath": "data/mv-sample/index.html",
     "upstreamStatus": "indexed",
-    "forkName": "take-cheeze-rpg-maker-clone"
+    "forkName": "take-cheeze-rpg-maker-clone",
+    "checkedAt": "2026-09-15T12:51:54.573Z",
+    "lastCheckError": "Refusing to flatten data/mv-sample/: flattened tree is missing the HTML entry or RPG Maker runtime."
   },
   {
     "id": "xuyanwen2012-rmmv-battle-system-js",
@@ -14069,7 +14077,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "project/index.html",
-    "checkedAt": "2026-09-08T09:05:41.308Z",
+    "checkedAt": "2026-09-15T12:53:49.583Z",
     "forkName": "Electravirus-MV3D",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -14224,7 +14232,7 @@
     "upstreamStatus": "indexed",
     "pagesUrl": "https://777723-xyz.github.io/kdmmanapul-testing-lfg/index.html",
     "cover": "https://777723-xyz.github.io/kdmmanapul-testing-lfg/cover.png",
-    "checkedAt": "2026-09-08T09:06:06.913Z",
+    "checkedAt": "2026-09-15T12:54:21.609Z",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 1694988,
@@ -14233,7 +14241,8 @@
     "runtimeCheckedAt": "2026-08-25T21:36:50.957Z",
     "runtimeLoadMs": 2645,
     "runtimeHttpStatus": 200,
-    "forkName": "kdmmanapul-testing-lfg"
+    "forkName": "kdmmanapul-testing-lfg",
+    "sourceRepo": "kdmmanapul/testing-lfg"
   },
   {
     "id": "jswessler-mymemory",
@@ -14570,7 +14579,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "public/games/matheus/index.html",
-    "checkedAt": "2026-09-08T09:06:13.366Z",
+    "checkedAt": "2026-09-15T12:54:22.645Z",
     "forkName": "eltonleao-happycodegames",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -14737,10 +14746,11 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "webport-hosting/omori-fixed/index.html",
-    "checkedAt": "2026-09-11T03:16:21.427Z",
+    "checkedAt": "2026-09-15T12:52:44.001Z",
     "forkName": "Cheesy-Website-Cheesy-Website.github.io",
     "upstreamStatus": "skipped_large",
-    "invalidReason": "Upstream repository size 10309514 KB exceeds the 8388608 KB limit."
+    "invalidReason": "Upstream repository size 10309514 KB exceeds the 8388608 KB limit.",
+    "lastCheckError": "GitHub API 502: Server Error"
   },
   {
     "id": "cronusz3n96-stolenstuff",
@@ -14825,7 +14835,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-09-08T09:05:47.795Z",
+    "checkedAt": "2026-09-15T12:53:49.358Z",
     "forkName": "duong1234-li-HeroMOD",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -14873,7 +14883,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-09-08T09:05:54.480Z",
+    "checkedAt": "2026-09-15T12:54:04.210Z",
     "forkName": "einstein95-omori-joiplay",
     "entryPath": "index.html",
     "validationScore": 68,
@@ -14905,9 +14915,10 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "project/index.html",
-    "checkedAt": "2026-09-13T22:59:45.111Z",
+    "checkedAt": "2026-09-15T12:52:58.257Z",
     "forkName": "Escartem-OmoriSource",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "verified",
+    "lastCheckError": "GitHub API 502: Server Error"
   },
   {
     "id": "ethantphillips-unblockedgames",
@@ -16139,9 +16150,10 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "public/platina-the-wolf-and-the-heir-of-the-light/index.html",
-    "checkedAt": "2026-09-13T22:59:46.724Z",
+    "checkedAt": "2026-09-15T12:53:14.069Z",
     "forkName": "Laferu-platina-the-wolf",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "verified",
+    "lastCheckError": "GitHub API 502: Server Error"
   },
   {
     "id": "laferu-platina-the-wolf-and-the-heir-of-light",
@@ -16245,7 +16257,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "pokemon-agent-town/frontend/assets/index.html",
-    "checkedAt": "2026-06-30T00:18:09.197Z",
+    "checkedAt": "2026-09-15T12:51:53.046Z",
     "forkName": "fada-com-filtro-IA-agents",
     "entryPath": "index.html",
     "validationScore": 115,
@@ -16254,7 +16266,8 @@
     "sourceRepo": "fada-com-filtro/IA-agents",
     "upstreamPagesUrl": "https://webrpg.org/fada-com-filtro-IA-agents/",
     "upstreamCover": "https://webrpg.org/fada-com-filtro-IA-agents/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "verified",
+    "lastCheckError": "GitHub API 502: Server Error"
   },
   {
     "id": "aak581-polkadot-cats-game",
@@ -16327,7 +16340,7 @@
     "upstreamStatus": "verified",
     "pagesUrl": "https://777723-xyz.github.io/leejh10003-PreProduction_foglands/index.html",
     "cover": "https://777723-xyz.github.io/leejh10003-PreProduction_foglands/cover.png",
-    "checkedAt": "2026-09-08T09:06:13.635Z",
+    "checkedAt": "2026-09-15T12:54:29.690Z",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 390347,
@@ -16445,7 +16458,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "template/index.html",
-    "checkedAt": "2026-09-09T10:55:34.788Z",
+    "checkedAt": "2026-09-15T12:52:31.955Z",
     "forkName": "RyanBram-RPG-MV-Ace",
     "entryPath": "index.html",
     "validationScore": 70,
@@ -16457,7 +16470,8 @@
     "sourceDefaultBranch": "main",
     "sourceHeadSha": "394592eaaf4c8d90f1cca72fefee5da7b50651d6",
     "processedHeadSha": "d0c90a52e0bbffe90c63dba3063f8f6d15f371bc",
-    "syncedFromSource": true
+    "syncedFromSource": true,
+    "lastCheckError": "Refusing to flatten template/: flattened tree is missing the HTML entry or RPG Maker runtime."
   },
   {
     "id": "therainbowphoenix-lds",
@@ -16470,7 +16484,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "template/index.html",
-    "checkedAt": "2026-07-09T22:36:55.487Z",
+    "checkedAt": "2026-09-15T12:52:06.537Z",
     "forkName": "TheRainbowPhoenix-LDS",
     "entryPath": "index.html",
     "validationScore": 70,
@@ -16478,7 +16492,8 @@
     "dataSize": 835669,
     "sourceRepo": "TheRainbowPhoenix/LDS",
     "upstreamPagesUrl": "https://webrpg.org/TheRainbowPhoenix-LDS/",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "verified",
+    "lastCheckError": "Refusing to flatten template/: flattened tree is missing the HTML entry or RPG Maker runtime."
   },
   {
     "id": "beeveelutions-project-starmans",
@@ -16717,7 +16732,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-09-08T09:05:21.201Z",
+    "checkedAt": "2026-09-15T12:53:27.215Z",
     "forkName": "DiegoNave-diegonave.github.io",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -17329,7 +17344,7 @@
     "upstreamStatus": "indexed",
     "pagesUrl": "https://777723-xyz.github.io/kristenYu-kristenyu.github.io/index.html",
     "cover": "https://777723-xyz.github.io/kristenYu-kristenyu.github.io/cover.png",
-    "checkedAt": "2026-09-08T09:06:03.214Z",
+    "checkedAt": "2026-09-15T12:54:14.744Z",
     "entryPath": "index.html",
     "validationScore": 118,
     "totalSize": 688316,
@@ -17338,7 +17353,8 @@
     "runtimeCheckedAt": "2026-08-25T21:36:50.730Z",
     "runtimeLoadMs": 1957,
     "runtimeHttpStatus": 200,
-    "forkName": "kristenYu-kristenyu.github.io"
+    "forkName": "kristenYu-kristenyu.github.io",
+    "sourceRepo": "kristenYu/kristenyu.github.io"
   },
   {
     "id": "mattiefm-idkgame",
@@ -17841,7 +17857,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "RMMV/index.html",
-    "checkedAt": "2026-09-09T05:58:14.456Z",
+    "checkedAt": "2026-09-15T12:52:19.076Z",
     "forkName": "themabus-Get-the-Balance-Right",
     "entryPath": "RMMV/index.html",
     "validationScore": 70,
@@ -17853,7 +17869,8 @@
     "sourceDefaultBranch": "main",
     "sourceHeadSha": "d7bee768195f042e03c971179754755f8c8ddfd4",
     "processedHeadSha": "22a32bf5e0c9fab4826b86c03b503383e9fca11c",
-    "syncedFromSource": true
+    "syncedFromSource": true,
+    "lastCheckError": "Refusing to flatten RMMV/: flattened tree is missing the HTML entry or RPG Maker runtime."
   },
   {
     "id": "shen0v0-gdp",
@@ -18054,7 +18071,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-09-08T09:05:35.938Z",
+    "checkedAt": "2026-09-15T12:53:37.146Z",
     "forkName": "Dyloso-AttacksOnDDD",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -18626,7 +18643,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "SpookySeaGame/index.html",
-    "checkedAt": "2026-09-08T09:06:11.775Z",
+    "checkedAt": "2026-09-15T12:54:19.352Z",
     "forkName": "eml17028-RPGMaker_Horror_GameJam_24",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -20970,7 +20987,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "www/index.html",
-    "checkedAt": "2026-07-04T23:05:17.063Z",
+    "checkedAt": "2026-09-15T12:51:53.151Z",
     "forkName": "graveyardshiftpd-tcoaar-project",
     "entryPath": "index.html",
     "validationScore": 115,
@@ -20979,7 +20996,8 @@
     "sourceRepo": "graveyardshiftpd/tcoaar-project",
     "upstreamPagesUrl": "https://webrpg.org/graveyardshiftpd-tcoaar-project/",
     "upstreamCover": "https://webrpg.org/graveyardshiftpd-tcoaar-project/cover.png",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "verified",
+    "lastCheckError": "GitHub API 422: Sorry, your request timed out.  It's likely that your input was too large to process.  Consider building the tree incrementally, or building the commits you need in a local clone of the repository and then pushing them to GitHub."
   },
   {
     "id": "escartem-tcoaalsource",
@@ -20992,9 +21010,10 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "project/index.html",
-    "checkedAt": "2026-09-13T22:59:45.272Z",
+    "checkedAt": "2026-09-15T12:53:09.373Z",
     "forkName": "Escartem-TCOAALSource",
-    "upstreamStatus": "verified"
+    "upstreamStatus": "verified",
+    "lastCheckError": "GitHub API 422: Sorry, your request timed out.  It's likely that your input was too large to process.  Consider building the tree incrementally, or building the commits you need in a local clone of the repository and then pushing them to GitHub."
   },
   {
     "id": "suhukk-bbb",
@@ -21221,7 +21240,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-09-08T09:05:20.254Z",
+    "checkedAt": "2026-09-15T12:53:22.918Z",
     "forkName": "discus-sions-The-Fall-PREVIEW2",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -21349,7 +21368,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "game/templates/game/index.html",
-    "checkedAt": "2026-09-11T10:48:44.724Z",
+    "checkedAt": "2026-09-15T12:52:46.971Z",
     "forkName": "shivanshs9-MMORPG-TLO",
     "entryPath": "game/templates/game/index.html",
     "validationScore": 115,
@@ -21362,7 +21381,8 @@
     "sourceDefaultBranch": "master",
     "sourceHeadSha": "5edbd524e1c9ba6dc33de50242e07ec37b9c6319",
     "processedHeadSha": "73d63799530a4c2f2fb2b3f1fbde89ff610cca1b",
-    "syncedFromSource": true
+    "syncedFromSource": true,
+    "lastCheckError": "Refusing to flatten game/static/game/: flattened tree is missing the HTML entry or RPG Maker runtime."
   },
   {
     "id": "battousairurik-rpgmakercollabproject",
@@ -21439,7 +21459,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-09-08T09:06:01.330Z",
+    "checkedAt": "2026-09-15T12:54:03.868Z",
     "forkName": "Cloudxtreme-The-Nights-Watch",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -23237,7 +23257,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-09-08T09:05:49.405Z",
+    "checkedAt": "2026-09-15T12:53:57.536Z",
     "forkName": "ELGHINN2512-CyberSchool",
     "entryPath": "index.html",
     "validationScore": 118,
@@ -23269,7 +23289,7 @@
     "discoveredAt": "2026-06-15T10:30:32.062Z",
     "source": "github-code-search",
     "sourcePath": "index.html",
-    "checkedAt": "2026-09-08T09:05:49.628Z",
+    "checkedAt": "2026-09-15T12:54:32.219Z",
     "forkName": "ELGHINN2512-testGame",
     "entryPath": "index.html",
     "validationScore": 118,
