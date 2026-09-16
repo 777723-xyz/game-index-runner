@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T00:26:36.946Z",
+  "generatedAt": "2026-09-16T06:06:57.386Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
   "localTotal": 903,
   "upstreamTotal": 901,
@@ -130,20 +130,11 @@
       }
     },
     {
-      "sourceRepo": "eric0308a/amelie-falls-over-and-over-again",
-      "differences": {
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/eric0308a-Amelie-falls-over-and-over-again/"
-        }
-      }
-    },
-    {
       "sourceRepo": "huanggaole/huanggaole.github.io",
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "verified"
+          "upstream": "indexed"
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/huanggaole-huanggaole.github.io/index.html",
@@ -363,6 +354,15 @@
       }
     },
     {
+      "sourceRepo": "hidegonsan/kanzidego",
+      "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "indexed"
+        }
+      }
+    },
+    {
       "sourceRepo": "xlanwux/travelindoomwithyou",
       "differences": {
         "pagesUrl": {
@@ -527,7 +527,11 @@
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/eeg1412-wikimoe-blog-archive/index.html",
-          "upstream": "https://webrpg.org/eeg1412-wikimoe-blog-archive/"
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
@@ -638,7 +642,7 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/kinami0331-mh2023-archived/mota.html",
-          "upstream": "https://webrpg.org/kinami0331-mh2023-archived/"
+          "upstream": "https://webrpg.org/kinami0331-mh2023-archived/mota.html"
         }
       }
     },
@@ -976,6 +980,10 @@
     {
       "sourceRepo": "kotpot197/game",
       "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "indexed"
+        },
         "forkName": {
           "ours": "kotpot197-game",
           "upstream": null
@@ -1075,15 +1083,6 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/realquantumcookie-WulinWaiZhuan/index.html",
           "upstream": "https://webrpg.org/realquantumcookie-WulinWaiZhuan/"
-        }
-      }
-    },
-    {
-      "sourceRepo": "neonnoir-yuki/xrkxq",
-      "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
         }
       }
     },
@@ -1225,7 +1224,7 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/PedroMaxDEV-A-LENDA-DE-CAMUTANGA/jogo.html.html",
-          "upstream": "https://webrpg.org/PedroMaxDEV-A-LENDA-DE-CAMUTANGA/"
+          "upstream": "https://webrpg.org/PedroMaxDEV-A-LENDA-DE-CAMUTANGA/jogo.html.html"
         }
       }
     },
@@ -1708,7 +1707,7 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/DiegOliveros-diegoliveros.github.io/game.html",
-          "upstream": "https://webrpg.org/DiegOliveros-diegoliveros.github.io/"
+          "upstream": "https://webrpg.org/DiegOliveros-diegoliveros.github.io/game.html"
         }
       }
     },
@@ -1804,11 +1803,11 @@
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/geodmeeeeee-forksnspoons/index.html",
-          "upstream": "https://webrpg.org/geodmeeeeee-forksnspoons/"
+          "upstream": null
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": "games/Blood Money/index.html"
+          "upstream": null
         }
       }
     },
@@ -2384,7 +2383,7 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/soapstain22-soapstain22.github.io/crimpoquest.html",
-          "upstream": "https://webrpg.org/soapstain22-soapstain22.github.io/"
+          "upstream": "https://webrpg.org/soapstain22-soapstain22.github.io/crimpoquest.html"
         }
       }
     },
@@ -2598,11 +2597,11 @@
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Stinkalistic-SWAGgames/index.html",
-          "upstream": "https://webrpg.org/Stinkalistic-SWAGgames/"
+          "upstream": null
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": "trenchface/index.html"
+          "upstream": null
         }
       }
     },
@@ -3289,6 +3288,10 @@
     {
       "sourceRepo": "nikitosiknekitoser-sus/futato_project",
       "differences": {
+        "status": {
+          "ours": "verified",
+          "upstream": "indexed"
+        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/nikitosiknekitoser-sus-futato_project/index.html",
           "upstream": null
@@ -4358,11 +4361,11 @@
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/LucidDreamForCapstone-LucidDream/index.html",
-          "upstream": "https://webrpg.org/LucidDreamForCapstone-LucidDream/"
+          "upstream": null
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": "Assets/06.Resources/madscientist/sample_maps_(RPG_Maker_MV-MZ)/index.html"
+          "upstream": null
         }
       }
     },
@@ -4491,7 +4494,7 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/FannarHrafn-veffortvoloka/maze.html",
-          "upstream": "https://webrpg.org/FannarHrafn-veffortvoloka/"
+          "upstream": "https://webrpg.org/FannarHrafn-veffortvoloka/maze.html"
         }
       }
     },
@@ -4962,10 +4965,6 @@
         "status": {
           "ours": "invalid_structure",
           "upstream": "skipped_large"
-        },
-        "pagesUrl": {
-          "ours": null,
-          "upstream": "https://webrpg.org/brooklynruff-d/"
         }
       }
     },
@@ -4997,15 +4996,6 @@
       }
     },
     {
-      "sourceRepo": "escartem/omorisource",
-      "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        }
-      }
-    },
-    {
       "sourceRepo": "genizy/web-port",
       "differences": {
         "status": {
@@ -5014,7 +5004,11 @@
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/genizy-web-port/index.html",
-          "upstream": "https://webrpg.org/genizy-web-port/"
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
@@ -5088,11 +5082,11 @@
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/sigmiliarity-web/index.html",
-          "upstream": "https://webrpg.org/sigmiliarity-web/"
+          "upstream": null
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": "bloodmoney/index.html"
+          "upstream": null
         }
       }
     },
@@ -5174,11 +5168,11 @@
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/squanky1372-squanky1372.github.io/index.html",
-          "upstream": "https://webrpg.org/squanky1372-squanky1372.github.io/"
+          "upstream": null
         },
         "entryPath": {
           "ours": "index.html",
-          "upstream": "openhouse4/index.html"
+          "upstream": null
         }
       }
     },
@@ -5327,15 +5321,6 @@
         "entryPath": {
           "ours": "index.html",
           "upstream": "Planescaper Quest/index.html"
-        }
-      }
-    },
-    {
-      "sourceRepo": "laferu/platina-the-wolf",
-      "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
         }
       }
     },
@@ -6644,7 +6629,7 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/ArturllVale-esarmmv/index.html",
-          "upstream": "https://webrpg.org/ArturllVale-esarmmv/"
+          "upstream": "https://webrpg.org/ArturllVale-esarmmv/game.html"
         },
         "entryPath": {
           "ours": "index.html",
@@ -7236,15 +7221,6 @@
       }
     },
     {
-      "sourceRepo": "escartem/tcoaalsource",
-      "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "verified"
-        }
-      }
-    },
-    {
       "sourceRepo": "suhukk/bbb",
       "differences": {
         "pagesUrl": {
@@ -7805,7 +7781,11 @@
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Hu-PRTS-giselle/index.html",
-          "upstream": "https://webrpg.org/Hu-PRTS-giselle/"
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
@@ -7923,7 +7903,7 @@
       "differences": {
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/brunolcarli-yggdrasilMMO/index2.html",
-          "upstream": "https://webrpg.org/brunolcarli-yggdrasilMMO/"
+          "upstream": "https://webrpg.org/brunolcarli-yggdrasilMMO/index2.html"
         }
       }
     },
@@ -8356,6 +8336,15 @@
       }
     },
     {
+      "sourceRepo": "krmbn0576/rpgmakermv",
+      "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "indexed"
+        }
+      }
+    },
+    {
       "sourceRepo": "ryanbram/rpgmv-plugins",
       "differences": {
         "pagesUrl": {
@@ -8409,6 +8398,15 @@
       }
     },
     {
+      "sourceRepo": "cicini/melancholianna",
+      "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "indexed"
+        }
+      }
+    },
+    {
       "sourceRepo": "jyxjyx1234/misc_game-chs",
       "differences": {
         "status": {
@@ -8417,7 +8415,11 @@
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/jyxjyx1234-misc_game-chs/index.html",
-          "upstream": "https://webrpg.org/jyxjyx1234-misc_game-chs/"
+          "upstream": null
+        },
+        "entryPath": {
+          "ours": "index.html",
+          "upstream": null
         }
       }
     },
