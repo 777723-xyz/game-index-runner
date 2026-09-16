@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-16T11:43:23.852Z",
+  "generatedAt": "2026-09-16T17:04:10.057Z",
   "upstreamUrl": "https://raw.githubusercontent.com/WebRPG-org/index/main/list.json",
-  "localTotal": 927,
-  "upstreamTotal": 926,
-  "shared": 926,
+  "localTotal": 947,
+  "upstreamTotal": 946,
+  "shared": 946,
   "upstreamOnly": [],
   "localOnly": [
     {
@@ -79,6 +79,19 @@
         "entryPath": {
           "ours": "index.html",
           "upstream": "Special/recoil/index.html"
+        }
+      }
+    },
+    {
+      "sourceRepo": "gamer-tool-studio/gamer-tool-studio.github.io",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Gamer-Tool-Studio-Gamer-Tool-Studio.github.io/"
         }
       }
     },
@@ -769,17 +782,9 @@
     {
       "sourceRepo": "kevin28576/rpgmv-great-escape",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/Kevin28576-rpgmv-great-escape/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/Kevin28576-rpgmv-great-escape/"
         }
       }
     },
@@ -887,6 +892,19 @@
       }
     },
     {
+      "sourceRepo": "cloudy0717/worldsgreatestmercenary",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Cloudy0717-WorldsGreatestMercenary/"
+        }
+      }
+    },
+    {
       "sourceRepo": "tychouhaha/zk_restaurant",
       "differences": {
         "pagesUrl": {
@@ -967,7 +985,15 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "indexed"
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/kotpot197-game/"
+        },
+        "entryPath": {
+          "ours": null,
+          "upstream": "index.html"
         }
       }
     },
@@ -1224,6 +1250,15 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/EVAFG-A-stormy-story/index.html",
           "upstream": "https://webrpg.org/EVAFG-A-stormy-story/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "kagedesu/alpha-abs-z",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "invalid_structure"
         }
       }
     },
@@ -1723,7 +1758,7 @@
       "sourceRepo": "greengru2/ugs-files",
       "differences": {
         "status": {
-          "ours": "indexed",
+          "ours": "invalid_structure",
           "upstream": "skipped_large"
         }
       }
@@ -1764,6 +1799,15 @@
         "entryPath": {
           "ours": "index.html",
           "upstream": null
+        }
+      }
+    },
+    {
+      "sourceRepo": "lilcancermuncher/games",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
         }
       }
     },
@@ -1826,6 +1870,15 @@
     },
     {
       "sourceRepo": "urnperiodic/urnperiodic.github.io",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
+        }
+      }
+    },
+    {
+      "sourceRepo": "whosrogo/kronos-v1",
       "differences": {
         "status": {
           "ours": "invalid_structure",
@@ -2026,6 +2079,19 @@
       }
     },
     {
+      "sourceRepo": "je-can-code/ca",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/je-can-code-ca/"
+        }
+      }
+    },
+    {
       "sourceRepo": "sasakimika487/chuyentausninhtu",
       "differences": {
         "pagesUrl": {
@@ -2148,17 +2214,9 @@
     {
       "sourceRepo": "imaginaryvillain/community_lights",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/ImaginaryVillain-community_lights/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/ImaginaryVillain-community_lights/"
         }
       }
     },
@@ -2449,7 +2507,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
+          "upstream": "skipped_large"
         }
       }
     },
@@ -3020,6 +3078,19 @@
       }
     },
     {
+      "sourceRepo": "axlan/fatal_core_dump",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/axlan-fatal_core_dump/"
+        }
+      }
+    },
+    {
       "sourceRepo": "apollovy/fear-and-hunger",
       "differences": {
         "pagesUrl": {
@@ -3060,7 +3131,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
+          "upstream": "skipped_large"
         }
       }
     },
@@ -3372,17 +3443,9 @@
     {
       "sourceRepo": "kazedevid/girl-hunting",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/KazeDevID-Girl-hunting/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/KazeDevID-Girl-hunting/"
         }
       }
     },
@@ -3533,7 +3596,7 @@
       "sourceRepo": "ashton20271/unblockedgames",
       "differences": {
         "status": {
-          "ours": "indexed",
+          "ours": "invalid_structure",
           "upstream": "skipped_large"
         }
       }
@@ -3575,6 +3638,19 @@
         "entryPath": {
           "ours": "index.html",
           "upstream": "hyacinthheld_MV/hycheld/index.html"
+        }
+      }
+    },
+    {
+      "sourceRepo": "jakubiszon/rpg-maker-mz-iframe",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/jakubiszon-rpg-maker-mz-iframe/"
         }
       }
     },
@@ -3803,15 +3879,6 @@
       }
     },
     {
-      "sourceRepo": "daknux/html",
-      "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "invalid_structure"
-        }
-      }
-    },
-    {
       "sourceRepo": "renrender0209/kankin",
       "differences": {
         "status": {
@@ -3881,6 +3948,19 @@
       }
     },
     {
+      "sourceRepo": "flashdim/kins-chronicle",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/flashdim-kins-chronicle/"
+        }
+      }
+    },
+    {
       "sourceRepo": "juridon/juridon.github.io",
       "differences": {
         "pagesUrl": {
@@ -3898,7 +3978,7 @@
       "differences": {
         "status": {
           "ours": "verified",
-          "upstream": "indexed"
+          "upstream": "check_error"
         },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/ikyih-gamesofthehub/index.html",
@@ -3964,17 +4044,9 @@
     {
       "sourceRepo": "heronat/si28_test",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/heronat-SI28_Test/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/heronat-SI28_Test/"
         }
       }
     },
@@ -4008,17 +4080,9 @@
     {
       "sourceRepo": "kaotickj/labyrinth",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/kaotickj-Labyrinth/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/kaotickj-Labyrinth/"
         }
       }
     },
@@ -4529,17 +4593,9 @@
     {
       "sourceRepo": "jackdarker/moonwood",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/jackdarker-MoonWood/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/jackdarker-MoonWood/"
         }
       }
     },
@@ -4636,17 +4692,9 @@
     {
       "sourceRepo": "kdmmanapul/testing-lfg",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/kdmmanapul-testing-lfg/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/kdmmanapul-testing-lfg/"
         }
       }
     },
@@ -4724,17 +4772,9 @@
     {
       "sourceRepo": "k45514n/nodeconfar-2017",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/k45514n-NodeConfAR-2017/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/k45514n-NodeConfAR-2017/"
         }
       }
     },
@@ -4802,15 +4842,6 @@
       }
     },
     {
-      "sourceRepo": "dotgui-dev/dotgui",
-      "differences": {
-        "status": {
-          "ours": "indexed",
-          "upstream": "invalid_structure"
-        }
-      }
-    },
-    {
       "sourceRepo": "duong1234-li/heromod",
       "differences": {
         "pagesUrl": {
@@ -4859,7 +4890,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
+          "upstream": "skipped_large"
         }
       }
     },
@@ -4868,7 +4899,7 @@
       "differences": {
         "status": {
           "ours": "invalid_structure",
-          "upstream": "indexed"
+          "upstream": "skipped_large"
         }
       }
     },
@@ -5101,6 +5132,19 @@
       }
     },
     {
+      "sourceRepo": "cizz22/rpgmaker",
+      "differences": {
+        "status": {
+          "ours": "duplicate_name",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/Cizz22-rpgmaker/"
+        }
+      }
+    },
+    {
       "sourceRepo": "binkalogi/pantiesia1.0",
       "differences": {
         "pagesUrl": {
@@ -5162,6 +5206,15 @@
       }
     },
     {
+      "sourceRepo": "laferu/platina-the-wolf",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "check_error"
+        }
+      }
+    },
+    {
       "sourceRepo": "laferu/platina-the-wolf-and-the-heir-of-light",
       "differences": {
         "pagesUrl": {
@@ -5182,17 +5235,9 @@
     {
       "sourceRepo": "lauglitch/pokemonpink",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/lauglitch-PokemonPink/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/lauglitch-PokemonPink/"
         }
       }
     },
@@ -5320,6 +5365,19 @@
         "entryPath": {
           "ours": "index.html",
           "upstream": null
+        }
+      }
+    },
+    {
+      "sourceRepo": "0ui0/owo_terminal_public",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/0ui0-owo_terminal_public/"
         }
       }
     },
@@ -5601,19 +5659,24 @@
       }
     },
     {
-      "sourceRepo": "kristenyu/kristenyu.github.io",
+      "sourceRepo": "kentko27/gamedev",
       "differences": {
         "status": {
-          "ours": "verified",
-          "upstream": "indexed"
+          "ours": "duplicate_name",
+          "upstream": "verified"
         },
         "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/kentko27-gamedev/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "kristenyu/kristenyu.github.io",
+      "differences": {
+        "pagesUrl": {
           "ours": "https://777723-xyz.github.io/kristenYu-kristenyu.github.io/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/kristenYu-kristenyu.github.io/"
         }
       }
     },
@@ -5671,6 +5734,15 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/supShag-YaXNLW/index.html",
           "upstream": "https://webrpg.org/supShag-YaXNLW/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "wangwangxingao/rmmv",
+      "differences": {
+        "status": {
+          "ours": "invalid_structure",
+          "upstream": "indexed"
         }
       }
     },
@@ -5782,17 +5854,9 @@
     {
       "sourceRepo": "hashakgik/raycasting-rmmv",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/HashakGik-Raycasting-RMMV/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/HashakGik-Raycasting-RMMV/"
         }
       }
     },
@@ -5989,17 +6053,9 @@
     {
       "sourceRepo": "kdipippo/rpg-maker-mv-starter-template",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/kdipippo-RPG-Maker-MV-Starter-Template/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/kdipippo-RPG-Maker-MV-Starter-Template/"
         }
       }
     },
@@ -6888,17 +6944,9 @@
     {
       "sourceRepo": "hzj199710/rpgmakerp1",
       "differences": {
-        "status": {
-          "ours": "verified",
-          "upstream": "indexed"
-        },
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/hzj199710-rpgMakerP1/index.html",
-          "upstream": null
-        },
-        "entryPath": {
-          "ours": "index.html",
-          "upstream": null
+          "upstream": "https://webrpg.org/hzj199710-rpgMakerP1/"
         }
       }
     },
@@ -7276,6 +7324,19 @@
         "pagesUrl": {
           "ours": "https://777723-xyz.github.io/tnguy510-Split-4/index.html",
           "upstream": "https://webrpg.org/tnguy510-Split-4/"
+        }
+      }
+    },
+    {
+      "sourceRepo": "getsentry/hackweek-trialbytriage",
+      "differences": {
+        "status": {
+          "ours": "indexed",
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/getsentry-hackweek-trialbytriage/"
         }
       }
     },
@@ -8049,7 +8110,11 @@
       "differences": {
         "status": {
           "ours": "duplicate_name",
-          "upstream": "indexed"
+          "upstream": "verified"
+        },
+        "pagesUrl": {
+          "ours": null,
+          "upstream": "https://webrpg.org/krmbn0576-rpgmakermv/"
         }
       }
     },
